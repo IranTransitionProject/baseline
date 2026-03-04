@@ -1,0 +1,63 @@
+{# brief.md.j2 — Renders a single Convergence Brief from YAML data.
+   Input: brief (dict) loaded from data/briefs/bNN.yaml
+   Output: Publication-format markdown matching current Substack format.
+-#}
+# {{ brief.title }}
+{%- if brief.subtitle %}
+
+## {{ brief.subtitle }}
+{%- endif %}
+
+**By {{ brief.author | default('Hooman Mehr') }} | [{{ brief.contact | default('hooman@mac.com') }}](mailto:{{ brief.contact | default('hooman@mac.com') }}){% if brief.number is not none %} | Brief \#{{ brief.number }}{% endif %} | [Iran Transition Project]({{ brief.series_link | default('https://hmehr.substack.com/p/iran-the-convergence-briefs') }}) | {{ brief.date_display | default(brief.date) }}**
+
+---
+{%- if brief.update_notes %}
+{% for note in brief.update_notes %}
+
+*{{ note.version }} note ({{ note.date }}):* {{ note.note }}
+{%- endfor %}
+
+---
+{%- endif %}
+{% for section in brief.sections %}
+{%- if section.level is defined and section.level == 3 %}
+
+### {{ section.title }}
+{%- elif section.level is defined and section.level == 4 %}
+
+#### {{ section.title }}
+{%- else %}
+
+## {{ section.title }}
+{%- endif %}
+{% if section.content %}
+
+{{ section.content -}}
+{% endif %}
+{%- if section.subsections is defined %}
+{% for sub in section.subsections %}
+{%- if sub.level is defined and sub.level == 4 %}
+
+#### {{ sub.title }}
+{%- else %}
+
+### {{ sub.title }}
+{%- endif %}
+{% if sub.content %}
+
+{{ sub.content -}}
+{% endif %}
+{%- endfor %}
+{%- endif %}
+{%- endfor %}
+
+---
+
+*Brief{% if brief.number is not none %} \#{{ brief.number }}{% endif %} in the Iran Transition Project, by {{ brief.author | default('Hooman Mehr') }}. AI-assisted research (Claude/Anthropic). No factional allegiance; no policy agenda beyond analytical accuracy.{% if brief.source_summary %} {{ brief.source_summary }}.{% endif %}*
+{% if brief.companion_briefs %}
+*Companion briefs: {% for cb in brief.companion_briefs %}({{ cb.number }}) "{% if cb.link %}[{{ cb.title }}]({{ cb.link }}){% else %}{{ cb.title }}{% endif %}"{% if cb.description %} -- {{ cb.description }}{% endif %}{% if not loop.last %}. {% endif %}{% endfor %}.*
+{% endif %}
+{%- if brief.author_bio %}
+
+*{{ brief.author_bio }}*
+{%- endif %}

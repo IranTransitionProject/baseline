@@ -1,0 +1,181 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ITP Convergence Brief",
+  "description": "Schema for Iran Transition Project policy briefs. Validates YAML data files in data/briefs/.",
+  "type": "object",
+  "required": ["brief_id", "title", "version", "date", "status", "core_thesis", "sections"],
+  "properties": {
+    "brief_id": {
+      "type": "string",
+      "pattern": "^(B(0[1-9]|[1-9][0-9])|EB\\d{2}|ES|INTRO|SUPP-[A-Z0-9_]+)$",
+      "description": "Brief identifier: B01-B99 for numbered, EB01+ for emergency, ES for exec summary, INTRO, SUPP-* for supplemental"
+    },
+    "number": {
+      "type": ["integer", "null"],
+      "minimum": 1,
+      "description": "Brief number (1-10+, null for non-numbered briefs)"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Brief title (e.g., 'The Blind Spot in Every Iran Deal')"
+    },
+    "subtitle": {
+      "type": ["string", "null"],
+      "description": "Brief subtitle (e.g., 'Why Western Negotiation Models Are Built for the Wrong Adversary')"
+    },
+    "author": {
+      "type": "string",
+      "default": "Hooman Mehr"
+    },
+    "contact": {
+      "type": "string",
+      "default": "hooman@mac.com"
+    },
+    "series_link": {
+      "type": ["string", "null"],
+      "format": "uri",
+      "description": "Substack series URL"
+    },
+    "brief_link": {
+      "type": ["string", "null"],
+      "format": "uri",
+      "description": "Direct Substack URL for this brief"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^v\\d+\\.\\d+$",
+      "description": "Current version (e.g., 'v2.0', 'v3.0')"
+    },
+    "date": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+      "description": "Last-updated date (YYYY-MM-DD)"
+    },
+    "date_published": {
+      "type": ["string", "null"],
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+      "description": "Original publication date (YYYY-MM-DD)"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["STABLE", "CURRENT", "NEEDS_UPDATE", "DRAFT", "SUPERSEDED"],
+      "description": "Governance status from BRIEF_GOVERNANCE"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["brief", "emergency_brief", "executive_summary", "introduction", "supplemental"],
+      "default": "brief"
+    },
+    "core_thesis": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Single-sentence thesis statement (from BRIEF_GOVERNANCE Part 1 table)"
+    },
+    "itb_anchors": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "ITB/ISA module codes this brief draws from (e.g., ['ITB-A9', 'ITB-E', 'ITB-G'])"
+    },
+    "update_notes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["version", "date", "note"],
+        "properties": {
+          "version": { "type": "string" },
+          "date": { "type": "string" },
+          "note": { "type": "string" }
+        },
+        "additionalProperties": false
+      },
+      "description": "Reader-facing update notes displayed after header in published brief"
+    },
+    "sections": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/definitions/section" },
+      "description": "Ordered body sections of the brief"
+    },
+    "source_summary": {
+      "type": ["string", "null"],
+      "description": "Source summary for footer (e.g., '~85 English and Farsi sources')"
+    },
+    "companion_briefs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["number", "title"],
+        "properties": {
+          "number": { "type": ["integer", "string"] },
+          "title": { "type": "string" },
+          "link": { "type": ["string", "null"] },
+          "description": { "type": ["string", "null"] }
+        },
+        "additionalProperties": false
+      },
+      "description": "Companion brief list for footer"
+    },
+    "author_bio": {
+      "type": ["string", "null"],
+      "description": "Author bio line for footer"
+    },
+    "changelog": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["version", "date"],
+        "properties": {
+          "version": { "type": "string" },
+          "date": { "type": "string" },
+          "structural_changes": { "type": ["string", "null"] },
+          "content_changes": { "type": ["string", "null"] }
+        },
+        "additionalProperties": false
+      },
+      "description": "Version history from CHANGE_LOG (project-internal, not rendered in published brief)"
+    },
+    "governance": {
+      "type": "object",
+      "properties": {
+        "routing_decision": { "type": ["string", "null"] },
+        "shelf_life": {
+          "type": ["string", "null"],
+          "enum": ["LONG", "MEDIUM", "SHORT", null]
+        },
+        "pending_updates": { "type": ["string", "null"] },
+        "vulnerability": { "type": ["string", "null"] }
+      },
+      "additionalProperties": false,
+      "description": "Governance metadata from BRIEF_GOVERNANCE Part 5"
+    }
+  },
+  "definitions": {
+    "section": {
+      "type": "object",
+      "required": ["title"],
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "level": {
+          "type": "integer",
+          "minimum": 2,
+          "maximum": 4,
+          "default": 2
+        },
+        "content": {
+          "type": ["string", "null"],
+          "description": "Markdown prose content (block scalar in YAML)"
+        },
+        "subsections": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/section" }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
