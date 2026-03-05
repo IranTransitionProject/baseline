@@ -1,7 +1,7 @@
 # ISA-TRAPS: SIMULTANEITY TRAP CATALOG
 
 **Module Code:** ISA-TRAPS
-**Version:** 2.4
+**Version:** 2.5
 **Date:** 2026-03-04
 **Source:** ISA v1.2 section 4 (Traps 1-7) + ISA_PINOCHET_UPDATES (Trap 8) + Session 12 (Traps 9-10) + Session 13 (Trap 11 + Trap 12) + Session 17 (Trap 13 Proxy Lab)
 **Dependencies:** ITB-A, ITB-A8, ITB-A9, ITB-A10, ITB-A11
@@ -153,6 +153,14 @@
 * **Resolution path:** No resolution within Iran-only frame. Requires strategic-level resource allocation treating Iran and Taiwan as single munitions budget. Options: emergency munitions production acceleration (2027+), campaign scope limitation, deterrence signaling to China, multilateral burden-sharing on Iran operations.
 * **Detection signal:** When US campaign planning begins scope-reducing to preserve munitions, or when Chinese delivery tempo accelerates ahead of anticipated strike window, the Proxy Lab mechanism is active. Watch for: public statements on munitions adequacy, Congressional supplemental requests, allied burden-sharing discussions.
 * **ITB anchors:** ITB-B B9, ITB-F F6.1, ITB-F12. [Inference -- Med-High for mechanism; Med for Chinese intentionality]
+
+---
+
+### Trap 14: The "Day After" Vacuum (New v1.2)
+* **Mechanism:** Military campaign designed for regime change but no visible transition planning infrastructure exists outside academic exercises and diaspora proposals. Striking domestic enforcement creates security vacuum; killing senior leadership creates governance vacuum; destroying communications creates coordination vacuum. Each vacuum requires filling, but filling requires the infrastructure that strikes are destroying.
+* **Circular structure:** Regime change requires destroying regime institutions -> destroyed institutions create vacuums -> filling vacuums requires institutional capacity just destroyed -> institutional capacity requires regime change to unlock.
+* **Resolution path:** Pre-positioned transition framework (this project), international coordination mechanism, diaspora skills deployment, and critically -- communications restoration as prerequisite for all other vacuum-filling.
+* **ITB anchors:** ITB-A9, Obs 027, ISA-CASES (Iraq). 
 
 ---
 

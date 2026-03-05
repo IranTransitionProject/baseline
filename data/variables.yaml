@@ -1,17 +1,18 @@
-version: '1.8'
+version: '1.9'
 date: '2026-03-04'
 source: v1.7 + Session 17 (Chinese pipeline variables)
 monitoring_notes:
 - Variables require weekly recheck on flow and threshold tables. Stock variables recheck monthly or on significant event.
-- 'v1.2 NOTE (still active): Given active mourning cycle, Hormuz exercise tempo, and campaign-ready US force posture, flow and threshold variables should be rechecked every 3-5 days until situation stabilizes
-  or transitions to a new phase.'
-- 'v1.3 NOTE: Paydari trajectory and Ghalibaf timeline variables are election-cycle dependent (2028); monitor Guardian Council candidate approval patterns in 2027 as leading indicator. Judicial moratorium
-  threshold is instantaneous upon any transition event -- no warning lag.'
-- 'v1.5 NOTE (CRITICAL): Trump deadline variables, Iran proposal delivery, Geneva Round 3 outcome, and student protest expansion require DAILY monitoring through at least March 6. The system is in maximum-velocity
-  phase. Multiple variables are converging on a ~10-day decision window (Feb 22 to ~March 3). Any individual variable crossing its threshold may cascade the others.'
-- 'v1.7 NOTE (Session 16): IAEA Board (March 2) creates third independent clock converging with Geneva Round 3 and Trump deadline. This is the tightest multi-clock convergence documented in the project.
-  Student protest expansion (12+ universities) now modeled as independent internal resistance clock (A12.3.6). Caine/Cooper dynamics create new variable in Washington Patience Clock. All three factors require
-  monitoring through at least March 6.'
+- 'v1.2 NOTE (still active): Given active mourning cycle, Hormuz exercise tempo, and campaign-ready US force posture, flow and threshold variables should be rechecked
+  every 3-5 days until situation stabilizes or transitions to a new phase.'
+- 'v1.3 NOTE: Paydari trajectory and Ghalibaf timeline variables are election-cycle dependent (2028); monitor Guardian Council candidate approval patterns in 2027
+  as leading indicator. Judicial moratorium threshold is instantaneous upon any transition event -- no warning lag.'
+- 'v1.5 NOTE (CRITICAL): Trump deadline variables, Iran proposal delivery, Geneva Round 3 outcome, and student protest expansion require DAILY monitoring through
+  at least March 6. The system is in maximum-velocity phase. Multiple variables are converging on a ~10-day decision window (Feb 22 to ~March 3). Any individual variable
+  crossing its threshold may cascade the others.'
+- 'v1.7 NOTE (Session 16): IAEA Board (March 2) creates third independent clock converging with Geneva Round 3 and Trump deadline. This is the tightest multi-clock
+  convergence documented in the project. Student protest expansion (12+ universities) now modeled as independent internal resistance clock (A12.3.6). Caine/Cooper
+  dynamics create new variable in Washington Patience Clock. All three factors require monitoring through at least March 6.'
 entries:
 - id: SV-01
   name: Supreme Leader Age
@@ -172,8 +173,8 @@ entries:
   table: stock
   current_value: 233/290 principlist (~80%); Paydari ascendant in Tehran; Ghalibaf as Speaker
   trend: Capturing further (ratchet dynamic)
-  insight: 12th Majlis is the most hardline in IRI history. Reformists boycotted. 41% turnout = election is already near-intra-regime selection. Transition cannot rely on current Majlis as transitional
-    vehicle.
+  insight: 12th Majlis is the most hardline in IRI history. Reformists boycotted. 41% turnout = election is already near-intra-regime selection. Transition cannot
+    rely on current Majlis as transitional vehicle.
   confidence: Fact — High; trend projection Inference — Med
   version_added: v1.3
   session_added: null
@@ -184,8 +185,8 @@ entries:
   table: stock
   current_value: ZERO usable secular bench; ~70,000 Bar Association lawyers; ~89,000 judiciary employees (all functions)
   trend: Static until transition begins
-  insight: Single hardest transition task. No secular-trained judges to restore. 47 years of systematic destruction. Bar Association is only survivable institution with independence claim. Bootstrapping
-    problem is absolute.
+  insight: Single hardest transition task. No secular-trained judges to restore. 47 years of systematic destruction. Bar Association is only survivable institution
+    with independence claim. Bootstrapping problem is absolute.
   confidence: Inference — High confidence; personnel figures Fact — Med
   version_added: v1.3
   session_added: null
@@ -251,8 +252,8 @@ entries:
   table: flow
   current_value: Round 2 complete (Feb 17-18); "guiding principles" agreed; two-week draft exchange proposed
   trend: Ambiguous â€” thin diplomatic progress concurrent with maximum military buildup
-  insight: '"Guiding principles" < "framework agreement." Vance: Iran hasn''t acknowledged all red lines. Trump strike decision NOT yet made (WSJ Feb 19). Oil markets read talks as slightly de-escalatory
-    (Brent -2.3%).'
+  insight: '"Guiding principles" < "framework agreement." Vance: Iran hasn''t acknowledged all red lines. Trump strike decision NOT yet made (WSJ Feb 19). Oil markets
+    read talks as slightly de-escalatory (Brent -2.3%).'
   confidence: Med
   version_added: v1.0
   session_added: null
@@ -263,7 +264,8 @@ entries:
   table: flow
   current_value: 2 CSGs + F-22s + F-35s + F-15s + F-16s + KC-135s + AWACS + Patriot; 250+ cargo flights
   trend: Accelerating
-  insight: 'Largest US air deployment since 2003 Iraq invasion (WSJ). US officials: supports "several weeks" of operations. Exceeds deterrence posture â€” campaign-ready. See ITB-F §F1.1 v2.1.'
+  insight: 'Largest US air deployment since 2003 Iraq invasion (WSJ). US officials: supports "several weeks" of operations. Exceeds deterrence posture â€” campaign-ready.
+    See ITB-F §F1.1 v2.1.'
   confidence: High
   version_added: v1.0
   session_added: null
@@ -329,9 +331,10 @@ entries:
   table: flow
   current_value: ACTIVE â€” first cycle initiated Feb 17-18 for Jan 8-9 victims
   trend: Self-reinforcing if new deaths occur
-  insight: '1978-79 revolution escalated through this exact mechanism. Security forces fired on mourners in Abdanan (1 reported killed) and clashed with mourners in Mashhad. Mourning spread beyond cemeteries
-    into streets/hospitals. Cultural shift: music, dance, fireworks replacing Shia religious mourning forms = regime losing control of symbolic register. Regime co-optation attempt (Khamenei "martyrs" framing)
-    rejected. Next critical inflection: ~late Mar 2026 (second chehelom) coincides with Nowruz. See ISA-SCENARIOS Obs 011.'
+  insight: '1978-79 revolution escalated through this exact mechanism. Security forces fired on mourners in Abdanan (1 reported killed) and clashed with mourners
+    in Mashhad. Mourning spread beyond cemeteries into streets/hospitals. Cultural shift: music, dance, fireworks replacing Shia religious mourning forms = regime
+    losing control of symbolic register. Regime co-optation attempt (Khamenei "martyrs" framing) rejected. Next critical inflection: ~late Mar 2026 (second chehelom)
+    coincides with Nowruz. See ISA-SCENARIOS Obs 011.'
   confidence: Med
   version_added: v1.2
   session_added: null
@@ -342,8 +345,8 @@ entries:
   table: flow
   current_value: IRGC live-fire exercise + first-ever Strait closure announcement (Feb 16-18)
   trend: Escalating
-  insight: New deterrence threshold crossed. Anti-ship missiles fired, drones/subs deployed from three islands. Russia-China naval presence concurrent. Mine warfare capability latent but demonstrated intent.
-    Any incident (drone, speedboat, mine) during heightened operations = potential casus belli. See ITB-B §B8.
+  insight: New deterrence threshold crossed. Anti-ship missiles fired, drones/subs deployed from three islands. Russia-China naval presence concurrent. Mine warfare
+    capability latent but demonstrated intent. Any incident (drone, speedboat, mine) during heightened operations = potential casus belli. See ITB-B §B8.
   confidence: Med
   version_added: v1.2
   session_added: null
@@ -354,8 +357,8 @@ entries:
   table: flow
   current_value: '2024 baseline: largest Tehran bloc, ~60–80 seats estimated'
   trend: Accelerating (ratchet mechanism active)
-  insight: 'Self-tightening feedback: massacre validates maximalist strategy, IRGC institutional alignment, disciplined Basij voter base, new proportional representation law favors organized parties. Paydari
-    is the most organized faction. 2028 projection: working majority possible if Khamenei cannot or does not constrain.'
+  insight: 'Self-tightening feedback: massacre validates maximalist strategy, IRGC institutional alignment, disciplined Basij voter base, new proportional representation
+    law favors organized parties. Paydari is the most organized faction. 2028 projection: working majority possible if Khamenei cannot or does not constrain.'
   confidence: Inference — Med
   version_added: v1.3
   session_added: null
@@ -366,8 +369,9 @@ entries:
   table: flow
   current_value: ACTIVE — Speaker, presidential ambitions, Article 111 positioning
   trend: Compressing (2028 election is hard deadline)
-  insight: 'A6.10 ratchet creates existential deadline: if Paydari captures Speakership in 2028, Ghalibaf loses Art. 111 succession role, presidential platform, and "system manager" positioning simultaneously.
-    Three options: align with Paydari, seek Khamenei direct protection, make a succession move before 2028. Interacts with ITB-A11 Pinochet mechanism.'
+  insight: 'A6.10 ratchet creates existential deadline: if Paydari captures Speakership in 2028, Ghalibaf loses Art. 111 succession role, presidential platform, and
+    "system manager" positioning simultaneously. Three options: align with Paydari, seek Khamenei direct protection, make a succession move before 2028. Interacts
+    with ITB-A11 Pinochet mechanism.'
   confidence: Inference — Med
   version_added: v1.3
   session_added: null
@@ -378,9 +382,9 @@ entries:
   table: flow
   current_value: Effectively running Iran; Pezeshkian sidelined
   trend: Expanding
-  insight: 'Shadow governance since early Jan 2026. Khamenei delegated day-to-day governance. Araghchi authorization chain runs through Larijani, not president. Liaising with Russia, Qatar, Oman. Overseeing
-    nuclear negotiations. In charge of January protest crushing. Implications: wrong interlocutor thesis confirmed at deepest level (Obs 016). Monitoring: presidential statements, SNSC directives, Araghchi
-    authorization chain.'
+  insight: 'Shadow governance since early Jan 2026. Khamenei delegated day-to-day governance. Araghchi authorization chain runs through Larijani, not president. Liaising
+    with Russia, Qatar, Oman. Overseeing nuclear negotiations. In charge of January protest crushing. Implications: wrong interlocutor thesis confirmed at deepest
+    level (Obs 016). Monitoring: presidential statements, SNSC directives, Araghchi authorization chain.'
   confidence: Fact -- High; NYT, six senior Iranian officials, three IRGC members
   version_added: v1.5
   session_added: null
@@ -391,8 +395,9 @@ entries:
   table: flow
   current_value: ~8-13 days remaining (from Feb 22)
   trend: Counting down
-  insight: 'Trump stated Feb 19: "10, 15 days, pretty much maximum." Aligns with IAEA Board (Mar 2), full force readiness (mid-Mar), Ford CSG arrival. "Not scientific" per US official -- pressure tool,
-    not commitment -- but military buildup makes it credible. Washington Patience Clock (Obs 010) now has concrete expiry: ~March 1-6. Monitoring: Trump statements, military deployment completion signals.'
+  insight: 'Trump stated Feb 19: "10, 15 days, pretty much maximum." Aligns with IAEA Board (Mar 2), full force readiness (mid-Mar), Ford CSG arrival. "Not scientific"
+    per US official -- pressure tool, not commitment -- but military buildup makes it credible. Washington Patience Clock (Obs 010) now has concrete expiry: ~March
+    1-6. Monitoring: Trump statements, military deployment completion signals.'
   confidence: Fact -- High for statement; Inference -- Med for expiry date interpretation
   version_added: v1.5
   session_added: null
@@ -403,11 +408,12 @@ entries:
   table: flow
   current_value: 12+ universities, 4 cities, Day 4+
   trend: Accelerating -- institutional infrastructure emerging
-  insight: 'Feb 21-24: University of Tehran, Al-Zahra, Sharif, Amirkabir, Shahid Beheshti, Science & Technology, Khajeh Nasir, Science & Culture (Tehran); Isfahan University of Technology; Ferdowsi, Sajjad
-    (Mashhad); Shiraz. Government spokesperson acknowledged student grievances while insisting on "red lines." Some universities moved classes online through March 20 (Nowruz). Students escalated to prosecutor
-    general (judicial, not disciplinary). Sharif website hacked to pre-revolution name. NOW MODELED AS INDEPENDENT INTERNAL CLOCK (A12.3.6): student front operates on academic calendar rhythm distinct from
-    mourning cycle, creates two-front resource allocation strain degrading regime capacity to sustain external coercive-endurance cycle. Monitoring: spread to non-university sectors (workers/bazaar); regime
-    judicial vs. military response; campus shutdown duration; Nowruz convergence.'
+  insight: 'Feb 21-24: University of Tehran, Al-Zahra, Sharif, Amirkabir, Shahid Beheshti, Science & Technology, Khajeh Nasir, Science & Culture (Tehran); Isfahan
+    University of Technology; Ferdowsi, Sajjad (Mashhad); Shiraz. Government spokesperson acknowledged student grievances while insisting on "red lines." Some universities
+    moved classes online through March 20 (Nowruz). Students escalated to prosecutor general (judicial, not disciplinary). Sharif website hacked to pre-revolution
+    name. NOW MODELED AS INDEPENDENT INTERNAL CLOCK (A12.3.6): student front operates on academic calendar rhythm distinct from mourning cycle, creates two-front
+    resource allocation strain degrading regime capacity to sustain external coercive-endurance cycle. Monitoring: spread to non-university sectors (workers/bazaar);
+    regime judicial vs. military response; campus shutdown duration; Nowruz convergence.'
   confidence: Fact -- High; Al Jazeera, NPR, Iran International, CBS, NCRI
   version_added: v1.7
   session_added: null
@@ -418,9 +424,9 @@ entries:
   table: flow
   current_value: Direct IRGC operational control
   trend: Escalating
-  insight: 'IRGC officers arrived from Iran, rebuilding Hezbollah military capabilities, personally briefing fighters across Lebanon, meeting with missile units. Israel struck 3 Beqaa sites (12 killed including
-    senior officer, 50+ wounded). Iran pressuring Hezbollah to fight if US strikes. Expands S2 from bilateral to multi-front regional. Monitoring: IDF strike frequency; Hezbollah statements; IRGC personnel
-    movements.'
+  insight: 'IRGC officers arrived from Iran, rebuilding Hezbollah military capabilities, personally briefing fighters across Lebanon, meeting with missile units.
+    Israel struck 3 Beqaa sites (12 killed including senior officer, 50+ wounded). Iran pressuring Hezbollah to fight if US strikes. Expands S2 from bilateral to
+    multi-front regional. Monitoring: IDF strike frequency; Hezbollah statements; IRGC personnel movements.'
   confidence: Inference -- Med-High; Al-Arabiya via Hezbollah-proximate sources + IDF pattern
   version_added: v1.5
   session_added: null
@@ -431,9 +437,9 @@ entries:
   table: flow
   current_value: Executive flexible, legislative rigid, Iran claiming no demand
   trend: Widening
-  insight: 'Systematic contradiction: Trump/S.Res.212 = zero enrichment; Witkoff told Araghchi "zero" (Axios); same official signals "token enrichment" flexibility; Araghchi claims US "has not asked for
-    zero enrichment." Gap between what each side says was said is itself a negotiation risk factor. Validates Three Clocks model (Obs 014/017). "Token enrichment" satisfies none of three clocks fully. Monitoring:
-    Congressional statements post-Axios; Araghchi proposal content.'
+  insight: 'Systematic contradiction: Trump/S.Res.212 = zero enrichment; Witkoff told Araghchi "zero" (Axios); same official signals "token enrichment" flexibility;
+    Araghchi claims US "has not asked for zero enrichment." Gap between what each side says was said is itself a negotiation risk factor. Validates Three Clocks model
+    (Obs 014/017). "Token enrichment" satisfies none of three clocks fully. Monitoring: Congressional statements post-Axios; Araghchi proposal content.'
   confidence: Fact -- High for contradiction; Inference -- Med for structural interpretation
   version_added: v1.5
   session_added: null
@@ -444,9 +450,9 @@ entries:
   table: flow
   current_value: All forces at highest alert; missile launchers deployed
   trend: Near-peak
-  insight: 'Ballistic missile launchers deployed on western borders (near Israel) and southern Persian Gulf shores (near US bases). Defense Council created under Shamkhani (survived Israeli assassination
-    Jun 2025). Four-layer succession for every key position. Pentagon presented options including targeting Khamenei and Mojtaba (Axios Feb 22). 90% kinetic action estimate from anonymous Trump adviser.
-    Monitoring: force deployment completion; ammunition pre-positioning.'
+  insight: 'Ballistic missile launchers deployed on western borders (near Israel) and southern Persian Gulf shores (near US bases). Defense Council created under
+    Shamkhani (survived Israeli assassination Jun 2025). Four-layer succession for every key position. Pentagon presented options including targeting Khamenei and
+    Mojtaba (Axios Feb 22). 90% kinetic action estimate from anonymous Trump adviser. Monitoring: force deployment completion; ammunition pre-positioning.'
   confidence: Fact -- High for deployments; Inference -- Med for intent interpretation
   version_added: v1.5
   session_added: null
@@ -457,8 +463,8 @@ entries:
   table: flow
   current_value: Expected "in 2-3 days" per Araghchi (from Feb 21)
   trend: Pending
-  insight: 'Araghchi (CBS Feb 22): "A better deal than JCPOA is possible," "No need for so many details. Agree on basic things." Content unknown. Arrival before Trump deadline is the key timing variable.
-    Monitoring: delivery to Witkoff; content leaked or described.'
+  insight: 'Araghchi (CBS Feb 22): "A better deal than JCPOA is possible," "No need for so many details. Agree on basic things." Content unknown. Arrival before Trump
+    deadline is the key timing variable. Monitoring: delivery to Witkoff; content leaked or described.'
   confidence: Fact -- Med for timeline; content unknown
   version_added: v1.5
   session_added: null
@@ -469,8 +475,9 @@ entries:
   table: flow
   current_value: Confirmed Feb 26 (Thursday) by Oman FM
   trend: Confirmed
-  insight: 'Badr Albusaidi (Oman FM) tweeted Feb 22 confirming Geneva "this Thursday" with "positive push to go the extra mile towards finalizing the deal." If Iran''s proposal arrives and Geneva Round
-    3 occurs Feb 26, this is the last diplomatic off-ramp before Trump deadline window opens. Monitoring: Albusaidi confirmation; Araghchi travel; Witkoff travel.'
+  insight: 'Badr Albusaidi (Oman FM) tweeted Feb 22 confirming Geneva "this Thursday" with "positive push to go the extra mile towards finalizing the deal." If Iran''s
+    proposal arrives and Geneva Round 3 occurs Feb 26, this is the last diplomatic off-ramp before Trump deadline window opens. Monitoring: Albusaidi confirmation;
+    Araghchi travel; Witkoff travel.'
   confidence: Fact -- High; Oman FM public confirmation
   version_added: v1.5
   session_added: null
@@ -503,7 +510,8 @@ entries:
   table: threshold
   current_value: NEGOTIATIONS ACTIVE â€” Round 2 complete, "guiding principles" only
   trend: Two-week draft exchange window; no Round 3 date set
-  insight: 'Binary compressed: "Guiding principles" buys ~2 weeks. Force posture now campaign-ready concurrent with draft exchange. Deal/strike decision likely within weeks, not months.'
+  insight: 'Binary compressed: "Guiding principles" buys ~2 weeks. Force posture now campaign-ready concurrent with draft exchange. Deal/strike decision likely within
+    weeks, not months.'
   confidence: Med
   version_added: v1.0
   session_added: null
@@ -512,10 +520,9 @@ entries:
 - id: TV-02
   name: Second US Strike
   table: threshold
-  current_value: POSSIBLE â€” force posture now campaign-ready
-  trend: Talks failure + provocation + Trump decision (not yet made per WSJ Feb 19)
-  insight: 'Category A shock: Force sized for multi-week campaign (largest since 2003). Clean attribution, mobilization trigger. Hormuz retaliation now explicitly signaled by Iran. Israeli officials pushing
-    "maximalist scenario targeting regime change."'
+  current_value: ACTIVE -- Day 5 of sustained campaign
+  trend: Ongoing
+  insight: 2,500+ munitions, 600+ targets. Campaign exceeds "strike" -- this is a war.
   confidence: Med
   version_added: v1.0
   session_added: null
@@ -524,9 +531,9 @@ entries:
 - id: TV-03
   name: Khamenei Succession
   table: threshold
-  current_value: LATENT
-  trend: Health event or death
-  insight: 'Regime existential: No tested mechanism'
+  current_value: TRIGGERED -- Mojtaba selected
+  trend: Resolved (selection)
+  insight: Constitutional procedure bypassed. IRGC-driven. Extra-constitutional acceleration under wartime pressure.
   confidence: Med
   version_added: v1.0
   session_added: null
@@ -535,9 +542,9 @@ entries:
 - id: TV-04
   name: Internet Blackout
   table: threshold
-  current_value: ACTIVE
-  trend: Imposed Jan 8
-  insight: Information vacuum
+  current_value: ACTIVE -- DEEPENED under war
+  trend: Worsening
+  insight: War-related destruction of communications infrastructure overlays existing Jan 8 blackout. IRIB broadcasting HQ destroyed.
   confidence: High
   version_added: v1.0
   session_added: null
@@ -546,9 +553,9 @@ entries:
 - id: TV-05
   name: Foreign Militia Presence
   table: threshold
-  current_value: DEPLOYED
-  trend: Jan 2026
-  insight: 'Sovereignty violation: Foreign forces vs. own citizens'
+  current_value: MULTI-DIRECTIONAL -- offensive combatants
+  trend: Escalating
+  insight: Iraqi Shia militias and Hezbollah now offensive combatants, not just domestic repression aids.
   confidence: High
   version_added: v1.0
   session_added: null
@@ -557,9 +564,9 @@ entries:
 - id: TV-06
   name: EU IRGC Terror Designation
   table: threshold
-  current_value: ACTIVE
-  trend: Jan 29, 2026
-  insight: Diplomatic isolation
+  current_value: ACTIVE -- reinforced by Cyprus attack
+  trend: Strengthening
+  insight: Strike on EU member state territory (RAF Akrotiri) strengthens designation; may trigger additional EU action.
   confidence: High
   version_added: v1.0
   session_added: null
@@ -568,9 +575,9 @@ entries:
 - id: TV-07
   name: Mourning Cycle Escalation
   table: threshold
-  current_value: ACTIVE â€” Cycle 1 initiated
-  trend: 'New deaths during mourning (confirmed: at least 1 in Abdanan)'
-  insight: 'Self-reinforcing mechanism: Each death creates new 40-day cycle. If Cycle 2 initiates (~late Mar), coincides with Nowruz. 1978-79 precedent: this mechanism produced revolution.'
+  current_value: DISRUPTED/RESET -- new Khamenei mourning cycle
+  trend: Reset
+  insight: 'January massacre mourning cycle subsumed by war. NEW cycle: Khamenei 40-day mourning (~April 9). Nowruz March 20 within window.'
   confidence: Med
   version_added: v1.2
   session_added: null
@@ -579,11 +586,9 @@ entries:
 - id: TV-08
   name: Paydari Parliamentary Majority
   table: threshold
-  current_value: PROJECTED — not yet reached
-  trend: 2028 election; earlier if Khamenei health event disrupts balancing mechanism
-  insight: 'Category B institutional shift: If Paydari achieves working majority in 13th Majlis — (a) nuclear weapons advocacy becomes legislative program capable of passing formal bills; (b) Ghalibaf loses
-    Art. 111 succession position; (c) Majlis-as-transitional-vehicle assumption in ISA-SCENARIOS must be replaced with parallel constituent assembly model; (d) fatwa reinterpretation becomes legislative
-    possibility (see ITB-A8 §A8.1).'
+  current_value: ACCELERATED [Uncertain]
+  trend: Bypassed
+  insight: Mojtaba selection + IRGC wartime authority may bypass parliamentary route entirely.
   confidence: Inference — Med
   version_added: v1.3
   session_added: null
@@ -594,9 +599,9 @@ entries:
   table: threshold
   current_value: NOT YET — requires transition event
   trend: Day 1 of any transition scenario
-  insight: 'Non-negotiable first act: Iran''s execution rate (1,791 in 2025; 336 in November alone) means any transitional authority that does not impose an immediate moratorium loses legitimacy on human
-    rights grounds within hours. Simultaneously, revolutionary courts must be declared constitutionally void (they have no constitutional basis). These two acts define the new system before anything else.
-    Delay is not a viable option.'
+  insight: 'Non-negotiable first act: Iran''s execution rate (1,791 in 2025; 336 in November alone) means any transitional authority that does not impose an immediate
+    moratorium loses legitimacy on human rights grounds within hours. Simultaneously, revolutionary courts must be declared constitutionally void (they have no constitutional
+    basis). These two acts define the new system before anything else. Delay is not a viable option.'
   confidence: Inference — High confidence
   version_added: v1.3
   session_added: null
@@ -607,8 +612,9 @@ entries:
   table: threshold
   current_value: ACTIVE -- since early Jan 2026
   trend: Khamenei delegation (already occurred)
-  insight: 'Constitutional ambiguity: Larijani holds no constitutional authority for day-to-day governance (SNSC is advisory). His power derives from Khamenei''s personal delegation, making it fragile to
-    Khamenei health event. Post-Khamenei, Larijani''s authority evaporates unless formalized. Creates immediate power vacuum in succession scenario.'
+  insight: 'Constitutional ambiguity: Larijani holds no constitutional authority for day-to-day governance (SNSC is advisory). His power derives from Khamenei''s
+    personal delegation, making it fragile to Khamenei health event. Post-Khamenei, Larijani''s authority evaporates unless formalized. Creates immediate power vacuum
+    in succession scenario.'
   confidence: Fact -- High; NYT sourcing
   version_added: v1.5
   session_added: null
@@ -619,8 +625,8 @@ entries:
   table: threshold
   current_value: ACTIVE -- newly created
   trend: War preparation assessment (already occurred)
-  insight: New institutional body headed by Shamkhani. Composition unknown (G14-02 GAP). May become post-strike power center. Represents institutional adaptation for wartime governance outside constitutional
-    structure.
+  insight: New institutional body headed by Shamkhani. Composition unknown (G14-02 GAP). May become post-strike power center. Represents institutional adaptation
+    for wartime governance outside constitutional structure.
   confidence: Fact -- Med; NYT, limited detail
   version_added: v1.5
   session_added: null
@@ -631,7 +637,8 @@ entries:
   table: threshold
   current_value: PENDING -- window ~March 1-6
   trend: Trump decision point
-  insight: 'Not a commitment ("not scientific") but military buildup makes it credible. Last diplomatic off-ramp: Geneva Round 3, Feb 26. If no deal framework by March 1-6, military option becomes primary.'
+  insight: 'Not a commitment ("not scientific") but military buildup makes it credible. Last diplomatic off-ramp: Geneva Round 3, Feb 26. If no deal framework by
+    March 1-6, military option becomes primary.'
   confidence: Inference -- Med
   version_added: v1.5
   session_added: null
@@ -642,9 +649,9 @@ entries:
   table: threshold
   current_value: PENDING -- Board meeting March 2
   trend: IAEA censure vote + possible UNSC referral
-  insight: 'Three-clock convergence: Geneva Round 3 (Feb 26) + IAEA Board (March 2-6) + Trump deadline (~March 1-6) compress into single 8-day window. If IAEA refers Iran to UNSC concurrent with failed
-    Round 3, political predicate for strikes strengthens on multiple independent axes. IAEA censure is independently triggerable regardless of Geneva outcome -- feeds Obs 014 (Three Clocks) and A12.6 Phase
-    assessment.'
+  insight: 'Three-clock convergence: Geneva Round 3 (Feb 26) + IAEA Board (March 2-6) + Trump deadline (~March 1-6) compress into single 8-day window. If IAEA refers
+    Iran to UNSC concurrent with failed Round 3, political predicate for strikes strengthens on multiple independent axes. IAEA censure is independently triggerable
+    regardless of Geneva outcome -- feeds Obs 014 (Three Clocks) and A12.6 Phase assessment.'
   confidence: Fact -- High for meeting date; Inference -- Med for convergence dynamics
   version_added: v1.7
   session_added: null
@@ -655,9 +662,10 @@ entries:
   table: threshold
   current_value: ACTIVE -- Caine warning vs. Trump dismissal
   trend: Contested
-  insight: 'Joint Chiefs Chairman Caine cautioned Trump: munitions shortfalls (Israel/Ukraine depletion), lack of allied support, significant risk. Trump publicly contradicted. CENTCOM commander Cooper
-    excluded from Iran meetings -- civilian leadership controlling military options. Two readings: (a) genuine strain signal advancing regime Phase 3 assessment; (b) deliberate leak to prevent regime slow-play.
-    Regime likely perceiving this as opponent strain indicator (A12.5.1). Monitoring: Caine public statements; Cooper inclusion/exclusion; munitions resupply pace.'
+  insight: 'Joint Chiefs Chairman Caine cautioned Trump: munitions shortfalls (Israel/Ukraine depletion), lack of allied support, significant risk. Trump publicly
+    contradicted. CENTCOM commander Cooper excluded from Iran meetings -- civilian leadership controlling military options. Two readings: (a) genuine strain signal
+    advancing regime Phase 3 assessment; (b) deliberate leak to prevent regime slow-play. Regime likely perceiving this as opponent strain indicator (A12.5.1). Monitoring:
+    Caine public statements; Cooper inclusion/exclusion; munitions resupply pace.'
   confidence: Fact -- High; Washington Post, Axios
   version_added: v1.7
   session_added: null
@@ -668,8 +676,8 @@ entries:
   table: threshold
   current_value: ACTIVE -- UK refuses basing for Iran strikes
   trend: Constraining
-  insight: PM Starmer indicated US cannot use British airbases (Diego Garcia, RAF Fairford) for Iran strikes -- would breach international law. Constrains B-2 basing options for bunker-buster operations.
-    Feeds opponent strain perception (allied non-support).
+  insight: PM Starmer indicated US cannot use British airbases (Diego Garcia, RAF Fairford) for Iran strikes -- would breach international law. Constrains B-2 basing
+    options for bunker-buster operations. Feeds opponent strain perception (allied non-support).
   confidence: Fact -- High; Al Jazeera
   version_added: v1.7
   session_added: null
@@ -768,8 +776,8 @@ entries:
   table: positive_optionality
   current_value: ~70,000 independent lawyers; institutional memory of independence dating to 1953 (Mossadegh)
   trend: Constrained but persistent
-  insight: 'Only judicial institution with legitimate claim to independence. Survived three formal closures. Diaspora amplifier: Iranian-American Bar Association alone has 1,500+ members. Fastest path to
-    judicial reconstruction backbone.'
+  insight: 'Only judicial institution with legitimate claim to independence. Survived three formal closures. Diaspora amplifier: Iranian-American Bar Association
+    alone has 1,500+ members. Fastest path to judicial reconstruction backbone.'
   confidence: Inference — Med-High
   version_added: v1.3
   session_added: null
@@ -780,8 +788,8 @@ entries:
   table: positive_optionality
   current_value: 12 elections conducted since 1980; polling stations, voter rolls, regional constituencies physically exist
   trend: Intact (hardware); captured (software)
-  insight: The obstacle to free elections is the vetting superstructure, not the machinery. Remove Guardian Council vetting → existing infrastructure supports free elections without rebuilding. This advantage
-    partially survives even the ratchet — infrastructure exists regardless of who uses it.
+  insight: The obstacle to free elections is the vetting superstructure, not the machinery. Remove Guardian Council vetting → existing infrastructure supports free
+    elections without rebuilding. This advantage partially survives even the ratchet — infrastructure exists regardless of who uses it.
   confidence: Inference — Med
   version_added: v1.3
   session_added: null
@@ -922,8 +930,8 @@ entries:
   table: flow
   current_value: Accelerating (16+ Y-20, 5+ Il-76, 4+ Belarusian Il-76 since Jan 1)
   trend: Accelerating
-  insight: 'Largest compressed China-Iran military airlift ever recorded. Systems confirmed/near-confirmed: HQ-9B SAM, CM-302 anti-ship (near-final), EW/cyber systems, solid-fuel propellant inputs, satellite
-    intelligence. Oil-for-weapons barter loop documented (Dryad Global). Each delivery improves Iran BATNA.'
+  insight: 'Largest compressed China-Iran military airlift ever recorded. Systems confirmed/near-confirmed: HQ-9B SAM, CM-302 anti-ship (near-final), EW/cyber systems,
+    solid-fuel propellant inputs, satellite intelligence. Oil-for-weapons barter loop documented (Dryad Global). Each delivery improves Iran BATNA.'
   confidence: Med-High
   version_added: v1.8
   session_added: 17
@@ -937,8 +945,8 @@ entries:
   table: flow
   current_value: HQ-9B delivered or near-operational; HQ-22 delivered; Cobra V8 EW deployed near Strait
   trend: Step-change from June 2025 baseline
-  insight: 'Qualitative improvement: HQ-9B (260km range, mobile, 15-min deploy) replaces gutted S-300/Bavar-373 layer. JY-26 radar for low-observable detection. But Pakistan intercept failures and export-grade
-    limitations create performance uncertainty. Untested against US/Israeli platforms.'
+  insight: 'Qualitative improvement: HQ-9B (260km range, mobile, 15-min deploy) replaces gutted S-300/Bavar-373 layer. JY-26 radar for low-observable detection. But
+    Pakistan intercept failures and export-grade limitations create performance uncertainty. Untested against US/Israeli platforms.'
   confidence: Med
   version_added: v1.8
   session_added: 17
@@ -951,8 +959,8 @@ entries:
   table: flow
   current_value: Near-final negotiations per Reuters (6 sources, Feb 24)
   trend: Final stage -- delivery unconfirmed
-  insight: If delivered, qualitative leap from subsonic to Mach 3-4 supersonic anti-ship capability. 290km range covers entire Gulf/Strait from Iranian coastline. Compresses defender reaction time. No delivery
-    date confirmed.
+  insight: If delivered, qualitative leap from subsonic to Mach 3-4 supersonic anti-ship capability. 290km range covers entire Gulf/Strait from Iranian coastline.
+    Compresses defender reaction time. No delivery date confirmed.
   confidence: Med-High
   version_added: v1.8
   session_added: 17
@@ -965,8 +973,8 @@ entries:
   table: flow
   current_value: Severely depleted (THAAD, Patriot, SM-2/3/6)
   trend: Degrading; production ramp 2027+
-  insight: 'JCS Caine warned Trump directly. 12-day war depleted 15-20% of global THAAD stockpile. Production tripling (Patriot) and quadrupling (THAAD) underway but years from delivery. CSIS: 6 years to
-    rebuild. Structural incentive for shortest possible campaign.'
+  insight: 'JCS Caine warned Trump directly. 12-day war depleted 15-20% of global THAAD stockpile. Production tripling (Patriot) and quadrupling (THAAD) underway
+    but years from delivery. CSIS: 6 years to rebuild. Structural incentive for shortest possible campaign.'
   confidence: High
   version_added: v1.8
   session_added: 17
@@ -979,8 +987,8 @@ entries:
   table: flow
   current_value: Improving
   trend: Accelerating with each Chinese delivery
-  insight: 'Pre-resupply: air defenses gutted, high pressure to concede. Post-resupply: HQ-9B raises SEAD costs, CM-302 threatens carriers, EW degrades intelligence advantage. Each improvement reduces Iran
-    need to make concessions.'
+  insight: 'Pre-resupply: air defenses gutted, high pressure to concede. Post-resupply: HQ-9B raises SEAD costs, CM-302 threatens carriers, EW degrades intelligence
+    advantage. Each improvement reduces Iran need to make concessions.'
   confidence: Med-High
   version_added: v1.8
   session_added: 17
@@ -988,3 +996,50 @@ entries:
   - ITB-B B9
   - ISA-SCENARIOS Obs 022
   epistemic_tag: Inference
+- id: TV-16
+  name: Hormuz Closure Duration
+  table: threshold
+  current_value: ACTIVE -- Day 3 of effective closure
+  trend: Sustained
+  insight: 'Each day of closure: +$2-5/bbl oil, Gulf state economic damage, global supply chain disruption. >2 weeks = recession trigger. >4 weeks = Chinese intervention
+    forcing function.'
+  confidence: Fact -- High
+  version_added: v1.9
+  session_added: 20
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: TV-17
+  name: IRGC Command Coherence
+  table: threshold
+  current_value: UNCERTAIN -- reports of disruption
+  trend: '[Unknown]'
+  insight: Reports of commanders not reporting to bases; chain of command disrupted. Single most important internal variable. Determines W1 (fracture) vs. W2 (survive).
+    Currently unobservable due to blackout.
+  confidence: Uncertain
+  version_added: v1.9
+  session_added: 20
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: TV-18
+  name: Civilian Casualty Trajectory
+  table: threshold
+  current_value: ACTIVE -- 787+ as of Day 4
+  trend: Rising
+  insight: 'Each Minab-type incident shifts international political calculus. Threshold: if total crosses 5,000+ with verified mass casualty events, international
+    pressure to halt campaign may override US objectives.'
+  confidence: Fact -- Med
+  version_added: v1.9
+  session_added: 20
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: TV-19
+  name: Mojtaba Public Emergence
+  table: threshold
+  current_value: PENDING -- not yet occurred
+  trend: Imminent
+  insight: Content and framing of first public appearance is the single highest-signal event for determining W2 vs. W3 trajectory.
+  confidence: Fact -- High for pending status
+  version_added: v1.9
+  session_added: 20
+  cross_refs: []
+  epistemic_tag: Mixed

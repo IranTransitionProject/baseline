@@ -1,7 +1,7 @@
 # APP-G: CONSOLIDATED RESEARCH GAPS
 
 **Module Code:** APP-G
-**Version:** 2.6
+**Version:** 2.7
 **Date:** 2026-03-04
 **Source:** v2.5 + Session 17 gaps (G17-01 to G17-05, Chinese pipeline)
 **Purpose:** Single inventory of all unfilled research gaps, prioritized
@@ -44,6 +44,11 @@
 | G17-01 | ITB-B | HQ-9B integration status -- operational vs. delivered | Determines whether Iran air defense improvement is real or aspirational right now. Integration timeline, sensor-sharing protocols, operator training unknown. | OPEN |
 | G17-02 | ITB-B | CM-302 delivery timeline and quantity | Reuters says near-final but no delivery date. If delivered before strike window, fundamentally changes carrier risk calculus. Number of missiles determines demonstration vs. operational capability. | OPEN |
 | G17-03 | ITB-B | Chinese military personnel in Iran -- presence, role, authorization level | Would be single most escalatory finding if confirmed. Need to distinguish technical advisors (likely) from operational manning (unlikely but transformative). | OPEN |
+| G20-01 | ITB-A | Mojtaba Khamenei's actual policy orientation and personal network beyond IRGC ties | W2/W3 fork, all scenario branches | OPEN |
+| G20-02 | ITB-B | IRGC command structure integrity post-decapitation -- extent of operational disruption unknown | W1 probability assessment, Trap 1-2 activation | OPEN |
+| G20-03 | ITB-A9 | Basij operational capacity post-targeted strikes -- degree of domestic enforcement degradation | W1 probability, Obs 027, internal uprising potential | OPEN |
+| G20-04 | ITB-F | Chinese government strategic calculus and potential broker role | W3 feasibility, Obs 028, Hormuz resolution timeline | OPEN |
+| G20-05 | ITB-D | Ground truth inside Iran -- population sentiment and behavior under blackout + war | All scenarios, Obs 025 | OPEN |
 
 ---
 
@@ -76,6 +81,11 @@
 | G13-07 | ISA-TRAPS, ITB-F | Qatar's actual preference re: Iran strike vs. deal vs. status quo | Resolves Qatar paradox (Obs 015 / Trap 9 interaction); Qatar benefits from process continuation but may calculate weakened-Iran-but-not-collapsed is optimal | OPEN |
 | G17-04 | ITB-B | US EW effectiveness against Chinese-origin systems (HQ-9B, CM-302) | Determines whether Chinese systems raise costs significantly or fold quickly under US electronic attack. Pakistan Operation Sindoor provides one data point. | OPEN |
 | G17-05 | ITB-B, ITB-F | Chinese commercial/military satellite intelligence sharing scope with Iran | MizarVision publishes some imagery publicly. Private state-channel sharing assumed but unquantifiable. Determines Iran battlefield awareness improvement. | OPEN |
+| G20-06 | ITB-B | Iranian nuclear facility status post-strikes -- actual enrichment capacity | W3 negotiation terms, nuclear security planning | OPEN |
+| G20-07 | ITB-F | Gulf state post-war demands and coalition posture | Obs 024, F11 rebuild, post-war deal design | OPEN |
+| G20-08 | ITB-F | Hezbollah/Lebanese front escalation trajectory | W4 probability, regional scenario modeling | OPEN |
+| G20-09 | ITB-F | US domestic political dynamics -- Congressional war powers, public opinion | Campaign duration estimate, W1/W2 fork timing | OPEN |
+| G20-10 | ITB-D | Status of political prisoners, especially January 2026 protesters -- Evin Prison administrative collapse reported | Humanitarian emergency assessment, Brief #6 update | OPEN |
 
 ---
 
@@ -109,4 +119,4 @@
 
 ---
 
-*Generated from structured data on 2026-03-04. Total gaps tracked: 47.*
+*Generated from structured data on 2026-03-05. Total gaps tracked: 57.*

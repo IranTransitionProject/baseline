@@ -72,8 +72,8 @@ This project has been restructured from monolithic documents into self-contained
 | Code | File | Ver | Lines | Description |
 |------|------|-----|-------|-------------|
 | ISA-CORE | `ISA_CORE.md` | 1.1 | ~220 | Coupling map, institutional slack, cascading failure index, intervention sequencing, system governors, Frontier connection. |
-| ISA-TRAPS | `ISA_TRAPS.md` | 2.2 | ~180+ | Simultaneity Traps 1-12. v2.2: Trap 9 (Mediator's Interest), Trap 10 (Hollow Deal = IRGC Enrichment). Traps 11-12 added Session 13. |
-| ISA-SCENARIOS | `ISA_SCENARIOS.md` | 1.5 | ~567 | Scenarios 1-5 (+1A/1B split), Observations 001-021, Scenario Matrix. v1.5: Session 14 comprehensive reassessment. |
+| ISA-TRAPS | `ISA_TRAPS.md` | 2.5 | ~180+ | Simultaneity Traps 1-12. v2.2: Trap 9 (Mediator's Interest), Trap 10 (Hollow Deal = IRGC Enrichment). Traps 11-12 added Session 13. |
+| ISA-SCENARIOS | `ISA_SCENARIOS.md` | 2.0 | ~567 | Scenarios 1-5 (+1A/1B split), Observations 001-021, Scenario Matrix. v1.5: Session 14 comprehensive reassessment. |
 | ISA-CASES | `ISA_CASE_STUDIES.md` | 1.0 | ~230 | Historical case studies: methodology, Iraq, Libya, Syria, Afghanistan, Turkey, Indonesia, Spain, Chile/Pinochet. |
 | 17B-PRECEDENT | `17B_HISTORICAL_PRECEDENT_RESEARCH.md` | 1.0 | ~700 | Historical precedent research: secure communication for civil resistance (Solidarity, ANC, Chile, Baltics, Myanmar). Background research, not for publication. |
 | IPP-EP | `IPP_EMERGENCY_PHASE_REFERENCE.md` | 1.0 | ~600 | IPP/NUFDI Emergency Phase booklet structured reference. External document, not ITP-authored. 14 white papers covering first 180 days post-transition. |
@@ -82,8 +82,8 @@ This project has been restructured from monolithic documents into self-contained
 
 | Code | File | Ver | Lines | Description |
 |------|------|-----|-------|-------------|
-| APP-V | `APPENDIX_VARIABLES.md` | 1.7 | ~90+ | Variables dashboard (stock, flow, threshold, positive optionality, normalization quality). Generated from itp-db. |
-| APP-G | `APPENDIX_GAPS.md` | 2.3 | ~150+ | Consolidated research gaps from ALL modules, prioritized. Generated from itp-db. |
+| APP-V | `APPENDIX_VARIABLES.md` | 1.9 | ~90+ | Variables dashboard (stock, flow, threshold, positive optionality, normalization quality). Generated from itp-db. |
+| APP-G | `APPENDIX_GAPS.md` | 2.7 | ~150+ | Consolidated research gaps from ALL modules, prioritized. Generated from itp-db. |
 
 
 ---
@@ -194,17 +194,19 @@ logic (Segment 3); must be read against A10 (eschatological spoiler) and three-s
 | 17 | 2026-02-25 | Integration specification session. Produced multi-session starter for 17A-D, regime primary sources methodology, instructions v4 patch. Pre-session planning for Geneva Round 3 analysis and diaspora security architecture. | 00_INSTRUCTIONS, ISA-SCENARIOS, INDEX |
 | 18 | 2026-03-01 | Reverse-timeline analysis of Operation Epic Fury. Produced Briefs #11 (Clock Was Already Running), #12 (Succession Contest), #13 (Mediator Problem), Brief #5 v4.0 update with convergent spoiler finding. | Briefs, ISA-SCENARIOS, ITB-A10, ITB-F |
 | 19 | 2026-03-02 | Tier 1 analytical deep-dive on Bayt-e Rahbari architecture, shadow fleet integration, social reproduction mechanisms, and Terman analogy insertion. | ITB-A, ITB-F, ITB-D, ITB-A10 |
+| 20 | 2026-03-04 | Wartime comprehensive reassessment (Day 5 Epic Fury). Framework validation (11 confirmed, 7 gaps). Scenario matrix rebuilt (W1-W5 replace S1-S5). 6 new observations (023-028). 4 new threshold variables (TV-16 to TV-19). 10 new gaps (G20-01 to G20-10). 13 trap status updates + Trap 14. Brief #16 draft. | ISA-SCENARIOS, ISA-TRAPS, APP-V, APP-G, ITB-A, ITB-B, ITB-F, ITB-F11 |
+| 21 | 2026-03-04 | Governance inversion addendum (Obs 029: Basij self-destructing governance function, medical taqiyyah finding). Population complicity addendum (Obs 030: manufactured complicity trap, A9.7 three-tier population revision). IPP Feedback letter v2 (5 structural observations for Iran Prosperity Project). Wartime DB integration. | ITB-A8, ITB-A9, ISA-TRAPS, ISA-SCENARIOS, Brief #16 |
 
 ---
 
 ## DATABASE STATISTICS
 
 * **Modules:** 28
-* **Variables:** 82
-* **Gaps:** 47 (39 open)
-* **Traps:** 13
-* **Observations:** 22
-* **Scenarios:** 7
-* **Sessions logged:** 18
+* **Variables:** 86
+* **Gaps:** 57 (49 open)
+* **Traps:** 14
+* **Observations:** 30
+* **Scenarios:** 12
+* **Sessions logged:** 20
 
-*Generated 2026-03-04 from itp-db YAML sources.*
+*Generated 2026-03-05 from itp-db YAML sources.*

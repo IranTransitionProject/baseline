@@ -1,9 +1,9 @@
 # ISA-SCENARIOS: SCENARIO BRANCHING & ANALYTICAL OBSERVATIONS
 
 **Module Code:** ISA-SCENARIOS
-**Version:** 1.5
-**Date:** 2026-02-23
-**Source:** Migrated from ISA_SCENARIOS.md v1.5 (Session 14 comprehensive reassessment)
+**Version:** v2.0
+**Date:** 2026-03-04
+**Source:** Migrated from ISA_SCENARIOS.md v1.5 (Session 14 comprehensive reassessment) + Session 20 wartime rebuild (W1-W5 replace S1-S5)
 **Dependencies:** All ITB modules, ISA-CORE, ISA-TRAPS, ISA-CASES
 **Referenced by:** INDEX (quick lookup), all future sessions
 
@@ -15,7 +15,7 @@
 
 **Note:** Probabilities are subjective assessments. All probability changes are <=6 percentage points per bound. [Speculation -- tagged honestly]
 
-**CRITICAL ASSESSMENT (v1.5):** For the first time, S2 upper bound exceeds all other scenarios combined (50%). Combined S1+S1A+S1B = 18-31%. Deal track is minority probability outcome.
+**CRITICAL ASSESSMENT (vv2.0):** For the first time, S2 upper bound exceeds all other scenarios combined (50%). Combined S1+S1A+S1B = 18-31%. Deal track is minority probability outcome.
 
 ### Scenario 1: Negotiated Nuclear Deal + Regime Preservation
 * **Description:** US-Iran deal on nuclear track. Sanctions partially relieved. Regime survives with reduced international pressure. Protests suppressed. No transition.
@@ -103,6 +103,66 @@
 * **Planning implication:** Best-case scenario for institutional continuity. Requires most sophisticated negotiating framework and most detailed transition architecture. The wrong interlocutor problem (Obs 010) remains -- this calculation is available to pragmatists only; eschatological faction will reject on theological grounds.
 * **Traps activated:** Trap 1, Trap 5
 * **Cross-references:** Obs 010, Obs 021, ITB-F12, ISA-TRAPS Trap 1
+
+---
+
+### Scenario 1: Campaign Achieves Objectives -- Regime Fracture -- Contested Transition
+* **Description:** US/Israeli strikes degrade IRGC capacity below control threshold. Basij destruction removes domestic coercion. Mojtaba cannot consolidate. Population moves -- organized uprising or localized collapse of regime authority. Transition becomes contested, multi-actor process.
+* **Probability range:** **20-30%**
+* **Adjustment history:**
+  - v2.0: 20-30% — Initial wartime assessment. Day 5 data. [Speculation]
+* **Key variables:** Degree of Basij/internal security degradation; IRGC unit-level cohesion; Population interpretation (1979 vs. 2003 Iraq parallel); Diaspora coordination under blackout; Armed ethnic/regional groups opening secondary fronts
+* **Planning implication:** Scenario where ITB entire transition planning architecture is most relevant. All traps activate. Speed of transition framework deployment determines managed vs. chaotic outcome. Communications restoration mission-critical within hours.
+* **Traps activated:** Trap 1, Trap 2, Trap 3, Trap 4, Trap 5, Trap 6, Trap 7, Trap 8
+* **Cross-references:** Romania 1989 + Iraq 2003 hybrid parallel
+
+---
+
+### Scenario 2: Campaign Stalls -- Ceasefire -- Damaged Regime Survives Under Mojtaba
+* **Description:** International pressure, military constraints, or Iranian deterrence success forces ceasefire before regime collapses. Mojtaba consolidates under post-war nationalist legitimacy. North Korea-ization pathway.
+* **Probability range:** **25-35%**
+* **Adjustment history:**
+  - v2.0: 25-35% — Initial wartime assessment. Most dangerous scenario for Iranian people. [Speculation]
+* **Key variables:** Hormuz closure duration and sustainability; Gulf state pressure on US to halt; US Congressional war powers debate; Oil price trajectory (>$100 = recession pressure); Iranian civilian casualty trajectory; Chinese/Russian diplomatic intervention
+* **Planning implication:** Most dangerous scenario for Iranian people. Damaged regime that survives under wartime legitimacy becomes more repressive, isolated, theologically radical. Pinochet mechanism (A11) reactivates in worst form.
+* **Traps activated:** Trap 6 (reverse -- re-cements parallel society), Trap 8 (shape-shifted Pinochet)
+* **Cross-references:** Saddam post-1991 Gulf War parallel, A11
+
+---
+
+### Scenario 3: Negotiated Halt -- Conditional Ceasefire -- Transition Negotiation
+* **Description:** Trump "they want to talk" signal is genuine. Mojtaba or pragmatist faction decides survival requires negotiation. Conditional ceasefire likely brokered by China. Terms involve nuclear dismantlement, political opening, sanctions relief. Transition negotiation under external pressure with regime participation.
+* **Probability range:** **10-18%**
+* **Adjustment history:**
+  - v2.0: 10-18% — Initial wartime assessment. Best realistic outcome for managed transition. [Speculation]
+* **Key variables:** Mojtaba decision fork (survival-via-negotiation vs. fight-to-end); Whether credible interlocutor exists post-decapitation; Chinese willingness to broker; Trump willingness to accept less than regime change; IRGC command coherence for ceasefire implementation
+* **Planning implication:** Best realistic outcome. Requires: deal design avoiding hollow-deal traps (F12); credible interlocutor identification; verification mechanisms accounting for wartime destruction; IRGC economic transition path.
+* **Traps activated:** Trap 1, Trap 10 (maximum risk)
+* **Cross-references:** Japan 1945 parallel (but Japan had Emperor who could command compliance), Obs 023, Obs 026
+
+---
+
+### Scenario 4: Escalation Spiral -- Regional War -- Uncontrolled
+* **Description:** Tit-for-tat escalation exceeds containment. Possible triggers: extended Hormuz closure, full Lebanon war, catastrophic mass casualty event, nuclear contamination, state actor drawn in (Turkey, Pakistan).
+* **Probability range:** **15-22%**
+* **Adjustment history:**
+  - v2.0: 15-22% — Initial wartime assessment. Can emerge from any other scenario. [Speculation]
+* **Key variables:** Hormuz closure duration; Hezbollah escalation trajectory; Iraqi militia effectiveness; Nuclear contamination risk; Pakistan stability (22+ killed Karachi protests); Turkish border buildup
+* **Planning implication:** Worst-case. Humanitarian catastrophe at regional scale. Oil above $100, potential global recession. All transition planning suspended -- pure crisis management. Diaspora shifts to humanitarian coordination.
+* **Traps activated:** Beyond trap framework -- system-level failure
+* **Cross-references:** WWI escalation dynamic parallel
+
+---
+
+### Scenario 5: Internal Coup -- Military Junta -- Managed Authoritarianism
+* **Description:** Under sustained strike pressure, IRGC commanders overthrow remaining civilian government, declare martial law, pursue capitulation or total war as unified military command. Civilian government irrelevant.
+* **Probability range:** **8-15%**
+* **Adjustment history:**
+  - v2.0: 8-15% — Initial wartime assessment. Paradoxically easier to negotiate with but harder to trust. [Speculation]
+* **Key variables:** IRGC internal factional dynamics under fire; Whether Mojtaba can command loyalty or becomes figurehead; Whether junta more or less willing to negotiate; National Interest reporting of IRGC junta pre-strike (unconfirmed)
+* **Planning implication:** IRGC junta paradoxically easier to negotiate with (calculable interests without theological veto) but harder to trust (no institutional legitimacy). Security sector reform becomes reforming the government, not a subordinate institution.
+* **Traps activated:** Trap 2 (new form), Trap 1
+* **Cross-references:** Egypt post-Mubarak parallel, Pakistan military-civilian cycles
 
 ---
 
@@ -344,6 +404,136 @@
 * **ITB anchors:** ITB-B B9, ITB-F F6.1, ITB-F12, ITB-A10, ITB-A12
 * **Cross-references:** Obs 010, Brief 4, Brief 5 Part III, Trap 13
 * **Confidence:** [Inference -- Med-High for mechanism; Med for impact magnitude]
+
+---
+
+### Observation 023: Mojtaba Selection Confirms Wartime Eschatological Capture (v1.8)
+* **Diagnosis:** The Assembly of Experts selected Mojtaba Khamenei as Supreme Leader under IRGC pressure within ~4 days of his father's assassination, bypassing normal constitutional deliberation. The decision was made extra-constitutionally (full Assembly could not convene; building in Qom was struck). This confirms Obs 009 (eschatological faction benefits from every scenario) in its most direct form: a kinetic attack on the system produced dynastic succession controlled by the security apparatus.
+
+* **Strategic implication:** The succession question is no longer "who" but "what kind of leader will Mojtaba be." He faces a binary decision fork: (a) use wartime mandate to consolidate and fight (cements eschatological faction); or (b) use unique family legitimacy to authorize a survival deal (only path to W3). Monitoring which IRGC commanders surround him is the leading indicator.
+
+* **Leading indicators:**
+  - Mojtaba's first public statement (defiance vs. strategic ambiguity)
+  - Which IRGC commanders appear alongside him (hardline vs. pragmatist)
+  - Whether he references maslahat-e nezam (system preservation) vs. moqavemat (resistance)
+  - Whether formal announcement is delayed (internal negotiation) or rushed (IRGC control)
+* **ITB anchors:** ITB-A10, ITB-A (succession), Obs 009, Obs 016, Brief #8, Brief #12
+* **Cross-references:** Obs 009, Obs 016, Obs 026
+* **Confidence:** [Fact -- High for selection event; Inference -- Med for decision fork analysis]
+
+---
+
+### Observation 024: Gulf Combatant Transformation Destroys the Equilibrium Beneficiary Framework (v1.8)
+* **Diagnosis:** Iran has struck military and civilian targets in UAE, Qatar, Saudi Arabia, Bahrain, Kuwait, Jordan, Iraq, and Oman. This converts the entire regional architecture modeled in ITB-F11 from "states profiting from sanctions arbitrage" to "combatant states with war damage, civilian casualties, and security demands." Qatar's mediation role is destroyed (Ras Laffan struck, Al Udeid struck). Oman's neutrality breached. UAE shifted to active combatant posture. Saudi Aramco struck at Ras Tanura.
+
+* **Strategic implication:** Post-war regional order fundamentally different from pre-war. Gulf states forced to choose sides. Creates post-war coalition for Iran containment that did not exist before -- but also creates bitter enemies with post-war demands. F11 module needs complete reconceptualization. Trap 9 (Mediator's Interest) destroyed.
+
+* **Leading indicators:**
+  - Gulf state formal declarations of hostilities or co-belligerency
+  - Gulf state contribution to US military operations
+  - Post-war reconstruction claims and security guarantee demands
+  - Whether any Gulf state breaks ranks for independent ceasefire channel
+* **ITB anchors:** ITB-F11, ITB-F (F4 UAE, F5 Saudi), ISA-TRAPS Trap 9, Trap 11
+* **Cross-references:** Obs 022, Trap 9, Trap 11
+* **Confidence:** [Fact -- High for strikes on Gulf states; Inference -- High for framework destruction]
+
+---
+
+### Observation 025: The Information Vacuum Is Now Multi-Layered (v1.8)
+* **Diagnosis:** Obs 003 identified internet blackout as binding constraint for transition planning. War made this worse in three ways: (1) war-related communications degradation overlays pre-existing January blackout; (2) IRIB broadcasting HQ destroyed -- regime's own propaganda channel disrupted; (3) international media banned from Iran, now facing wartime access restrictions. Neither the population, the regime, the diaspora, nor external actors have reliable ground truth.
+
+* **Strategic implication:** Every tactical assessment carries extraordinary uncertainty. Framework's epistemic discipline becomes MORE important, not less. Any claim about "what is happening inside Iran" should default to [Uncertain] unless corroborated by satellite imagery, intercepted communications, or multiple independent sources.
+
+* **Leading indicators:**
+  - Starlink/satellite internet penetration reports
+  - OSINT satellite imagery analysis of struck targets
+  - Refugee/evacuee testimony from border areas
+  - IRGC communications intercepts (if available through intelligence releases)
+* **ITB anchors:** ITB-H, Obs 003, TV-04
+* **Cross-references:** Obs 003
+* **Confidence:** [Fact -- High for information vacuum; Inference -- High for analytical implications]
+
+---
+
+### Observation 026: The Khomeini Doctrine Fork -- System Preservation vs. Resistance (v1.8)
+* **Diagnosis:** Khomeini's foundational ruling -- "hefz-e nezam owla-ye owlaviyat-hast" (preserving the system is the highest duty) -- creates a doctrinal fork under current conditions. If interpreted as "preserve the Islamic Republic at all costs," it authorizes a survival deal. If interpreted as "preserve the Islamic Republic's principles at all costs," it authorizes fight-to-the-death. These are mutually exclusive interpretations of the same text, and which one governs depends on who has interpretive authority -- the Supreme Leader. Mojtaba inherits this.
+
+* **Strategic implication:** Western analysts framing post-Khamenei question in power-politics terms. Internal debate will be framed in theological terms. External actors who cannot read this theological signaling will misinterpret regime intentions -- reprising taqiyyah analytical trap (Obs 006) at even higher stakes.
+
+* **Leading indicators:**
+  - Mojtaba's first Friday prayer or public address
+  - Qom seminary statements on hefz-e nezam interpretation
+  - Whether maslahat or moqavemat dominates regime media
+  - Whether 40-day mourning declaration includes theological framing favoring negotiation or revenge
+* **ITB anchors:** ITB-A8, Obs 006, ITB-A12
+* **Cross-references:** Obs 006, Obs 023
+* **Confidence:** [Inference -- Med-High for doctrinal fork mechanism; Speculation for which fork Mojtaba takes]
+
+---
+
+### Observation 027: Basij Targeting Signals Transition Intent -- But Creates the De-Ba'athification Trap (v1.8)
+* **Diagnosis:** US/Israeli targeting has shifted to include Basij infrastructure -- police stations, bases involved in January 2026 massacre. Strategic logic: degrade regime's ability to repress its own population, creating space for internal uprising. However, this simultaneously activates the de-Ba'athification failure mode: destroying internal security infrastructure without replacement creates a security vacuum that armed militias, criminal networks, and ethnic/sectarian armed groups fill.
+
+* **Strategic implication:** The US appears to be targeting for regime change without a visible plan for what replaces the internal security function. This is the Iraq 2003 error in slow motion. The Basij, for all its brutality, is also the local-level governance mechanism in many areas. Transition planning community has a narrow window to get security sector transition plans into the policy conversation before the vacuum becomes irreversible.
+
+* **Leading indicators:**
+  - Geographic pattern of Basij base destruction
+  - Reports of armed groups filling local security vacuums
+  - Kurdish, Baloch, or Arab armed group expansion into abandoned security zones
+  - US/Israeli communication about day-after planning (or conspicuous absence thereof)
+* **ITB anchors:** ITB-A9, Trap 1, ISA-CASES (Iraq de-Ba'athification), Obs 002
+* **Cross-references:** Obs 002, Trap 1
+* **Confidence:** [Inference -- High for mechanism; Uncertain for whether US has replacement plan]
+
+---
+
+### Observation 028: China's Position Shifts From Convergent Spoiler to Strategic Arbiter (v1.8)
+* **Diagnosis:** Obs 022 identified China upgrading from passive to active equilibrium beneficiary. War accelerates further. China is now the only major power with: (a) economic leverage over Iran (80%+ oil exports to China); (b) diplomatic relationships with all parties; (c) strategic interest in reopening Hormuz (40% of Chinese oil imports transit the strait); (d) no military involvement. Russia benefits from high oil prices and Western distraction but cannot broker peace. EU/E3 aligned with US/Israel.
+
+* **Strategic implication:** Chinese-brokered ceasefire or post-war framework would come with Chinese conditions: protection of Chinese economic interests, weakened Western influence in reconstruction, expanded Chinese military/intelligence presence. Hormuz closure creates urgency for China to act but also gives China maximum leverage.
+
+* **Leading indicators:**
+  - Chinese diplomatic initiatives (UNSC, bilateral contacts)
+  - Chinese naval movements near Hormuz
+  - Chinese media framing (neutral arbiter vs. anti-Western alignment)
+  - Whether Chinese-flagged vessels continue transiting Hormuz while others cannot
+* **ITB anchors:** ITB-F (F6 China), ITB-F11, Obs 022, ITB-F12
+* **Cross-references:** Obs 022
+* **Confidence:** [Inference -- Med-High for structural positioning; Speculation for Chinese intent]
+
+---
+
+### Observation 029: The Governance Inversion -- Basij Abandons Service Function and Weaponizes Humanitarian Infrastructure (v1.8)
+* **Diagnosis:** Primary source witness reports (5 witnesses, 3 locations, total blackout conditions) describe: (a) Basij evacuating personnel/weapons from military bases into hospitals, schools, private residences; (b) a healthcare worker at one facility reports selective medical discrimination -- full treatment for affiliated families, deliberate denial for ordinary citizens; (c) shoot-to-kill orders against anyone showing protest signs, including former Basij constituencies. The governance function the Basij provided has been entirely abandoned.
+
+* **Strategic implication:** If representative, corrects Brief #16 central premise: vacuum not created by bombs but by Basij self-destructing its governance function. The hollowness finding (A9.4) was deeper than modeled -- governance services were always instrumental and disposable camouflage. Medical taqiyyah finding (single-source, Level 1 only) requires epidemiological pattern analysis if confirmed at scale.
+
+* **Leading indicators:**
+  - Satellite imagery of military facilities (empty vs. active)
+  - Epidemiological data on differential survival rates in medical facilities
+  - Reports of Basij governance abandonment in additional locations
+  - Humanitarian organization assessments of hospital conditions
+* **Sources:** Primary witness reports -- 5 witnesses, 2-3 locations (Tehran, Tabriz), March 2026
+* **ITB anchors:** ITB-A8 (taqiyyah extension), ITB-A9 (parallel society terminal phase), ISA-TRAPS Trap 7, Brief #16
+* **Cross-references:** Obs 007, Obs 027, Obs 030
+* **Confidence:** [Level 2 for evacuation/repositioning and shoot-to-kill (multiple witnesses, structurally consistent); Level 1 ONLY for medical discrimination (single source, single facility)]
+
+---
+
+### Observation 030: The Manufactured Complicity Trap -- Regime Converts Economic Captives into Non-Defectable Perpetrators (v1.8)
+* **Diagnosis:** The regime has deployed what appears to be a deliberate strategy to prevent defection among dispersed Basij (Tier 2) by forcing them across the complicity threshold. Three stages: (1) January 2026 massacres -- coerced shoot-to-kill orders against own neighborhoods; (2) Narrative lock-in -- "your neighbors know; regime fall = your death"; (3) Wartime escalation ratchet -- each additional act deepens complicity. This is a third binding mechanism not previously modeled in A9, supplementing economic dependency.
+
+* **Strategic implication:** Transition planning must now address THREE distinct binding mechanisms: economic dependency (Tier 1 compound), manufactured complicity (Tier 2 dispersed -- wartime-activated), and transactional patronage (Tier 3 periphery). Critical countermeasure: credible transitional justice off-ramp broadcast NOW -- specific, announced mechanism (South African TRC model) distinguishing coerced participants from architects of atrocity.
+
+* **Leading indicators:**
+  - Basij defection rates (if any reporting available under blackout)
+  - Whether any transitional justice framework discussed by US/diaspora/international community
+  - Regime messaging intensity on "you are dead if they win" theme
+  - Community-level violence patterns: dispersed Basij escalating or pulling back
+* **Sources:** Primary witness reports + January 2026 massacre documentation + structural inference
+* **ITB anchors:** A9.4, A9.7 (Tier 2), A8.8, ISA-TRAPS Trap 6, Obs 029
+* **Cross-references:** Obs 029, Brief #2, Brief #16, Emergency Brief
+* **Confidence:** [Fact -- Med for coercion strategy (5 witnesses + January pattern); Inference -- Med-High for mechanism (structural analysis); Inference -- Med for countermeasure design (Argentina/South Africa precedent)]
 
 ---
 

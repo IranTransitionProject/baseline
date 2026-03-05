@@ -24,8 +24,8 @@ entries:
   file: A6_PARLIMENT_DRAFT.md + A6_10_RACHET_ADDENDUM.md
   version: '1.0'
   lines_approx: ~375
-  description: 'Parliament (Majlis): 120-year institutional history, constitutional constraints, 12th Majlis composition, Ghalibaf positioning, transition implications. A6.10: Turnout-extremism ratchet
-    mechanism.'
+  description: 'Parliament (Majlis): 120-year institutional history, constitutional constraints, 12th Majlis composition, Ghalibaf positioning, transition implications.
+    A6.10: Turnout-extremism ratchet mechanism.'
   level: 1
   dependencies:
   - ITB-A
@@ -69,8 +69,8 @@ entries:
   file: ITB_A12_COERCIVE_ENDURANCE.md
   version: '1.0'
   lines_approx: ~440
-  description: 'Coercive-Endurance Interaction Doctrine: 5-phase behavioral model, factional reconciliation with three-segment model, taqiyyah coupling, Phase 5 Pinochet/F12 enrichment coupling, current
-    events mapping.'
+  description: 'Coercive-Endurance Interaction Doctrine: 5-phase behavioral model, factional reconciliation with three-segment model, taqiyyah coupling, Phase 5 Pinochet/F12
+    enrichment coupling, current events mapping.'
   level: 1
   dependencies:
   - ITB-A
@@ -92,14 +92,15 @@ entries:
   file: ITB_D_SOCIETY_V4_0.md
   version: '5.0'
   lines_approx: ~615
-  description: 'Full social fabric: demographics, ethnicity, religion, political culture (D14 zerangi/arbab), small-city/rural collapse, geographic inequality, protest dynamics, IRGC dependent population
-    mapping.'
+  description: 'Full social fabric: demographics, ethnicity, religion, political culture (D14 zerangi/arbab), small-city/rural collapse, geographic inequality, protest
+    dynamics, IRGC dependent population mapping.'
   level: 2
 - code: ITB-D16
   file: D16_THE_JUDICIARY.md
   version: '1.0'
   lines_approx: ~148
-  description: 'Judiciary institutional anatomy: 47-year destruction sequence, Haqqani pipeline capture, execution machinery, Bar Association survivable elements, transition reconstruction problem.'
+  description: 'Judiciary institutional anatomy: 47-year destruction sequence, Haqqani pipeline capture, execution machinery, Bar Association survivable elements,
+    transition reconstruction problem.'
   level: 2
   dependencies:
   - ITB-A8
@@ -119,8 +120,8 @@ entries:
   file: ITB_F_F11_Equilibrium_Beneficiaries_v1_0.md + Addendum
   version: '1.0'
   lines_approx: ~950
-  description: 'F11: Regional actors structurally invested in current equilibrium. Tier 1: Qatar, UAE, Turkey, China, Russia, Iraq/PMF. Tier 2: Oman mediation industry. Constrained: Pakistan, India. External
-    pressure: Armenia/Azerbaijan TRIPP coupling.'
+  description: 'F11: Regional actors structurally invested in current equilibrium. Tier 1: Qatar, UAE, Turkey, China, Russia, Iraq/PMF. Tier 2: Oman mediation industry.
+    Constrained: Pakistan, India. External pressure: Armenia/Azerbaijan TRIPP coupling.'
   level: 2
   dependencies:
   - ITB-F
@@ -128,8 +129,8 @@ entries:
   file: ITB_F_F12_NORMALIZATION_QUALITY_v1_0.md
   version: '1.0'
   lines_approx: ~700
-  description: NORMALIZATION QUALITY FRAMEWORK -- TRANSITION PLANNING CRITICAL. Type A/B taxonomy, normalization ladder, hollow deal thesis, IRGC enrichment mechanism, South Pars Type B dependency, conditionality
-    architecture.
+  description: NORMALIZATION QUALITY FRAMEWORK -- TRANSITION PLANNING CRITICAL. Type A/B taxonomy, normalization ladder, hollow deal thesis, IRGC enrichment mechanism,
+    South Pars Type B dependency, conditionality architecture.
   level: 2
   dependencies:
   - ITB-F
@@ -159,7 +160,7 @@ entries:
   level: 3
 - code: ISA-TRAPS
   file: ISA_TRAPS.md
-  version: '2.2'
+  version: '2.5'
   lines_approx: ~180+
   description: 'Simultaneity Traps 1-12. v2.2: Trap 9 (Mediator''s Interest), Trap 10 (Hollow Deal = IRGC Enrichment). Traps 11-12 added Session 13.'
   level: 3
@@ -172,7 +173,7 @@ entries:
   - ITB-F12
 - code: ISA-SCENARIOS
   file: ISA_SCENARIOS.md
-  version: '1.5'
+  version: '2.0'
   lines_approx: ~567
   description: 'Scenarios 1-5 (+1A/1B split), Observations 001-021, Scenario Matrix. v1.5: Session 14 comprehensive reassessment.'
   level: 3
@@ -189,13 +190,13 @@ entries:
   level: 3
 - code: APP-V
   file: APPENDIX_VARIABLES.md
-  version: '1.7'
+  version: '1.9'
   lines_approx: ~90+
   description: Variables dashboard (stock, flow, threshold, positive optionality, normalization quality). Generated from itp-db.
   level: 4
 - code: APP-G
   file: APPENDIX_GAPS.md
-  version: '2.3'
+  version: '2.7'
   lines_approx: ~150+
   description: Consolidated research gaps from ALL modules, prioritized. Generated from itp-db.
   level: 4
@@ -209,7 +210,8 @@ entries:
   file: 17B_HISTORICAL_PRECEDENT_RESEARCH.md
   version: '1.0'
   lines_approx: ~700
-  description: 'Historical precedent research: secure communication for civil resistance (Solidarity, ANC, Chile, Baltics, Myanmar). Background research, not for publication.'
+  description: 'Historical precedent research: secure communication for civil resistance (Solidarity, ANC, Chile, Baltics, Myanmar). Background research, not for
+    publication.'
   level: 3
 - code: IPP-EP
   file: IPP_EMERGENCY_PHASE_REFERENCE.md

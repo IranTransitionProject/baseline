@@ -1,4 +1,4 @@
-version: '2.6'
+version: '2.7'
 date: '2026-03-04'
 source: v2.5 + Session 17 gaps (G17-01 to G17-05, Chinese pipeline)
 summary:
@@ -27,7 +27,8 @@ entries:
   modules:
   - ITB-B
   - ISA-CORE
-  why_critical: Post-decapitation reconstitution creates succession vulnerability. Need to know who controls what. Four-layer succession plan makes alignments now determine wartime governance.
+  why_critical: Post-decapitation reconstitution creates succession vulnerability. Need to know who controls what. Four-layer succession plan makes alignments now
+    determine wartime governance.
   blocking_for:
   - ISA-SCENARIOS succession analysis
   session_identified: 8
@@ -346,8 +347,8 @@ entries:
   modules:
   - ITB-D
   - ITB-G
-  why_critical: 12+ universities in 4 days suggests coordination capacity beyond spontaneous action. Nature and resilience of organizing networks determines whether internal resistance clock sustains or
-    collapses.
+  why_critical: 12+ universities in 4 days suggests coordination capacity beyond spontaneous action. Nature and resilience of organizing networks determines whether
+    internal resistance clock sustains or collapses.
   session_identified: 16
   upgrades: G14-09
   cross_refs:
@@ -438,7 +439,8 @@ entries:
   modules:
   - ISA-TRAPS
   - ITB-F
-  why_critical: Resolves Qatar paradox (Obs 015 / Trap 9 interaction); Qatar benefits from process continuation but may calculate weakened-Iran-but-not-collapsed is optimal
+  why_critical: Resolves Qatar paradox (Obs 015 / Trap 9 interaction); Qatar benefits from process continuation but may calculate weakened-Iran-but-not-collapsed
+    is optimal
   blocking_for:
   - ISA-TRAPS Trap 9
   session_identified: 13
@@ -450,7 +452,8 @@ entries:
   status: OPEN
   modules:
   - ITB-A12
-  why_critical: Determines whether regime reads JCS warning as genuine opponent strain (advancing Phase 3) or deliberate leak (counter-signal). Not accessible under blackout. Feeds A12.6 phase assessment.
+  why_critical: Determines whether regime reads JCS warning as genuine opponent strain (advancing Phase 3) or deliberate leak (counter-signal). Not accessible under
+    blackout. Feeds A12.6 phase assessment.
   blocking_for:
   - ITB-A12 Phase assessment
   session_identified: 16
@@ -472,7 +475,8 @@ entries:
   status: OPEN
   modules:
   - ITB-B
-  why_critical: Determines whether Iran air defense improvement is real or aspirational right now. Integration timeline, sensor-sharing protocols, operator training unknown.
+  why_critical: Determines whether Iran air defense improvement is real or aspirational right now. Integration timeline, sensor-sharing protocols, operator training
+    unknown.
   blocking_for:
   - ISA-SCENARIOS
   - ITB-B B9
@@ -485,8 +489,8 @@ entries:
   status: OPEN
   modules:
   - ITB-B
-  why_critical: Reuters says near-final but no delivery date. If delivered before strike window, fundamentally changes carrier risk calculus. Number of missiles determines demonstration vs. operational
-    capability.
+  why_critical: Reuters says near-final but no delivery date. If delivered before strike window, fundamentally changes carrier risk calculus. Number of missiles determines
+    demonstration vs. operational capability.
   blocking_for:
   - ITB-B B9
   - Brief 6
@@ -513,7 +517,8 @@ entries:
   status: OPEN
   modules:
   - ITB-B
-  why_critical: Determines whether Chinese systems raise costs significantly or fold quickly under US electronic attack. Pakistan Operation Sindoor provides one data point.
+  why_critical: Determines whether Chinese systems raise costs significantly or fold quickly under US electronic attack. Pakistan Operation Sindoor provides one data
+    point.
   blocking_for: []
   session_identified: 17
   cross_refs:
@@ -531,3 +536,83 @@ entries:
   cross_refs:
   - ITB-B B9
   - ITB-F F6.1
+- id: G20-01
+  description: Mojtaba Khamenei's actual policy orientation and personal network beyond IRGC ties
+  priority: 1
+  status: OPEN
+  session_added: 20
+  modules:
+  - ITB-A
+  why_critical: W2/W3 fork, all scenario branches
+- id: G20-02
+  description: IRGC command structure integrity post-decapitation -- extent of operational disruption unknown
+  priority: 1
+  status: OPEN
+  session_added: 20
+  modules:
+  - ITB-B
+  why_critical: W1 probability assessment, Trap 1-2 activation
+- id: G20-03
+  description: Basij operational capacity post-targeted strikes -- degree of domestic enforcement degradation
+  priority: 1
+  status: OPEN
+  session_added: 20
+  modules:
+  - ITB-A9
+  why_critical: W1 probability, Obs 027, internal uprising potential
+- id: G20-04
+  description: Chinese government strategic calculus and potential broker role
+  priority: 1
+  status: OPEN
+  session_added: 20
+  modules:
+  - ITB-F
+  why_critical: W3 feasibility, Obs 028, Hormuz resolution timeline
+- id: G20-05
+  description: Ground truth inside Iran -- population sentiment and behavior under blackout + war
+  priority: 1
+  status: OPEN
+  session_added: 20
+  modules:
+  - ITB-D
+  why_critical: All scenarios, Obs 025
+- id: G20-06
+  description: Iranian nuclear facility status post-strikes -- actual enrichment capacity
+  priority: 2
+  status: OPEN
+  session_added: 20
+  modules:
+  - ITB-B
+  why_critical: W3 negotiation terms, nuclear security planning
+- id: G20-07
+  description: Gulf state post-war demands and coalition posture
+  priority: 2
+  status: OPEN
+  session_added: 20
+  modules:
+  - ITB-F
+  why_critical: Obs 024, F11 rebuild, post-war deal design
+- id: G20-08
+  description: Hezbollah/Lebanese front escalation trajectory
+  priority: 2
+  status: OPEN
+  session_added: 20
+  modules:
+  - ITB-F
+  why_critical: W4 probability, regional scenario modeling
+- id: G20-09
+  description: US domestic political dynamics -- Congressional war powers, public opinion
+  priority: 2
+  status: OPEN
+  session_added: 20
+  modules:
+  - ITB-F
+  why_critical: Campaign duration estimate, W1/W2 fork timing
+- id: G20-10
+  description: Status of political prisoners, especially January 2026 protesters -- Evin Prison administrative collapse reported
+  priority: 2
+  status: OPEN
+  session_added: 20
+  modules:
+  - ITB-D
+  why_critical: 'Humanitarian emergency assessment, Brief #6 update'
