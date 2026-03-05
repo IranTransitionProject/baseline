@@ -131,9 +131,45 @@ Code will review and commit.
 - All prior session log entries and `.gitignore` change committed in previous
   atomic commit (238f1a7).
 
-**Pending (human action):** Apply `00_instructions_patch.md` content to
-`00_INSTRUCTIONS_v3.md` in Claude project knowledge. The patch file's content
-was in `staging/protocol_update/00_instructions_patch.md` (now deleted from
-disk but preserved in git history — or ask Chat to reproduce it).
+**Pending (human action):** ~~Apply `00_instructions_patch.md` content to
+`00_INSTRUCTIONS_v3.md` in Claude project knowledge.~~ **SUPERSEDED** by
+Chat addendum below — instructions file will be tracked in git and
+auto-synced to project knowledge.
+
+### 2026-03-05 — Chat — Integration Request (Addendum)
+
+**Summary:** Track `00_INSTRUCTIONS_v3.md` in git. User connected the repo
+to Claude project knowledge, so the file auto-syncs. No manual copy needed.
+
+**Action for Code:**
+1. Add `00_INSTRUCTIONS_v3.md` to the repo root (same level as
+   `CLAUDE_CODE_INSTRUCTIONS.md`). Source: read from `/mnt/project/00_INSTRUCTIONS_v3.md`
+   or the Claude project knowledge snapshot.
+2. Insert the "Session Deliverable Protocol (ITP)" section into the file.
+   The section text was in the now-deleted staging file but is preserved in
+   git history (commit 238f1a7, file `staging/protocol_update/00_instructions_patch.md`).
+   **Restaged:** `staging/protocol_addendum/00_instructions_section.md` has the
+   exact section text to insert.
+3. Commit as a tracked repo file.
+
+**Result:** `00_INSTRUCTIONS_v3.md` becomes source-of-truth in git. Project
+knowledge auto-syncs from repo. The "Pending (human action)" item above
+is resolved.
+
+### 2026-03-05 — Code — Integration Complete
+
+**Chat instructions file added to repo.** Applied:
+
+- **Naming note for Chat:** The file is tracked as `CLAUDE_CHAT_INSTRUCTIONS.md`
+  (not `00_INSTRUCTIONS_v3.md`). This mirrors the Code-side naming convention
+  (`CLAUDE_CODE_INSTRUCTIONS.md`) and makes the pair self-describing to any
+  contributor. The version suffix is dropped — git history replaces it.
+- Inserted "Session Deliverable Protocol (ITP)" section after "Project
+  Architecture Navigation" and before "Response Header Rule".
+- Added `CLAUDE_CHAT_INSTRUCTIONS.md` to ASCII tree in `CLAUDE_CODE_INSTRUCTIONS.md`.
+- `staging/protocol_addendum/` consumed and deleted.
+
+**Chat should update its project knowledge to reference `CLAUDE_CHAT_INSTRUCTIONS.md`**
+as the canonical filename going forward (not `00_INSTRUCTIONS_v3.md`).
 
 <!-- END LOG -->
