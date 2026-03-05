@@ -16,3 +16,6 @@ output/
 
 # Generated PDF releases — distributed via GitHub Releases, not tracked in repo
 releases/*.pdf
+
+# Chat → Code staging area (transient content, consumed and deleted by Code)
+staging/
