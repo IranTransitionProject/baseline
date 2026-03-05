@@ -62,6 +62,7 @@ framework/
 │
 ├── output/                  # GENERATED MARKDOWN (gitignored — never edit)
 ├── releases/                # GENERATED PDFs (gitignored — attach to GitHub Releases)
+├── staging/                 # Chat → Code content staging (gitignored)
 │
 ├── validate.py              # Schema validation: entities + content modules
 ├── validate_briefs.py       # Schema validation: briefs
@@ -455,6 +456,80 @@ happens in **Claude Code** sessions. The two coordinate via `CLAUDE_SESSION_LOG.
 - When in doubt, the human owner resolves conflicts.
 
 See `CLAUDE_SESSION_LOG.md` for the full protocol and entry format.
+
+---
+
+## Staging Directory Protocol
+
+Chat delivers large content (new briefs, content modules, variable/gap batches)
+via the `staging/` directory at the repo root. This directory is gitignored —
+it exists only as a transfer mechanism between Chat and Code.
+
+### Layout
+
+```
+staging/
+└── session_N/              # One directory per analytical session
+    ├── b14.yaml            # New brief — full file, copy to data/briefs/
+    ├── itb_a13.yaml        # New content module — full file, copy to data/content/
+    ├── variables_patch.yaml # Variable updates — merge into data/variables.yaml
+    ├── gaps_patch.yaml     # Gap updates — merge into data/gaps.yaml
+    └── README.md           # Optional: notes on ambiguities or special handling
+```
+
+### Filename Convention
+
+| Suffix | Mode | Action |
+|--------|------|--------|
+| No `_patch` suffix | **Full file** | Copy directly to target location in `data/` |
+| `_patch` suffix | **Field-level merge** | Apply updates to existing YAML by entity ID |
+
+### Patch File Format
+
+Patch files contain a YAML list of updates keyed by entity ID:
+
+```yaml
+# variables_patch.yaml — merge into data/variables.yaml
+patches:
+  - id: SV-01
+    fields:
+      current_value: "new value"
+      trend: "deteriorating"
+  - id: FV-12
+    fields:
+      current_value: "updated"
+      confidence: "Low"
+```
+
+Code finds each entity by `id` in the target file and updates only the
+specified fields. Fields not listed are left unchanged.
+
+### Code Workflow
+
+1. Read `CLAUDE_SESSION_LOG.md` for pending Integration Requests
+2. For each request referencing staging files:
+   a. Read files from `staging/session_N/`
+   b. Full files → copy to `data/` target path
+   c. Patch files → merge field updates into existing YAML
+   d. Validate: `python validate.py && python validate_briefs.py`
+   e. Build: `python build.py && python build_briefs.py`
+3. Delete the consumed `staging/session_N/` directory
+4. Commit everything atomically:
+   ```bash
+   git add data/ schemas/ templates/ scripts/ *.py *.md .gitignore
+   git commit -m "Session N: [summary from integration request]"
+   ```
+5. Append an Integration Complete entry to `CLAUDE_SESSION_LOG.md`
+
+### Rules
+
+- Code owns all git operations. Chat never runs `git commit`, `git add`, or `git push`.
+- Code deletes staging directories only after successful validation and build.
+- If a staging file fails validation, Code appends a Question entry to the log
+  describing the failure. Code does not partially integrate — fix or skip the
+  entire session's staging batch.
+- Chat may also write directly to `CLAUDE_SESSION_LOG.md` (append only).
+  Code commits the log along with data changes in the same atomic commit.
 
 ---
 

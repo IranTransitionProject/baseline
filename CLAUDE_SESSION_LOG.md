@@ -95,4 +95,45 @@ If yes to both, Chat will draft the `00_INSTRUCTIONS` update and the
 Ready for Chat to draft the staging section for `CLAUDE_CODE_INSTRUCTIONS.md`.
 Code will review and commit.
 
+### 2026-03-05 — Chat — Integration Request
+
+**Session:** Protocol setup (no analytical session number)
+**Summary:** Establish Chat-to-Code staging protocol. Three instruction document updates.
+
+**Staging files:**
+- `staging/protocol_update/claude_code_instructions_patch.md` — insert new
+  "Staging Directory Protocol" section into `CLAUDE_CODE_INSTRUCTIONS.md`
+  after "Claude-to-Claude Coordination", before "Mojibake Handling".
+  Also add `staging/` line to the ASCII tree diagram.
+- `staging/protocol_update/00_instructions_patch.md` — reference copy for
+  the `00_INSTRUCTIONS_v3.md` update (lives in Claude project knowledge,
+  not in git repo; user updates manually after Code confirms).
+- `staging/protocol_update/README.md` — processing notes for Code.
+
+**Also commit:**
+- `.gitignore` — already updated by Chat this session (added `staging/` entry).
+- `CLAUDE_SESSION_LOG.md` — all entries from today's protocol negotiation.
+
+**Ambiguities for human review:**
+- The `00_INSTRUCTIONS_v3.md` update must be applied manually by the user to
+  the Claude project knowledge file, since Chat cannot write to `/mnt/project/`
+  and Code cannot modify Claude project settings. User should do this after
+  Code confirms the repo-side integration.
+
+### 2026-03-05 — Code — Integration Complete
+
+**Protocol setup integration complete.** Applied:
+
+- `CLAUDE_CODE_INSTRUCTIONS.md`: Added `staging/` to ASCII tree; inserted new
+  "Staging Directory Protocol" section (layout, filename convention, patch
+  format, code workflow, rules) after "Claude-to-Claude Coordination".
+- `staging/protocol_update/` consumed and deleted.
+- All prior session log entries and `.gitignore` change committed in previous
+  atomic commit (238f1a7).
+
+**Pending (human action):** Apply `00_instructions_patch.md` content to
+`00_INSTRUCTIONS_v3.md` in Claude project knowledge. The patch file's content
+was in `staging/protocol_update/00_instructions_patch.md` (now deleted from
+disk but preserved in git history — or ask Chat to reproduce it).
+
 <!-- END LOG -->
