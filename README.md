@@ -1,68 +1,108 @@
-# Iran Transition Project — Structured Database
+# Iran Transition Project
+
+**Independent analytical framework for Iranian regime architecture and transition dynamics.**
+
+🌐 [irantransitionproject.org](https://irantransitionproject.org)
+📧 [admin@irantransitionproject.org](mailto:admin@irantransitionproject.org)
+📄 Licensed under [CC BY-SA 4.0](LICENSE) · [Governance](GOVERNANCE.md) · [Contributing](CONTRIBUTING.md)
+
+---
 
 ## What This Is
 
-A relational database architecture for the Iran Transition Project (ITP), replacing hand-edited markdown files with structured YAML data validated against JSON schemas. Markdown reports are generated artifacts.
+The Iran Transition Project is an open, independent analytical framework examining
+how power actually operates inside the Iranian regime, where structural
+vulnerabilities exist, and what conditions a viable transition would require.
 
-## Quick Start
+This is not advocacy for any faction, opposition group, or foreign policy position.
+The guiding question throughout is: *what must be true for a transition to succeed,
+regardless of who governs?*
 
-```bash
-# Validate all data
-python validate.py
+For the full project rationale, see [README_PROJECT.md](README_PROJECT.md).
 
-# Build all markdown reports + content + briefs
-python build.py
+---
 
-# Validate then build
-python build.py --validate
+## Repository Structure
 
-# Build specific targets
-python build.py variables   # one report
-python build.py content     # content modules only
-python build.py briefs      # briefs only
+```
+/
+├── schema/              # JSON Schema definitions for all data structures
+├── src/                 # YAML source-of-truth files (validated against schema)
+│   ├── baseline/        # Iran Transition Baseline (ITB) modules
+│   ├── stress/          # Iran Stress Architecture (ISA) modules
+│   ├── briefs/          # Policy brief source data
+│   └── scenarios/       # Scenario and variable definitions
+├── templates/           # Jinja2 templates for artifact generation
+│   ├── markdown/
+│   ├── html/
+│   └── pdf/
+├── build/               # Python build scripts
+│   ├── build.py         # Main build entry point
+│   ├── validate.py      # Schema validation runner
+│   └── render.py        # Template rendering engine
+├── dist/                # Generated artifacts (do not edit directly)
+│   ├── markdown/
+│   ├── html/
+│   └── pdf/
+├── agents/              # Claude Code agent configuration files
+├── docs/                # Project documentation
+├── LICENSE
+├── GOVERNANCE.md
+├── CONTRIBUTING.md
+├── README.md            # This file
+└── README_PROJECT.md    # Full project rationale and background
 ```
 
-## Why
+---
 
-The original project accumulated 21+ markdown files updated via manual patch instructions from LLM sessions. This caused:
-- Line number drift between sessions
-- Inconsistent formatting across patches
-- No schema validation on data integrity
-- Cross-reference breakage as modules grew
-- Compounding errors with each session
+## Build System
 
-The database architecture solves these by making the YAML the single source of truth, with deterministic rendering to markdown.
-
-## Current Status
-
-**Phase 0 (Complete):** Variables (77 entries), Gaps (35 entries) migrated. Build pipeline operational.
-
-**Phase 1 (Complete):** Traps (12), Observations (21), Scenarios (7), Sessions (13), Modules (25) migrated. All 190 entries validate. ISA-SCENARIOS and ISA-TRAPS templates built and tested.
-
-**Phase 2 (Complete):** Module prose content migrated to `data/content/` YAML files.
-- Schema: `schemas/content.schema.json`
-- Template: `templates/module_content.md.j2` (generic for all modules)
-- Master index: `templates/master_index.md.j2` + `data/index_meta.yaml`
-- All 19 modules migrated, validated, and building
-- Migration script: `scripts/migrate_content.py` (uses ftfy for mojibake repair)
-
-**Phase 3 (Complete):** Convergence Briefs migrated to `data/briefs/` YAML files.
-- Schema: `schemas/brief.schema.json`
-- Template: `templates/brief.md.j2` (all brief types)
-- Additional templates: `brief_changelog.md.j2`, `brief_governance.md.j2`
-- 14 briefs migrated, validated, and building (10 numbered + 1 emergency + 1 exec summary + 1 intro + 1 supplemental)
-- Integrated into unified `validate.py` and `build.py` pipeline
-
-**Totals:** 190 structured entries + 19 content modules + 14 briefs = 38 generated markdown outputs
-
-## Requirements
+The project uses a YAML-first architecture. All analytical content lives in
+validated YAML source files. Markdown, HTML, and PDF outputs are generated
+artifacts — never edited directly.
 
 ```bash
-pip install pyyaml jsonschema jinja2 ftfy
+# Install dependencies
+pip install -r requirements.txt
+
+# Validate all source files against schema
+python build/validate.py
+
+# Build all artifacts
+python build/build.py
+
+# Build specific output format
+python build/build.py --format pdf
+python build/build.py --format markdown
 ```
 
-## See Also
+Requires Python 3.10+.
 
-- `CLAUDE_CODE_INSTRUCTIONS.md` — Operating manual for Claude Code
-- `schemas/` — JSON Schema definitions for all entity types
-- `scripts/` — One-time migration scripts from original markdown
+---
+
+## Current Release
+
+| Module | Version | Status |
+|--------|---------|--------|
+| Iran Transition Baseline (ITB) | 2.3 | Active |
+| Iran Stress Architecture (ISA) | 1.0 | Active |
+| Policy Briefs | 5 published | Active |
+
+---
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md). All contributors must sign the CLA.
+
+Highest-priority needs: Persian-language source integration, subject matter
+review, and methodological critique.
+
+---
+
+## License
+
+[CC BY-SA 4.0](LICENSE) — open for reuse and adaptation with attribution,
+derivative works must remain open under the same terms.
+
+Alternative licensing available for policy institutions with copyleft
+constraints — contact admin@irantransitionproject.org.
