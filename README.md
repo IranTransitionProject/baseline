@@ -3,7 +3,9 @@
 **Independent analytical framework for Iranian regime architecture and transition dynamics.**
 
 🌐 [irantransitionproject.org](https://irantransitionproject.org)
+
 📧 [admin@irantransitionproject.org](mailto:admin@irantransitionproject.org)
+
 📄 Licensed under [CC BY-SA 4.0](LICENSE) · [Governance](GOVERNANCE.md) · [Contributing](CONTRIBUTING.md)
 
 ---
@@ -18,7 +20,7 @@ This is not advocacy for any faction, opposition group, or foreign policy positi
 The guiding question throughout is: *what must be true for a transition to succeed,
 regardless of who governs?*
 
-For the full project rationale, see [README_PROJECT.md](README_PROJECT.md).
+For the full project rationale and database architecture, see [ARCHITECTURE.md](ARCHITECTURE.md).
 
 ---
 
@@ -26,31 +28,25 @@ For the full project rationale, see [README_PROJECT.md](README_PROJECT.md).
 
 ```
 /
-├── schema/              # JSON Schema definitions for all data structures
-├── src/                 # YAML source-of-truth files (validated against schema)
-│   ├── baseline/        # Iran Transition Baseline (ITB) modules
-│   ├── stress/          # Iran Stress Architecture (ISA) modules
-│   ├── briefs/          # Policy brief source data
-│   └── scenarios/       # Scenario and variable definitions
-├── templates/           # Jinja2 templates for artifact generation
-│   ├── markdown/
-│   ├── html/
-│   └── pdf/
-├── build/               # Python build scripts
-│   ├── build.py         # Main build entry point
-│   ├── validate.py      # Schema validation runner
-│   └── render.py        # Template rendering engine
-├── dist/                # Generated artifacts (do not edit directly)
-│   ├── markdown/
-│   ├── html/
-│   └── pdf/
-├── agents/              # Claude Code agent configuration files
-├── docs/                # Project documentation
-├── LICENSE
-├── GOVERNANCE.md
+├── .github/workflows/           # CI configuration
+├── data/                        # YAML source-of-truth files (validated against schemas)
+│   ├── content/                 # Iran Transition Baseline (ITB) module prose
+│   ├── briefs/                  # Convergence Brief source data
+│   └── *.yaml                   # Variables, gaps, traps, observations, scenarios, sessions
+├── schemas/                     # JSON Schema definitions for all data structures
+├── templates/                   # Jinja2 templates for artifact generation
+├── scripts/                     # One-time migration and utility scripts
+├── build.py                     # Main build entry point (markdown output)
+├── build_briefs.py              # Brief-specific build runner
+├── build_pdf.py                 # PDF release bundle builder
+├── validate.py                  # Schema validation runner
+├── validate_briefs.py           # Brief schema validation runner
+├── ARCHITECTURE.md              # Database design and build pipeline documentation
+├── CLAUDE_CODE_INSTRUCTIONS.md  # Operating manual for AI-assisted sessions
 ├── CONTRIBUTING.md
-├── README.md            # This file
-└── README_PROJECT.md    # Full project rationale and background
+├── GOVERNANCE.md
+├── LICENSE
+└── README.md                    # This file
 ```
 
 ---
@@ -58,35 +54,49 @@ For the full project rationale, see [README_PROJECT.md](README_PROJECT.md).
 ## Build System
 
 The project uses a YAML-first architecture. All analytical content lives in
-validated YAML source files. Markdown, HTML, and PDF outputs are generated
+validated YAML source files. Markdown and PDF outputs are generated
 artifacts — never edited directly.
 
 ```bash
 # Install dependencies
-pip install -r requirements.txt
+pip install pyyaml jsonschema jinja2 ftfy weasyprint markdown
 
-# Validate all source files against schema
-python build/validate.py
+# Validate all source files against schemas
+python validate.py
+python validate_briefs.py
 
-# Build all artifacts
-python build/build.py
+# Build all markdown output
+python build.py
+python build_briefs.py
 
-# Build specific output format
-python build/build.py --format pdf
-python build/build.py --format markdown
+# Build PDF release bundles (run after build steps above)
+python build_pdf.py
 ```
 
 Requires Python 3.10+.
 
 ---
 
-## Current Release
+## Releases
 
-| Module | Version | Status |
-|--------|---------|--------|
-| Iran Transition Baseline (ITB) | 2.3 | Active |
-| Iran Stress Architecture (ISA) | 1.0 | Active |
-| Policy Briefs | 5 published | Active |
+PDF bundles are published as [GitHub Releases](../../releases). Each release includes:
+
+| File | Contents | Audience |
+|------|----------|----------|
+| `ITP-Briefs-v{date}.pdf` | All policy briefs + reference appendix | General / policy |
+| `ITP-Reference-v{date}.pdf` | Briefs + full ITB/ISA analytical library | Researchers |
+
+---
+
+## Current State
+
+| Component | Coverage | Status |
+|-----------|----------|--------|
+| Iran Transition Baseline (ITB) | 8 pillars, 19 modules | Active |
+| Iran Stress Architecture (ISA) | Traps, observations, scenarios | Active |
+| Policy Briefs | 13 published + supplementals | Active |
+| Analytical variables | 86 tracked | Active |
+| Research gaps | 57 registered (49 open) | Active |
 
 ---
 
