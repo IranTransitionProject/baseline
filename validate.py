@@ -240,8 +240,6 @@ def check_cross_references() -> list:
             elif path.stem == "variables":
                 var_ids.add(val)
 
-    # For now, report counts rather than deep cross-ref checking
-    # (Deep checking requires parsing prose cross_refs strings, which is Phase 2)
     print(f"\n  Cross-reference inventory:")
     print(f"    Traps:        {len(trap_ids)}")
     print(f"    Observations: {len(obs_ids)}")
@@ -249,6 +247,67 @@ def check_cross_references() -> list:
     print(f"    Modules:      {len(module_codes)}")
     print(f"    Gaps:         {len(gap_ids)}")
     print(f"    Variables:    {len(var_ids)}")
+
+    # --- Deep cross-reference validation ---
+    import re
+
+    def extract_refs(text):
+        """Extract entity references from free-text cross_refs strings."""
+        refs = []
+        if not isinstance(text, str):
+            return refs
+        # Obs NNN — normalize to strip leading zeros for integer ID comparison
+        for m in re.finditer(r'Obs\s+(\d+)', text):
+            refs.append(('obs', str(int(m.group(1)))))
+        # Trap NNN
+        for m in re.finditer(r'Trap\s+(\d+)', text):
+            refs.append(('trap', str(int(m.group(1)))))
+        # Scenario S1, S1A, W1 etc.
+        for m in re.finditer(r'\b(S\d+[A-Z]?|W\d+)\b', text):
+            refs.append(('scenario', m.group(1)))
+        # Gap G20-01 etc.
+        for m in re.finditer(r'\b(G\d+-\d+)\b', text):
+            refs.append(('gap', m.group(1)))
+        return refs
+
+    # Check cross_refs fields in observations
+    for entry in load_yaml(DATA / "observations.yaml"):
+        eid = entry.get("id", "?")
+        for ref_str in entry.get("cross_refs", []):
+            for ref_type, ref_id in extract_refs(ref_str):
+                if ref_type == 'obs' and ref_id not in obs_ids:
+                    errors.append(f"  [xref] Obs {eid}: references Obs {ref_id} which does not exist")
+                elif ref_type == 'trap' and ref_id not in trap_ids:
+                    errors.append(f"  [xref] Obs {eid}: references Trap {ref_id} which does not exist")
+                elif ref_type == 'scenario' and ref_id not in scenario_ids:
+                    errors.append(f"  [xref] Obs {eid}: references Scenario {ref_id} which does not exist")
+
+    # Check cross_refs and traps_activated in scenarios
+    for entry in load_yaml(DATA / "scenarios.yaml"):
+        sid = entry.get("id", "?")
+        for ref_str in entry.get("cross_refs", []):
+            for ref_type, ref_id in extract_refs(ref_str):
+                if ref_type == 'obs' and ref_id not in obs_ids:
+                    errors.append(f"  [xref] Scenario {sid}: references Obs {ref_id} which does not exist")
+                elif ref_type == 'trap' and ref_id not in trap_ids:
+                    errors.append(f"  [xref] Scenario {sid}: references Trap {ref_id} which does not exist")
+        for ref_str in entry.get("traps_activated", []):
+            for ref_type, ref_id in extract_refs(ref_str):
+                if ref_type == 'trap' and ref_id not in trap_ids:
+                    errors.append(f"  [xref] Scenario {sid}: activates Trap {ref_id} which does not exist")
+
+    # Check cross_refs in traps
+    for entry in load_yaml(DATA / "traps.yaml"):
+        tid = entry.get("id", "?")
+        for ref_str in entry.get("cross_refs", []):
+            for ref_type, ref_id in extract_refs(ref_str):
+                if ref_type == 'obs' and ref_id not in obs_ids:
+                    errors.append(f"  [xref] Trap {tid}: references Obs {ref_id} which does not exist")
+
+    if errors:
+        print(f"\n  Cross-reference warnings: {len(errors)}")
+        for e in errors:
+            print(e)
 
     return errors
 

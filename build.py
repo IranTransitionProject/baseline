@@ -126,6 +126,20 @@ def build_all(env, targets=None):
         "build_date": date.today().isoformat(),
     }
 
+    # Deterministic ordering — prevents git noise from YAML load-order variation
+    for key, sort_field in [("variables", "id"), ("gaps", "id"), ("traps", "id"),
+                            ("observations", "id"), ("sessions", "number"), ("modules", "code")]:
+        ctx[key] = sorted(ctx[key], key=lambda x: (str(x.get(sort_field, ""))))
+    # Scenarios: sort S-prefixed first (by number), then W-prefixed (by number)
+    def scenario_sort_key(s):
+        sid = str(s.get("id", ""))
+        if sid.startswith("S"):
+            return (0, sid)
+        elif sid.startswith("W"):
+            return (1, sid)
+        return (2, sid)
+    ctx["scenarios"] = sorted(ctx["scenarios"], key=scenario_sort_key)
+
     # Helpers for templates
     def filter_by(items, key, value):
         return [i for i in items if i.get(key) == value]
