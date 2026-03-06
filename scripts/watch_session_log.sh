@@ -1,21 +1,24 @@
 #!/usr/bin/env bash
 # watch_session_log.sh
 #
-# Watches CLAUDE_SESSION_LOG.md for new Chat Integration Requests and
-# invokes Claude Code CLI non-interactively to process them.
+# One-shot processor for CLAUDE_SESSION_LOG.md. Triggered by launchd
+# WatchPaths when the log file changes. Checks whether new Chat Integration
+# Requests have appeared; if so, invokes Claude Code CLI non-interactively.
+# Exits after processing (launchd restarts it on the next file change).
 #
-# Loop prevention: only triggers when the count of "Chat — Integration Request"
-# entries increases. Code's own writes (Integration Complete) don't change
-# that count, so no feedback loop.
+# Loop prevention: compares current Chat IR count against stored state.
+# Code's own writes (Integration Complete) don't increase the Chat IR count,
+# so they don't trigger a Claude invocation.
 #
 # Log rotation: delegates to rotate_session_log.py when file exceeds
-# ROTATION_THRESHOLD lines. Rotation commits automatically.
+# ROTATION_THRESHOLD lines.
 #
-# Dependencies: fswatch (brew install fswatch), claude CLI
+# Dependencies: claude CLI (resolved dynamically from ~/Library/...)
 # State: .claude/watcher_state (last known IR count), .claude/watcher.lock
 # Log:   .claude/watcher.log
 #
-# Run directly for foreground monitoring, or via launchd (install_watcher.sh).
+# Install: bash scripts/install_watcher.sh
+# Run manually: bash scripts/watch_session_log.sh
 
 set -euo pipefail
 
@@ -23,23 +26,21 @@ REPO_ROOT="/Volumes/SanDiskSSD/Developer/Repositories/framework"
 LOG_FILE="$REPO_ROOT/CLAUDE_SESSION_LOG.md"
 STATE_DIR="$REPO_ROOT/.claude"
 STATE_FILE="$STATE_DIR/watcher_state"
+LOCK_FILE="$STATE_DIR/watcher.lock"
+ROTATION_THRESHOLD=400
 
-# Redirect all output (including shell errors) to the watcher log early,
-# so even pre-startup crashes are captured when running under launchd.
+TRIGGER_PATTERN="— Chat — Integration Request"
+
+# Route all output to watcher.log early (captures shell-level errors too)
 mkdir -p "$STATE_DIR"
 exec >> "$STATE_DIR/watcher.log" 2>&1
 
-# Trap to log the exit code whenever the script exits (aids launchd debugging)
-trap 'echo "[$(date +%Y-%m-%d\ %H:%M:%S)] WATCHER EXIT: status=$?" >> "$STATE_DIR/watcher.log"' EXIT
-LOCK_FILE="$STATE_DIR/watcher.lock"
-ROTATION_THRESHOLD=400  # lines before rotation is triggered
-
-TRIGGER_PATTERN="— Chat — Integration Request"
+trap 'echo "[$(date "+%Y-%m-%d %H:%M:%S")] EXIT: status=$?"' EXIT
 
 # Find claude binary — resolve latest installed version dynamically
 CLAUDE_BIN=$(ls -1dt "$HOME/Library/Application Support/Claude/claude-code/"*/claude 2>/dev/null | head -1 || true)
 if [[ -z "$CLAUDE_BIN" ]]; then
-    echo "ERROR: claude CLI not found" >&2
+    echo "[$(date "+%Y-%m-%d %H:%M:%S")] ERROR: claude CLI not found"
     exit 1
 fi
 
@@ -51,98 +52,53 @@ per the Staging Directory Protocol in CLAUDE_CODE_INSTRUCTIONS.md. \
 Commit all changes atomically and append an Integration Complete entry \
 to the session log."
 
-# --- Helpers ---
-log() {
-    echo "[$(date '+%Y-%m-%d %H:%M:%S')] $*"
-}
+log() { echo "[$(date "+%Y-%m-%d %H:%M:%S")] $*"; }
 
 count_requests() {
     grep -c "$TRIGGER_PATTERN" "$LOG_FILE" 2>/dev/null || echo "0"
 }
 
-# --- Log rotation ---
-rotate_log() {
-    local line_count
-    line_count=$(wc -l < "$LOG_FILE" | tr -d ' ')
-    log "Rotation triggered ($line_count lines > $ROTATION_THRESHOLD threshold)"
-    python3 "$REPO_ROOT/scripts/rotate_session_log.py" "$LOG_FILE" \
-        && log "Rotation complete" \
-        || log "WARNING: rotation failed — skipping (log continues to grow)"
-}
+# --- Check for new requests ---
+current_count=$(count_requests)
+last_count=0
+[[ -f "$STATE_FILE" ]] && last_count=$(cat "$STATE_FILE")
 
-# --- Claude invocation ---
-process_requests() {
-    # Lockfile prevents concurrent runs
-    if [[ -f "$LOCK_FILE" ]]; then
-        log "Claude already running (lockfile present) — skipping this event"
-        return
-    fi
+# Always update state (so Code's own writes don't trigger on next run)
+echo "$current_count" > "$STATE_FILE"
 
-    log "Triggering Claude Code (non-interactive)"
-    touch "$LOCK_FILE"
-
-    cd "$REPO_ROOT"
-    # Unset CLAUDECODE so the CLI doesn't refuse to start inside an existing session
-    # stdout/stderr already go to watcher.log via exec redirect at top of script
-    env -u CLAUDECODE \
-        "$CLAUDE_BIN" -p \
-        --permission-mode bypassPermissions \
-        --model sonnet \
-        "$CLAUDE_PROMPT" \
-        && log "Claude Code run complete" \
-        || log "ERROR: Claude Code exited with error (exit $?)"
-
-    rm -f "$LOCK_FILE"
-
-    # Update state after run (IR count may have changed if Chat wrote again during run)
-    count_requests > "$STATE_FILE"
-}
-
-# --- Check file and maybe trigger ---
-check_and_trigger() {
-    local current_count
-    current_count=$(count_requests)
-    local last_count=0
-    [[ -f "$STATE_FILE" ]] && last_count=$(cat "$STATE_FILE")
-
-    if (( current_count > last_count )); then
-        log "Integration Request count: $last_count → $current_count"
-        process_requests
-    fi
-
-    # Check rotation threshold after processing
-    local line_count
-    line_count=$(wc -l < "$LOG_FILE" | tr -d ' ')
-    if (( line_count > ROTATION_THRESHOLD )); then
-        rotate_log
-        # Update state after rotation (line numbers shifted)
-        count_requests > "$STATE_FILE"
-    fi
-}
-
-# --- Init ---
-if [[ ! -f "$STATE_FILE" ]]; then
-    count_requests > "$STATE_FILE"
-    log "Initialized: $(cat "$STATE_FILE") existing Integration Request(s)"
+if (( current_count <= last_count )); then
+    # No new Chat IR entries — nothing to do (Code's write or no change)
+    exit 0
 fi
 
-log "Watcher started — monitoring $LOG_FILE"
-log "Claude binary: $CLAUDE_BIN"
+log "Integration Request count: $last_count → $current_count"
 
-# Check once at startup (in case requests arrived while watcher was down)
-check_and_trigger
+# --- Lockfile: prevent concurrent invocations ---
+if [[ -f "$LOCK_FILE" ]]; then
+    log "Claude already running (lockfile present) — skipping"
+    exit 0
+fi
 
-# Watch for changes — outer loop restarts fswatch if it exits (e.g. EX_CONFIG
-# on first launch under launchd before FSEvents is fully initialised).
-# -o aggregates rapid events into one; -l 2 lets writes settle.
-# pipefail is disabled for this pipeline so fswatch exits don't kill the script.
-while true; do
-    set +o pipefail
-    fswatch -o -l 2 "$LOG_FILE" | while read -r _; do
-        check_and_trigger
-    done
-    EXIT_CODE=$?
-    set -o pipefail
-    log "fswatch exited (code $EXIT_CODE) — restarting in 10 seconds"
-    sleep 10
-done
+log "Triggering Claude Code (non-interactive)"
+touch "$LOCK_FILE"
+
+cd "$REPO_ROOT"
+# env -u CLAUDECODE: strip nested-session guard so CLI starts outside a session
+env -u CLAUDECODE \
+    "$CLAUDE_BIN" -p \
+    --permission-mode bypassPermissions \
+    --model sonnet \
+    "$CLAUDE_PROMPT" \
+    && log "Claude Code run complete" \
+    || log "ERROR: Claude Code exited with error (exit $?)"
+
+rm -f "$LOCK_FILE"
+
+# --- Log rotation ---
+line_count=$(wc -l < "$LOG_FILE" | tr -d ' ')
+if (( line_count > ROTATION_THRESHOLD )); then
+    log "Rotation triggered ($line_count lines)"
+    python3 "$REPO_ROOT/scripts/rotate_session_log.py" "$LOG_FILE" \
+        && log "Rotation complete" \
+        || log "WARNING: rotation failed — log continues to grow"
+fi

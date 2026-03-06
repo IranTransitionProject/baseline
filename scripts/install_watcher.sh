@@ -32,11 +32,13 @@ fi
 chmod +x "$WATCH_SCRIPT"
 
 # Build PATH for launchd (it doesn't inherit the user's shell PATH)
-FSWATCH_BIN=$(command -v fswatch)
-CLAUDE_DIR=$(dirname "$CLAUDE_BIN")
-LAUNCHD_PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:$CLAUDE_DIR"
+LAUNCHD_PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin"
 
 # --- Write plist ---
+# Uses WatchPaths so launchd triggers the script on each file change
+# (native kqueue — no fswatch needed). The script runs once, processes
+# any new Integration Requests, then exits. launchd restarts it on the
+# next file change. No RunAtLoad, no KeepAlive, no WorkingDirectory.
 cat > "$PLIST_PATH" <<EOF
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
@@ -60,26 +62,15 @@ cat > "$PLIST_PATH" <<EOF
         <string>$HOME</string>
     </dict>
 
-    <key>WorkingDirectory</key>
-    <string>$REPO_ROOT</string>
+    <!-- Trigger on session log file changes (native kqueue, no fswatch needed) -->
+    <key>WatchPaths</key>
+    <array>
+        <string>$REPO_ROOT/CLAUDE_SESSION_LOG.md</string>
+    </array>
 
-    <!-- Start immediately when loaded and after each reboot -->
-    <key>RunAtLoad</key>
-    <true/>
-
-    <!-- Restart automatically if the watcher process dies -->
-    <key>KeepAlive</key>
-    <true/>
-
-    <!-- Minimum seconds between restarts (avoids tight crash loops) -->
+    <!-- Prevent hammering if something loops: min 5s between runs -->
     <key>ThrottleInterval</key>
-    <integer>30</integer>
-
-    <!-- Route stdout/stderr to watcher.log (the script also appends here) -->
-    <key>StandardOutPath</key>
-    <string>$REPO_ROOT/.claude/watcher.log</string>
-    <key>StandardErrorPath</key>
-    <string>$REPO_ROOT/.claude/watcher.log</string>
+    <integer>5</integer>
 </dict>
 </plist>
 EOF
