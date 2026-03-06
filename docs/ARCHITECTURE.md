@@ -1,11 +1,11 @@
 # Iran Transition Project — Database Architecture
 
 Technical reference for the ITP structured database and build pipeline.
-For orientation and quickstart, see [README.md](README.md).
+For orientation and quickstart, see [README.md](../README.md).
 For AI session protocols, see [CLAUDE_CHAT_INSTRUCTIONS.md](CLAUDE_CHAT_INSTRUCTIONS.md) (analytical research)
 and [CLAUDE_CODE_INSTRUCTIONS.md](CLAUDE_CODE_INSTRUCTIONS.md) (repository maintenance).
-For coordination between the two, see [CLAUDE_SESSION_LOG.md](CLAUDE_SESSION_LOG.md).
-For project governance and licensing, see [GOVERNANCE.md](GOVERNANCE.md).
+For coordination between the two, see [CLAUDE_SESSION_LOG.md](../CLAUDE_SESSION_LOG.md).
+For project governance and licensing, see [GOVERNANCE.md](../GOVERNANCE.md).
 
 ---
 
@@ -31,13 +31,13 @@ data/*.yaml            (structured entity data)
 data/content/*.yaml    (ITB/ISA module prose)
 data/briefs/*.yaml     (convergence brief content)
         │
-        ├─── validate.py          schema validation for entity + content files
-        ├─── validate_briefs.py   schema validation for brief files
+        ├─── pipeline/validate.py          schema validation for entity + content files
+        ├─── pipeline/validate_briefs.py   schema validation for brief files
         │
-        ├─── build.py             entity reports + content modules → output/
-        ├─── build_briefs.py      convergence briefs → output/
+        ├─── pipeline/build.py             entity reports + content modules → output/
+        ├─── pipeline/build_briefs.py      convergence briefs → output/
         │
-        └─── build_pdf.py         output/ → releases/*.pdf → GitHub Release
+        └─── pipeline/build_pdf.py         output/ → releases/*.pdf → GitHub Release
 ```
 
 `output/` and `releases/` are gitignored. Distributed content reaches readers only
@@ -184,7 +184,7 @@ Renders entity reports and content modules. Uses a single Jinja2 environment
 | `scenarios` | `output/ISA_SCENARIOS.md` |
 | `index` | `output/00_MASTER_INDEX.md` |
 | `content` | All 22 content module files |
-| `--validate` | Runs validate.py first, aborts on failure |
+| `--validate` | Runs pipeline/validate.py first, aborts on failure |
 
 ### `build_briefs.py`
 
@@ -221,10 +221,10 @@ A4, Georgia serif, running page numbers. Brief assembly order controlled by
 CLI options:
 
 ```bash
-python build_pdf.py                    # both tiers
-python build_pdf.py --briefs-only      # Tier 1 only
-python build_pdf.py --full-only        # Tier 2 only
-python build_pdf.py --date 2026-03-04  # override release date
+python pipeline/build_pdf.py                    # both tiers
+python pipeline/build_pdf.py --briefs-only      # Tier 1 only
+python pipeline/build_pdf.py --full-only        # Tier 2 only
+python pipeline/build_pdf.py --date 2026-03-04  # override release date
 ```
 
 ---
@@ -234,16 +234,16 @@ python build_pdf.py --date 2026-03-04  # override release date
 ```bash
 # 1. Edit YAML source files in data/
 # 2. Validate
-python validate.py && python validate_briefs.py
+python pipeline/validate.py && python pipeline/validate_briefs.py
 
 # 3. Build markdown
-python build.py && python build_briefs.py
+python pipeline/build.py && python pipeline/build_briefs.py
 
 # 4. Build PDFs
-python build_pdf.py
+python pipeline/build_pdf.py
 
 # 5. Commit source changes only (output/ and releases/ are gitignored)
-git add data/ schemas/ templates/ scripts/ *.py *.md
+git add data/ schemas/ templates/ pipeline/ scripts/ docs/ *.md
 git commit -m "Session N: [summary]"
 
 # 6. Tag and push
@@ -251,7 +251,7 @@ git tag v2026-03-05
 git push origin main --tags
 
 # 7. Create GitHub Release tagged v{YYYY-MM-DD}
-#    Body: fill from RELEASE_NOTES_TEMPLATE.md
+#    Body: fill from templates/RELEASE_NOTES_TEMPLATE.md
 #    Assets: releases/ITP-Briefs-v{date}.pdf
 #            releases/ITP-Reference-v{date}.pdf
 ```

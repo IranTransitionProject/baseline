@@ -17,7 +17,7 @@ jobs:
         run: pip install pyyaml jsonschema jinja2 ftfy
 
       - name: Validate schemas and cross-references
-        run: python validate.py
+        run: python pipeline/validate.py
 
       - name: Build outputs
-        run: python build.py
+        run: python pipeline/build.py

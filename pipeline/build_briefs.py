@@ -22,7 +22,7 @@ except ImportError:
     import jinja2
 
 
-BASE = Path(__file__).resolve().parent
+BASE = Path(__file__).resolve().parent.parent
 BRIEFS_DIR = BASE / "data" / "briefs"
 TEMPLATES_DIR = BASE / "templates"
 OUTPUT_DIR = BASE / "output"

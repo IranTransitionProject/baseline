@@ -15,7 +15,7 @@ import yaml
 from pathlib import Path
 from jsonschema import validate, ValidationError
 
-BASE = Path(__file__).parent
+BASE = Path(__file__).parent.parent
 DATA = BASE / "data"
 SCHEMAS = BASE / "schemas"
 

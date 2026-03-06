@@ -6,7 +6,7 @@ Thank you for your interest in contributing to the Iran Transition Project.
 
 ## Before You Contribute
 
-**Read `GOVERNANCE.md` first.** This project has a strict mission constraint:
+**Read [`GOVERNANCE.md`](../GOVERNANCE.md) first.** This project has a strict mission constraint:
 rigorous, impartial, publicly available analysis. Contributions that introduce
 factional alignment, political advocacy, or unsupported claims will not be merged
 regardless of their other merits.

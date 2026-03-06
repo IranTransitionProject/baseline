@@ -18,7 +18,7 @@ from pathlib import Path
 from datetime import date
 from jinja2 import Environment, FileSystemLoader
 
-BASE = Path(__file__).parent
+BASE = Path(__file__).parent.parent
 DATA = BASE / "data"
 CONTENT = DATA / "content"
 BRIEFS = DATA / "briefs"

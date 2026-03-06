@@ -50,7 +50,15 @@ framework/
 │   ├── module_content.md.j2
 │   ├── brief.md.j2
 │   ├── brief_changelog.md.j2
-│   └── brief_governance.md.j2
+│   ├── brief_governance.md.j2
+│   └── RELEASE_NOTES_TEMPLATE.md
+│
+├── pipeline/                # BUILD & VALIDATION SCRIPTS
+│   ├── validate.py          # Schema validation: entities + content modules
+│   ├── validate_briefs.py   # Schema validation: briefs
+│   ├── build.py             # YAML → Markdown: entity reports + content modules
+│   ├── build_briefs.py      # YAML → Markdown: convergence briefs
+│   └── build_pdf.py         # Markdown → PDF: two-tier release bundles
 │
 ├── scripts/
 │   ├── watch_session_log.sh     # Watcher: triggers Code on new Chat IR entries
@@ -63,25 +71,25 @@ framework/
 │   ├── migrate_b03.py
 │   └── cleanup_variables.py
 │
+├── docs/                    # PROJECT DOCUMENTATION
+│   ├── ARCHITECTURE.md          # Database design and pipeline documentation
+│   ├── CONTRIBUTING.md          # Contribution standards and CLA
+│   ├── SUBMISSIONS.md           # Community submissions protocol
+│   ├── METHODOLOGY.md           # Analytical methodology for peer review
+│   ├── GUIDE_ENGINEERS.md       # Technical getting-started guide
+│   ├── GUIDE_ANALYSTS.md        # Analyst getting-started guide (forthcoming)
+│   ├── WORKING_WITH_LLMS.md     # LLM best practices guide
+│   ├── CLAUDE_CHAT_INSTRUCTIONS.md  # Chat-side operating instructions
+│   └── CLAUDE_CODE_INSTRUCTIONS.md  # This file
+│
 ├── output/                  # GENERATED MARKDOWN (gitignored — never edit)
 ├── releases/                # GENERATED PDFs (gitignored — attach to GitHub Releases)
 ├── staging/                 # Chat → Code content staging (gitignored)
 │
-├── validate.py              # Schema validation: entities + content modules
-├── validate_briefs.py       # Schema validation: briefs
-├── build.py                 # YAML → Markdown: entity reports + content modules
-├── build_briefs.py          # YAML → Markdown: convergence briefs
-├── build_pdf.py             # Markdown → PDF: two-tier release bundles
-├── ARCHITECTURE.md          # Database design and pipeline documentation
-├── README.md                # Project overview and quickstart
-├── CONTRIBUTING.md          # Contribution standards and CLA
+├── README.md                # Project overview (audience-facing)
 ├── GOVERNANCE.md            # Mission constraint and succession plan
 ├── CLAUDE_SESSION_LOG.md    # Claude-to-Claude coordination log
-├── CLAUDE_CHAT_INSTRUCTIONS.md  # Chat-side operating instructions
-├── SUBMISSIONS.md           # Community submissions protocol (DRAFT)
-├── RELEASE_NOTES_TEMPLATE.md
-├── LICENSE
-└── CLAUDE_CODE_INSTRUCTIONS.md  # This file
+└── LICENSE
 ```
 
 ---
@@ -93,18 +101,18 @@ These are generated artifacts. Edit the YAML source, then rebuild.
 
 ### Rule 2: Validate before every commit
 ```bash
-python validate.py              # entities + content modules
-python validate_briefs.py       # briefs
-python validate.py variables    # single entity type
+python pipeline/validate.py              # entities + content modules
+python pipeline/validate_briefs.py       # briefs
+python pipeline/validate.py variables    # single entity type
 ```
 
 ### Rule 3: Build after every data change
 ```bash
-python build.py                 # entity reports + content modules
-python build_briefs.py          # convergence briefs
-python build.py variables       # one report only
-python build.py content         # content modules only
-python build.py --validate      # validate then build
+python pipeline/build.py                 # entity reports + content modules
+python pipeline/build_briefs.py          # convergence briefs
+python pipeline/build.py variables       # one report only
+python pipeline/build.py content         # content modules only
+python pipeline/build.py --validate      # validate then build
 ```
 
 ### Rule 4: Atomic updates
@@ -407,15 +415,15 @@ When a Claude session produces an Integration Spec, translate it to database ope
 6. **Version bump** → update `version`, `date`, `source` metadata fields
 7. **Validate:**
    ```bash
-   python validate.py && python validate_briefs.py
+   python pipeline/validate.py && python pipeline/validate_briefs.py
    ```
 8. **Build:**
    ```bash
-   python build.py && python build_briefs.py
+   python pipeline/build.py && python pipeline/build_briefs.py
    ```
 9. **Commit** (output/ and releases/ are gitignored — do not use `git add -A`):
    ```bash
-   git add data/ schemas/ templates/ scripts/ *.py *.md
+   git add data/ schemas/ templates/ pipeline/ scripts/ docs/ *.md
    git commit -m "Session N: [summary]"
    ```
 
@@ -426,14 +434,14 @@ When a Claude session produces an Integration Spec, translate it to database ope
 After data integration and build:
 
 ```bash
-python build_pdf.py                    # both tiers → releases/
-python build_pdf.py --briefs-only      # Tier 1 only
-python build_pdf.py --full-only        # Tier 2 only
-python build_pdf.py --date 2026-03-05  # override release date
+python pipeline/build_pdf.py                    # both tiers → releases/
+python pipeline/build_pdf.py --briefs-only      # Tier 1 only
+python pipeline/build_pdf.py --full-only        # Tier 2 only
+python pipeline/build_pdf.py --date 2026-03-05  # override release date
 ```
 
 Then create a GitHub Release tagged `v{YYYY-MM-DD}` and attach the PDFs from
-`releases/` as release assets. Fill release description from `RELEASE_NOTES_TEMPLATE.md`.
+`releases/` as release assets. Fill release description from `templates/RELEASE_NOTES_TEMPLATE.md`.
 
 ---
 
@@ -516,12 +524,12 @@ specified fields. Fields not listed are left unchanged.
    a. Read files from `staging/session_N/`
    b. Full files → copy to `data/` target path
    c. Patch files → merge field updates into existing YAML
-   d. Validate: `python validate.py && python validate_briefs.py`
-   e. Build: `python build.py && python build_briefs.py`
+   d. Validate: `python pipeline/validate.py && python pipeline/validate_briefs.py`
+   e. Build: `python pipeline/build.py && python pipeline/build_briefs.py`
 3. Delete the consumed `staging/session_N/` directory
 4. Commit everything atomically:
    ```bash
-   git add data/ schemas/ templates/ scripts/ *.py *.md .gitignore
+   git add data/ schemas/ templates/ pipeline/ scripts/ docs/ *.md .gitignore
    git commit -m "Session N: [summary from integration request]"
    ```
 5. Append an Integration Complete entry to `CLAUDE_SESSION_LOG.md`

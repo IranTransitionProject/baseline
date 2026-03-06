@@ -32,7 +32,7 @@ from pathlib import Path
 # Paths
 # ---------------------------------------------------------------------------
 
-BASE     = Path(__file__).parent
+BASE     = Path(__file__).parent.parent
 OUTPUT   = BASE / "output"
 DATA     = BASE / "data"
 RELEASES = BASE / "releases"

@@ -23,7 +23,7 @@ except ImportError:
     import yaml
 
 
-BASE = Path(__file__).resolve().parent
+BASE = Path(__file__).resolve().parent.parent
 SCHEMA_PATH = BASE / "schemas" / "brief.schema.json"
 BRIEFS_DIR = BASE / "data" / "briefs"
 

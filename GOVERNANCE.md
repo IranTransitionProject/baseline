@@ -88,7 +88,7 @@ written delegation.
 ## Contributions
 
 All contributors must sign the Contributor License Agreement (CLA) before any
-pull request is merged. See `CONTRIBUTING.md`.
+pull request is merged. See `docs/CONTRIBUTING.md`.
 
 The CLA grants the project the right to sublicense contributions, which is
 necessary to preserve alternative licensing flexibility. It does not transfer

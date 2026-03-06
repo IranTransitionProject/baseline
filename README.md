@@ -2,126 +2,156 @@
 
 **Independent analytical framework for Iranian regime architecture and transition dynamics.**
 
-🌐 [irantransitionproject.org](https://irantransitionproject.org)
+---
 
-📧 [admin@irantransitionproject.org](mailto:admin@irantransitionproject.org)
+## Why This Project Exists
 
-📄 Licensed under [CC BY-SA 4.0](LICENSE) · [Governance](GOVERNANCE.md) · [Contributing](CONTRIBUTING.md)
+Iran's political system is among the most opaque and misunderstood in the world.
+Western analysis consistently fails at the same points: it negotiates with
+pragmatists while eschatological hardliners hold veto power. It models the IRGC
+as a military organization when it functions as a parallel society bound by
+economic dependency. It treats regime survival rhetoric as bluster when it
+operates as institutional doctrine.
+
+These are not intelligence failures. They are analytical framework failures.
+The information is available — in regime primary sources, in Farsi-language
+media, in the institutional architecture itself. What is missing is a
+structured framework that connects these sources to actionable understanding.
+
+This project builds that framework.
 
 ---
 
-## What This Is
+## What This Project Produces
 
-The Iran Transition Project is an open, independent analytical framework examining
-how power actually operates inside the Iranian regime, where structural
-vulnerabilities exist, and what conditions a viable transition would require.
+**The Iran Transition Baseline (ITB)** maps how the regime actually works:
+constitutional architecture, security apparatus, economic structures, ideological
+machinery, factional dynamics, and the parallel society the IRGC has built.
+Eight pillars, twenty-two analytical modules, continuously updated.
 
-This is not advocacy for any faction, opposition group, or foreign policy position.
-The guiding question throughout is: *what must be true for a transition to succeed,
+**The Iran Stress Architecture (ISA)** identifies where the system breaks:
+analytical traps that catch Western policymakers, observations that reveal
+structural dynamics, and scenario modeling for transition pathways. Fourteen
+traps documented, thirty observations logged, twelve scenarios modeled.
+
+**Convergence Briefs** translate framework findings into focused policy-relevant
+analysis. Thirteen published briefs plus supplementals, covering topics from
+the taqiyyah verification problem to the structural limits of a Pinochet-model
+alignment switch.
+
+All outputs are published openly. PDF bundles are available as
+[GitHub Releases](../../releases).
+
+---
+
+## Who This Is For
+
+**Policy professionals and journalists** who need analytical depth beyond
+the headline cycle. The briefs are written for this audience — each one
+isolates a specific structural problem and traces its implications.
+
+**Researchers and analysts** who work on Iran, Middle East security, or
+transition dynamics. The full ITB/ISA framework provides a structured
+baseline that can be critiqued, extended, or challenged on its own terms.
+
+**Technical contributors** who want to apply structured analytical methods
+to complex geopolitical problems. The project's AI-assisted workflow,
+epistemic framework, and build pipeline are documented and open for reuse.
+See [Guide for Engineers](docs/GUIDE_ENGINEERS.md).
+
+**Anyone** who believes that rigorous, impartial analysis of how this regime
+works — and how it might change — should be publicly available rather than
+locked behind classification barriers or institutional paywalls.
+
+---
+
+## Analytical Standards
+
+This project maintains strict analytical discipline:
+
+**Factional neutrality.** No allegiance to any faction, opposition group, or
+foreign government position. The test for every claim: *what must be true
 regardless of who governs?*
 
-For database design and build pipeline details, see [ARCHITECTURE.md](ARCHITECTURE.md).
+**Epistemic tagging.** Every analytical claim is tagged by evidence quality —
+Fact, Inference, Uncertain, or Speculation — with explicit confidence bands.
+Readers always know how much weight a conclusion can bear.
 
----
+**Source discipline.** Regime primary sources over secondary reporting.
+Farsi-language sources over English translations. A five-tier source taxonomy
+prevents garbage in, garbage out. Wikipedia is excluded as a primary or
+corroborating source for Iran content.
 
-## Repository Structure
+**Transparency.** The methodology, the AI-assisted workflow, the analytical
+instructions, and the data pipeline are all public. If the framework has a
+flaw, anyone can find it.
 
-```
-/
-├── data/                        # YAML source-of-truth files
-│   ├── content/                 # ITB/ISA module prose (22 files)
-│   ├── briefs/                  # Convergence brief content (17 files)
-│   └── *.yaml                   # Variables, gaps, traps, observations, scenarios, sessions
-├── schemas/                     # JSON Schema definitions (9 schemas)
-├── templates/                   # Jinja2 rendering templates
-├── scripts/                     # One-time migration utilities
-├── .github/workflows/           # CI configuration
-├── build.py                     # Entity reports + content module builder
-├── build_briefs.py              # Convergence brief builder
-├── build_pdf.py                 # PDF release bundle builder
-├── validate.py                  # Schema validation (entities + content)
-├── validate_briefs.py           # Schema validation (briefs)
-├── ARCHITECTURE.md              # Database design and pipeline documentation
-├── CLAUDE_CHAT_INSTRUCTIONS.md  # Operating instructions for Claude Chat (analytical sessions)
-├── CLAUDE_CODE_INSTRUCTIONS.md  # Operating instructions for Claude Code (repo maintenance)
-├── CLAUDE_SESSION_LOG.md        # Claude-to-Claude coordination log
-├── CONTRIBUTING.md
-├── GOVERNANCE.md
-└── LICENSE
-```
-
----
-
-## Quick Start
-
-```bash
-pip install pyyaml jsonschema jinja2 ftfy weasyprint markdown
-
-python validate.py && python validate_briefs.py   # validate
-python build.py && python build_briefs.py          # build markdown
-python build_pdf.py                                # build PDF releases
-```
-
----
-
-## Releases
-
-PDF bundles are published as [GitHub Releases](../../releases). Each release includes:
-
-| File | Contents | Audience |
-|------|----------|----------|
-| `ITP-Briefs-v{date}.pdf` | All policy briefs + reference appendix | General / policy |
-| `ITP-Reference-v{date}.pdf` | Briefs + full ITB/ISA analytical library | Researchers |
+For a detailed description of the analytical approach, see
+[Methodology](docs/METHODOLOGY.md).
 
 ---
 
 ## Current State
 
-| Component | Coverage | Status |
-|-----------|----------|--------|
-| Iran Transition Baseline (ITB) | 8 pillars, 22 modules | Active |
-| Iran Stress Architecture (ISA) | Traps, observations, scenarios | Active |
-| Policy briefs | 13 published + supplementals | Active |
-| Analytical variables | 86 tracked | Active |
-| Research gaps | 57 registered (49 open) | Active |
+| Component | Status |
+|-----------|--------|
+| Iran Transition Baseline (ITB) | 8 pillars, 22 modules — active development |
+| Iran Stress Architecture (ISA) | 14 traps, 30 observations, 12 scenarios — active |
+| Convergence Briefs | 13 published + supplementals — active |
+| Analytical Variables | 86 tracked across 5 tables |
+| Research Gaps | 57 registered, 49 open |
+
+---
+
+## Get Involved
+
+**Read the briefs.** Start with the
+[Executive Summary](https://hmehr.substack.com/p/iran-the-convergence-briefs)
+or download the latest PDF from [Releases](../../releases).
+
+**Submit feedback, sources, or corrections.**
+Public discussion: [GitHub Discussions](../../discussions).
+Private submissions: [irantransitionproject.org/submit](https://irantransitionproject.org/submit).
+See [Submissions Protocol](docs/SUBMISSIONS.md).
+
+**Contribute analytically.** Persian-language source integration, subject matter
+review, and methodological critique are the highest-priority needs.
+See [Contributing](docs/CONTRIBUTING.md).
+
+**Use the framework.** Engineers and developers can fork this repository and
+build their own analytical projects using the same pipeline.
+See [Guide for Engineers](docs/GUIDE_ENGINEERS.md).
+Traditional analysts can engage with the methodology without touching code.
+See [Guide for Analysts](docs/GUIDE_ANALYSTS.md).
 
 ---
 
 ## AI-Assisted Research
 
-This project uses Claude (Anthropic) as a research assistant across two interfaces:
+This project uses Claude (Anthropic) as a research and maintenance tool.
+Two instruction files govern its behavior — both are public and open to critique:
 
-- **Claude Chat** conducts analytical sessions — source research, factional analysis,
-  framework development, brief drafting. Operating protocol:
-  [`CLAUDE_CHAT_INSTRUCTIONS.md`](CLAUDE_CHAT_INSTRUCTIONS.md).
-- **Claude Code** maintains the repository — YAML edits, schema validation, builds,
-  commits. Operating protocol:
-  [`CLAUDE_CODE_INSTRUCTIONS.md`](CLAUDE_CODE_INSTRUCTIONS.md).
+- [`CLAUDE_CHAT_INSTRUCTIONS.md`](docs/CLAUDE_CHAT_INSTRUCTIONS.md) — analytical
+  session protocol
+- [`CLAUDE_CODE_INSTRUCTIONS.md`](docs/CLAUDE_CODE_INSTRUCTIONS.md) — repository
+  maintenance protocol
 
-The two coordinate via [`CLAUDE_SESSION_LOG.md`](CLAUDE_SESSION_LOG.md), a structured
-append-only log where Chat posts integration requests and Code confirms execution.
-
-**Why this is public:** Analytical transparency requires disclosing methods.
-AI assistance is a tool, not a source — all claims still require sourcing,
-epistemic tagging, and factional neutrality per the project's analytical standards.
-The instruction files document exactly what the AI is told to do and what constraints
-it operates under.
+AI assistance is a tool, not a source. All claims require sourcing, epistemic
+tagging, and factional neutrality per the project's analytical standards.
+For details, see [Methodology](docs/METHODOLOGY.md).
 
 ---
 
-## Contributing
+## Links
 
-See [CONTRIBUTING.md](CONTRIBUTING.md). All contributors must sign the CLA.
-
-Highest-priority needs: Persian-language source integration, subject matter
-review, and methodological critique.
+- **Published briefs:** [hmehr.substack.com](https://hmehr.substack.com)
+- **Website:** [irantransitionproject.org](https://irantransitionproject.org)
+- **Contact:** [admin@irantransitionproject.org](mailto:admin@irantransitionproject.org)
+- **License:** [CC BY-SA 4.0](LICENSE) — open for reuse with attribution.
+  Alternative licensing available for policy institutions with copyleft
+  constraints.
 
 ---
 
-## License
-
-[CC BY-SA 4.0](LICENSE) — open for reuse and adaptation with attribution,
-derivative works must remain open under the same terms.
-
-Alternative licensing available for policy institutions with copyleft
-constraints — contact admin@irantransitionproject.org.
+*For technical documentation (repository structure, build pipeline, data schemas),
+see [Architecture](docs/ARCHITECTURE.md).*
