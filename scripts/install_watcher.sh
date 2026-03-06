@@ -12,7 +12,7 @@
 
 set -euo pipefail
 
-REPO_ROOT="/Volumes/SanDiskSSD/Developer/Repositories/framework"
+REPO_ROOT="$HOME/Developer/Repositories/framework"
 PLIST_LABEL="org.irantransitionproject.session-watcher"
 PLIST_PATH="$HOME/Library/LaunchAgents/$PLIST_LABEL.plist"
 WATCH_SCRIPT="$REPO_ROOT/scripts/watch_session_log.sh"

@@ -22,7 +22,7 @@
 
 set -euo pipefail
 
-REPO_ROOT="/Volumes/SanDiskSSD/Developer/Repositories/framework"
+REPO_ROOT="$HOME/Developer/Repositories/framework"
 LOG_FILE="$REPO_ROOT/CLAUDE_SESSION_LOG.md"
 STATE_DIR="$REPO_ROOT/.claude"
 STATE_FILE="$STATE_DIR/watcher_state"
