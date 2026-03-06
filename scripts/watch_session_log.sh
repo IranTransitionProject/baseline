@@ -125,8 +125,17 @@ log "Claude binary: $CLAUDE_BIN"
 # Check once at startup (in case requests arrived while watcher was down)
 check_and_trigger
 
-# Watch for changes — -o aggregates multiple rapid events into one; -l 2 adds
-# a 2-second latency to let writes settle before we read the file
-fswatch -o -l 2 "$LOG_FILE" | while read -r _; do
-    check_and_trigger
+# Watch for changes — outer loop restarts fswatch if it exits (e.g. EX_CONFIG
+# on first launch under launchd before FSEvents is fully initialised).
+# -o aggregates rapid events into one; -l 2 lets writes settle.
+# pipefail is disabled for this pipeline so fswatch exits don't kill the script.
+while true; do
+    set +o pipefail
+    fswatch -o -l 2 "$LOG_FILE" | while read -r _; do
+        check_and_trigger
+    done
+    EXIT_CODE=$?
+    set -o pipefail
+    log "fswatch exited (code $EXIT_CODE) — restarting in 10 seconds"
+    sleep 10
 done
