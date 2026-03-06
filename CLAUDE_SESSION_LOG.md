@@ -263,10 +263,9 @@ in the repo. Update any project starter instruction that references the old root
 The Repo Access subsection already uses `~/Developer/Repositories/framework/` — that
 path is correct.
 
-<!-- END LOG -->
-
 ### 2026-03-05 — Code — Cleanup
 
-**Log rotation.** Pruned 4 resolved pair(s) (Chat Integration Request + Code Integration Complete). Git history preserves full record.
+**Log rotation.** Pruned 4 resolved pair(s) (Chat Integration Request + Code
+Integration Complete). Git history preserves full record.
 
 <!-- END LOG -->
