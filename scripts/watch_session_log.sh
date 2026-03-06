@@ -77,7 +77,9 @@ process_requests() {
     touch "$LOCK_FILE"
 
     cd "$REPO_ROOT"
-    "$CLAUDE_BIN" -p \
+    # Unset CLAUDECODE so the CLI doesn't refuse to start inside an existing session
+    env -u CLAUDECODE \
+        "$CLAUDE_BIN" -p \
         --permission-mode bypassPermissions \
         --model sonnet \
         "$CLAUDE_PROMPT" \
