@@ -14,10 +14,14 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install pyyaml jsonschema jinja2 ftfy
+        run: pip install -r requirements.txt
 
       - name: Validate schemas and cross-references
-        run: python pipeline/validate.py
+        run: |
+          python pipeline/validate.py
+          python pipeline/validate_briefs.py
 
       - name: Build outputs
-        run: python pipeline/build.py
+        run: |
+          python pipeline/build.py
+          python pipeline/build_briefs.py

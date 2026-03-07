@@ -5,22 +5,8 @@ import json
 import sys
 from pathlib import Path
 
-# jsonschema may need install
-try:
-    import jsonschema
-except ImportError:
-    import subprocess
-    subprocess.check_call([sys.executable, "-m", "pip", "install",
-                           "jsonschema", "--break-system-packages", "-q"])
-    import jsonschema
-
-try:
-    import yaml
-except ImportError:
-    import subprocess
-    subprocess.check_call([sys.executable, "-m", "pip", "install",
-                           "pyyaml", "--break-system-packages", "-q"])
-    import yaml
+import jsonschema
+import yaml
 
 
 BASE = Path(__file__).resolve().parent.parent

@@ -94,6 +94,22 @@ framework/
 
 ---
 
+## Environment Setup
+
+Requires Python 3.9+ (3.11+ recommended). Run once to create the virtual environment:
+
+```bash
+# macOS / Linux
+bash scripts/setup.sh
+
+# Windows
+scripts\setup.bat
+```
+
+This creates `.venv/` with all dependencies from `requirements.txt`.
+
+---
+
 ## Core Rules
 
 ### Rule 1: Never edit output/*.md files
@@ -101,18 +117,19 @@ These are generated artifacts. Edit the YAML source, then rebuild.
 
 ### Rule 2: Validate before every commit
 ```bash
-python pipeline/validate.py              # entities + content modules
-python pipeline/validate_briefs.py       # briefs
-python pipeline/validate.py variables    # single entity type
+bash scripts/validate.sh                # everything (entities + briefs)
+bash scripts/validate.sh entities       # entities + content modules only
+bash scripts/validate.sh briefs         # briefs only
+bash scripts/validate.sh variables      # single entity type
 ```
 
 ### Rule 3: Build after every data change
 ```bash
-python pipeline/build.py                 # entity reports + content modules
-python pipeline/build_briefs.py          # convergence briefs
-python pipeline/build.py variables       # one report only
-python pipeline/build.py content         # content modules only
-python pipeline/build.py --validate      # validate then build
+bash scripts/build.sh                   # everything (entities + briefs)
+bash scripts/build.sh entities          # entity reports + content modules
+bash scripts/build.sh briefs            # convergence briefs
+bash scripts/build.sh pdf               # PDF releases
+bash scripts/build.sh --validate        # validate then build all
 ```
 
 ### Rule 4: Atomic updates
@@ -415,11 +432,11 @@ When a Claude session produces an Integration Spec, translate it to database ope
 6. **Version bump** → update `version`, `date`, `source` metadata fields
 7. **Validate:**
    ```bash
-   python pipeline/validate.py && python pipeline/validate_briefs.py
+   bash scripts/validate.sh
    ```
 8. **Build:**
    ```bash
-   python pipeline/build.py && python pipeline/build_briefs.py
+   bash scripts/build.sh
    ```
 9. **Commit** (output/ and releases/ are gitignored — do not use `git add -A`):
    ```bash
@@ -434,10 +451,10 @@ When a Claude session produces an Integration Spec, translate it to database ope
 After data integration and build:
 
 ```bash
-python pipeline/build_pdf.py                    # both tiers → releases/
-python pipeline/build_pdf.py --briefs-only      # Tier 1 only
-python pipeline/build_pdf.py --full-only        # Tier 2 only
-python pipeline/build_pdf.py --date 2026-03-05  # override release date
+bash scripts/build.sh pdf                       # both tiers → releases/
+bash scripts/build.sh pdf --briefs-only         # Tier 1 only
+bash scripts/build.sh pdf --full-only           # Tier 2 only
+bash scripts/build.sh pdf --date 2026-03-05     # override release date
 ```
 
 Then create a GitHub Release tagged `v{YYYY-MM-DD}` and attach the PDFs from
@@ -524,8 +541,8 @@ specified fields. Fields not listed are left unchanged.
    a. Read files from `staging/session_N/`
    b. Full files → copy to `data/` target path
    c. Patch files → merge field updates into existing YAML
-   d. Validate: `python pipeline/validate.py && python pipeline/validate_briefs.py`
-   e. Build: `python pipeline/build.py && python pipeline/build_briefs.py`
+   d. Validate: `bash scripts/validate.sh`
+   e. Build: `bash scripts/build.sh`
 3. Delete the consumed `staging/session_N/` directory
 4. Commit everything atomically:
    ```bash

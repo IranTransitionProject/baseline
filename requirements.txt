@@ -1,0 +1,16 @@
+# ITP Framework — Python dependencies
+# Install into a virtual environment: pip install -r requirements.txt
+#
+# Core pipeline (validate + build)
+pyyaml>=6.0.1
+jsonschema>=4.21.0
+jinja2>=3.1.3
+ftfy>=6.2.0
+
+# PDF generation (optional — only needed for `build_pdf.py`)
+# WeasyPrint requires system libraries: Cairo, Pango, GDK-PixBuf.
+# macOS:   brew install cairo pango gdk-pixbuf libffi
+# Ubuntu:  apt install libcairo2 libpango-1.0-0 libgdk-pixbuf2.0-0 libffi-dev
+# Windows: See https://doc.courtbouillon.org/weasyprint/stable/first_steps.html
+weasyprint>=62.0
+markdown>=3.6

@@ -10,20 +10,53 @@ Build and validation scripts for the ITP analytical database.
 | `build_briefs.py` | Render brief YAML to markdown |
 | `build_pdf.py` | Convert rendered markdown to PDF releases |
 
-## Usage
+## Setup
 
-Run from the **repository root**:
+Requires Python 3.9+ (3.11+ recommended). Run the setup script once to create a virtual environment:
 
 ```bash
-python pipeline/validate.py          # validate all entities
-python pipeline/validate.py modules  # validate one entity type
-python pipeline/validate_briefs.py   # validate briefs
-python pipeline/build.py             # build all output
-python pipeline/build_pdf.py        # generate PDF releases
+# macOS / Linux
+bash scripts/setup.sh
+
+# Windows
+scripts\setup.bat
+```
+
+This creates `.venv/` with all dependencies from `requirements.txt`.
+
+## Usage
+
+Use the wrapper scripts (they activate the virtual environment automatically):
+
+```bash
+# macOS / Linux
+bash scripts/validate.sh              # validate everything
+bash scripts/validate.sh entities     # entities only
+bash scripts/validate.sh briefs       # briefs only
+bash scripts/validate.sh variables    # single entity type
+
+bash scripts/build.sh                 # build everything
+bash scripts/build.sh briefs          # briefs only
+bash scripts/build.sh pdf             # PDF releases
+bash scripts/build.sh --validate      # validate then build
+
+# Windows
+scripts\validate.bat
+scripts\build.bat
+```
+
+Or run pipeline scripts directly (with the virtual environment activated):
+
+```bash
+source .venv/bin/activate             # macOS / Linux
+python pipeline/validate.py
+python pipeline/build.py
+deactivate
 ```
 
 ## Dependencies
 
-```bash
-pip install pyyaml jsonschema jinja2 ftfy weasyprint
-```
+Managed via `requirements.txt` in the repository root. Core pipeline needs
+`pyyaml`, `jsonschema`, `jinja2`, `ftfy`. PDF generation additionally needs
+`weasyprint` and `markdown` (plus system libraries — see `requirements.txt`
+for platform-specific install notes).

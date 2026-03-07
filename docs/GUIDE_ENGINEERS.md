@@ -131,14 +131,18 @@ Add this to your LLM project configuration:
 ### Quick Start
 
 ```bash
-pip install pyyaml jsonschema jinja2 ftfy weasyprint markdown
+# One-time setup (creates .venv/ with all dependencies)
+bash scripts/setup.sh          # macOS / Linux
+scripts\setup.bat              # Windows
 
-python pipeline/validate.py && python pipeline/validate_briefs.py   # validate all
-python pipeline/build.py && python pipeline/build_briefs.py          # build markdown
-python pipeline/build_pdf.py                                        # build PDF releases
+# Run the pipeline
+bash scripts/validate.sh       # validate all
+bash scripts/build.sh          # build markdown
+bash scripts/build.sh pdf      # build PDF releases
 ```
 
-All commands run from the repository root.
+All commands run from the repository root. The wrapper scripts handle
+virtual environment activation automatically.
 
 ### What Each Script Does
 

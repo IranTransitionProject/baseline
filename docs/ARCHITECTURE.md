@@ -221,10 +221,10 @@ A4, Georgia serif, running page numbers. Brief assembly order controlled by
 CLI options:
 
 ```bash
-python pipeline/build_pdf.py                    # both tiers
-python pipeline/build_pdf.py --briefs-only      # Tier 1 only
-python pipeline/build_pdf.py --full-only        # Tier 2 only
-python pipeline/build_pdf.py --date 2026-03-04  # override release date
+bash scripts/build.sh pdf                       # both tiers
+bash scripts/build.sh pdf --briefs-only         # Tier 1 only
+bash scripts/build.sh pdf --full-only           # Tier 2 only
+bash scripts/build.sh pdf --date 2026-03-04     # override release date
 ```
 
 ---
@@ -234,13 +234,13 @@ python pipeline/build_pdf.py --date 2026-03-04  # override release date
 ```bash
 # 1. Edit YAML source files in data/
 # 2. Validate
-python pipeline/validate.py && python pipeline/validate_briefs.py
+bash scripts/validate.sh
 
 # 3. Build markdown
-python pipeline/build.py && python pipeline/build_briefs.py
+bash scripts/build.sh
 
 # 4. Build PDFs
-python pipeline/build_pdf.py
+bash scripts/build.sh pdf
 
 # 5. Commit source changes only (output/ and releases/ are gitignored)
 git add data/ schemas/ templates/ pipeline/ scripts/ docs/ *.md

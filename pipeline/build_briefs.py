@@ -5,21 +5,8 @@ import re
 import sys
 from pathlib import Path
 
-try:
-    import yaml
-except ImportError:
-    import subprocess
-    subprocess.check_call([sys.executable, "-m", "pip", "install",
-                           "pyyaml", "--break-system-packages", "-q"])
-    import yaml
-
-try:
-    import jinja2
-except ImportError:
-    import subprocess
-    subprocess.check_call([sys.executable, "-m", "pip", "install",
-                           "jinja2", "--break-system-packages", "-q"])
-    import jinja2
+import yaml
+import jinja2
 
 
 BASE = Path(__file__).resolve().parent.parent
