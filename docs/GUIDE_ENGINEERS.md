@@ -144,6 +144,11 @@ bash scripts/build.sh pdf      # build PDF releases
 All commands run from the repository root. The wrapper scripts handle
 virtual environment activation automatically.
 
+> **Windows note:** PDF generation requires the GTK3 runtime (Cairo, Pango),
+> which must be installed manually on Windows. See
+> [WeasyPrint Windows setup](https://doc.courtbouillon.org/weasyprint/stable/first_steps.html#windows).
+> The core pipeline (validate + build markdown) works without it.
+
 ### What Each Script Does
 
 | Script | Input | Output |
