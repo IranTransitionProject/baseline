@@ -1,258 +1,497 @@
 brief_id: B07
 number: 7
-title: Who Is Actually Running Iran?
-subtitle: The Larijani Revelation and Why the Nuclear Talks Have the Wrong Man at the Table
+title: "Who Is Running Iran Now?"
+subtitle: "The Post-Succession Power Map — Six Nodes, No Center"
 author: Hooman Mehr
 contact: hooman@mac.com
 series_link: https://hmehr.substack.com/p/iran-the-convergence-briefs
 brief_link: https://hmehr.substack.com/p/who-is-actually-running-iran
-version: v1.0
-date: '2026-02-23'
+version: v2.0
+date: '2026-03-08'
 date_published: '2026-02-23'
 status: CURRENT
 type: brief
-core_thesis: The person making decisions for Iran (Larijani) is not at the negotiating table; the authorization chain terminates
-  in a man who has already said no.
+date_display: March 2026
+core_thesis: >-
+  The question "who is running Iran?" no longer has a single answer. Six power
+  nodes operate with overlapping authority, competing legitimacy, and no
+  constitutional mechanism to resolve conflicts between them. The absence of
+  a unified command is itself the most important structural fact about the
+  Islamic Republic at war.
 itb_anchors:
-- ITB-A
-- ITB-B
-update_notes: []
-preamble: null
+  - ITB-A
+  - ITB-B
+  - ITB-A9
+  - ITB-A10
+section_separators: true
+update_notes:
+  - version: v2.0
+    date: '2026-03-08'
+    note: >-
+      Complete rewrite. Original v1.0 (Feb 23) analyzed Larijani-as-Khamenei's-delegate
+      architecture. That structure no longer exists. Khamenei dead (Feb 28). Mojtaba
+      named Supreme Leader (Mar 8). New brief maps the six-node power architecture
+      and argues that the absence of unified command is the primary structural finding.
+      Original preserved as historical document with CONFIRMED governance status.
+preamble: >-
+  ---
+
+
+  *This is a complete rewrite of Brief #7, originally published February 23, 2026.
+  The original answered "who is running Iran?" with a single name: Ali Larijani,
+  operating as Khamenei's delegate. That answer was confirmed by events — and then
+  rendered obsolete nine days later when an Israeli airstrike killed Khamenei,
+  Shamkhani, and the top military command simultaneously. The question remains the
+  same. The answer has fractured.*
+
+
+  ---
 separator: '---'
-section_separators: false
 sections:
-- title: The Phone Call That Explains Everything
-  level: 2
-  content: 'When Iran''s Foreign Minister Abbas Araghchi wanted to contact Steve Witkoff after the second round of Geneva
-    talks, he did not call President Pezeshkian for authorization. Pezeshkian told him to call Ali Larijani.
+  - title: "The Question That No Longer Has One Answer"
+    level: 2
+    content: >-
+      On February 22, 2026, the New York Times reported that Ali Larijani was
+      effectively running Iran. Six senior Iranian officials and three IRGC members
+      confirmed it. The authorization chain was clear: Araghchi to Larijani to
+      Khamenei. One man governed. The chain terminated in one authority.
 
 
-    This detail, reported by the New York Times on February 22, 2026, citing six senior Iranian officials including three
-    IRGC members, is not a palace intrigue anecdote. It is the single most important structural finding about Iran''s nuclear
-    negotiations since they resumed \-- because it confirms, with named sourcing at the highest level, that the person making
-    decisions for Iran is not at the negotiating table. The person at the table cannot make decisions without calling someone
-    who is not there. And the person who is not there answers to someone who has already rejected the deal''s basic terms.
+      On February 28, an Israeli airstrike killed Khamenei, his wife, his daughter,
+      Ali Shamkhani (the Defense Council chief), IRGC commander-in-chief Nasirzadeh,
+      and ground forces commander Pakpour. The chain of command did not merely lose
+      its top link. It lost its structural logic. Larijani's authority derived
+      entirely from Khamenei's delegation. With Khamenei dead, Larijani became a
+      man whose power rested on a delegation from no one.
 
 
-    That chain \-- Araghchi to Larijani to Khamenei \-- is the actual decision architecture. Geneva is negotiating with the
-    last link. The first link has already said no.
-
-    '
-- title: Who Larijani Is
-  level: 2
-  content: 'Ali Larijani is 67 years old. He is the Secretary of the Supreme National Security Council. He is a former IRGC
-    commander. He is a former Speaker of Parliament. He ran for president twice and was disqualified by the Guardian Council
-    once \-- an act that tells you both that he has ambitions and that the system''s gatekeepers consider him insufficiently
-    loyal. He is, by every account, a pragmatic institutional operator: not a reformist, not a theologian, but a man who understands
-    every lever in the Islamic Republic''s machinery because he has personally pulled most of them.
+      For nine days, the Islamic Republic operated without a Supreme Leader — the
+      office that constitutionally commands all armed forces, appoints the heads
+      of the judiciary and state broadcasting, confirms presidential elections, and
+      holds veto power over all state policy. An interim trio — Pezeshkian,
+      Mohseni-Ejei, and Arafi — was constitutionally empowered to manage the
+      transition. But the trio was designed for administrative continuity, not for
+      war command.
 
 
-    Since early January 2026, Khamenei has delegated day-to-day governance of Iran to Larijani. President Pezeshkian \-- a
-    cardiac surgeon elected on a reformist platform \-- publicly acknowledges his own irrelevance. "I''m a doctor, not a politician,"
-    he has told associates. His role in the current crisis is to sign what Larijani decides and appear on camera when a presidential
-    face is needed.
+      On March 8, Fars announced that the Assembly of Experts had elected Mojtaba
+      Khamenei as the third Supreme Leader. The IRGC immediately declared "full
+      obedience." The question "who is running Iran?" now has an official answer:
+      Mojtaba.
 
 
-    Larijani is liaising with Russia, Qatar, and Oman. Larijani is overseeing the nuclear negotiations. Larijani was in charge
-    of the security response to the January protests \-- the operation that killed thousands. And Larijani has ordered a four-layer
-    succession plan for every key position that Khamenei appoints, a directive that only makes sense if the system is preparing
-    for Khamenei''s removal from power \-- by death, incapacitation, or design.
+      The official answer is wrong. Mojtaba is the titular authority. The actual
+      power architecture is a six-node network with no center, no constitutional
+      mechanism for resolving conflicts between nodes, and no historical precedent
+      for the configuration it has assumed.
+
+  - title: "Node 1: Mojtaba Khamenei — The Throne"
+    level: 2
+    content: >-
+      Mojtaba is 56 years old. He is a hojatoleslam — a mid-ranking cleric, two
+      steps below the ayatollah rank the constitution envisions for the Supreme
+      Leader. He has never been elected to any office. He has never been appointed
+      to any government position. He has never commanded a military unit. He has
+      never given a policy speech. He has never been publicly interviewed on
+      governance. His political influence was exercised entirely through his
+      father's office — managing networks, overseeing an investment empire
+      stretching from Tehran to Dubai and Frankfurt, and cultivating IRGC
+      relationships.
 
 
-    This is not a temporary arrangement. It is a structural reorganization of the Islamic Republic''s command architecture
-    under crisis conditions. The elected president is ceremonial. The appointed security chief is governing. And the Supreme
-    Leader, 86 and diminished, has effectively delegated his constitutional authority to a man who holds no constitutional
-    office that grants it.
-
-    '
-- title: What This Means for Geneva
-  level: 2
-  content: 'The implications for the Thursday talks in Geneva are immediate and concrete.
-
-
-    **The authorization chain is a bottleneck, not a delegation.** Araghchi cannot accept, reject, or modify any proposal
-    without Larijani''s approval. Larijani cannot approve anything that Khamenei has not sanctioned. This means that every
-    American proposal transits a three-person chain before receiving a response. Each link in that chain has different incentives:
-    Araghchi wants a deal (his career depends on diplomatic success), Larijani wants regime survival (his power depends on
-    managing the crisis), and Khamenei wants theological consistency (his legacy depends on not surrendering to the Great
-    Satan). A proposal that satisfies one link fails at the next. This is not a negotiating tactic. It is a structural incapacity
-    to make binding commitments at the speed Geneva requires.
+      He was elected under IRGC coercion. Iran International reported that
+      starting March 3, IRGC commanders conducted "repeated contacts and
+      psychological and political pressure" on Assembly of Experts members.
+      Those who argued against Mojtaba were given "limited time" to speak.
+      Discussion was cut off. A vote was held. At least eight members
+      boycotted the process. The atmosphere was described as "unnatural" by
+      participants. US and Israeli bombs hit the Assembly's Qom office after
+      votes were cast but before the count was completed. The second session
+      was held near the shrine of Fatima Masumeh — chosen to reduce airstrike
+      risk because of the shrine's religious significance.
 
 
-    **The enrichment contradiction is a symptom, not a miscommunication.** Araghchi told MSNBC on February 21 that "the US
-    side has not asked for zero enrichment." The same day, Axios reported that Witkoff and Kushner explicitly told Araghchi
-    that Trump''s position is zero enrichment, while simultaneously signaling willingness to consider "token enrichment."
-    Both statements can be true \-- Araghchi is reporting what he has been authorized to report, which is different from what
-    was said. The gap between what each side says was said is not diplomatic ambiguity. It is the observable signature of
-    an authorization chain where the man at the table cannot acknowledge what was communicated because acknowledging it would
-    require authorization he does not have.
+      This is not a leader who commands by authority. This is a leader who
+      exists because the IRGC needed a theological shell for what is
+      functionally a military government. Abbas Milani of Stanford described
+      the IRGC as "a mafia, like a rich corporate entity" that wants "to keep
+      their turf." Mojtaba is the constitutional wrapper around that turf.
+      His role is to sign decrees. His power depends entirely on the IRGC's
+      willingness to enforce them.
 
 
-    **The proposal Iran is preparing may not survive its own approval process.** Araghchi told CBS on February 22 that Iran''s
-    written proposal is still being finalized and that "political leadership in Tehran has yet to sign off." In the Larijani
-    architecture, "political leadership" does not mean Pezeshkian. It means Larijani \-- and ultimately Khamenei. A proposal
-    ambitious enough to interest Washington may be too ambitious for Khamenei to authorize. A proposal conservative enough
-    for Khamenei to authorize may be too conservative for Washington to accept. Araghchi is trapped between two principals
-    with incompatible requirements, and neither of them is at the table to resolve the gap in real time.
+      The IDF immediately threatened to kill him. Trump said he "won't last
+      long" without US approval. The IRGC pledged "full obedience and
+      self-sacrifice." The man who has never held office is now the supreme
+      commander of a military at war, the theological authority of a clerical
+      state, and the primary assassination target of two of the world's most
+      capable intelligence services.
 
-    '
-- title: 'The Deeper Problem: Two Decision-Makers Who Cannot Both Say Yes'
-  level: 2
-  content: 'Brief \#5 in this series identified the "wrong interlocutor" problem: Washington negotiates with the pragmatist
-    wing, which controls roughly 15-25% of institutional power, while the deal''s survival depends on overcoming the other
-    45-65% \-- theological opponents who view any agreement as betrayal, and institutional resisters whose economic interests
-    depend on non-compliance.
-
-
-    The Larijani revelation sharpens this finding. It is not merely that Washington is negotiating with the wrong faction.
-    It is that Washington is negotiating with an individual who must seek permission from a chain of command that terminates
-    in a man who has already publicly rejected the deal''s core terms. Khamenei stated on February 17 that he would not accept
-    Trump''s negotiation conditions. This was not a negotiating position. It was a theological declaration from a leader whose
-    remaining political capital depends on not appearing to submit.
+  - title: "Node 2: Ahmad Vahidi — The Sword"
+    level: 2
+    content: >-
+      Vahidi commands the IRGC. He was appointed deputy commander by Khamenei in
+      December 2025 — two months before the war. When Nasirzadeh was killed on
+      February 28, Vahidi assumed command. His authorization is constitutionally
+      ambiguous: the Supreme Leader appoints the IRGC commander, and the Supreme
+      Leader was dead. Vahidi's authority rests on the fact that he was next in
+      line and nobody with the power to challenge him has done so.
 
 
-    Larijani himself is not the problem \-- he may genuinely want a deal. He is an institutional pragmatist who has opposed
-    the eschatological Paydari faction since their political split in 2011\. He understands that a military confrontation
-    threatens the system he has spent his career building. But Larijani''s pragmatism is constrained by the same structural
-    reality the previous briefs have documented: the Supreme Leader''s theological veto, the IRGC''s economic resistance to
-    any reform that touches their empire, and the Paydari faction''s capacity to frame any concession as apostasy.
+      His background is specific and relevant. He led the Quds Force from 1988 to
+      1997 — the period that built Iran's proxy architecture across Lebanon, Iraq,
+      and the Gulf. He served as defense minister from 2009 to 2013. He is wanted
+      by Interpol in connection with the 1994 AMIA bombing in Buenos Aires.
+      His international isolation means he has nowhere to go if the Islamic Republic
+      falls — creating what analysts have called "absolute loyalty through
+      shared fate."
 
 
-    The result is a negotiation where the American side has a decision-maker (Trump) who can change terms in real time, and
-    the Iranian side has a representative (Araghchi) who must relay proposals through a chain that cannot change terms at
-    all \-- because each change requires theological clearance from a Supreme Leader who has staked his legacy on refusal.
-
-    '
-- title: The War Preparation Signal
-  level: 2
-  content: 'The Larijani revelation contains a second finding that has received less attention than it deserves.
+      Vahidi is an enforcer, not a strategist. Multiple analysts describe him as
+      "manageable" — a tool rather than a threat to whoever holds the throne.
+      This is precisely why the IRGC apparatus pushed his appointment: a commander
+      who lacks the independent power base to challenge Mojtaba but possesses the
+      operational capacity to hold the security architecture together.
 
 
-    The four-layer succession directive \-- ordering backup plans for every key position Khamenei appoints \-- is not contingency
-    planning in the normal sense. It is institutional preparation for a specific scenario: Khamenei''s removal from the decision
-    chain, whether by death, incapacitation, or a strike that targets regime leadership.
+      Reuters reported that six Iranian and regional sources confirmed the IRGC
+      has taken "a far greater role in the hierarchy since the war began" and is
+      "now involved in every major decision." Vahidi is present in every
+      high-ranking meeting. The IRGC's overriding objective, per a security
+      official close to the Guards, is regime survival — not military victory.
 
 
-    Read alongside the other signals from the same reporting \-- ballistic missile launchers deployed on western borders and
-    southern Gulf shores, a new Defense Council created under Ali Shamkhani, all armed forces at their highest readiness level
-    \-- the succession directive indicates that Tehran is not bluffing about war preparation. The regime is genuinely preparing
-    for a strike it considers likely. Larijani is simultaneously managing negotiations designed to prevent the strike and
-    institutional preparations designed to survive it.
+      Vahidi controls the sword. He does not control the purse, the parliament,
+      the judiciary, or the diplomatic apparatus. His power is kinetic: missiles,
+      Basij, internal security. It is the most consequential power in wartime.
+      It is not sufficient to govern.
+
+  - title: "Node 3: Ali Larijani — The Operator"
+    level: 2
+    content: >-
+      Larijani remains Secretary of the Supreme National Security Council. This
+      is the position from which he governed Iran for two months before the war.
+      The Soufan Center assessed that he "possesses the mandate to shape or
+      facilitate any potential future engagement with the US related to
+      de-escalation or indirect diplomacy" and "operates within a more unified
+      chain of command" than the interim trio.
 
 
-    This dual posture \-- negotiate and prepare \-- is itself rational. But it produces a specific problem for the negotiations:
-    the same institutional energy devoted to war preparation competes with the institutional energy needed for diplomatic
-    flexibility. You cannot simultaneously harden your military posture and soften your negotiating position. The officials
-    managing missile deployments are not the ones drafting compromise proposals. The system is doing both, under one man''s
-    coordination, and neither task is getting the attention it requires.
-
-    '
-- title: What Happens Thursday
-  level: 2
-  content: 'Geneva Round 3 convenes Thursday, February 26 \-- confirmed by Oman''s Foreign Minister. Iran''s written proposal
-    is expected by Tuesday. Trump''s deadline window opens approximately March 1-6. Witkoff told Fox News on Saturday that
-    Trump is "curious" why Iran has not "capitulated." The largest US military force assembled since the 2003 Iraq invasion
-    is in theater.
+      But Larijani's structural position has inverted. Before February 28, he was
+      Khamenei's delegate — governing with the Supreme Leader's authority behind
+      every decision. After February 28, he was an autonomous actor in a contested
+      power structure. After March 8, he is subordinate to a Supreme Leader
+      installed by the faction Larijani has been fighting since 2011.
 
 
-    The structural analysis in this brief suggests that Thursday''s meeting faces a specific failure mode that is not about
-    the content of Iran''s proposal. It is about the authorization architecture behind it. Even if Araghchi presents a proposal
-    that appears to move toward Washington''s position, the question that must be asked is: who authorized this, and can they
-    deliver implementation against the 45-65% of institutional power that will resist it?
+      The Larijani-Paydari rivalry is not tactical disagreement. It is the
+      central contest of post-Khamenei Iran. The Paydari Front was literally
+      founded from a factional split with Larijani. Jalili's faction engineered
+      Larijani's disqualification from presidential races in 2021 and 2024.
+      Mirbagheri — the eschatological faction's theological center — confirmed
+      Mojtaba's election on Fars. The faction that has spent fifteen years trying
+      to destroy Larijani's political career has now installed the Supreme Leader.
 
 
-    If the answer is "Larijani authorized it, but Khamenei''s approval is conditional and reversible" \-- then the proposal
-    is a diplomatic performance, not a binding commitment. It may buy time. It will not buy a deal.
+      Larijani's operational authority — the SNSC apparatus, the back channels
+      to Oman, the pragmatist network within the IRGC and technocracy — remains
+      intact. But the question is whether that authority can be exercised under
+      a Supreme Leader whose backers want Larijani marginalized. The SNSC
+      operates at the Supreme Leader's pleasure. Mojtaba can, constitutionally,
+      replace Larijani at any time. Whether he has the institutional capacity
+      to do so in wartime — when Larijani's operational networks are the only
+      functioning governance infrastructure — is a different question.
 
 
-    The previous six briefs in this series have documented why: the theological deception doctrine that decouples presentation
-    from intent, the parallel society that cannot be reformed by external agreement, the structural differences that make
-    Iran''s transition unlike any precedent, the spoiler faction that has killed every deal for nineteen years, the Pinochet
-    mechanism that ensures any hollow deal enriches the regime''s worst elements, and the military posture that gives this
-    analysis a timeline measured in days.
+      The finding: Larijani is the only node with the capacity to negotiate an
+      off-ramp. He is also the node most threatened by the succession outcome.
+      The regime's best diplomat is operating under a leader installed by the
+      faction most hostile to diplomacy.
+
+  - title: "Node 4: Mohammad-Mehdi Mirbagheri — The Kingmaker"
+    level: 2
+    content: >-
+      Mirbagheri does not hold a military command. He does not run a ministry.
+      He confirmed Mojtaba's election on Fars, stating that "a firm opinion
+      reflecting the majority view has been reached." This is the public act of
+      a kingmaker declaring his king.
 
 
-    Brief \#7 adds the capstone: the man who can say yes is not at the table. The man at the table cannot say yes without
-    asking someone who has already said no.
-
-    '
-source_summary: null
-footer_raw: '---
-
-
-  *Brief \#7 in the Iran Transition Project, by Hooman Mehr. AI-assisted research (Claude/Anthropic). No factional allegiance;
-  no policy agenda beyond analytical accuracy.*
+      This project has tracked Mirbagheri since its founding. The
+      Hojjatiyeh-to-Mesbah-Yazdi-to-Mirbagheri theological lineage represents
+      a specific eschatological position: cooperation with the United States is
+      cooperation with the Dajjal. This is not metaphor within the faction — it
+      is operational theology that motivates institutional behavior. The faction
+      controls Assembly of Experts seats, a parliamentary bloc through Paydari,
+      media infrastructure through MASAF, and has documented overlap with Basij
+      networks.
 
 
-  *Companion briefs: (1) "[The Blind Spot in Every Iran Deal](https://hmehr.substack.com/p/the-blind-spot-in-every-iran-deal)"
-  -- the taqiyyah verification gap. (2) "[The Country Inside the Country](https://hmehr.substack.com/p/the-country-inside-the-country)"
-  -- IRGC parallel civilization. (3) "[Iran Is Not Iraq](https://hmehr.substack.com/p/iran-is-not-iraq)" -- why the comparison
-  fails. (4) "[The Spoiler](https://hmehr.substack.com/p/the-spoiler)" -- the faction blocking every deal. (5) "[The Deal
-  That Cannot Hold](https://hmehr.substack.com/p/the-deal-that-cannot-hold)" -- the Pinochet Pivot and three failure fronts.
-  (6) "[The Day After](https://hmehr.substack.com/p/the-day-after)" -- what determines regime survival after the next strike.
-  (8) "[The Puppet Problem](https://hmehr.substack.com/p/the-puppet-problem)" -- why the next Supreme Leader may not matter.
-  (9) "[The Doctrine Behind the Escalation](https://hmehr.substack.com/p/the-doctrine-behind-the-escalation)" -- the coercive-endurance
-  cycle. (10) "[The Table After the Bombs](https://hmehr.substack.com/p/the-table-after-the-bombs)" -- what post-strike negotiations
-  actually look like.*
+      Before February 28, Mirbagheri's faction was a spoiler — capable of
+      blocking deals but not of controlling the state. Brief #4 documented
+      this role. After March 8, the spoiler is the succession architect.
+      The faction that blocked every deal for nineteen years has now installed
+      the Supreme Leader. This is the single largest upgrade in the
+      eschatological faction's institutional position since 1989.
 
 
-  *Hooman Mehr is an independent analyst based in Kirkland, Washington. The Iran Transition Project publishes on [Substack](https://hmehr.substack.com)
-  and [LinkedIn](https://www.linkedin.com/in/hoomanmehr). Contact: [hooman@mac.com](mailto:hooman@mac.com)*'
-footer_attribution: '*Brief \#7 in the Iran Transition Project, by Hooman Mehr. AI-assisted research (Claude/Anthropic). No
-  factional allegiance; no policy agenda beyond analytical accuracy.*'
+      Mirbagheri's power is not kinetic. It is theological and institutional.
+      He provides the legitimacy framework that the IRGC cannot generate on
+      its own. A military junta without theological sanction is a coup. A
+      Supreme Leader installed with the endorsement of the Assembly of Experts'
+      most theologically credentialed faction is constitutional succession.
+      Mirbagheri's confirmation transforms an IRGC power grab into a religious
+      act — and in a theocratic state, that transformation is the difference
+      between legitimate authority and naked force.
+
+
+      The veto power remains. Any diplomatic initiative, any ceasefire
+      negotiation, any deal that Larijani might construct must now pass through
+      a Supreme Leader whose installation was blessed by the faction
+      theologically committed to blocking exactly such outcomes.
+
+  - title: "Node 5: Mohammad Bagher Ghalibaf — The Parliamentary Warlord"
+    level: 2
+    content: >-
+      Ghalibaf is Speaker of Parliament and a former IRGC air force commander
+      from the Iran-Iraq War. He has been reported as "fully in charge of the
+      war" by Iranian journalist Mehdi Yahyanejad, citing significant chaos in
+      the chain of command. On March 7, when Pezeshkian issued an apology to
+      Gulf states and announced Iran would stop striking neighbors, Ghalibaf
+      publicly reversed the statement — declaring that as long as Gulf nations
+      hosted US bases, they would be subjected to strikes.
+
+
+      This reversal was broadcast on state television. It was the most visible
+      expression of the command-delivery gap: two officials with overlapping
+      claims to authority issuing contradictory orders on national television,
+      in wartime. The external world saw three non-coordinated narrative threads
+      — Larijani's pragmatist signaling, Ghalibaf's hardliner posture, and
+      independent marja decrees filling the theological vacuum — and correctly
+      concluded that Iran's decision-making structure had fragmented.
+
+
+      Ghalibaf's power derives from Parliament (which controls legislation
+      and budgets), his personal IRGC network (cultivated over decades), and
+      his alliance with Mojtaba. The Guardian reported close ties between
+      Mojtaba and Ghalibaf. In the new power architecture, Ghalibaf provides
+      the legislative channel that the IRGC-Mojtaba axis needs to formalize
+      wartime authorities and economic measures. He is the political fixer in
+      a system that desperately needs political fixing.
+
+  - title: "Node 6: Masoud Pezeshkian — The Shell"
+    level: 2
+    content: >-
+      Pezeshkian remains President of Iran. He remains irrelevant to the
+      power architecture. His own assessment — "I'm a doctor, not a
+      politician" — is, if anything, more accurate now than when he said it.
+
+
+      His one significant act — the March 7 apology to Gulf states for
+      Iranian strikes on their territory — was reversed within hours by
+      Ghalibaf. The apology was broadcast on state television. The retraction
+      was broadcast on state television. The sequence provided primary-source
+      evidence of the command-delivery gap: the elected president cannot make
+      the military obey his statements, the parliament speaker can
+      contradict the president publicly and prevail, and the world watches
+      the fragmentation in real time.
+
+
+      Pezeshkian's constitutional powers — appointing ministers, presenting
+      legislation, conducting foreign policy — are formally intact. They are
+      operationally meaningless when the Supreme Leader commands the military,
+      the IRGC controls internal security, and the parliament speaker
+      publicly overrides presidential statements. Pezeshkian is the civilian
+      face the Islamic Republic presents to the world. The world is no
+      longer fooled.
+
+  - title: "The Network Without a Center"
+    level: 2
+    content: >-
+      The six nodes form a network, not a hierarchy. Each controls a different
+      domain of power. None can be removed without collapsing a critical function.
+      And no constitutional or institutional mechanism exists to resolve conflicts
+      between them.
+
+
+      Mojtaba holds the constitutional title but not independent authority. Vahidi
+      holds the military but not the legitimacy. Larijani holds the operational
+      networks but not the Supreme Leader's backing. Mirbagheri holds the
+      theological mandate but not the institutional machinery. Ghalibaf holds the
+      parliament but not the command authority. Pezeshkian holds the presidency
+      but not the power.
+
+
+      The pre-war architecture was simpler and more dangerous in a different way:
+      Khamenei held ultimate authority, Larijani operated as delegate, and every
+      other node was subordinate to this chain. The chain was slow, theologically
+      constrained, and produced the authorization bottleneck Brief #7 v1.0
+      documented — but it was a chain. Decisions could be made, even if slowly.
+
+
+      The post-succession architecture has no chain. It has a network of veto
+      points. Mojtaba cannot command Vahidi without Mirbagheri's theological
+      sanction. Vahidi cannot negotiate without Larijani's diplomatic apparatus.
+      Larijani cannot negotiate without Mojtaba's authorization — which requires
+      Mirbagheri's acquiescence. Ghalibaf can contradict Pezeshkian on state
+      television and face no consequence. Pezeshkian can apologize to Gulf states
+      and be overruled within hours.
+
+
+      This is the command-delivery gap at the institutional level, not just the
+      military level. The A9 hollowness thesis predicted that the IRGC parallel
+      society would fragment under stress. The prediction was correct; the
+      fragmentation vector was wrong. We predicted bottom-up desertion — the
+      dependent periphery abandoning first. What happened was top-down
+      splintering — the command level fractured while the street-level coercive
+      apparatus remained intact. The regime is too fragmented to negotiate
+      coherently and too intact to collapse.
+
+  - title: "What This Means for the War"
+    level: 2
+    content: >-
+      The six-node architecture has three immediate consequences for the
+      conflict.
+
+
+      First, no one can surrender. "Unconditional surrender" requires a
+      unified authority capable of committing the state. Mojtaba cannot commit
+      the IRGC — the IRGC permitted his installation, not the reverse. Vahidi
+      cannot commit the theological establishment. Larijani cannot commit a
+      Supreme Leader whose backers oppose his agenda. The US demand for
+      unconditional surrender assumes a counterpart who can deliver it. That
+      counterpart does not exist.
+
+
+      Second, no one can negotiate. Negotiation requires a principal who can
+      make binding commitments. Brief #7 v1.0 identified the authorization
+      bottleneck: Araghchi to Larijani to Khamenei, with each link having
+      different incentives. The new architecture is worse: Araghchi to Larijani
+      to Mojtaba to Mirbagheri (theological veto) and Vahidi (military veto)
+      and Ghalibaf (legislative veto). The number of veto points has tripled.
+      The authorization chain that could not say yes when it had three links
+      cannot say yes with six.
+
+
+      Third, the fragmentation is self-reinforcing under bombardment. Every
+      day of strikes degrades the institutional capacity that would be needed
+      to restore unified command. Communications infrastructure is being
+      destroyed. Commanders are being killed — five Quds Force commanders in
+      a single Beirut hotel strike. Units are making autonomous firing
+      decisions because the command structure cannot reach them. The longer
+      the war continues, the more fragmented the command architecture becomes,
+      and the more fragmented the architecture, the less capable any node is
+      of terminating the war.
+
+
+      The original Brief #7 concluded: "The man who can say yes is not at
+      the table. The man at the table cannot say yes without asking someone
+      who has already said no." The updated conclusion is worse: there is no
+      man who can say yes. There are six nodes, each holding a piece of a
+      power that was designed to be exercised by one person. The one person
+      is dead. The pieces do not reassemble.
+
+footer_raw: >-
+  ---
+
+
+  *Brief #7 (v2.0) in the Iran Transition Project, by Hooman Mehr. AI-assisted
+  research (Claude/Anthropic). No factional allegiance; no policy agenda
+  beyond analytical accuracy.*
+
+
+  *Original v1.0 (Feb 23, 2026) archived as historical document — the Larijani
+  revelation was confirmed by events and remains the baseline for understanding
+  who governed Iran when the war started.*
+
+
+  *Companion briefs: (4) "The Spoiler" — the faction now running the succession.
+  (8) "The Puppet Problem" — why Mojtaba cannot govern independently.
+  (12) "The Succession Contest" — the pre-announcement analysis.
+  (14) "The Theory-of-Victory Gap" — what the fragmented command architecture
+  means for termination.*
+
+
+  ---
+
+
+  **Key Sources:** Mojtaba succession announcement (Fars, IRIB, Tasnim, ISNA,
+  March 8, 2026); Mirbagheri confirmation (Fars/Euronews, March 8, 2026);
+  IRGC obedience statement (IRIB, March 8, 2026); IRGC coercion of Assembly
+  (Iran International, March 3-5, 2026); Assembly boycott (Iran International,
+  8 members); Vahidi background and appointment (Al Jazeera, March 6, 2026);
+  IRGC expanded role (Reuters, 6 sources, March 5, 2026); Larijani SNSC
+  authority (Soufan Center, March 1, 2026); Ghalibaf reversal of Pezeshkian
+  (state TV / external analysis, March 7, 2026); Pezeshkian Gulf apology
+  (state TV, March 7, 2026); Milani quote on IRGC (NBC News, March 6, 2026);
+  Interim trio formation (Al Jazeera, March 1, 2026); Original B07 v1.0
+  sourcing (NYT Farnaz Fassihi, Feb 22, 2026, 6 senior Iranian officials +
+  3 IRGC members).
+
+
+  **Epistemic note:** Six-node power architecture at High confidence — each
+  node's authority sourced to named positions, confirmed appointments, and
+  documented actions. Network-without-center diagnosis at Medium-High —
+  structural analysis consistent with all observable behavior (command-delivery
+  gap, contradictory public statements, succession under coercion). Mirbagheri
+  kingmaker finding at High — confirmed by his own public statement on Fars.
+  Larijani vulnerability finding at Medium — inference from structural
+  position; Mojtaba has not yet moved against Larijani, but the incentive
+  architecture predicts it. Self-reinforcing fragmentation thesis at Medium
+  — logical extrapolation from observable degradation pattern.
+
+
+  *Hooman Mehr is an independent analyst based in Kirkland, Washington.
+  The Iran Transition Project publishes on
+  [Substack](https://hmehr.substack.com) and
+  [LinkedIn](https://www.linkedin.com/in/hoomanmehr). Contact:
+  [hooman@mac.com](mailto:hooman@mac.com)*
+footer_attribution: >-
+  *Brief #7 (v2.0) in the Iran Transition Project, by Hooman Mehr. AI-assisted
+  research (Claude/Anthropic). No factional allegiance; no policy agenda
+  beyond analytical accuracy.*
 companion_briefs:
-- number: 1
-  title: The Blind Spot in Every Iran Deal
-  link: https://hmehr.substack.com/p/the-blind-spot-in-every-iran-deal
-  description: the taqiyyah verification gap
-- number: 2
-  title: The Country Inside the Country
-  link: https://hmehr.substack.com/p/the-country-inside-the-country
-  description: IRGC parallel civilization
-- number: 3
-  title: Iran Is Not Iraq
-  link: https://hmehr.substack.com/p/iran-is-not-iraq
-  description: why the comparison fails
-- number: 4
-  title: The Spoiler
-  link: https://hmehr.substack.com/p/the-spoiler
-  description: the faction blocking every deal
-- number: 5
-  title: The Deal That Cannot Hold
-  link: https://hmehr.substack.com/p/the-deal-that-cannot-hold
-  description: the Pinochet Pivot and three failure fronts
-- number: 6
-  title: The Day After
-  link: https://hmehr.substack.com/p/the-day-after
-  description: what determines regime survival after the next strike
-- number: 8
-  title: The Puppet Problem
-  link: https://hmehr.substack.com/p/the-puppet-problem
-  description: why the next Supreme Leader may not matter
-- number: 9
-  title: The Doctrine Behind the Escalation
-  link: https://hmehr.substack.com/p/the-doctrine-behind-the-escalation
-  description: the coercive-endurance cycle
-- number: 10
-  title: The Table After the Bombs
-  link: https://hmehr.substack.com/p/the-table-after-the-bombs
-  description: what post-strike negotiations actually look like
-footer_extras: []
-author_bio: 'Hooman Mehr is an independent analyst based in Kirkland, Washington. The Iran Transition Project publishes on
-  [Substack](https://hmehr.substack.com) and [LinkedIn](https://www.linkedin.com/in/hoomanmehr). Contact: [hooman@mac.com](mailto:hooman@mac.com)'
-changelog: []
+  - number: 4
+    title: The Spoiler
+  - number: 8
+    title: The Puppet Problem
+  - number: 12
+    title: The Succession Contest
+  - number: 14
+    title: The Theory-of-Victory Gap
+author_bio: >-
+  Hooman Mehr is an independent analyst based in Kirkland, Washington.
+  The Iran Transition Project publishes on
+  [Substack](https://hmehr.substack.com) and
+  [LinkedIn](https://www.linkedin.com/in/hoomanmehr). Contact:
+  [hooman@mac.com](mailto:hooman@mac.com)
+changelog:
+  - version: v1.0
+    date: '2026-02-23'
+    content_changes: >-
+      Original publication. Thesis: Larijani running Iran as Khamenei's delegate.
+      Confirmed by events. Archived as historical document.
+  - version: v2.0
+    date: '2026-03-08'
+    structural_changes: >-
+      Complete rewrite. All sections replaced.
+    content_changes: >-
+      New thesis: six-node power network with no center.
+      Maps Mojtaba, Vahidi, Larijani, Mirbagheri, Ghalibaf, Pezeshkian as
+      competing nodes. Core finding: no unified authority capable of
+      surrendering, negotiating, or terminating the war.
 governance:
-  routing_decision: null
-  shelf_life: MEDIUM
-  pending_updates: null
-  vulnerability: null
-  outcome_status: OVERTAKEN
-  outcome_note: 'Written February 22, 2026. Core thesis: Ali Larijani has been effectively running Iran since January 2026,
-    not Pezeshkian or Araghchi. Outcome: Confirmed by events — Larijani was indeed the operational authority. But the situation
-    this brief analyzed no longer exists. Khamenei is dead (Feb 28). Shamkhani is dead. The interim trio (Pezeshkian/Mohseni-Ejei/Arafi)
-    is nominally in charge. Larijani continues as SNSC operational authority but under fundamentally different conditions
-    — he is no longer Khamenei''s delegate but an autonomous actor in a contested power structure. The Larijani revelation
-    remains analytically important as the baseline for understanding who was running Iran when the war started. Brief #12
-    (Succession Contest) supersedes the governance analysis.'
-  archive_status: ARCHIVE_CANDIDATE
-date_display: February 2026
+  outcome_status: PENDING
+  outcome_note: >-
+    Rewrite of original B07 (Feb 23). Original's thesis (Larijani running Iran)
+    confirmed by events — governance status CONFIRMED, now archived. This v2.0
+    maps the post-succession power architecture as of March 8 (Mojtaba
+    announcement day). Six-node analysis is current-state mapping, not prediction.
+    Will require update when power relationships between nodes become clearer —
+    particularly whether Mojtaba moves against Larijani.
+  archive_status: ACTIVE
+  shelf_life: SHORT
+  vulnerability: >-
+    Current-state analysis. Any major power shift between nodes — Larijani
+    removed, IRGC splits, Mojtaba asserts independent authority, or a coup
+    attempt — requires immediate revision. Shelf life measured in weeks.

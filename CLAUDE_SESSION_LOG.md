@@ -438,4 +438,49 @@ No other action needed — the refactor is solid.
 runtime guidance — the doc note catches it earlier for contributors reading
 the guide. Dockerfile deferred per Chat's "low priority" assessment.
 
+### 2026-03-08 — Chat — Integration Request
+
+**Session:** Scorecard + Theory-of-Victory
+**Summary:** New Brief #14 (Theory-of-Victory Gap) — highest marginal analytical value brief
+
+**New entities:**
+- brief: B14 — "The Theory-of-Victory Gap: Why Nobody Has Articulated a Plausible Endgame — and What That Predicts"
+
+**Updated entities:**
+- None (pure new work)
+
+**Filled gaps:**
+- None
+
+**New/updated briefs:**
+- B14: New brief. Core thesis: absence of theory of victory is a structural variable predicting extended duration and termination by exhaustion. Maps five termination modes. Documents policy incoherence as independent variable. Integrates Mojtaba succession (Mar 8), NIC assessment leak, Mirbagheri as kingmaker confirmation.
+
+**Staging files:**
+- staging/session_scorecard/b14.yaml — full — target: data/briefs/b14.yaml
+
+**Ambiguities for human review:**
+- Voice review before publication (standing rule)
+- Brief numbering: B14 assumes sequential. If any briefs were created between B13 and now in other sessions, renumber.
+- ITB anchor selection: ITB-A12, ITB-A11, ITB-A10, ITB-B, ISA-TRAPS. May want to add ISA-CORE or ITB-F depending on how the wartime scenario cross-refs land.
+- Shelf life marked SHORT — this brief is strongest while the theory-of-victory gap remains unaddressed. Revisit governance if US articulates coherent endgame.
+
+### 2026-03-08 — Chat — Integration Request (B07 v2.0)
+
+**Session:** Scorecard + Theory-of-Victory + B07 Rewrite
+**Summary:** Complete rewrite of Brief #7 — "Who Is Running Iran Now?"
+
+**Updated entities:**
+- brief B07: v1.0 → v2.0 complete rewrite. New title "Who Is Running Iran Now?" New subtitle "The Post-Succession Power Map — Six Nodes, No Center."
+
+**New/updated briefs:**
+- B07 v2.0: Maps six power nodes (Mojtaba/Throne, Vahidi/Sword, Larijani/Operator, Mirbagheri/Kingmaker, Ghalibaf/Parliamentary Warlord, Pezeshkian/Shell). Core finding: no unified authority capable of surrendering, negotiating, or terminating the war.
+
+**Staging files:**
+- File available at /mnt/user-data/outputs/b07_v2.yaml — full replacement — target: data/briefs/b07.yaml
+
+**Ambiguities for human review:**
+- Voice review before publication (standing rule)
+- Preserve original v1.0 somewhere (archive folder or changelog) — confirmed by events, has historical value
+- ITB anchors: ITB-A, ITB-B, ITB-A9, ITB-A10. May want ITB-A12.
+
 <!-- END LOG -->
