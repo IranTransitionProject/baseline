@@ -451,7 +451,8 @@ Claude-to-Claude coordination protocol instead of zip files or manual file drops
 The ITP repository is the single source of truth. Access it in priority order:
 
 1. **Filesystem tools available** (Desktop Commander, Filesystem MCP):
-   Read and write directly at `~/Developer/Repositories/framework/`.
+   Read and write directly at `$ITP_ROOT/framework/` (ITP_ROOT is the
+   project root containing framework/, loom/, and baft/).
    This is the canonical local clone path (stable across machines).
 2. **No filesystem access** (web, mobile, or MCP not connected):
    Use `project_knowledge_search` to find repo files synced via GitHub.

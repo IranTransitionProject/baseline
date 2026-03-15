@@ -12,7 +12,9 @@
 
 set -euo pipefail
 
-REPO_ROOT="$HOME/Developer/Repositories/framework"
+# ITP_ROOT must point to the project root containing framework/, loom/, baft/
+ITP_ROOT="${ITP_ROOT:-$(cd "$(dirname "$0")/.." && cd .. && pwd)}"
+REPO_ROOT="$ITP_ROOT/framework"
 PLIST_LABEL="org.irantransitionproject.session-watcher"
 PLIST_PATH="$HOME/Library/LaunchAgents/$PLIST_LABEL.plist"
 WATCH_SCRIPT="$REPO_ROOT/scripts/watch_session_log.sh"
@@ -60,6 +62,8 @@ cat > "$PLIST_PATH" <<EOF
         <string>$LAUNCHD_PATH</string>
         <key>HOME</key>
         <string>$HOME</string>
+        <key>ITP_ROOT</key>
+        <string>$ITP_ROOT</string>
     </dict>
 
     <!-- Trigger on session log file changes (native kqueue, no fswatch needed) -->

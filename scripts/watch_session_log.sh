@@ -22,7 +22,9 @@
 
 set -euo pipefail
 
-REPO_ROOT="$HOME/Developer/Repositories/framework"
+# ITP_ROOT must point to the project root containing framework/, loom/, baft/
+ITP_ROOT="${ITP_ROOT:-$(cd "$(dirname "$0")/.." && cd .. && pwd)}"
+REPO_ROOT="$ITP_ROOT/framework"
 LOG_FILE="$REPO_ROOT/CLAUDE_SESSION_LOG.md"
 STATE_DIR="$REPO_ROOT/.claude"
 STATE_FILE="$STATE_DIR/watcher_state"

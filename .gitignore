@@ -20,3 +20,6 @@ releases/*.pdf
 
 # Chat → Code staging area (transient content, consumed and deleted by Code)
 staging/
+
+# Environment
+.env
