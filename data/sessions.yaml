@@ -1,6 +1,6 @@
-version: '2.3'
-date: '2026-02-24'
-source: Migrated from 00_MASTER_INDEX.md v2.3 Session Log
+version: '2.4'
+date: '2026-03-15'
+source: v2.3 + Session 23 (Factnameh + Walney Undue Influence)
 entries:
 - number: 1
   date: '2026-02-16'
@@ -197,3 +197,28 @@ entries:
   - ISA-SCENARIOS
   - APP-V
   - APP-G
+- number: 23
+  date: '2026-03-15'
+  summary: >-
+    Wartime OSINT and soft power integration session. Sources: Factnameh Telegram
+    channel export (112 messages, Feb 27–Mar 11 2026, 112 wartime posts) and Lord
+    Walney "Undue Influence" report (109pp, March 2026, UK charity sector). New
+    observations: Obs 035 (Soft Power Infrastructure Inertia — post-decapitation
+    civil society network trajectories), Obs 036 (Fabrication Economy as Demand-Signal
+    Intelligence — AI disinformation typology maps factional narrative demand).
+    Corroboration upgrades: A9 Hollowness (Obs 007) → Corroborated via 77K-post
+    quantitative data; MASAF (Obs 009) → Corroborated via EU Jan 2026 designation;
+    Wrong Interlocutor (Obs 010) scope extended to civil society layer. New gaps:
+    G23-01 (military-civilian overlap mapping, P1), G23-02 (Pars Air/IL-76 IRGC
+    covert airlift reconstruction, P1), G23-03 (fighter airframe survival rate, P2),
+    G23-04 (UK charity network trajectory, P2). Gap fill note additions: command
+    cohort fragmentation quantified via media coordination failure; underground
+    capacity partial signal via internet anomaly. New brief candidate queued:
+    "The Infrastructure That Outlasted the Regime."
+  modules_affected:
+  - ITB-A9
+  - ITB-A10
+  - ITB-F
+  - ITB-G
+  - APP-G
+  - data/observations.yaml

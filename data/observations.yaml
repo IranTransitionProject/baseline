@@ -1,6 +1,6 @@
-version: '2.0'
-date: '2026-03-05'
-source: v1.9 + Session 22 follow-up (Obs 034 — ceasefire paradox)
+version: '2.1'
+date: '2026-03-15'
+source: v2.0 + Session 23 (Factnameh + Walney Undue Influence)
 section_title: Analytic Annotations (The 'So-What' Log)
 entries:
 - id: 1
@@ -118,7 +118,12 @@ entries:
     The IRGC parallel society comprises a designed system of theological doctrine (A8), educational pipeline from age 7 through
     elite university (A9.2), physically segregated residential compounds (A9.3), comprehensive economic patronage (A9.4),
     and battlefield-tested operational doctrine transferred from Syria (A9.6). The total population is estimated at 2-10 million
-    people across three tiers.
+    people across three tiers. CORROBORATION (Session 23 — Factnameh 72-hour Telegram analysis): The Factnameh analysis of
+    77,000+ posts across 50 channels in the first 72 hours post-Khamenei death provides the first quantitative measure of A9
+    hollowness under kinetic stress. 65.1% of posts had >95% text similarity (copy-paste). Zero original editorial content was
+    produced for 72 hours. Succession discourse was absent from the agenda. Khamenei's name — normally the gravitational center
+    of all Iranian media — was subordinated to "موشک" (missile) and "حمله" (strike) within hours of his death. The media apparatus
+    had no contingency content prepared. Epistemic tag upgraded from Structurally Consistent to Corroborated.
   strategic_implication: >-
     Transition planning frameworks that treat the IRGC as a military force to be "reformed" or an ideological movement to
     be "de-radicalized" fundamentally misunderstand the challenge. The IRGC is a purpose-built parallel civilization. You
@@ -133,6 +138,8 @@ entries:
   - A8 (all subsections)
   - A3.3
   - C2
+  sources:
+  - Factnameh 72-hour Telegram analysis (msg 5282, March 6 2026) — 77K posts, 50 channels
   version_added: v1.2
   session_added: 3
 - id: 8
@@ -160,7 +167,13 @@ entries:
     Deal -> regime preserved -> succession opportunity; (b) Strike -> nationalist mobilization -> hardliner empowerment; (c)
     Collapse -> chaos -> "strong leader" demand; (d) Decay -> gradual institutional capture; (e) Managed transition -> sabotage
     from within. The faction has theological authority, financial independence (Mahsouli), media infrastructure (MASAF), and
-    potential Basij sympathizers in a decentralized provincial structure.
+    potential Basij sympathizers in a decentralized provincial structure. CORROBORATION (Session 23 — EU MASAF designation):
+    The EU sanctioned the Masaf Institute in January 2026 — six weeks before the strikes — specifically for IRGC-coordinated
+    doxxing campaigns and state propaganda functions. This is the first external state-level official determination corroborating
+    the ITP characterization of MASAF in ITB-A10. The Walney report additionally documents IHRC director Shadjareh's three-part
+    Masaf International interview series praising the regime and backing the Rushdie fatwa, and establishes Masaf International
+    as the English-language platform for the EU-designated Masaf Institute. MASAF finding upgraded from Reported/Structurally
+    Consistent to Corroborated.
   strategic_implication: >-
     Every scenario must be stress-tested against the question: "How does the Mirbagheri faction exploit this outcome?" If
     the answer is "they can't," the scenario assessment is probably wrong.
@@ -169,6 +182,9 @@ entries:
   cross_refs:
   - ISA-TRAPS
   - ISA-SCENARIOS S1-S5
+  sources:
+  - EU Council Implementing Regulation sanctioning Masaf Institute (January 2026)
+  - Lord Walney, Undue Influence pp.58-59 (Shadjareh Masaf interview documentation)
   version_added: v2.0
   session_added: 5
 - id: 10
@@ -181,6 +197,15 @@ entries:
     vulnerable period is post-signing. The wrong interlocutor thesis: Washington is negotiating with Segment 3 (genuine pragmatists,
     ~15-25% of institutional power) while deal survival depends on overcoming Segments 1+2 (~45-65% of institutional power).
     The negotiating counterparts lack the institutional weight to deliver what they are promising.
+    SCOPE EXTENSION (Session 23 — Walney Undue Influence): The wrong interlocutor problem operates identically at the civil
+    society layer, not only at the diplomatic/negotiating table. The Walney report documents that UK government bodies (councils,
+    police, Charity Commission) engage with ICEL, IHRC, and related charities as legitimate community representatives, while
+    the actual authorization chain ran: Ministry of Intelligence → Ministry of Culture → SNSC → Supreme Leader's office. The
+    ICEL director was described by former Iranian Deputy Minister of Culture (now at Iran International) as "the most senior
+    Iranian regime official" in the UK despite holding no diplomatic status. The Maryam Rajavi entry ban (UK bars opposition
+    leader while regime soft power network operates freely) is the starkest manifestation. Western institutional difficulty
+    distinguishing between Islam as religion and Islamism as political project amplifies the interlocutor problem across all
+    civil society contexts.
   strategic_implication: >-
     Deal assessment must include a temporal stress test: "If this deal is signed today, what is the probability it survives
     (a) the next Supreme Leader selection, (b) the next US political cycle, and (c) simultaneous eschatological sabotage and
@@ -194,6 +219,8 @@ entries:
   - >-
     Tehran institutional adaptation (SNSC restructuring, Araghchi authority expansion or contraction, IRGC public statements
     on deal)
+  sources:
+  - Lord Walney, Undue Influence (March 2026) — pp.22-34 (ICEL as network HQ), pp.61-65 (compliance trap), p.50 (Rajavi entry ban)
   cross_refs:
   - 'A12 coupling: coercive-endurance model explains temporal mechanism behind wrong-interlocutor problem'
   version_added: v1.1
@@ -942,3 +969,104 @@ entries:
     Iranian reserve capacity which is unobservable under blackout]
   version_added: v2.0
   session_added: 22
+- id: 35
+  title: Soft Power Infrastructure Inertia
+  diagnosis: >-
+    Following decapitation of the Supreme Leader's authorization chain (Feb 28, 2026),
+    regime-aligned civil society networks in Western countries entered an inertia phase —
+    operating on pre-installed ideological programming without active coordination from
+    Tehran. The authorization chain documented by the Walney report ran: Ministry of
+    Intelligence → Ministry of Culture → SNSC → Supreme Leader's office. The principal
+    is gone; the agents remain operationally intact. Three trajectories are possible:
+    (A) Autonomous continuation on prior programming — predictable but uncontrolled
+    (the IHRC Quds Day apparatus runs its 2026 event without checking with anyone in
+    Tehran); (B) Factional realignment toward whichever IRGC faction consolidates fastest
+    — the Tasnim/Farihktegan axis is the most visible candidate given the Factnameh
+    "every 12 minutes" Mojtaba promotion data; (C) Fracture mirroring the three-thread
+    narrative split inside Iran — ICEL-type institutions follow the pragmatist survival
+    track, IHRC-type follow the hardliner track. The "compliance trap" documented in the
+    Walney report (personnel swaps without ideological change) means Western regulatory
+    intervention may not resolve the inertia problem — the institutional form changes
+    while the function persists. This is structurally identical to the puppet problem
+    (Obs 021): formal change does not produce functional change.
+  strategic_implication: >-
+    Western governments will face simultaneous pressure to dismantle this infrastructure
+    (post-war political environment) and potential interest in leveraging diaspora
+    community networks for post-war Iranian political engagement — two policy tracks in
+    structural tension. The UK has the most documented case (30+ organizations, 8/10
+    under Charity Commission investigation as of Feb 2026). German (Hamburg Islamic
+    Centre) and Swedish (Imam Ali Islamic Centre) precedents suggest closure pressure
+    is imminent post-war. For ITP: the "Infrastructure That Outlasted the Regime" brief
+    candidate requires resolving which trajectory these networks take before publication.
+    Monitor Masaf/Tasnim-affiliated content coherence and Mojtaba-aligned messaging as
+    the primary distinguishing signal.
+  itb_anchors:
+  - ITB-A10
+  - ITB-A9
+  - ITB-A8
+  leading_indicators:
+  - Whether Masaf International maintains coherent Mojtaba-aligned messaging (realignment signal)
+  - Whether ICEL and IHRC split on post-war narrative (fracture signal)
+  - UK government response to Walney report recommendations (regulatory disruption timeline)
+  - German/Swedish closure precedent replication in UK
+  cross_refs:
+  - Obs 010
+  - Obs 021
+  - Trap 6
+  sources:
+  - Lord Walney, Undue Influence (Powerful Street Ltd, March 2026)
+  - Factnameh 72-hour Telegram analysis (msg 5282, March 6 2026)
+  - ISC Iran inquiry 2025 (ICEL espionage risk finding)
+  confidence: '[Inference — Med-High for inertia mechanism; Inference — Med for trajectory analysis]'
+  version_added: v2.1
+  session_added: 23
+- id: 36
+  title: Fabrication Economy as Demand-Signal Intelligence
+  diagnosis: >-
+    AI-generated disinformation in the wartime information environment is structurally
+    organized around narrative demand gaps — what audiences want to be true but cannot
+    find evidence for. Factnameh debunked 13 AI-generated items across 13 days (one per
+    day). The fabrication typology maps directly onto competing factional narrative needs:
+    opposition audiences generated IRGC disobedience arrest videos, Basij commander
+    flight footage, regime humiliation content (Mojtaba cardboard model), and Khamenei
+    body imagery; regime audiences generated AI footage of Tel Aviv under Iranian
+    bombardment (posted by the official IRI Embassy in Armenia), US radar destruction
+    (Tehran Times, twice), and Larijani's "500 US troops killed" claim. The fabrication
+    inventory is a real-time poll of narrative demand. When demand exceeds evidence supply,
+    fabrications fill the gap — creating a market for AI-generated content that mimics
+    the events audiences need to believe. The IHRC director's Masaf International
+    interview series and the official embassy AI video confirm that regime-adjacent actors
+    are among the fabrication producers, not only consumers. The 65.1% copy-paste rate
+    in Factnameh's 72-hour Telegram analysis (77K posts) independently confirms the
+    same finding from a different angle: the media apparatus cannot produce original
+    content, so it recirculates and amplifies whatever narrative is available.
+  strategic_implication: >-
+    Fabrication pattern analysis is a secondary intelligence product independent of
+    truth value. What people are fabricating tells you what the information environment
+    needs — which is a direct window into what the competing factions are worried about.
+    For the ITP multi-agent monitoring pipeline: a fabrication-type classifier is required,
+    not merely a false-claim filter. The question is not only "is this false?" but "what
+    factional demand does this fabrication serve?" The demand-supply structure also warns
+    against over-reliance on social media signals during a blackout: the high-virality
+    content is almost certainly optimized for narrative demand, not accuracy. Factnameh
+    is performing the human-audit step the pipeline architecture requires. Direct access
+    to their 77K-post dataset (public on GitHub: github.com/factnameh) would calibrate
+    pipeline filter thresholds.
+  itb_anchors:
+  - ITB-A10
+  - ITB-A8
+  - ITB-A9
+  leading_indicators:
+  - New AI-fabrication categories emerging (signals new narrative demand gaps)
+  - Fabrications migrating from diaspora/opposition channels to official regime accounts (regime losing narrative control, resorting to AI)
+  - Factnameh debunk rate per day (>1/day = information environment severely contaminated)
+  cross_refs:
+  - Obs 029
+  - Obs 032
+  sources:
+  - Factnameh Telegram channel export, messages 5199-5345 (Feb 27 - Mar 11 2026)
+  - Factnameh 72-hour report factnameh.com/fa/reports/2026-03-05-analysis-of-irans-telegram-news-72hr-war
+  - IRI Embassy Armenia official account (AI Tel Aviv video, March 10)
+  confidence: '[Fact — High for fabrication catalogue; Inference — Med for demand-signal reading]'
+  version_added: v2.1
+  session_added: 23

@@ -93,6 +93,13 @@
     "session_added": {
       "type": "integer",
       "description": "Session number when gap was registered"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Source citations supporting gap identification"
     }
   }
 }

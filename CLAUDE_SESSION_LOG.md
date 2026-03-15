@@ -507,4 +507,183 @@ the guide. Dockerfile deferred per Chat's "low priority" assessment.
 or cleaning up staging. This session completed the integration (changelog fix, validation,
 build, IC entries, staging cleanup).
 
+### 2026-03-15 — Chat — Note
+
+**Repo path update.** Chat now accessing repo at
+`/Volumes/Data4TB/Developer/IranTransitionProject/framework/` (new drive/path).
+Old path `/Volumes/SanDiskSSD/Developer/Repositories/framework/` is no longer
+valid. All staging files for this and future sessions will be written to the
+new path. Code should confirm it can read from the new location.
+
+### 2026-03-15 — Chat — Integration Request
+
+**Session:** 23 (Factnameh wartime dataset + Walney Undue Influence report)
+**Summary:** Two-source analytical session. Sources: (1) Factnameh Telegram
+channel export (112 posts, Feb 27–Mar 11, 2026) — IFCN-certified OSINT/
+fact-checking; (2) Lord Walney "Undue Influence" (Powerful Street Ltd,
+March 2026, 109pp) — UK charity sector soft power analysis.
+
+**New observations:**
+- Obs 035: Soft Power Infrastructure Inertia — post-decapitation civil society
+  network operating without principal; three trajectories (autonomous/realigned/
+  fractured); compliance trap parallel to puppet problem
+- Obs 036: Fabrication Economy as Demand-Signal Intelligence — AI disinformation
+  typology maps narrative demand gaps; 13 fabrications catalogued by factional
+  demand function; pipeline implication (classifier required, not just filter)
+
+**Updated observations (corroboration additions):**
+- Obs 007 (A9 Hollowness): Add Factnameh 72-hour quantitative data — 77K posts,
+  65.1% similarity rate, zero original content for 72 hours post-confirmation.
+  Upgrade from Structurally Consistent to Corroborated.
+- Obs 009 (Eschatological Faction): Add EU MASAF designation (Jan 2026) as
+  first official state-level determination corroborating A10 thesis. Upgrade
+  MASAF finding from Reported/Structurally Consistent to Corroborated.
+- Obs 010 (Wrong Interlocutor): Add scope extension — problem operates
+  identically at civil society layer (UK charity network authorization chain
+  documented by Walney report).
+
+**New gaps:**
+- G23-01: Military-civilian administrative overlap mapping [P1] — Minab/
+  Lamerd/Niloofar pattern is systemic; full extent unknown; feeds B14
+- G23-02: Post-strike IRGC covert airlift reconstruction capacity [P1] —
+  Pars Air/IL-76 Quds Force fleet confirmed destroyed at Mehrabad
+- G23-03: Iranian fighter airframe survival rate post-strike [P2] — runway
+  denial vs. hangar destruction distinction from Factnameh Sentinel-2 series
+- G23-04: UK charity network post-decapitation trajectory [P2] — autonomous
+  vs. realigned vs. fractured; resolution unknown
+
+**Updated gaps (fill note additions):**
+- gap-irgc-command-cohort: Add Factnameh 65.1%/three-thread media evidence
+  as quantitative corroboration of command fragmentation
+- gap-underground-capacity: Add Factnameh internet anomaly finding (all 50
+  channels active despite shutdown — VPN penetration threshold signal)
+
+**Staging files:**
+- staging/session_23/observations_patch.yaml — patch — data/observations.yaml
+- staging/session_23/gaps_patch.yaml — patch — data/gaps.yaml
+
+**No new briefs or variables** — pure observation/gap work.
+
+**New brief candidate (not yet at publication threshold):**
+- "The Infrastructure That Outlasted the Regime" — soft power network inertia
+  post-decapitation; Walney report as primary source base; Factnameh inertia
+  data as Tehran-side mirror. Queue when analytical threshold reached.
+
+**Ambiguities for human review:**
+- Obs 035/036 IDs: Confirm these are 35 and 36 (not 37+) given Obs 034
+  Ceasefire Paradox was the last entry. If Code added any observations
+  between S22 and S23, renumber.
+- Obs 007/009/010 corroboration additions: Code can either append a
+  `corroboration_additions` field or add to existing `diagnosis` text —
+  whichever fits the schema better. The key data points are in the
+  staging file.
+- Sessions.yaml: Add Session 23 entry (date: 2026-03-15, modules affected:
+  ISA-TRAPS, ITB-A9, ITB-A10, ITB-G, ITB-H, APP-G).
+
+### 2026-03-15 — Chat — Integration Request
+
+**Session:** 23 (Factnameh wartime dataset + Walney Undue Influence report)
+**Summary:** Two-source analytical session. Sources: (1) Factnameh Telegram
+channel export (112 posts, Feb 27–Mar 11, 2026) — IFCN-certified OSINT/
+fact-checking; (2) Lord Walney "Undue Influence" (Powerful Street Ltd,
+March 2026, 109pp) — UK charity sector soft power analysis.
+
+**New observations:**
+- Obs 035: Soft Power Infrastructure Inertia — post-decapitation civil society
+  network operating without principal; three trajectories (autonomous/realigned/
+  fractured); compliance trap parallel to puppet problem
+- Obs 036: Fabrication Economy as Demand-Signal Intelligence — AI disinformation
+  typology maps narrative demand gaps; 13 fabrications catalogued by factional
+  demand function; pipeline implication (classifier required, not just filter)
+
+**Updated observations (corroboration additions):**
+- Obs 007 (A9 Hollowness): Add Factnameh 72-hour quantitative data — 77K posts,
+  65.1% similarity rate, zero original content for 72 hours post-confirmation.
+  Upgrade from Structurally Consistent to Corroborated.
+- Obs 009 (Eschatological Faction): Add EU MASAF designation (Jan 2026) as
+  first official state-level determination corroborating A10 thesis. Upgrade
+  MASAF finding from Reported/Structurally Consistent to Corroborated.
+- Obs 010 (Wrong Interlocutor): Add scope extension — problem operates
+  identically at civil society layer (UK charity network authorization chain
+  documented by Walney report).
+
+**New gaps:**
+- G23-01: Military-civilian administrative overlap mapping [P1] — Minab/
+  Lamerd/Niloofar pattern is systemic; full extent unknown; feeds B14
+- G23-02: Post-strike IRGC covert airlift reconstruction capacity [P1] —
+  Pars Air/IL-76 Quds Force fleet confirmed destroyed at Mehrabad
+- G23-03: Iranian fighter airframe survival rate post-strike [P2] — runway
+  denial vs. hangar destruction distinction from Factnameh Sentinel-2 series
+- G23-04: UK charity network post-decapitation trajectory [P2] — autonomous
+  vs. realigned vs. fractured; resolution unknown
+
+**Updated gaps (fill note additions):**
+- gap-irgc-command-cohort: Add Factnameh 65.1% copy-paste / three-thread
+  media evidence as quantitative corroboration of command fragmentation
+- gap-underground-capacity: Add Factnameh internet anomaly (all 50 channels
+  active despite shutdown — VPN penetration threshold signal)
+
+**Staging files:**
+- staging/session_23/observations_patch.yaml — patch — data/observations.yaml
+- staging/session_23/gaps_patch.yaml — patch — data/gaps.yaml
+- staging/session_23/sessions_patch.yaml — patch — data/sessions.yaml
+
+**New brief candidate (not yet at publication threshold):**
+- "The Infrastructure That Outlasted the Regime" — soft power network inertia
+  post-decapitation; Walney report as primary source base; Factnameh inertia
+  data as Tehran-side mirror. Queue in BRIEF_GOVERNANCE Part 6.
+
+**Ambiguities for human review:**
+- Obs IDs 035/036 confirmed against obs 034 (Ceasefire Paradox) as last entry.
+  If Code added any observations between S22 completion and this request, renumber.
+- Obs 007/009/010 updates: staging file uses a `corroboration_note` field as
+  a patch signal. Code should fold content into existing `diagnosis` text or
+  add a `sources` array entry — whichever fits schema. Key data points are
+  in the staging file.
+- Repo path change: Chat now using
+  `/Volumes/Data4TB/Developer/IranTransitionProject/framework/`. Code should
+  confirm it can read from this path.
+
+### 2026-03-15 — Code — Note
+
+**Repo path confirmed.** Code can read from
+`/Volumes/Data4TB/Developer/IranTransitionProject/framework/` and its worktree at
+`.claude/worktrees/modest-sanderson/`. Staging files at the new path read successfully.
+
+### 2026-03-15 — Code — Integration Complete
+
+**Session 23 integrated.** Factnameh wartime OSINT + Walney Undue Influence report.
+
+**Observations** (36 total, was 34):
+- 2 new: Obs 035 (Soft Power Infrastructure Inertia), Obs 036 (Fabrication Economy
+  as Demand-Signal Intelligence). Version bumped to 2.1.
+- 3 updated with corroboration/scope extensions:
+  - Obs 007 (A9 Hollowness): Factnameh 72-hour quantitative data appended to diagnosis;
+    source added; epistemic tag upgraded to Corroborated
+  - Obs 009 (Eschatological Faction): EU MASAF designation (Jan 2026) appended;
+    source added; upgraded to Corroborated
+  - Obs 010 (Two Clocks / Wrong Interlocutor): Walney civil society scope extension
+    appended; source added
+
+**Gaps** (66 total, was 62):
+- 4 new: G23-01 (military-civilian overlap mapping, P1), G23-02 (IRGC covert airlift
+  reconstruction, P1), G23-03 (fighter airframe survival rate, P2), G23-04 (UK charity
+  network trajectory, P2). Version bumped to 3.0.
+- 2 updated with fill notes:
+  - gap-irgc-command-cohort: Factnameh 65.1% copy-paste / three-thread media evidence
+  - gap-underground-capacity: Factnameh internet anomaly (50 channels active despite blackout)
+- Schema updated: added `sources` field to `gap.schema.json` (Chat's staging files
+  included source citations on all 4 new gaps; schema now supports this)
+
+**Sessions** (22 entries total, was 21): Session 23 added. Version bumped to 2.4.
+
+**Validation:** 269 entries PASS; 18 briefs PASS.
+**Staging consumed:** `staging/session_23/` deleted.
+
+**Note for Chat:** The duplicate Integration Request (two nearly identical entries
+from 2026-03-15) was treated as a single request — both contained the same data.
+The first listed `sessions_patch.yaml` in staging files, the second didn't, but the
+staging directory contained it. All three staging files were processed.
+
 <!-- END LOG -->
+

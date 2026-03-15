@@ -1,9 +1,9 @@
-version: '2.9'
-date: '2026-03-05'
-source: v2.8 + Session 22 follow-up (targeted gap research on G22-01, backchannel, G20-09)
+version: '3.0'
+date: '2026-03-15'
+source: v2.9 + Session 23 (Factnameh + Walney Undue Influence)
 summary:
-  priority_1_active: 26
-  priority_2_total: 29
+  priority_1_active: 28
+  priority_2_total: 31
   priority_3_total: 1
   filled_total: 2
 entries:
@@ -33,6 +33,20 @@ entries:
   blocking_for:
   - ISA-SCENARIOS succession analysis
   session_identified: 8
+  fill_note: >-
+    QUANTITATIVE CORROBORATION (Session 23 — Factnameh 72-hour analysis): Three
+    independent signals from Factnameh's 77K-post dataset: (1) Measurable drop in all
+    50-channel activity during the 20-hour gap between US/Israeli confirmation of
+    Khamenei death and IRIB's official announcement — regime media network went
+    effectively silent; (2) 65.1% copy-paste rate across all channels for 72 hours —
+    no original content, pure relay of whatever narrative became available; (3) Three
+    non-coordinated narrative threads (Larijani pragmatist/dual-audience, IRGC hardliner/
+    1988-style executions rhetoric, independent marja decrees) operating simultaneously
+    with no coordination signal. The media coordination failure is the observable proxy
+    for command fragmentation. If the strategic communications apparatus — which is
+    directly managed and funded by regime institutions — could not coordinate a coherent
+    message, the operational command structure is at least equally fragmented. This
+    corroborates the Foreign Ministry "lost control over several units" admission (Obs 032).
   cross_refs: []
 - id: gap-heyat-armed
   description: Heyat network armed capability (quantitative)
@@ -78,6 +92,17 @@ entries:
   - ITB-G
   why_critical: Strike power vacuum; who fills it?
   session_identified: 8
+  fill_note: >-
+    PARTIAL SIGNAL (Session 23 — Factnameh internet finding): Factnameh's 72-hour
+    analysis found that all 50 monitored channels increased posting volume compared to
+    pre-war baselines despite the internet blackout. Previous internet shutdowns killed
+    all non-regime channels. This anomaly suggests one or more of: (a) VPN penetration
+    has reached a new threshold making blackouts less effective; (b) selective whitelist
+    expansion by the regime to maintain some propaganda channels; (c) Telegram's
+    architecture provides partial resilience. Whichever mechanism, this is a positive
+    signal for underground organizational capacity — if channels can stay active during
+    a blackout + active war, so can coordination networks. Partial fill only; direct
+    assessment of organized opposition capacity remains unverifiable.
   cross_refs: []
 - id: gap-syria-veterans-domestic
   description: Syria veteran count in domestic security
@@ -771,3 +796,126 @@ entries:
   cross_refs:
   - TV-17
   - Obs 032
+- id: G23-01
+  description: >-
+    Military-civilian administrative overlap mapping — systematic inventory of Iranian
+    facilities where military and civilian functions share physical space, creating
+    targeting attribution problems. Confirmed cases: Minab school (inside IRGC base
+    perimeter until 2016, stale target database, Factnameh Corroborated); Niloofar
+    police station (FATA + detective unit + Ministry of Interior security in one building,
+    20 civilian deaths from collateral). Probable case: Lamerd sports hall (17 killed
+    including children; IRGC intelligence HQ and Sepah Mantaqe Lamerd in same block).
+    Factnameh's Minab analysis also documents OpenStreetMap had the same error as
+    potential targeting databases — the mapping failure is not US-specific.
+  priority: 1
+  status: OPEN
+  modules:
+  - ITB-F
+  - ITB-B
+  why_critical: >-
+    Theory-of-Victory Gap brief (B14) requires this as structural finding. Military-
+    civilian overlap appears to be a deliberate or evolved Iranian administrative pattern
+    that creates systematic attribution ambiguity in any precision strike campaign.
+    Pattern is directly relevant to ICP accountability proceedings and post-war civilian
+    harm assessment. The Minab case alone will be contested for years in international
+    legal forums. Understanding the full extent determines whether this was exceptional
+    or systemic.
+  blocking_for:
+  - data/briefs/b14.yaml (Theory of Victory Gap case studies)
+  session_identified: 23
+  cross_refs:
+  - ITB-F
+  - Obs 036
+  sources:
+  - Factnameh Minab analysis (msg 5208, 5215, 5216, 5252, 5339, Feb 28 - Mar 10 2026)
+  - Factnameh Lamerd sports hall (msg 5217, Feb 28 2026)
+  - Factnameh Niloofar police station (msg 5237, March 2 2026)
+- id: G23-02
+  description: >-
+    Post-strike IRGC covert airlift reconstruction capacity. Pars Air (also known as
+    Pouya Air and Yassair Air) fleet destroyed at Mehrabad — An-74s and IL-76s confirmed
+    destroyed by Factnameh Planet Labs imagery. Pars Air was Treasury-designated in 2012
+    and UNSC-sanctioned for operating as a Quds Force clandestine air logistics network,
+    transporting weapons to Syria. This was the IRGC's primary covert air transport
+    capability. Whether China (airlift platform supply) or Russia (IL-76 manufacturer,
+    parts supply) provides replacement capacity determines proxy militia sustainment and
+    arms resupply timeline post-war.
+  priority: 1
+  status: OPEN
+  modules:
+  - ITB-F
+  - ITB-A10
+  - ITB-B
+  why_critical: >-
+    The Quds Force's ability to reconstitute proxy network sustainment depends entirely
+    on covert airlift reconstruction. Convergent spoiler (Obs 022) / Proxy Lab trap
+    (Trap 13) intersection: if China provides replacement An-74 or IL-76 platforms
+    or training, it upgrades from intelligence harvester to active logistics enabler.
+    Timeline for Hezbollah and Iraqi militia resupply is a direct function of this gap.
+  blocking_for:
+  - ISA-SCENARIOS (proxy reconstitution timeline)
+  session_identified: 23
+  cross_refs:
+  - Obs 022
+  - Trap 13
+  sources:
+  - Factnameh Mehrabad satellite analysis (msg 5327, 5335, March 8-10 2026)
+  - US Treasury designation of Pars Air / Pouya Air (2012)
+  - UN Security Council sanctions list (Pars Air)
+- id: G23-03
+  description: >-
+    Iranian fighter airframe survival rate post-strike. Sentinel-2 imagery confirms
+    runway and taxiway hits at Hamedan Nojeh (8 runway hits, 5 taxiway hits, Factnameh
+    Mar 7) but no confirmed fighter hangar hits as of Mar 5 imagery. Shiraz confirms
+    Su-22s on ramp destroyed; Bushehr confirms 2 fighters destroyed (one outside hardened
+    shelter, one inside). Dezful: alert hangars hit but contents unknown. The campaign
+    appears to prioritize logistics/sustainment denial and runway denial over total
+    airframe attrition. Hardened aircraft shelter contents at Hamedan and other bases
+    remain unconfirmed.
+  priority: 2
+  status: OPEN
+  modules:
+  - ITB-F
+  - ITB-B
+  why_critical: >-
+    Iranian air reconstitution timeline is dramatically shorter if fighters survived in
+    hardened shelters vs. if total airframe attrition was achieved. Runway denial is
+    reversible in weeks; destroyed aircraft take years to replace. Affects W2/W3 scenario
+    planning and any post-war Iranian air force capability assessment.
+  session_identified: 23
+  cross_refs:
+  - ITB-F
+  - ITB-B
+  sources:
+  - "Factnameh Sentinel-2 series: Shiraz (5290), Dezful (5306), Hamedan (5310), Bushehr (5320)"
+- id: G23-04
+  description: >-
+    UK charity network post-decapitation trajectory. 30+ organizations documented in
+    Walney report; 8 of 10 examined under active Charity Commission investigation as of
+    Feb 2026. ICEL constitutional provision (Supreme Leader trustee appointment) removed
+    2023 under Charity Commission pressure but functional relationship with regime not
+    verified as severed. Three possible trajectories: (A) autonomous continuation on
+    prior programming; (B) IRGC-factional realignment (Tasnim axis, given "every 12
+    minutes" Mojtaba promotion data); (C) fracture mirroring Iran's three-thread
+    narrative split. Distinguishing signals not yet established. Whether the Walney
+    report triggers legislative action (7 recommendations, including Section 15 Charities
+    Act amendment) is a key exogenous variable.
+  priority: 2
+  status: OPEN
+  modules:
+  - ITB-A10
+  - ITB-D
+  why_critical: >-
+    "Infrastructure That Outlasted the Regime" brief candidate cannot be published
+    without resolving this. Western policy response to post-war Iranian soft power
+    infrastructure requires trajectory assessment before regulatory action is taken.
+    German (Hamburg Islamic Centre closure 2024) and Swedish (Imam Ali Centre 2025)
+    precedents suggest UK closure pressure is imminent.
+  session_identified: 23
+  cross_refs:
+  - Obs 035
+  - ITB-A10
+  sources:
+  - Lord Walney, Undue Influence (March 2026) — full report
+  - ISC Iran inquiry 2025 (ICEL espionage risk assessment)
+  - Charity Commission statements (Feb 2026) — 8 open cases confirmed
