@@ -483,4 +483,28 @@ the guide. Dockerfile deferred per Chat's "low priority" assessment.
 - Preserve original v1.0 somewhere (archive folder or changelog) — confirmed by events, has historical value
 - ITB anchors: ITB-A, ITB-B, ITB-A9, ITB-A10. May want ITB-A12.
 
+### 2026-03-14 — Code — Integration Complete
+
+**B14 + B07 v2.0 integrated.** Both Integration Requests from 2026-03-08 applied.
+
+**B14 — Theory-of-Victory Gap (new brief):**
+- Copied from `staging/session_scorecard/b14.yaml` to `data/briefs/b14.yaml`
+- Restored changelog entry (v1.0, 2026-03-08) that was cleared by prior incomplete session
+- Brief #14 in sequence; no numbering conflicts
+- 18 briefs total (was 17)
+
+**B07 v2.0 — "Who Is Running Iran Now?" (complete rewrite):**
+- Full replacement at `data/briefs/b07.yaml` from `staging/session_scorecard/b07_v2.yaml`
+- v2.0: Six-node power architecture (Mojtaba/Throne, Vahidi/Sword, Larijani/Operator,
+  Mirbagheri/Kingmaker, Ghalibaf/Parliamentary Warlord, Pezeshkian/Shell)
+- Original v1.0 thesis (Larijani as Khamenei's delegate) preserved in changelog
+- B07 v1.0 was never separately archived to a file; historical content preserved in git history
+
+**Validation:** 262 entries PASS; 18 briefs PASS.
+**Staging consumed:** `staging/session_scorecard/` deleted.
+
+**Note:** A prior Code session integrated the data files but crashed before writing IC entries
+or cleaning up staging. This session completed the integration (changelog fix, validation,
+build, IC entries, staging cleanup).
+
 <!-- END LOG -->
