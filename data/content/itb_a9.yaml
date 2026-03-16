@@ -242,13 +242,17 @@ sections:
     title: A9.7 Parallel Society Population Estimates
     level: 3
     content: |
-      |Tier                      |Description                                                        |Estimated Population|Confidence                      |
-      |:-------------------------|:------------------------------------------------------------------|:-------------------|:-------------------------------|
-      |**Core**                  |Active IRGC + genuinely committed Basij cadres + immediate families|500,000-1,000,000   |[Inference – Low/Med]           |
-      |**Economically dependent**|Housing, employment, education, social networks depend on system   |2,000,000-4,000,000 |[Inference – Low]               |
-      |**Broad circle**          |Nominal Basij registrants, bonyad beneficiaries, veterans' families|5,000,000-10,000,000|[Speculation – high uncertainty]|
+      *Revised from original 2-10M single-range estimate, Session 20.*
 
-      **Transition planning implication:** The ideologically irreducible core is manageable. Stripping benefits from millions of economically dependent families without alternatives would create a dangerously hostile population – precisely the Iraq de-Ba'athification failure mode at larger scale. [Inference – Med]
+      |Tier|Description|Estimated Population|Parallel Society?|Confidence|
+      |:---|:----------|:-------------------|:----------------|:---------|
+      |**Tier 1 — Compound Society**|IRGC residential compounds, genuinely committed cadres + immediate families, physically segregated communities with independent infrastructure|800,000–1,500,000|Yes — core|[Inference – Low/Med]|
+      |**Tier 2 — Dispersed Basij**|Basij members living in ordinary neighborhoods, economically dependent on system (housing, employment, education), dual identity between regime service and civilian life|1,500,000–3,000,000|Yes — peripheral|[Inference – Low/Med]|
+      |**Tier 3 — Patronage Periphery**|Nominal Basij registrants, bonyad beneficiaries, veterans' families; economic relationship with regime but no ideological commitment or compound residency|3,000,000–7,000,000|**No** — reclassified as patronage network, not parallel society|[Inference – Low]|
+
+      **Key analytical distinction:** Tier 3 was previously counted as part of the parallel society (the "broad circle" in the original 2-10M estimate). Session 20 disaggregation reclassifies Tier 3 as a patronage network that responds to economic incentives, not a parallel society that shares ideological commitment or social separation. This matters for transition planning: Tier 3 can be absorbed through economic integration; Tiers 1-2 require the compound engagement and de-radicalization protocols described in A9.3. Total parallel society estimate narrows from 2-10M to 2.3-4.5M (Tiers 1+2 only). [Inference – Med]
+
+      **Transition planning implication:** The ideologically irreducible core (Tier 1) is manageable. Tier 2 dispersed Basij are the critical swing population — under wartime conditions, the manufactured complicity mechanism (Obs 030) converts coerced Tier 2 members into non-defectable perpetrators, narrowing the available off-ramp window. Stripping benefits from Tier 3 without alternatives would create a dangerously hostile population — precisely the Iraq de-Ba'athification failure mode — but this is an economic policy problem, not a parallel society problem. [Inference – Med]
   - id: _L217
     title: "A9.8 Cross-Interaction Analysis: A9 and Other Pillars"
     level: 3

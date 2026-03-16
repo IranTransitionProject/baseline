@@ -1,8 +1,8 @@
-version: '3.1'
+version: '3.2'
 date: '2026-03-15'
-source: v3.0 + Session 25 (Day 16 multilingual sweep — Kharg, Hormuz, Chinese ISR, Mosaic Command)
+source: v3.1 + S20 backlog (Day 11 Leadership Landscape gaps G23-05, G23-06)
 summary:
-  priority_1_active: 32
+  priority_1_active: 34
   priority_2_total: 32
   priority_3_total: 1
   filled_total: 2
@@ -919,6 +919,59 @@ entries:
   - Lord Walney, Undue Influence (March 2026) — full report
   - ISC Iran inquiry 2025 (ICEL espionage risk assessment)
   - Charity Commission statements (Feb 2026) — 8 open cases confirmed
+- id: G23-05
+  description: >-
+    Mirbagheri/Paydari faction definitive position on Mojtaba succession. Most
+    critical analytical gap in the leadership landscape. Three possible positions:
+    (1) genuine support (Mojtaba as eschatological accelerant), (2) tactical support
+    (Mojtaba as controllable puppet), (3) opposition (dynastic succession violates
+    original Hojjatiyeh anti-velayat-e-faqih quietism). Evidence cuts both ways —
+    Mojtaba is Mesbah-Yazdi devotee (suggests alignment) but dynastic succession is
+    maximum velayat-e-faqih overreach (suggests tension). Mirbagheri's 'some obstacles'
+    language suggests reservations. Most dangerous scenario is not opposition but
+    support-as-accelerant: grieving, cornered, theologically radicalized Supreme Leader
+    with nominal authority but no enforcement capacity is maximally dangerous configuration.
+  priority: 1
+  status: OPEN
+  modules:
+  - ITB-A10
+  - ITB-B
+  why_critical: >-
+    Determines whether Mojtaba succession is eschatological acceleration or factional
+    puppet scenario. Directly affects all W-scenario probability estimates.
+  session_identified: 23
+  cross_refs:
+  - Obs 034
+  - B07 v2.0
+  - B08
+  sources:
+  - ITP Leadership Landscape Deep Supplement (Day 11 session)
+- id: G23-06
+  description: >-
+    Mojtaba Khamenei physical and psychological capacity to govern. Wound severity
+    unknown. Family losses (wife, child, mother killed Feb 28) create psychological
+    variable with no precedent in Islamic Republic succession history. Text-only
+    statement (no video) as of Day 14 is consistent with either debilitating injury,
+    compromised communications, or deliberate invisibility strategy (Obs 034). Each
+    additional day of silence increases probability that wound is debilitating or bunker
+    communications are compromised. Directly affects puppet problem dynamics (B08) and
+    all W1/W2 scenario branching.
+  priority: 1
+  status: OPEN
+  modules:
+  - ITB-A
+  - ITB-B
+  why_critical: >-
+    If Mojtaba is physically or psychologically incapacitated, the succession becomes
+    a puppet scenario regardless of factional intent. All W1/W2 branching depends on
+    this variable.
+  session_identified: 23
+  cross_refs:
+  - Obs 034
+  - B08
+  - FV-33
+  sources:
+  - ITP Leadership Landscape Deep Supplement (Day 11 session)
 - id: G25-01
   description: >-
     Kharg Island seizure probability assessment. The pre-assault strike pattern

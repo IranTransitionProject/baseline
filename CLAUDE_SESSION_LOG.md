@@ -785,9 +785,323 @@ entries) was treated as a single request — both contained the same data. The s
 entry added explicit integration instructions and `sessions_patch.yaml` mention. All
 sections of the integration package YAML were processed.
 
-**Baft repo files:** The session starter and constitution YAML for the baft repo were
-mentioned in the delivery but are not part of the framework repo. These will need to
-be placed manually or in a separate baft session.
+# Integration Request — Session 20 Backlog + Day 14 Entities
+
+Append to CLAUDE_SESSION_LOG.md above the `<!-- END LOG -->` marker.
+
+---
+
+### 2026-03-15 — Chat — Integration Request
+
+**Session:** S20 backlog + Day 14 entities (consolidated)
+**Summary:** Largest outstanding integration backlog. Three source layers with
+different availability levels. Staging files provided for Layers 2 and 3.
+Layer 1 requires source document from user.
+
+---
+
+**LAYER 1 — Session 20 core (SOURCE DOCUMENT REQUIRED)**
+
+The following entities were produced in SESSION_20_WARTIME_REASSESSMENT.md
+(~50KB, March 4, 2026). That file is NOT in staging or project knowledge.
+User must locate and provide it before Code can integrate these items.
+
+*New observations (data/observations.yaml):*
+- Obs 023: Mojtaba wartime capture
+- Obs 024: Gulf combatant transformation
+- Obs 025: Multi-layered info vacuum
+- Obs 026: Khomeini doctrine fork (hefz-e nezam interpretation)
+- Obs 027: Basij targeting = de-Ba'athification mechanism
+- Obs 028: China as strategic arbiter
+
+*New scenarios (data/scenarios.yaml):*
+- W1 through W5 (wartime scenario matrix v2.0)
+- Archive pre-war S1-S5 as v1.5 / SUPERSEDED
+
+*New threshold variables (data/variables.yaml):*
+- TV-09: Hormuz closure duration
+- TV-10: IRGC command coherence
+- TV-11: Civilian casualties
+- TV-12: Mojtaba first public emergence
+
+*New gaps (data/gaps.yaml):*
+- G20-01 through G20-10 (10 gaps — content in reassessment document)
+
+*Trap updates (data/traps.yaml):*
+- All 13 existing traps: status update per reassessment
+- Trap 14 candidate: "Day After Vacuum"
+
+*New brief (data/briefs/):*
+- B16 ("The Vacuum") — b16.yaml was produced alongside reassessment.
+  User must locate b16.yaml or Brief_16_The_Vacuum.md.
+
+*Session entry (data/sessions.yaml):*
+- Session 20: wartime reassessment, March 4, 2026
+
+**Action for user:** Locate SESSION_20_WARTIME_REASSESSMENT.md and b16.yaml
+(originally in /mnt/user-data/outputs/, March 4). If not available, Chat
+can reconstruct entity content from session starter summaries + memory,
+but this is lower fidelity than the original.
+
+---
+
+**LAYER 2 — Session 20 addenda (STAGING FILES PROVIDED)**
+
+Source: SESSION_20_ADDENDUM_Governance_Inversion.md and
+SESSION_20_ADDENDUM_2_Population_Complicity.md (both in project files).
+
+*New observations:*
+- Obs 029: Governance Inversion — Basij abandons service function, weaponizes
+  humanitarian infrastructure. Medical taqiyyah (single-source, Level 1).
+  Shoot-to-kill against former constituents (Level 2).
+- Obs 030: Manufactured Complicity Trap — regime converts economic captives
+  into non-defectable perpetrators via three-stage mechanism. Third binding
+  mechanism alongside economic dependency and geographic isolation.
+
+*Content module update:*
+- ITB-A9 section A9.7: Population estimate revision (2-10M → 2.3-4.5M
+  three-tier disaggregation). Tier 1 compound society 800K-1.5M. Tier 2
+  dispersed Basij 1.5-3M. Tier 3 patronage periphery 3-7M (reclassified
+  as NOT parallel society).
+
+**Staging files:**
+- `staging/session_s20_backlog/observations_patch.yaml` — append — data/observations.yaml
+  (Obs 029-030, full YAML per schema)
+
+**A9.7 revision:** Content is fully specified in
+SESSION_20_ADDENDUM_2_Population_Complicity.md Part 1. Code should update the
+relevant section in data/content/itb_a9.yaml using the three-tier framework
+from that document. No separate staging file — the source document has the
+exact text.
+
+---
+
+**LAYER 3 — Day 14 session entities (STAGING FILES PROVIDED)**
+
+Source: Day 14 analytical session (Factnameh Telegram + Lord Walney report).
+Content retrieved from past chat search.
+
+*New observations:*
+- Obs 031: Soft Power Infrastructure Inertia (post-decapitation network trajectories)
+- Obs 032: Fabrication Demand-Signal (AI disinformation as narrative demand map)
+
+*New gaps:*
+- G23-01: Military-civilian administrative overlap mapping [Priority 1]
+- G23-02: Post-strike IRGC covert airlift reconstruction capacity [Priority 1]
+- G23-03: Iranian fighter airframe survival rate post-strike [Priority 2]
+- G23-04: UK charity network post-decapitation trajectory [Priority 2]
+
+*Existing gap status updates:*
+- gap-irgc-command-cohort: ELEVATED → PARTIALLY_FILLED (Factnameh quantitative confirmation)
+- gap-underground-capacity: add partial signal note (internet/VPN resilience)
+
+*Confidence upgrades:*
+- A9 Hollowness: add Factnameh 72-hour corroborating data
+- A10 MASAF: upgrade to Corroborated (EU designation January 2026)
+- Obs 010 Wrong Interlocutor: extend scope to civil society layer
+
+*New source:*
+- Factnameh (factnameh.com/fa): IFCN-certified, Tier 2 source with Tier 1
+  OSINT practices. Raw dataset on GitHub.
+
+**Staging files:**
+- `staging/session_s20_backlog/observations_031_032_patch.yaml` — append — data/observations.yaml
+- `staging/session_s20_backlog/gaps_patch.yaml` — append — data/gaps.yaml
+- `staging/session_s20_backlog/entity_updates_patch.yaml` — patch — multiple targets
+  (gap status updates, confidence upgrades, new source entry)
+
+---
+
+**VERSION BUMPS (after all layers applied):**
+- observations.yaml: current → v1.8 (or higher, depending on current state)
+- gaps.yaml: current → next
+- variables.yaml: current → next (after Layer 1 TV additions)
+- scenarios.yaml: current → v2.0 (after Layer 1 W1-W5)
+- traps.yaml: current → next (after Layer 1 status updates + Trap 14)
+- sessions.yaml: add Session 20 + Session 23
+
+---
+
+**GAP ID CONFLICT NOTE:**
+
+The Day 11 Leadership Landscape supplement (ITP_Leadership_Landscape_Deep_Supplement.md)
+proposed four gaps under G23-xx IDs that differ from the Day 14 formal assignments:
+
+| ID | Day 11 proposal | Day 14 assignment (canonical) |
+|---|---|---|
+| G23-01 | Mirbagheri/Paydari position on Mojtaba | Military-civilian overlap mapping |
+| G23-02 | Hossein Taeb survival/role | IRGC covert airlift capacity |
+| G23-03 | Turkish Halkbank trajectory | Fighter airframe survival rate |
+| G23-04 | Mojtaba physical capacity | UK charity network trajectory |
+
+Day 14 assignments are canonical. The Day 11 items remain valid analytical
+questions. If they should be formally tracked as gaps, assign G24-xx or
+G25-xx IDs in a subsequent session. Recommend: Mirbagheri position and
+Mojtaba capacity are high enough priority to warrant formal gap entries.
+
+---
+
+**AMBIGUITIES FOR HUMAN REVIEW:**
+
+1. Layer 1 source availability — do you have the S20 reassessment document
+   and b16.yaml? If not, should Chat reconstruct from summaries?
+2. Day 11 Leadership Landscape proposed Obs 035 (Intelligence Paranoia Spiral)
+   and Obs 036 (War Selects for Invisibility). These were proposals, not formal
+   entries. Should they be formalized? If so, they'd need full YAML.
+3. The A9.7 population revision requires editing a content module
+   (data/content/itb_a9.yaml), not just the entity database. Code needs
+   guidance on whether to replace the entire A9.7 section or append a
+   wartime revision subsection.
+4. Brief #16 voice review status — was it reviewed and published? If not,
+   what's its current status?
+
+# Integration Request Addendum — User Decisions Resolved
+
+Append to CLAUDE_SESSION_LOG.md immediately after the main IR.
+
+---
+
+### 2026-03-15 — Chat — Integration Request (Addendum)
+
+**Session:** S20 backlog + Day 14 entities (continued)
+**Summary:** Resolves four ambiguities from main IR. Adds Obs 033-034,
+G23-05/06, B16 reframe, A9.7 replacement decision.
+
+---
+
+**LAYER 1 — Source documents located.**
+
+User confirmed SESSION_20_WARTIME_REASSESSMENT.md and b16.yaml are available
+locally. Code can proceed with Layer 1 integration once user places these
+files in `staging/session_s20_backlog/` (or provides path).
+
+---
+
+**LAYER 4 — Day 11 Leadership Landscape formalization**
+
+*New observations:*
+- Obs 033: Intelligence Paranoia Spiral — Israeli penetration creates
+  structural escalation trap via loyalty-demonstration feedback loop.
+  Renumbered from proposed Obs 035.
+- Obs 034: War Selects for Invisibility — targeting logic creates survivorship
+  bias toward low-profile figures, inverting pre-war power hierarchy.
+  Renumbered from proposed Obs 036.
+
+*New gaps:*
+- G23-05: Mirbagheri/Paydari definitive position on Mojtaba succession [Priority 1]
+- G23-06: Mojtaba physical and psychological capacity to govern [Priority 1]
+
+**Staging files:**
+- `staging/session_s20_backlog/observations_033_034_patch.yaml` — append — data/observations.yaml
+- `staging/session_s20_backlog/gaps_day11_patch.yaml` — append — data/gaps.yaml
+
+---
+
+**A9.7 DECISION: REPLACE (not append)**
+
+Replace the A9.7 population section in data/content/itb_a9.yaml with the
+three-tier disaggregation framework from SESSION_20_ADDENDUM_2_Population_Complicity.md
+Part 1. Add one-line provenance note: "Revised from original 2-10M single-range
+estimate, Session 20." Do not preserve the old estimate as a parallel section —
+the three-tier framework subsumes it.
+
+---
+
+**B16 DECISION: REFRAME AS v2.0 (not abandon)**
+
+Brief #16 ("The Vacuum") was never published. Its central causal premise
+(strikes destroy governance infrastructure → vacuum) has been corrected by
+Obs 029 (governance infrastructure self-destructs under pressure → vacuum
+is regime-created, not bomb-created).
+
+Reframe B16 v2.0 with updated causal model:
+
+**Original v1.0 thesis:** "Don't bomb the governance infrastructure — you'll
+create a vacuum like Iraq's de-Ba'athification."
+
+**Revised v2.0 thesis:** "The governance infrastructure has already
+self-destructed. The Basij abandoned service for survival the moment buildings
+became targets. The vacuum is a present reality created by regime choices,
+not a future risk from strikes. The de-Ba'athification parallel still holds
+but the mechanism is different: Iraq destroyed institutions from outside;
+Iran's institutions destroyed themselves from inside. The policy question is
+no longer 'how to preserve' but 'what replaces it and how to hold perpetrators
+accountable under conditions designed to defeat forensic evidence.'"
+
+This is actually a stronger and more novel brief than v1.0. The
+de-Ba'athification warning remains valid. The manufactured complicity finding
+(Obs 030) adds a dimension Iraq didn't have. The medical taqiyyah finding
+(Obs 029, Level 1 only) is flagged as conditional.
+
+**Action for Code:** Keep existing b16.yaml. Chat will produce b16_v2.yaml
+as a full replacement in a subsequent session after rewriting the brief.
+Do not integrate v1.0 as a published brief — it is a draft superseded by
+the analytical correction.
+
+**Action for Chat (future session):** Rewrite B16 incorporating Obs 029,
+030, the three-binding-mechanism framework, and the inverted causal model.
+Deliver as b16_v2.yaml via staging.
+
+---
+
+**COMPLETE STAGING MANIFEST:**
+
+| File | Mode | Target |
+|---|---|---|
+| observations_patch.yaml | append | data/observations.yaml (Obs 029-030) |
+| observations_031_032_patch.yaml | append | data/observations.yaml (Obs 031-032) |
+| observations_033_034_patch.yaml | append | data/observations.yaml (Obs 033-034) |
+| gaps_patch.yaml | append | data/gaps.yaml (G23-01 through G23-04) |
+| gaps_day11_patch.yaml | append | data/gaps.yaml (G23-05, G23-06) |
+| entity_updates_patch.yaml | patch | multiple (gap statuses, confidence upgrades, source) |
+
+**Layer 1 files (user to provide):**
+| File | Mode | Target |
+|---|---|---|
+| SESSION_20_WARTIME_REASSESSMENT.md | source doc | Obs 023-028, W1-W5, TV-09-12, G20-01-10, Trap 14, Session 20 entry |
+| b16.yaml | full | data/briefs/b16.yaml (as DRAFT, not published) |
+
+**Observation version after all layers:** v1.8 (22 existing + 12 new = 34 total)
+**Gaps version after all layers:** current + 16 new (G20-01–10, G23-01–06)
+
+---
+
+**No remaining ambiguities.** Code can process Layers 2-4 immediately.
+Layer 1 blocked on user placing source files in staging.
+
+### 2026-03-15 — Code — Integration Complete
+
+**S20 backlog (Layers 2-4) integrated.** Processed remaining items from the
+consolidated S20 backlog + Day 14 Integration Request and Addendum.
+
+**What was already integrated** (by prior sessions 22, 23, 25):
+- Layer 1: Obs 023-028, W1-W5, TV-09-12, G20-01-10, Trap 14, Session 20 — all present
+- Layer 2: Obs 029-030 — already present
+- Layer 3: Obs 031-032, G23-01-04, gap status updates, confidence upgrades — all done
+- Layer 4: Obs 033-034 — already present
+
+**Newly integrated this session:**
+
+**Gaps** (73 total, was 71):
+- 2 new: G23-05 (Mirbagheri/Paydari position on Mojtaba succession, P1),
+  G23-06 (Mojtaba physical/psychological capacity to govern, P1).
+  Version bumped to v3.2.
+
+**Content module** (itb_a9.yaml):
+- A9.7 population section replaced with three-tier disaggregation per IR addendum.
+  Old estimate (Core 500K-1M / Economically dependent 2M-4M / Broad circle 5M-10M)
+  replaced with: Tier 1 compound society 800K-1.5M / Tier 2 dispersed Basij 1.5-3M /
+  Tier 3 patronage periphery 3M-7M (reclassified as NOT parallel society). Provenance
+  note added. Transition planning implication updated with manufactured complicity
+  (Obs 030) reference.
+
+**Not integrated (per IR instructions):**
+- B16: Deferred — Chat will produce b16_v2.yaml with revised causal model
+- Layer 1 source documents: Not in staging; all Layer 1 entities already present in DB
+  from prior sessions — no action needed
+
+**Validation:** 289 entries PASS; 18 briefs PASS.
+**Staging consumed:** `staging/session_s20_backlog/` deleted.
 
 <!-- END LOG -->
 
