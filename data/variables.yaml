@@ -1,6 +1,6 @@
-version: '2.0'
-date: '2026-03-05'
-source: v1.9 + Session 22 (Day 6 sweep — military status, succession, BTC, Nakhchivan)
+version: '2.1'
+date: '2026-03-15'
+source: v2.0 + Session 25 (Day 16 multilingual sweep — Kharg, Hormuz, Chinese ISR, Mosaic Command)
 monitoring_notes:
 - Variables require weekly recheck on flow and threshold tables. Stock variables recheck monthly or on significant event.
 - 'v1.2 NOTE (still active): Given active mourning cycle, Hormuz exercise tempo, and campaign-ready US force posture, flow
@@ -41,13 +41,15 @@ entries:
 - id: SV-03
   name: HEU Inventory
   table: stock
-  current_value: ~400 kg (diplomatic ref)
-  trend: '[Unknown]'
-  insight: 'Nuclear breakout: Timeline uncertain post-Midnight Hammer'
+  current_value: "~440 kg 60% HEU — declared 'under the rubbles' by FM Araghchi (March 15); recovery timeline uncertain"
+  trend: "Schrodinger state — exists but accessibility uncertain; Iran controls recovery decision"
+  insight: "Nuclear breakout: Timeline uncertain post-Midnight Hammer. Araghchi CBS March 15: 'under the rubbles... no plan to recover.' DIA vs CIA assessments diverge."
   confidence: Low
   version_added: v1.0
   session_added: null
-  cross_refs: []
+  cross_refs:
+  - Obs 039
+  - G25-04
   epistemic_tag: Mixed
 - id: SV-04
   name: Protest Deaths (confirmed)
@@ -1014,17 +1016,26 @@ entries:
 - id: FV-29
   name: Iran negotiation BATNA quality
   table: flow
-  current_value: BATNA quality now irrelevant — war overtook negotiations
+  current_value: "Missile launches down ~86% from peak; ~300+ launchers destroyed or disabled; ~100+ remain; IRGC decentralized to mobile/underground"
   trend: Moot under active combat
-  insight: Pre-war BATNA improvement thesis confirmed by Katz admission that operation moved forward partly due to Chinese
+  insight: >-
+    Pre-war BATNA improvement thesis confirmed by Katz admission that operation moved forward partly due to Chinese
     arms pipeline creating a ticking clock. But BATNA is now a post-war variable — relevant only if ceasefire negotiations
     resume.
+    Day 16 update: Walla reports 200 destroyed + 150 disabled + 100+ functional.
+    IRGC deliberately decentralized command post-June 2025. Mobile truck-mounted
+    launchers and retractable-roof underground silos. Israeli NIS 2.6B emergency
+    procurement approved (interceptor depletion concern). Semafor: Israel informed
+    US of critical shortage in Arrow-class interceptors. IDF denied but material
+    evidence (procurement) contradicts.
   confidence: Med-High
   version_added: v1.8
   session_added: 17
   cross_refs:
   - ITB-B B9
   - ISA-SCENARIOS Obs 022
+  - Obs 044
+  - FV-38
   epistemic_tag: Inference
 - id: TV-16
   name: Hormuz Closure Duration
@@ -1114,12 +1125,19 @@ entries:
 - id: FV-32
   name: Regime narrative coherence
   table: flow
-  current_value: Fragmenting into 4 threads — Larijani pragmatist, IRGC hardliner, independent marja, martyrdom-mobilization
+  current_value: "Fragmenting into 3+ threads; Mojtaba text-only statement read by TV anchor; Araghchi dual-audience CBS appearance; IRGC autonomous field messaging"
   trend: Deteriorating; IRIB destroyed, satellite hacked, internet blocked
-  insight: IRIB HQ destroyed March 3; satellite feed hacked to air Trump/Netanyahu/Pahlavi messages. Broadcasting from backup
+  insight: >-
+    IRIB HQ destroyed March 3; satellite feed hacked to air Trump/Netanyahu/Pahlavi messages. Broadcasting from backup
     studios. Regime threatening citizens using international internet with judicial action. Islam Times explicitly conceptualizing
     media war as battle for "narrative superiority." Four narrative threads now competing without central coordinator (Khamenei.ir
     frozen).
+    Day 16 update: Araghchi CBS interview is textbook Larijani pragmatist-faction
+    messaging. IRGC mosaic command model produces autonomous field-level messaging
+    that may not align with government diplomatic line. Fararu reports war room
+    nominally under Mojtaba but regime dispute over returning power to Leadership
+    Council due to his inability to perform duties. Army issued loyalty pledge to
+    Mojtaba — Artesh-IRGC unified front at declaratory level.
   confidence: Med
   version_added: v2.0
   session_added: 22
@@ -1127,22 +1145,32 @@ entries:
   - ITB-A9
   - ITB-A10
   - Obs 032
+  - Obs 043
   epistemic_tag: Mixed
 - id: FV-33
   name: Assembly of Experts election status
   table: flow
-  current_value: Second session planned March 5 at Qom shrine; IRGC pressuring for Mojtaba; 8 members boycotting
+  current_value: "Mojtaba Khamenei elected March 8; wounded (fractured foot, facial lacerations); text-only statement March 13; no video/audio appearance; Araghchi claims 'complete health' March 15"
   trend: Contested — coercion + boycott + assassination threats
-  insight: First online session (March 3) held under IRGC pressure. Discussion cut off, limited speaking time for dissenters.
+  insight: >-
+    First online session (March 3) held under IRGC pressure. Discussion cut off, limited speaking time for dissenters.
     Second session relocated to Fatima Masumeh shrine as strike shield. Israel bombed earlier Assembly location. Katz threatened
     to assassinate successor. Trump declared Mojtaba "unacceptable." Even formal election under these conditions produces
     a contested leader.
+    Day 16 update: Hegseth claims "wounded and likely disfigured." Araghchi says
+    "complete health." CNN source: fractured foot + bruised eye + facial cuts.
+    Euronews: Hossein Taeb pushed appointment through Assembly of Experts under
+    IRGC pressure, Larijani opposed. Farsi diaspora analysis (Tribune Zamaneh):
+    "scarecrow leader" — no public speech exists, puppet figure whose function
+    is to ratify IRGC decisions. Puppet Problem thesis (core anchor) directly
+    confirmed. Fararu: dispute over returning power to Leadership Council.
   confidence: Med
   version_added: v2.0
   session_added: 22
   cross_refs:
   - TV-19
   - Obs 033
+  - Obs 043
   epistemic_tag: Mixed
 - id: FV-34
   name: Coercive compliance reach (international)
@@ -1160,3 +1188,73 @@ entries:
   - ITB-A9
   - ITB-A12
   epistemic_tag: Inference
+- id: FV-35
+  name: Kharg Island military status
+  table: flow
+  current_value: "Military infrastructure destroyed (runway, naval base, mine storage, air defense); oil infrastructure intact"
+  trend: "Pre-assault pattern complete; seizure scenario operationally plausible"
+  insight: >-
+    CENTCOM struck 90+ targets on Kharg (Day 14-15). Oil infrastructure deliberately
+    preserved — Trump framed as Hormuz leverage. 31st MEU + Tripoli ARG deploying.
+    Island's oil terminal handles 90% of Iran's crude exports. Bushehr deputy governor
+    claimed exports continue normally — unverified.
+  confidence: High
+  version_added: v2.1
+  session_added: 25
+  cross_refs:
+  - Obs 037
+  - G25-01
+  epistemic_tag: Fact
+- id: FV-36
+  name: Hormuz blockade modality
+  table: flow
+  current_value: "Selective tollgate — bilateral passage for approved nations; blocked for US/Israel/allies"
+  trend: "Evolving from total closure to permission-based system"
+  insight: >-
+    Araghchi confirmed (March 15 CBS) multiple countries approached for bilateral passage.
+    Turkey confirmed one ship transited with permission. France and Italy reportedly
+    negotiating. Fragments US coalition by offering individual off-ramps. De facto
+    Iranian control of strait as political lever, not purely military closure.
+  confidence: Med-High
+  version_added: v2.1
+  session_added: 25
+  cross_refs:
+  - Obs 038
+  - G25-02
+  epistemic_tag: Mixed
+- id: FV-37
+  name: Chinese military presence at Hormuz
+  table: flow
+  current_value: "Liaowang-1 ISR ship + 2 PLA Navy destroyers anchored Sea of Oman near Hormuz"
+  trend: "First Chinese military intelligence deployment to active US combat theater"
+  insight: >-
+    Satellite imagery confirmed (Yetkin Report, March 15). Liaowang-1 is SIGINT/ELINT
+    platform commissioned 2025. Not naval escort — intelligence collection on both US
+    and Iranian operations. Signals Chinese transition from passive to active spoiler.
+    Invisible in English-language reporting; surfaced only in Turkish analysis.
+  confidence: Med-High
+  version_added: v2.1
+  session_added: 25
+  cross_refs:
+  - Obs 042
+  - G25-03
+  - Trap 13
+  epistemic_tag: Fact
+- id: FV-38
+  name: IRGC launcher inventory (operational)
+  table: flow
+  current_value: "~200 destroyed, ~150 disabled, ~100+ functional (of ~450-500 original)"
+  trend: "Degrading but residual capacity sufficient for weeks at current fire rate"
+  insight: >-
+    Israeli security source via Walla (March 15). Mobile/underground launchers
+    progressively harder to find. Shoot-and-abandon tactics standard. Underground
+    retractable-roof silos confirmed. Contradicts 100% destruction claims from
+    Trump/Hegseth. 100+ functional launchers = weeks of continued fire.
+  confidence: Med-High
+  version_added: v2.1
+  session_added: 25
+  cross_refs:
+  - Obs 044
+  - Obs 043
+  - FV-29
+  epistemic_tag: Mixed

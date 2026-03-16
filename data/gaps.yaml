@@ -1,9 +1,9 @@
-version: '3.0'
+version: '3.1'
 date: '2026-03-15'
-source: v2.9 + Session 23 (Factnameh + Walney Undue Influence)
+source: v3.0 + Session 25 (Day 16 multilingual sweep — Kharg, Hormuz, Chinese ISR, Mosaic Command)
 summary:
-  priority_1_active: 28
-  priority_2_total: 31
+  priority_1_active: 32
+  priority_2_total: 32
   priority_3_total: 1
   filled_total: 2
 entries:
@@ -919,3 +919,134 @@ entries:
   - Lord Walney, Undue Influence (March 2026) — full report
   - ISC Iran inquiry 2025 (ICEL espionage risk assessment)
   - Charity Commission statements (Feb 2026) — 8 open cases confirmed
+- id: G25-01
+  description: >-
+    Kharg Island seizure probability assessment. The pre-assault strike pattern
+    (runway, naval base, mine storage, air defense) plus 31st MEU deployment creates
+    a plausible amphibious seizure scenario. Required: assessment of (a) Iranian
+    defensive residual on Kharg, (b) MEU capability match to the mission profile,
+    (c) political/legal framework for US seizure of sovereign Iranian territory,
+    (d) implications for post-war negotiations and Chinese oil access, (e) whether
+    current wartime scenario matrix (W1-W5) requires a W6 variant.
+  priority: 1
+  status: OPEN
+  modules:
+  - ITB-B
+  - ITB-F
+  - ISA Trap 13
+  why_critical: >-
+    A Kharg seizure would fundamentally change the war's endgame calculus. It is the
+    only scenario that gives the US permanent economic leverage independent of regime
+    change. If this scenario is plausible, it restructures all W-scenario probability
+    estimates and directly affects China's strategic calculus (Trap 13).
+  session_identified: 25
+  cross_refs:
+  - Obs 037
+  - FV-30
+  sources:
+  - "TIME (March 14): Maleki pre-assault pattern analysis"
+  - "NBC (March 13-14): MEU deployment details"
+  - "PBS (March 14): Katinas on regime-proof leverage"
+- id: G25-02
+  description: >-
+    Bilateral Hormuz safe-passage agreements — terms, scope, and coalition fracture
+    implications. France, Italy, and Turkey have approached or negotiated with Iran
+    for safe passage. Terms unknown. Key questions: (a) what political concessions
+    accompany passage permits, (b) does passage require public statements distancing
+    from US operations, (c) is Iran using passage as intelligence collection opportunity,
+    (d) how many nations have active bilateral arrangements, (e) impact on US naval
+    escort coalition viability.
+  priority: 1
+  status: OPEN
+  modules:
+  - ITB-F
+  - ITB-A12
+  why_critical: >-
+    Each bilateral deal undermines the collective action framework the US needs for
+    Hormuz. If the selective blockade becomes the new normal, it represents a structural
+    Iranian victory on the Hormuz front regardless of military outcomes elsewhere.
+  session_identified: 25
+  cross_refs:
+  - Obs 038
+  - FV-28
+  sources:
+  - "Araghchi CBS transcript (March 15)"
+  - "Financial Times: France/Italy approaches"
+  - "Turkish Transport Minister statement (Euronews Turkish)"
+- id: G25-03
+  description: >-
+    Chinese ISR deployment operational implications. Liaowang-1 intelligence ship
+    at Hormuz with two destroyer escorts. Required: assessment of (a) SIGINT/ELINT
+    collection targets and capabilities, (b) how collected data serves Chinese
+    military planning (Taiwan scenario calibration), (c) whether deployment signals
+    intent to escort Chinese-flagged tankers, (d) PLA Navy interaction protocols
+    with US 5th Fleet, (e) trajectory of Chinese military presence in the Gulf
+    post-war.
+  priority: 1
+  status: OPEN
+  modules:
+  - ISA Trap 13
+  - ITB-F
+  why_critical: >-
+    First Chinese military intelligence deployment to an active US combat theater.
+    Directly activates Convergent Spoiler thesis and Iran-Taiwan munitions equation.
+    The intelligence collected has implications far beyond this conflict.
+  session_identified: 25
+  cross_refs:
+  - Obs 042
+  - Obs 022
+  - Trap 13
+  sources:
+  - "Yetkin Report (March 15): satellite imagery, Liaowang-1 identification"
+- id: G25-04
+  description: >-
+    Araghchi nuclear "rubble" claim verification. 440kg of 60%-enriched uranium
+    declared "under the rubbles" of struck facilities. DIA leaked assessment
+    (low confidence): months of setback. CIA Ratcliffe rebuttal: years of setback.
+    Key questions: (a) is the material physically recoverable, (b) current IAEA
+    monitoring status at struck sites, (c) whether Iran retains undeclared enrichment
+    capacity at non-targeted sites, (d) whether "under the rubble" framing is
+    literal or diplomatic (material may have been relocated before strikes).
+  priority: 1
+  status: OPEN
+  modules:
+  - ITB-A7
+  - ITB-F
+  why_critical: >-
+    The nuclear variable is the stated casus belli. If the material is recoverable
+    and Iran controls the timeline, the strikes may have converted a verification
+    problem into a recovery-ambiguity problem — arguably worse for nonproliferation.
+  session_identified: 25
+  cross_refs:
+  - Obs 039
+  - SV-03
+  sources:
+  - "Araghchi CBS transcript (March 15)"
+  - "DIA assessment (leaked, early March)"
+  - "CIA Ratcliffe statement (March 2026)"
+- id: G25-05
+  description: >-
+    Kurdish front force-balance assessment. How many IRGC units are pinned on the
+    western border (Kermanshah, Kurdistan, Ilam provinces) vs. available for
+    redeployment to defend Kharg, Hormuz, or internal security? PJAK/YRK estimated
+    1,000-3,000 fighters in Qandil mountains. SpecialEurasia identified three
+    infiltration axes (Haji Omran/northern, Bashmaq/central, Parvizkhan/southern).
+    Iran struck Kurdish positions in KRG and threatened "all facilities" of
+    Kurdistan region. Hengaw reported IRGC losses in Kurdish areas "underreported."
+  priority: 2
+  status: OPEN
+  modules:
+  - ITB-B
+  - ITB-C
+  why_critical: >-
+    If Kurdish harassment is effectively pinning IRGC border units, this creates
+    force-allocation pressure that affects Iranian defensive capacity elsewhere.
+    The pinning effect matters more than Kurdish territorial gains.
+  session_identified: 25
+  cross_refs:
+  - Obs 041
+  - ITB-B
+  sources:
+  - "SpecialEurasia (March 5): terrain and axis analysis"
+  - "Al Jazeera (March 5): Kurdish group profiles and force estimates"
+  - "i24NEWS (March 4): CPFIK official claims"

@@ -685,5 +685,109 @@ from 2026-03-15) was treated as a single request — both contained the same dat
 The first listed `sessions_patch.yaml` in staging files, the second didn't, but the
 staging directory contained it. All three staging files were processed.
 
+### 2026-03-15 — Chat — Integration Request [Session 25]
+
+**Session 25: Day 16 Multilingual Sweep — Kharg, Hormuz Tollgate, Chinese ISR, Mosaic Command**
+
+**Staging file:** `staging/session_25/session_25_integration_package.yaml`
+
+**New observations** (8): Obs 037-044. Append to `data/observations.yaml`, bump version to v2.2.
+- Obs 037: Kharg as Regime-Proof Leverage
+- Obs 038: Selective Blockade as Coalition Fracture Mechanism
+- Obs 039: Schrodinger's Uranium — Strategic Ambiguity as Asset
+- Obs 040: Emergency Procurement as Depletion Signal
+- Obs 041: Kurdish Front as Auxiliary, Not Decisive
+- Obs 042: Chinese ISR Forward Deployment at Hormuz
+- Obs 043: Mosaic Command as Designed Fragility
+- Obs 044: Operational Launcher Inventory — 200/150/100 Count
+
+**New gaps** (5): G25-01 through G25-05. Append to `data/gaps.yaml`, bump version to v3.1.
+- G25-01: Kharg Island seizure probability assessment (P1)
+- G25-02: Bilateral Hormuz safe-passage agreements (P1)
+- G25-03: Chinese ISR deployment operational implications (P1)
+- G25-04: Araghchi nuclear rubble claim verification (P1)
+- G25-05: Kurdish front force-balance assessment (P2)
+
+**New variables** (4): FV-35 through FV-38. Append to `data/variables.yaml`, bump to v2.1.
+**Variable updates** (4): SV-03, FV-29, FV-32, FV-33. Modify in-place per staging file.
+**Cross-ref updates** (3): Obs 010, Obs 022, Obs 033. Append diagnosis + cross-refs per staging file.
+**Session entry** (1): Session 25 to `data/sessions.yaml`, bump to v2.5.
+
+**Also in this delivery (for baft repo):**
+- `baft/itp-workspace/SESSION_STARTER_Code_Session5.md` — pipeline validation sequence
+- `baft/configs/pipeline/itp_constitution.yaml` — standing analytical rules, follow integration instructions in session starter
+
+### 2026-03-15 — Chat — Integration Request [Session 25]
+
+**Session 25: Day 16 Multilingual Sweep — Kharg, Hormuz Tollgate, Chinese ISR, Mosaic Command**
+
+**Staging file:** `staging/session_25/session_25_integration_package.yaml`
+
+Place the integration package YAML at the staging path above, then process as follows:
+
+**New observations** (8): Obs 037-044. Append to `data/observations.yaml`, bump version to v2.2.
+
+**New gaps** (5): G25-01 through G25-05. Append to `data/gaps.yaml`, bump version to v3.1. Update summary counts.
+
+**New variables** (4): FV-35 through FV-38. Append to `data/variables.yaml`.
+
+**Variable updates** (4): SV-03, FV-29, FV-32, FV-33. Modify in-place per the `variable_updates` section. For `append` fields, add the new text to the end of the existing `insight` field.
+
+**Cross-ref updates** (3): Obs 010, Obs 022, Obs 033. Add `cross_refs` entries and append diagnosis text per the `observation_crossref_updates` section.
+
+**Session entry** (1): Session 25 to `data/sessions.yaml`, bump version to v2.5.
+
+**Version bumps:** observations v2.1→v2.2, gaps v3.0→v3.1, variables v2.0→v2.1, sessions v2.4→v2.5.
+
+**Validation:** After integration, `python3 validate.py` should show entity count ~282 (was 269 + 8 obs + 5 gaps + 4 vars - no deletions = ~286; adjust for counting method). All entries must pass. Then `python3 build.py`.
+
+**Note for Code:** The integration package is a single YAML file with clearly labeled sections. Each section maps to a specific YAML file in `data/`. The `new_observations` section uses the same schema as existing observation entries. The `new_gaps` section uses the same schema as existing gap entries. Variable updates include both new entries and modifications to existing entries — handle these as separate operations.
+
+**Also in this delivery:** Two additional files for baft repo:
+- `SESSION_STARTER_Code_Session5.md` → place at `baft/itp-workspace/`
+- `itp_constitution.yaml` → place at `baft/configs/pipeline/` and follow constitution integration instructions in Session Starter
+
+### 2026-03-15 — Code — Integration Complete
+
+**Session 25 integrated.** Day 16 multilingual sweep (Kharg, Hormuz Tollgate, Chinese ISR, Mosaic Command).
+
+**Observations** (44 total, was 36):
+- 8 new: Obs 037 (Kharg Regime-Proof Leverage), Obs 038 (Selective Blockade as
+  Coalition Fracture), Obs 039 (Schrodinger's Uranium), Obs 040 (Emergency Procurement
+  as Depletion Signal), Obs 041 (Kurdish Front as Auxiliary), Obs 042 (Chinese ISR
+  Forward Deployment), Obs 043 (Mosaic Command as Designed Fragility), Obs 044
+  (Operational Launcher Inventory 200/150/100). Version bumped to v2.2.
+- 3 updated with cross-refs and diagnosis extensions:
+  - Obs 010 (Two Clocks / Wrong Interlocutor): Day 16 mosaic command corroboration; Obs 043 cross-ref added
+  - Obs 022 (Convergent Spoiler): Day 16 Chinese ISR upgrade; Obs 042 cross-ref added
+  - Obs 033 (Coerced Succession): Day 16 Farsi source corroboration; Obs 043, Obs 044 cross-refs added
+
+**Gaps** (71 total, was 66):
+- 5 new: G25-01 (Kharg seizure probability, P1), G25-02 (bilateral Hormuz passage, P1),
+  G25-03 (Chinese ISR implications, P1), G25-04 (nuclear rubble verification, P1),
+  G25-05 (Kurdish force-balance, P2). Version bumped to v3.1.
+
+**Variables** (95 total, was 91):
+- 4 new: FV-35 (Kharg military status), FV-36 (Hormuz blockade modality), FV-37
+  (Chinese military presence at Hormuz), FV-38 (IRGC launcher inventory). Version
+  bumped to v2.1.
+- 4 updated: SV-03 (HEU — Araghchi rubble statement), FV-29 (launcher count + interceptor
+  depletion), FV-32 (narrative coherence — mosaic command), FV-33 (Assembly of Experts —
+  Mojtaba elected, wounded, scarecrow leader assessment).
+
+**Sessions** (23 entries total, was 22): Session 25 added. Version bumped to v2.5.
+
+**Validation:** 287 entries PASS; 18 briefs PASS.
+**Staging consumed:** `staging/session_25/` deleted.
+
+**Note for Chat:** The duplicate Integration Request (two nearly identical Session 25
+entries) was treated as a single request — both contained the same data. The second
+entry added explicit integration instructions and `sessions_patch.yaml` mention. All
+sections of the integration package YAML were processed.
+
+**Baft repo files:** The session starter and constitution YAML for the baft repo were
+mentioned in the delivery but are not part of the framework repo. These will need to
+be placed manually or in a separate baft session.
+
 <!-- END LOG -->
 

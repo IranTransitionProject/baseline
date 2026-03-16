@@ -1,6 +1,6 @@
-version: '2.4'
+version: '2.5'
 date: '2026-03-15'
-source: v2.3 + Session 23 (Factnameh + Walney Undue Influence)
+source: v2.4 + Session 25 (Day 16 multilingual sweep — Kharg, Hormuz, Chinese ISR, Mosaic Command)
 entries:
 - number: 1
   date: '2026-02-16'
@@ -222,3 +222,32 @@ entries:
   - ITB-G
   - APP-G
   - data/observations.yaml
+- number: 25
+  date: '2026-03-15'
+  summary: >-
+    Day 16 multilingual sweep (English, Hebrew, Turkish, Farsi, Arabic). Major findings:
+    (1) Kharg Island pre-assault strike pattern + MEU deployment creates seizure scenario
+    not in current W-matrix. (2) Hormuz evolving from total blockade to selective tollgate
+    fragmenting US coalition. (3) Chinese Liaowang-1 ISR ship deployed to Hormuz — first
+    Chinese military intelligence presence in active US combat theater (invisible in
+    English coverage). (4) IRGC deliberately decentralized command ("mosaic" structure)
+    post-June 2025; Turkish airspace breach likely product of autonomous field decisions.
+    (5) Araghchi CBS interview as textbook Larijani pragmatist Phase 3-4 signaling.
+    (6) Israeli launcher count: 200 destroyed / 150 disabled / 100+ functional.
+    (7) Emergency NIS 2.6B procurement confirms interceptor depletion clock active.
+    (8) Araghchi: enriched uranium "under the rubble" — Schrodinger asset.
+    8 new observations (Obs 037-044), 5 new gaps (G25-01 through G25-05),
+    4 new variables (FV-35 through FV-38), 4 variable updates, 3 cross-ref upgrades.
+  modules_affected:
+  - ITB-B
+  - ITB-F
+  - ITB-A3
+  - ITB-A7
+  - ITB-A12
+  - ITB-C
+  - ISA Trap 13
+  - APP-V
+  - APP-G
+  - data/observations.yaml
+  - data/gaps.yaml
+  - data/variables.yaml

@@ -1,6 +1,6 @@
-version: '2.1'
+version: '2.2'
 date: '2026-03-15'
-source: v2.0 + Session 23 (Factnameh + Walney Undue Influence)
+source: v2.1 + Session 25 (Day 16 multilingual sweep — Kharg, Hormuz, Chinese ISR, Mosaic Command)
 section_title: Analytic Annotations (The 'So-What' Log)
 entries:
 - id: 1
@@ -206,6 +206,10 @@ entries:
     leader while regime soft power network operates freely) is the starkest manifestation. Western institutional difficulty
     distinguishing between Islam as religion and Islamism as political project amplifies the interlocutor problem across all
     civil society contexts.
+    Day 16 corroboration: IRGC mosaic command model (Obs 043) makes command-delivery
+    gap a deliberately designed structural feature, not just a stress artifact. Araghchi's
+    CBS appearance demonstrates the gap in real time — pragmatist diplomatic signaling
+    that cannot bind decentralized IRGC field units.
   strategic_implication: >-
     Deal assessment must include a temporal stress test: "If this deal is signed today, what is the probability it survives
     (a) the next Supreme Leader selection, (b) the next US political cycle, and (c) simultaneous eschatological sabotage and
@@ -223,6 +227,7 @@ entries:
   - Lord Walney, Undue Influence (March 2026) — pp.22-34 (ICEL as network HQ), pp.61-65 (compliance trap), p.50 (Rajavi entry ban)
   cross_refs:
   - 'A12 coupling: coercive-endurance model explains temporal mechanism behind wrong-interlocutor problem'
+  - Obs 043
   version_added: v1.1
   session_added: 9
 - id: 11
@@ -517,9 +522,13 @@ entries:
   - Brief 4
   - Brief 5 Part III
   - Trap 13
+  - Obs 042
   diagnosis: >-
     Chinese weapons resupply creates hardware reinforcement of non-compliance: pragmatist concessions undermined by hardliner
     access to credible military alternative. China upgraded from passive to active equilibrium beneficiary.
+    Day 16 upgrade: Chinese Liaowang-1 ISR ship deployed to Hormuz with destroyer
+    escort (Obs 042). China transitions from passive diplomatic/economic spoiler to
+    forward-deployed military intelligence collector. Physical presence in theater.
   strategic_implication: >-
     Deal conditionality must address Chinese supply pipeline. China upgraded from passive to active equilibrium beneficiary
     -- not just benefiting from sanctions economy but actively providing military capability that sustains the regime. Post-strike
@@ -869,6 +878,10 @@ entries:
     it publicly rejected, but that leader may be the only one the IRGC will accept. The shrine-as-shield gambit is a taqiyyah-adjacent
     institutional survival move — using sacred space for military-political protection. The Hojjatiyeh-Mirbagheri faction
     position on Mojtaba is unknown and analytically critical: does the eschatological faction support or oppose dynastic succession?
+    Day 16 corroboration via Farsi sources: Tribune Zamaneh diaspora analysis describes
+    Mojtaba as "scarecrow leader" with no independent authority. Fararu reports dispute
+    over returning power to Leadership Council. IRGC mosaic command operates regardless
+    of Mojtaba's physical/decisional capacity.
   itb_anchors:
   - ITB-A
   - ITB-A10
@@ -891,6 +904,8 @@ entries:
   - Obs 010
   - TV-19
   - G22-01
+  - Obs 043
+  - Obs 044
   confidence: >-
     [Fact — Med for IRGC pressure and boycott; Inference — Med-High for constitutional capture assessment; Uncertain for Hojjatiyeh
     position]
@@ -1070,3 +1085,342 @@ entries:
   confidence: '[Fact — High for fabrication catalogue; Inference — Med for demand-signal reading]'
   version_added: v2.1
   session_added: 23
+- id: 37
+  title: Kharg as Regime-Proof Leverage
+  diagnosis: >-
+    US struck 90+ military targets on Kharg Island (Day 14-15): runway, naval base,
+    air defenses, mine storage bunkers. Oil infrastructure deliberately preserved.
+    The strike pattern is textbook pre-assault preparation, not punitive bombardment.
+    TIME quoted analyst Maleki identifying the targets as exactly what you neutralize
+    before an amphibious or airborne assault. Combined with deployment of the 31st MEU
+    (2,500 Marines) and Tripoli ARG (USS Tripoli, USS San Diego, USS New Orleans),
+    a Kharg seizure scenario is now operationally plausible. Whoever controls Kharg
+    controls 90% of Iranian oil exports regardless of which regime is in power. This
+    creates leverage independent of the regime change question — a structural novelty
+    not present in any previous US-Iran confrontation scenario.
+  strategic_implication: >-
+    The ITP wartime scenario matrix (W1-W5) may need a W6 variant: US territorial
+    control of Kharg Island as an economic stranglehold. This scenario is structurally
+    different from air-only degradation because it provides permanent negotiation
+    leverage. As PBS quoted energy researcher Katinas: "It doesn't matter which regime
+    is in power — new or old." A US-held Kharg also creates a physical precondition
+    for redirecting Iranian oil from China to Western markets, directly threatening
+    China's primary interest in maintaining Iran as a captive supplier.
+  itb_anchors:
+  - ITB-B
+  - ITB-F
+  - ISA Trap 13
+  leading_indicators:
+  - MEU operational deployment to Persian Gulf (beyond transit)
+  - US special operations forces staging at Kharg-proximate locations
+  - Additional runway denial strikes (preventing Iranian reinforcement)
+  - Congressional or executive statements on Kharg "security zone"
+  cross_refs:
+  - FV-30
+  - Obs 022
+  - Trap 13
+  sources:
+  - "CENTCOM statement (March 14): 90+ military targets struck on Kharg"
+  - "Trump Truth Social post (March 13 evening): 'obliterated every MILITARY target'"
+  - "TIME (March 14): Maleki analysis of pre-assault strike pattern"
+  - "PBS (March 14): Katinas on regime-proof leverage"
+  - "NBC (March 14): CENTCOM details — mine storage, missile bunkers, naval base"
+  confidence: "[Inference — Med-High for pre-assault pattern; Uncertain for seizure intent]"
+  version_added: v2.2
+  session_added: 25
+- id: 38
+  title: Selective Blockade as Coalition Fracture Mechanism
+  diagnosis: >-
+    Iran's Hormuz strategy is evolving from total closure threat to selective tollgate.
+    Araghchi told CBS (March 15) that multiple countries have approached Tehran for
+    bilateral safe passage. Financial Times reported France and Italy among them.
+    Turkey's Transport Minister confirmed one Turkish ship passed through Hormuz after
+    obtaining Iranian permission, with 15 more waiting. Araghchi framed the blockade
+    as applying only to US, Israel, and their allies — not to all shipping. This
+    fragments the US-led coalition by offering individual nations a bilateral off-ramp:
+    negotiate with us directly and your ships pass. Classic divide-and-conquer,
+    consistent with A12 coercive-endurance Phase 3 (escalate selectively).
+  strategic_implication: >-
+    The selective blockade transforms Hormuz from a binary chokepoint (open/closed) into
+    an Iranian-administered permission system. Each bilateral safe-passage deal erodes the
+    collective action problem the US needs to solve. If France, Italy, Turkey, and
+    eventually China all have bilateral arrangements, the "freedom of navigation" coalition
+    Trump is demanding becomes unnecessary — and US leverage evaporates. The implication
+    for the ITP framework is that the Hormuz variable needs to be tracked not as a binary
+    state but as a fractional metric: what percentage of normal traffic is flowing, under
+    whose permission, and what political concessions accompany passage.
+  itb_anchors:
+  - ITB-A12
+  - ITB-F
+  leading_indicators:
+  - Number of countries with bilateral passage agreements
+  - Tonnage of oil transiting Hormuz per day vs. pre-war baseline
+  - US Navy escort operations frequency and coverage
+  - Iran issuing formal "passage permit" documentation (institutionalization signal)
+  cross_refs:
+  - FV-28
+  - Obs 022
+  - ITB-A12
+  sources:
+  - "Araghchi CBS Face the Nation transcript (March 15, 2026)"
+  - "Financial Times: France and Italy approached Iran for passage"
+  - "Turkish Transport Minister Uraloglu statement (Euronews Turkish, March 13)"
+  - "Bloomberg (March 15): shipping at near-standstill"
+  confidence: "[Fact — High for bilateral approaches; Inference — Med for coalition fracture intent]"
+  version_added: v2.2
+  session_added: 25
+- id: 39
+  title: "Schrodinger's Uranium — Strategic Ambiguity as Asset"
+  diagnosis: >-
+    Araghchi stated on CBS (March 15) that Iran's 440kg stockpile of 60%-enriched
+    uranium is now "under the rubbles" of struck nuclear facilities, with "no plan
+    to recover them." This statement simultaneously accomplishes four things: (a)
+    implicitly confirms strike damage to nuclear sites, (b) preserves future recovery
+    as a bargaining chip, (c) denies immediate breakout capacity, and (d) places the
+    material's fate in Iranian hands ("if one day we come to the conclusion to do that,
+    it would be under the supervision of the agency"). The ambiguity is itself the
+    strategic asset. Previously, Araghchi had told US negotiators 48 hours before the
+    strikes that Iran was willing to dilute the stockpile — an offer now moot. His
+    current position: "There is nothing on the table right now. Everything depends on
+    the future."
+  strategic_implication: >-
+    The nuclear variable has entered a Schrodinger state: the material exists, its
+    accessibility is uncertain, and Iran controls the observation (recovery decision).
+    This collapses the pre-war nuclear timeline calculations. The DIA leaked assessment
+    (low confidence, months of setback) and CIA Ratcliffe rebuttal (years of setback)
+    are both potentially consistent with Araghchi's framing — the facilities are damaged
+    but the material is not destroyed. For the ITP framework, this means the nuclear
+    variable must be tracked as a range of states, not a point estimate. The enriched
+    uranium itself becomes a post-war negotiation token whose value increases with
+    ambiguity about its recoverability.
+  itb_anchors:
+  - ITB-A7
+  - ITB-F
+  leading_indicators:
+  - IAEA access requests to struck sites (denied/granted/conditional)
+  - Satellite imagery of recovery/excavation activity at Natanz/Fordow/Isfahan
+  - Iran announcing plans to "reconstruct" nuclear facilities
+  - Changes in Iran's declared enrichment status to IAEA
+  cross_refs:
+  - SV-03
+  - ITB-A7
+  sources:
+  - "Araghchi CBS Face the Nation transcript (March 15, 2026) — direct quotes"
+  - "DIA preliminary assessment (leaked via press, early March 2026)"
+  - "CIA Director Ratcliffe rebuttal (March 2026)"
+  confidence: "[Fact — High for Araghchi statement; Inference — Med for strategic ambiguity as deliberate]"
+  version_added: v2.2
+  session_added: 25
+- id: 40
+  title: Emergency Procurement as Depletion Signal
+  diagnosis: >-
+    Israel's government approved NIS 2.6 billion (~$826M) in emergency defense
+    procurement (late Saturday, Day 15), hours after the IDF publicly denied running
+    critically low on interceptors. Semafor reported (citing US officials) that Israel
+    had informed Washington it was running critically low on ballistic missile
+    interceptors. The IDF denied this; Israel Hayom suggested the Semafor report was
+    "planted by Iran." JINSA pre-war analysis (January 2026) had already warned that
+    the June 2025 12-day war depleted US and Israeli munitions to "dangerously low
+    levels" and that THAAD replenishment alone requires 1.5+ years at current
+    production rates. The material indicator (emergency $826M procurement) overrides
+    the verbal denial. You do not rush emergency defense spending when stockpiles
+    are adequate.
+  strategic_implication: >-
+    The interceptor depletion clock is confirmed active. The binding constraint is not
+    whether Iran can keep firing (100+ launchers remain per Israeli security sources)
+    but whether Israel/US can keep intercepting. Arrow-class (anti-ballistic) interceptors
+    are the critical tier — Iron Dome and David's Sling cover shorter ranges. The
+    emergency procurement buys time but cannot close the production-consumption gap for
+    months. Iron Beam laser system (first combat use reported against Hezbollah rockets)
+    may partially relieve Iron Dome tier pressure but does not address the Arrow tier.
+    This depletion math is the single most important constraint on war duration.
+  itb_anchors:
+  - ITB-B
+  - ITB-F
+  leading_indicators:
+  - Additional emergency procurement rounds (frequency = severity indicator)
+  - US sharing Arrow/THAAD interceptors with Israel (strains US stockpiles)
+  - Shift in Israeli intercept doctrine (letting more missiles through to conserve stock)
+  - Iron Beam deployment expansion reports
+  cross_refs:
+  - ITB-B B2
+  - FV-29
+  sources:
+  - "Semafor (March 14): exclusive — Israel informed US of critical shortage"
+  - "Times of Israel (March 15): IDF denial + NIS 2.6B emergency procurement"
+  - "Israel Hayom (March 15): Iranian disinformation theory"
+  - "JINSA (January 2026): pre-war depletion warning from June 2025"
+  - "AJC (updated March 2026): Iron Beam first combat use report"
+  confidence: "[Fact — High for procurement; Inference — Med-High for depletion conclusion]"
+  version_added: v2.2
+  session_added: 25
+- id: 41
+  title: Kurdish Front as Auxiliary, Not Decisive
+  diagnosis: >-
+    Despite CIA arming efforts, CPFIK coalition formation (Feb 22), and Israeli
+    border-softening strikes, Kurdish forces assessed as harassment/disruption
+    capability, not territory-holding force. PJAK (YRK) has 1,000-3,000 fighters;
+    PAK ~1,000; KDPI ~1,200; Khabat and Komala smaller. Total: low thousands. On
+    March 5, PJAK, PDKI, PAK, and Komala all denied any offensive had started. Trump
+    himself reversed on March 7-8, saying he did not want Kurds entering the war.
+    Atlantic Council analysis highlighted KRG officials describing the situation as
+    "very dangerous" and their "biggest political dilemma in modern Kurdish history."
+    The PJAK-PKK link creates a Turkey problem that constrains US support. Iraq's
+    national security adviser stated Iraq will not allow cross-border operations.
+  strategic_implication: >-
+    The Iran-is-not-Iraq thesis applies directly. Kurdish forces cannot hold Iranian
+    territory, lack urban support networks in major cities, and face political
+    constraints from KRG, Turkey, and Baghdad simultaneously. Their maximum utility is:
+    pinning IRGC border units, intelligence gathering, and psychological pressure on
+    the regime's western flank. The CPFIK official's vision of a "Kurdish corridor
+    linking the Persian Gulf to Israel" is aspirational, not operational. For ITP
+    planning: the Kurdish front matters as a harassment vector and IRGC force-allocation
+    constraint, not as a decisive military factor.
+  itb_anchors:
+  - ITB-B
+  - ITB-C
+  leading_indicators:
+  - Confirmed cross-border operations (not just claims)
+  - IRGC redeployment of units from eastern/southern fronts to western border
+  - Turkish military response to PJAK activities
+  - US weapons deliveries confirmed (not just CIA discussions)
+  cross_refs:
+  - ITB-B
+  - ITB-C
+  sources:
+  - "i24NEWS (March 4): CPFIK official claims PJAK cross-border operations"
+  - "Multiple sources (March 5): PJAK, PDKI, PAK, Komala deny offensive started"
+  - "Atlantic Council (March 6): Kurdish offensive feasibility analysis"
+  - "CNN (March 3): CIA arming efforts report"
+  - "SpecialEurasia (March 5): terrain and axis analysis"
+  confidence: "[Inference — High for auxiliary assessment; Uncertain for actual cross-border activity]"
+  version_added: v2.2
+  session_added: 25
+- id: 42
+  title: Chinese ISR Forward Deployment at Hormuz
+  diagnosis: >-
+    Satellite imagery confirms China's Liaowang-1, one of the world's most advanced
+    intelligence ships (commissioned 2025), has anchored near the Strait of Hormuz in
+    the Sea of Oman, escorted by two PLA Navy destroyers. This was reported by Turkish
+    analyst Murat Yetkin (Yetkin Report, March 15) based on satellite data and was
+    invisible in English-language coverage. The deployment is SIGINT/ELINT collection
+    on both US and Iranian operations — not naval escort and not humanitarian.
+    China is now physically present in the operational theater with military intelligence
+    assets, collecting real-time data on US naval operations, Iranian missile trajectories,
+    coalition intercept patterns, and the operational picture of the war.
+  strategic_implication: >-
+    This directly activates the Convergent Spoiler thesis (Obs 022) and Trap 13
+    (Proxy Lab / Iran-Taiwan munitions equation). China has transitioned from passive
+    spoiler (diplomatic shielding, sanctions evasion, oil purchases) to forward-deployed
+    intelligence collector. The intelligence gathered serves multiple purposes: (a) calibrate
+    Chinese military planning against US capabilities in a Taiwan scenario, (b) assess
+    Iranian weapon system performance for future arms supply decisions, (c) demonstrate
+    Chinese naval presence in a critical energy chokepoint, (d) collect leverage for
+    post-war negotiations over Iranian oil access and reconstruction contracts. The
+    "ben de varim" (I'm here too) framing from the Turkish analyst captures the political
+    signal: as the war extends, more actors insert themselves, and US unilateral control
+    of the outcome diminishes.
+  itb_anchors:
+  - ISA Trap 13
+  - ITB-F
+  leading_indicators:
+  - Additional Chinese naval deployments to Gulf/Indian Ocean
+  - Chinese diplomatic statements on "freedom of navigation" at Hormuz
+  - PLA Navy interaction with US naval forces (hails, proximity incidents)
+  - China proposing a "multilateral" Hormuz security framework
+  cross_refs:
+  - Obs 022
+  - Trap 13
+  - FV-28
+  sources:
+  - "Yetkin Report (March 15, 2026): satellite imagery analysis of Liaowang-1 deployment"
+  - "Defence Express (reference in Yetkin): ship identification and capability assessment"
+  confidence: "[Fact — High for deployment; Inference — Med-High for intelligence collection purpose]"
+  version_added: v2.2
+  session_added: 25
+- id: 43
+  title: Mosaic Command as Designed Fragility
+  diagnosis: >-
+    Hebrew sources (Walla, March 15) report that the IRGC studied Operation Am K'Laviya
+    (June 2025) and deliberately decentralized firing authority to field units. Mobile
+    launchers on trucks, underground retractable-roof silos, and dispersed command posts
+    are designed to survive decapitation targeting. Turkish analyst Yetkin (Yetkin Report,
+    March 15) independently identified this as a "mosaic structure" (uzum salkimi —
+    grape cluster decision-making) and noted the critical risk: field units making
+    autonomous decisions that exceed central intent. He cited the three ballistic missiles
+    that entered Turkish airspace (intercepted by NATO) as a possible product of this
+    coordination gap — Iran denied firing toward Turkey, suggesting either deception or
+    genuine loss of field control. The decentralization is rational as a survival
+    strategy but produces command-delivery gap as a structural feature, not a stress
+    artifact.
+  strategic_implication: >-
+    The IRGC's mosaic command model confirms and deepens the command-delivery gap
+    identified in Obs 010 (Wrong Interlocutor). Even if Larijani or Araghchi negotiate
+    a ceasefire, dispersed IRGC field units with autonomous firing authority may not
+    comply — or may not receive the order. This makes war termination structurally
+    harder than war initiation. The Turkish airspace breach is the clearest example:
+    an unintended escalation against a non-belligerent NATO member, likely caused by
+    a field unit acting on decentralized authority. For any ceasefire scenario, the
+    question is not whether Tehran agrees but whether 100+ dispersed launcher units
+    with delegated authority will stop firing.
+  itb_anchors:
+  - ITB-A3
+  - ITB-A12
+  - ITB-B
+  leading_indicators:
+  - Additional unintended strikes on non-belligerent territory
+  - IRGC field units firing after any ceasefire announcement
+  - Divergence between IRGC Telegram channels (some continuing fire, others stopping)
+  - Iranian government disavowing specific strikes as unauthorized
+  cross_refs:
+  - Obs 010
+  - Obs 032
+  - FV-32
+  sources:
+  - "Walla (March 15): IRGC decentralized command structure, launcher counts"
+  - "Yetkin Report (March 15): mosaic command analysis, Turkish airspace breach"
+  - "Euronews Turkish (March 13): Turkish MOD confirmation of ballistic intercept"
+  - "Iran embassy denial of firing toward Turkey"
+  confidence: "[Inference — High; converging Hebrew-Turkish independent analysis]"
+  version_added: v2.2
+  session_added: 25
+- id: 44
+  title: "Operational Launcher Inventory — 200/150/100 Count"
+  diagnosis: >-
+    Israeli security sources told Walla (March 15) that the IAF has destroyed more than
+    200 ballistic missile launchers, approximately 150 more have been rendered permanently
+    inoperable, and over 100 remain functional. Total original stock was approximately
+    450-500 launchers. At current Iranian shoot-and-abandon tactics (mobile launchers
+    on trucks, retractable-roof underground silos), the remaining 100+ launchers
+    represent weeks of continued fire capacity. The rate of further attrition is
+    declining as remaining launchers are harder to find (mobile, dispersed, underground).
+    This directly contradicts Trump's "100% of Iran's military capability destroyed"
+    and Hegseth's "entire ballistic missile production capacity functionally defeated."
+  strategic_implication: >-
+    The 200/150/100 breakdown is the most precise operational data available on Iranian
+    degradation. It confirms that while the strike campaign has destroyed the majority
+    of fixed launcher infrastructure, the residual mobile/underground capability is
+    sufficient to sustain the current fire rate for the duration of the projected
+    war timeline (3-6 more weeks). The asymmetry between political claims (100% destroyed)
+    and operational reality (100+ launchers functional) creates a credibility gap that
+    affects both public support for the war and the reliability of US/Israeli post-war
+    damage assessments. For ITP, the launcher count is the primary metric of Iranian
+    conventional strike capacity — more important than missile counts because launchers
+    are the bottleneck.
+  itb_anchors:
+  - ITB-B
+  leading_indicators:
+  - Weekly launcher destruction rate (declining = harder targets remaining)
+  - New launcher types appearing (improvised, civilian truck-mounted)
+  - Iranian underground silo activity on satellite imagery
+  - Divergence between daily missile fire count and launcher destruction claims
+  cross_refs:
+  - FV-29
+  - Obs 043
+  - ITB-B B2
+  sources:
+  - "Walla (March 15): Israeli security source — 200+ destroyed, 150 disabled, 100+ functional"
+  - "Ynet (pre-war): MDAA analyst Tal Enbar on Iranian reserve capacity"
+  confidence: "[Fact — Med-High; single Israeli security source, structurally consistent with observed fire rates]"
+  version_added: v2.2
+  session_added: 25
