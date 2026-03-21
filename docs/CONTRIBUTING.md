@@ -23,6 +23,7 @@ governments that cannot accept copyleft terms, while keeping the public license
 open for everyone else.
 
 **What the CLA does:**
+
 - Grants the project the right to sublicense your contribution
 - Does NOT transfer your copyright — you retain full ownership of your work
 - Applies to all future contributions once signed
@@ -32,7 +33,7 @@ The CLA bot will prompt you automatically when you open your first pull request.
 Sign electronically in that flow. It takes under a minute.
 
 If you have questions about the CLA before contributing, contact:
-admin@irantransitionproject.org
+<admin@irantransitionproject.org>
 
 ---
 
@@ -41,12 +42,14 @@ admin@irantransitionproject.org
 Contributions must adhere to the project's epistemic framework:
 
 **Tagging requirements:**
+
 - `[Fact]` — directly verifiable, multi-source
 - `[Inference]` — reasoned from facts, logic stated
 - `[Uncertain]` — single source, contested, or extrapolated
 - `[Speculation]` — acknowledged hypothesis
 
 **Source standards:**
+
 - Primary sources preferred over secondary
 - Iranian state media cited for claims only, not treated as factual
 - Diaspora sources tagged `[DIASPORA SOURCE]` and cross-checked
@@ -111,4 +114,4 @@ and important contribution to flag.
 
 ## Contact
 
-admin@irantransitionproject.org
+<admin@irantransitionproject.org>

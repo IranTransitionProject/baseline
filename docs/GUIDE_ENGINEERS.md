@@ -18,7 +18,7 @@ covers the technical machinery.
 
 ## Architecture in 60 Seconds
 
-```
+```text
 YAML source files (data/)
     │
     ├── validated against JSON Schemas (schemas/)
@@ -51,6 +51,7 @@ posts integration requests and Code confirms execution. Large content
 transfers use a `staging/` directory (gitignored).
 
 The instruction files are the most interesting part for reuse. They encode:
+
 - A modular stakes-based activation system (what analysis depth to apply when)
 - Epistemic discipline rules (how to tag uncertainty)
 - Source hierarchy and verification standards
@@ -92,6 +93,7 @@ level. To adapt them:
 **CLAUDE_CHAT_INSTRUCTIONS.md** — The core framework (stakes classification,
 module system, epistemic tagging, output protocol) works for any analytical
 domain. Replace:
+
 - Domain-specific source hierarchies
 - Project-specific cross-references
 - The Session Deliverable Protocol section (paths, staging conventions)
@@ -103,6 +105,7 @@ schema documentation with your own. The coordination protocol
 ### Step 4: Link to Your LLM Account
 
 **Claude (Anthropic):**
+
 1. Create a Claude Project at [claude.ai](https://claude.ai)
 2. Connect your forked repository to the project (Settings → Project Knowledge → GitHub)
 3. Add the project starter instruction (see below)
@@ -200,6 +203,7 @@ prevent progress.
 ### Session-Based Updates
 
 Each analytical session is a numbered event that produces:
+
 - New or updated entities (variables, observations, gaps)
 - Version bumps on affected files
 - A session log entry documenting what changed

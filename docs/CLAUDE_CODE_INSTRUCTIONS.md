@@ -6,7 +6,7 @@ The Iran Transition Project data is stored as **YAML data files** validated agai
 **JSON Schema** definitions. Markdown and PDF outputs are **generated artifacts** —
 never edit them directly.
 
-```
+```text
 framework/
 ├── .github/workflows/       # CI configuration
 │
@@ -113,9 +113,11 @@ This creates `.venv/` with all dependencies from `requirements.txt`.
 ## Core Rules
 
 ### Rule 1: Never edit output/*.md files
+
 These are generated artifacts. Edit the YAML source, then rebuild.
 
 ### Rule 2: Validate before every commit
+
 ```bash
 bash scripts/validate.sh                # everything (entities + briefs)
 bash scripts/validate.sh entities       # entities + content modules only
@@ -124,6 +126,7 @@ bash scripts/validate.sh variables      # single entity type
 ```
 
 ### Rule 3: Build after every data change
+
 ```bash
 bash scripts/build.sh                   # everything (entities + briefs)
 bash scripts/build.sh entities          # entity reports + content modules
@@ -133,6 +136,7 @@ bash scripts/build.sh --validate        # validate then build all
 ```
 
 ### Rule 4: Atomic updates
+
 Change one field in one entity per operation. The build propagates cross-references.
 
 ---
@@ -140,6 +144,7 @@ Change one field in one entity per operation. The build propagates cross-referen
 ## Common Operations
 
 ### Add a new variable
+
 ```yaml
 # Append to data/variables.yaml entries list:
 - id: SV-19       # Next sequential ID for this table type
@@ -156,6 +161,7 @@ Change one field in one entity per operation. The build propagates cross-referen
 ```
 
 ### Update an existing variable
+
 ```yaml
 # Find by id in data/variables.yaml, change the relevant field:
 - id: SV-01
@@ -163,6 +169,7 @@ Change one field in one entity per operation. The build propagates cross-referen
 ```
 
 ### Add a new gap
+
 ```yaml
 # Append to data/gaps.yaml entries list:
 - id: G21-01
@@ -177,6 +184,7 @@ Change one field in one entity per operation. The build propagates cross-referen
 ```
 
 ### Fill a gap
+
 ```yaml
 # Find gap by id, update:
   status: FILLED
@@ -185,6 +193,7 @@ Change one field in one entity per operation. The build propagates cross-referen
 ```
 
 ### Change gap priority
+
 ```yaml
 # Find gap by id, update:
   priority: 1     # was 2
@@ -192,6 +201,7 @@ Change one field in one entity per operation. The build propagates cross-referen
 ```
 
 ### Add a new observation
+
 ```yaml
 # Append to data/observations.yaml entries list:
 - id: 31                    # Next sequential integer
@@ -217,6 +227,7 @@ Change one field in one entity per operation. The build propagates cross-referen
 ```
 
 ### Add a new trap
+
 ```yaml
 # Append to data/traps.yaml entries list:
 - id: 15                      # Next sequential integer
@@ -244,6 +255,7 @@ Change one field in one entity per operation. The build propagates cross-referen
 ```
 
 ### Add an extension to an existing trap
+
 ```yaml
 # Find trap by id, append to extensions array:
   extensions:
@@ -255,6 +267,7 @@ Change one field in one entity per operation. The build propagates cross-referen
 ```
 
 ### Update a scenario probability
+
 ```yaml
 # Find scenario by id, update:
   probability_current: "40-55%"
@@ -266,6 +279,7 @@ Change one field in one entity per operation. The build propagates cross-referen
 ```
 
 ### Add a new session
+
 ```yaml
 # Append to data/sessions.yaml entries list:
 - number: 22
@@ -275,6 +289,7 @@ Change one field in one entity per operation. The build propagates cross-referen
 ```
 
 ### Add a new module to the registry
+
 ```yaml
 # Append to data/modules.yaml entries list:
 - code: "ITB-A13"
@@ -287,6 +302,7 @@ Change one field in one entity per operation. The build propagates cross-referen
 ```
 
 ### Add a new content module
+
 ```yaml
 # Create data/content/itb_a13.yaml:
 module_code: ITB-A13          # Must match modules.yaml code
@@ -318,6 +334,7 @@ footer: >-
 ```
 
 ### Update a content module section
+
 ```yaml
 # In data/content/itb_b.yaml, find section by id:
   - id: "B1"
@@ -327,6 +344,7 @@ footer: >-
 ```
 
 ### Add a new brief
+
 ```yaml
 # Create data/briefs/b14.yaml:
 brief_id: B14
@@ -356,6 +374,7 @@ author_bio: "Author bio text"
 ```
 
 ### Update a brief section
+
 ```yaml
 # In data/briefs/b01.yaml, find section by title:
   - title: "The Problem"
@@ -364,6 +383,7 @@ author_bio: "Author bio text"
 ```
 
 ### Brief types and filename patterns
+
 | Type | YAML file | Output filename |
 |------|-----------|-----------------|
 | Numbered brief | `b01.yaml`–`b99.yaml` | `Brief_01_Title.md` |
@@ -373,9 +393,11 @@ author_bio: "Author bio text"
 | Supplemental | `supp_*.yaml` | `Title_Slug.md` |
 
 ### Brief status values
+
 `STABLE` | `CURRENT` | `NEEDS_UPDATE` | `DRAFT` | `SUPERSEDED`
 
 ### Update metadata (version, date)
+
 ```yaml
 # Top-level fields in any YAML file:
 version: "2.0"
@@ -431,14 +453,19 @@ When a Claude session produces an Integration Spec, translate it to database ope
 5. **New observations/traps/scenarios** → append to respective files
 6. **Version bump** → update `version`, `date`, `source` metadata fields
 7. **Validate:**
+
    ```bash
    bash scripts/validate.sh
    ```
+
 8. **Build:**
+
    ```bash
    bash scripts/build.sh
    ```
+
 9. **Commit** (output/ and releases/ are gitignored — do not use `git add -A`):
+
    ```bash
    git add data/ schemas/ templates/ pipeline/ scripts/ docs/ *.md
    git commit -m "Session N: [summary]"
@@ -497,7 +524,7 @@ it exists only as a transfer mechanism between Chat and Code.
 
 ### Layout
 
-```
+```text
 staging/
 └── session_N/              # One directory per analytical session
     ├── b14.yaml            # New brief — full file, copy to data/briefs/
@@ -545,10 +572,12 @@ specified fields. Fields not listed are left unchanged.
    e. Build: `bash scripts/build.sh`
 3. Delete the consumed `staging/session_N/` directory
 4. Commit everything atomically:
+
    ```bash
    git add data/ schemas/ templates/ pipeline/ scripts/ docs/ *.md .gitignore
    git commit -m "Session N: [summary from integration request]"
    ```
+
 5. Append an Integration Complete entry to `CLAUDE_SESSION_LOG.md`
 
 ### Rules

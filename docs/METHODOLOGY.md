@@ -265,6 +265,7 @@ critique. The most valuable feedback addresses:
    biases that the current safeguards do not catch?
 
 **How to submit critique:**
+
 - Public: [GitHub Discussions](../../discussions) (Feedback & Critique category)
 - Private: [irantransitionproject.org/submit](https://irantransitionproject.org/submit)
 - Email: [admin@irantransitionproject.org](mailto:admin@irantransitionproject.org)

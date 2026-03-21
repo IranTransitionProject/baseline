@@ -3,6 +3,14 @@ name: Validate Data
 on: [push, pull_request]
 
 jobs:
+  lint-md:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: rvben/rumdl-action@v0
+        with:
+          report-type: annotations
+
   validate:
     runs-on: ubuntu-latest
     steps:

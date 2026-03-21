@@ -26,7 +26,7 @@ Sessions that previously produced patch instructions now produce YAML edits.
 
 ## Pipeline Overview
 
-```
+```text
 data/*.yaml            (structured entity data)
 data/content/*.yaml    (ITB/ISA module prose)
 data/briefs/*.yaml     (convergence brief content)
@@ -47,7 +47,7 @@ via GitHub Releases as attached PDF assets.
 
 ## Data Directory Structure
 
-```
+```text
 data/
 ├── variables.yaml       # 86 analytical variables (SV, FV, TV, PO, NQ types)
 ├── gaps.yaml            # 57 research gaps by priority and status
@@ -276,7 +276,7 @@ at session start (with project knowledge auto-sync as fallback).
 
 ### Coordination Protocol
 
-```
+```text
 Chat (analytical session)
   │
   ├─── writes large content to staging/session_N/

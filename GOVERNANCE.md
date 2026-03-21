@@ -2,7 +2,7 @@
 
 **Iran Transition Project**
 **Effective:** 2026
-**Contact:** admin@irantransitionproject.org
+**Contact:** <admin@irantransitionproject.org>
 
 ---
 
@@ -23,7 +23,7 @@ constitutes grounds for leadership review.
 
 | Role | Holder | Scope |
 |------|--------|-------|
-| Founder / Copyright Holder | Hooman (hooman@mac.com) | Full authority while active |
+| Founder / Copyright Holder | Hooman (<hooman@mac.com>) | Full authority while active |
 | GitHub Org Owner | IranTransitionProject org | Administrative control |
 | Co-owner (succession backup) | To be designated | Prevents single-point-of-failure |
 
@@ -58,6 +58,7 @@ If the Founder is unable to act and the project has been inactive for 90+ days:
 ### Succession Criteria
 
 A successor must:
+
 - Accept the mission constraint without reservation
 - Commit to maintaining factional neutrality
 - Maintain the CC BY-SA 4.0 public license (alternative licensing rights
@@ -73,6 +74,7 @@ See `LICENSE` for terms.
 **Alternative licensing:** The copyright holder may grant alternative licensing
 arrangements to specific parties (e.g., policy institutions with copyleft
 restrictions). Such arrangements:
+
 - Are granted in writing by the copyright holder only
 - Do not affect the CC BY-SA 4.0 terms available to all other parties
 - Require a signed Contributor License Agreement (CLA) from any contributor
@@ -101,6 +103,7 @@ copyright ownership — contributors retain copyright over their own work.
 This document may be amended by the current copyright holder or designated
 steward via a documented commit to the main branch. All amendments are logged
 in git history. No amendment may:
+
 - Remove the mission constraint
 - Eliminate the CC BY-SA 4.0 public license
 - Retroactively alter contributor rights under a previously signed CLA

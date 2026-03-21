@@ -8,6 +8,7 @@
 ## What's Included
 
 ### ITP-Briefs-{VERSION_TAG}.pdf
+
 Public briefs collection. Covers regime architecture, succession dynamics,
 spoiler mechanics, deal-cannot-hold thesis, and post-strike analysis through
 Brief #13. Includes reference appendix of analytical variables, gaps, and traps.
@@ -15,6 +16,7 @@ Brief #13. Includes reference appendix of analytical variables, gaps, and traps.
 Intended audience: general policy-interested readers, journalists, researchers.
 
 ### ITP-Reference-{VERSION_TAG}.pdf
+
 Full analytical reference. Includes all public briefs plus the complete ITB
 (Iran Transition Brief) module library and ISA (Intelligence-Styled Assessment)
 framework. Appendix cross-references all 82 variables, 47 gaps, 13 traps,
@@ -50,11 +52,11 @@ Intended audience: policy researchers, analysts, academic Iran studies.
 ## Changes Since Previous Release
 
 <!-- Add changelog items here -->
-- 
+-
 
 ---
 
 ## License
 
 CC BY-SA 4.0 — Iran Transition Project / Hooman Mehr
-https://irantransitionproject.org
+<https://irantransitionproject.org>

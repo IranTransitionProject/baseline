@@ -51,6 +51,7 @@ Not stored in the public repository.
 **URL:** `https://irantransitionproject.org/submit` *(pending implementation)*
 
 **Form fields:**
+
 - Name (optional)
 - Email (optional — required if submitter wants follow-up)
 - Submission type: Source / Lead | Factual Correction | Sensitive Information | Other
@@ -137,12 +138,13 @@ integration into analytical work.
 
 Each processed submission gets a one-line entry in a triage log:
 
-```
+```text
 YYYY-MM-DD | [channel] | [type] | [disposition] | [brief note]
 ```
 
 Example:
-```
+
+```text
 2026-03-10 | private | source/lead | INTEGRATED → G17-01 | Farsi blog post with CM-302 delivery photos
 2026-03-10 | public  | correction  | CONFIRMED → B05 S3  | Date error in Deal Cannot Hold timeline
 2026-03-10 | private | sensitive   | FLAGGED FOR USER    | Claims firsthand knowledge of [redacted]

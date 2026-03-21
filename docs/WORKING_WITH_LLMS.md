@@ -47,6 +47,7 @@ cutoff are unknown. This is the most operationally significant limitation for
 Iran analysis — a region where the structural picture can shift rapidly.
 
 **This project's response:**
+
 - All time-sensitive analytical claims are explicitly date-stamped.
 - Web search tools are required for any claim about events after the model's
   training cutoff.
@@ -63,6 +64,7 @@ rather than questioning it. Once a framing is established, contradictory
 evidence is underweighted.
 
 **This project's response:**
+
 - **Module 8 (Domain Scan):** Forces cross-domain checks across all ITB pillars
   before conclusions are drawn.
 - **Module 2 (Truth Engine):** Sophisticated Actor Default — assumes the regime
@@ -81,6 +83,7 @@ especially for niche topics with sparse training data. Iran's internal
 institutional architecture is exactly this kind of domain.
 
 **This project's response:**
+
 - **Epistemic tagging requirement:** Every analytical claim must be tagged
   Fact / Inference / Uncertain / Speculation with explicit confidence bands.
   This makes the LLM's uncertainty visible rather than hidden.
@@ -99,6 +102,7 @@ is factually wrong. This is sycophancy toward perceived neutrality rather than
 accuracy.
 
 **This project's response:**
+
 - **No False Balance rule (Module 2):** Explicit instruction to call
   asymmetric situations asymmetric. If the evidence strongly supports one
   conclusion, the LLM is instructed to say so, not to manufacture a
@@ -113,6 +117,7 @@ back on errors. In analytical work, this produces output that validates
 assumptions rather than tests them.
 
 **This project's response:**
+
 - **ADVISOR + ADVERSARIAL modes:** The analytical instruction set includes
   explicit modes where the LLM is required to challenge premises and argue
   the strongest countercase.
@@ -128,6 +133,7 @@ earlier in the conversation. Important constraints established at session start
 may be silently violated by session end.
 
 **This project's response:**
+
 - **Long-Session Instruction Decay rule:** Explicit instruction to re-read and
   re-apply core epistemic standards periodically within long sessions.
 - **Session compaction protocol:** When context limits approach, the
@@ -151,6 +157,7 @@ social media, and secondary sources. An LLM reading this material and treating
 it as evidence creates a circular reasoning problem.
 
 **This project's response:**
+
 - AI-generated text from other systems is treated as hypothesis input only,
   never as independent evidence.
 - Source taxonomy (Tier 1-5) excludes AI-generated content from corroborating
