@@ -1,6 +1,6 @@
-version: '2.7'
+version: '2.8'
 date: '2026-03-28'
-source: v2.6 + Session 27 (Day 28 — observations and extensions batch)
+source: "v2.7 + Session 27 full (Day 28 — observations, gaps, variables)"
 entries:
 - number: 1
   date: '2026-02-16'
@@ -269,19 +269,34 @@ entries:
 - number: 27
   date: '2026-03-28'
   summary: >-
-    Day 28 observations and extensions batch. Four new observations: Obs 047
-    (Dual-Use Infrastructure Inversion — civilian state as cover layer), Obs 048
-    (Posture Collapse — Larijani kill eliminates ceasefire-making capacity), Obs 049
-    (Maritime Insurance as Strategic Weapon — underwriting control thesis), Obs 050
-    (Hezbollah Latin America Reconstruction — criminal-financial network pivot).
-    Wartime scope extensions to Obs 010 (Three Clocks → three-body wartime revision)
-    and Obs 034 (Ceasefire Paradox now absolute). Module extensions: A8.8/A10
-    (pragmatist-as-category-error analytical note), A11 (China reconstruction
-    dependency), A9/A12 (organized crime framing), A9.7 (Aarabi hard base
-    quantification ~10%/8.5M).
+    Day 28 comprehensive update — observations, gaps, and variables.
+    Four new observations: Obs 047 (Dual-Use Infrastructure Inversion),
+    Obs 048 (Posture Collapse — Larijani killed, Zolghadr replaces),
+    Obs 049 (Maritime Insurance as Strategic Weapon), Obs 050 (Hezbollah
+    Latin America Reconstruction). Wartime scope extensions to Obs 010
+    (Three Clocks → three-body) and Obs 034 (Ceasefire Paradox absolute).
+    Module extensions: A8.8.8 (pragmatist category error), A11.X (China
+    reconstruction dependency), A9.X (organized crime framing), A9.7
+    (Aarabi hard base ~10%/8.5M). Five new gaps: G27-01 (Zolghadr intent),
+    G27-02 (interceptor depletion), G27-03 (Diego Garcia IRBM), G27-04
+    (Hashd al-Shaabi in Iran), G27-05 (DFC reinsurance). Three gap status
+    updates: G23-06 ELEVATED (Mojtaba possibly dead), G14-10 ELEVATED P1
+    (Araghchi auth chain broken), G23-05 context shift. Five new variables:
+    FV-39 (oil market fracture), FV-40 (DFC facility), FV-41 (Diego Garcia
+    IRBM), FV-42 (Chinese casualties), FV-43 (cluster warhead BMD
+    suppression). Twelve variable updates across leadership, military,
+    economic, and maritime dimensions.
   modules_affected:
   - ITB-A8
   - ITB-A9
   - ITB-A10
   - ITB-A11
   - ITB-A12
+  - ITB-B
+  - ITB-C
+  - ITB-F
+  - APP-V
+  - APP-G
+  - data/observations.yaml
+  - data/gaps.yaml
+  - data/variables.yaml

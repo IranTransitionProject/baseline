@@ -1422,4 +1422,130 @@ content matched the existing entries, so no action was needed on gaps. Only the
 
 **Ambiguities:** None per Chat IR.
 
+#### 2026-03-28 — Chat — Integration Request (Variables batch)
+
+**Session:** 27 (Day 28 — Variables batch)
+**Summary:** 12 existing variable updates, 5 new variables (FV-39 through FV-43). Major Day 28 value updates across leadership, military, economic, and maritime dimensions.
+
+**Database state at start:** 302 entities, 95 variables (v2.1). Per Code IC for Session 27 gaps batch.
+
+---
+
+**Updated variables (data/variables.yaml) — 12 updates:**
+
+- SV-01: Supreme Leader → KILLED (Khamenei confirmed dead Feb 28)
+- TV-01: Nuclear deal → MOOT (active combat, no negotiations)
+- TV-02: Strikes → Day 28, ~92% launch rate decline
+- TV-03: Succession → Mojtaba selected but possibly dead/incapacitated
+- TV-16: Hormuz → Day 28, yuan toll, $100 vs $150 fracture, 3,200 ships
+- TV-17: Command coherence → POSTURE COLLAPSE, Larijani killed, Zolghadr replaces
+- TV-19: Mojtaba emergence → NO EMERGENCE, possible death
+- FV-29: Missile BATNA → ~92% decline, western infrastructure destroyed, eastern residual
+- FV-32: Narrative coherence → collapsed to two threads, pragmatist thread eliminated
+- FV-33: Mojtaba status → DNI "very seriously wounded," no Nowruz, possible death
+- FV-36: Hormuz modality → yuan toll + DFC reinsurance competing architectures
+- FV-38: Launcher inventory → western destroyed, eastern/southeastern residual
+
+**New variables (data/variables.yaml) — 5 new:**
+
+- FV-39: Oil market fracture — $100 WTI vs $150 Brent Asia, 3,200 ships trapped
+- FV-40: DFC maritime reinsurance facility — $20B, Chubb lead, potential permanent Hormuz governance
+- FV-41: Diego Garcia IRBM capability — two missiles Day 22, ~4,000km, both missed, vehicle type unknown
+- FV-42: Chinese personnel casualties — 3 CETC confirmed, DJI/bunker claims low confidence
+- FV-43: Cluster warhead BMD suppression — 20-24 submunitions/RV, interceptor depletion accelerant
+
+**Staging files:**
+
+- `staging/session_27/variables_027_patch.yaml` — updates (12 existing by ID) + append (5 new) — data/variables.yaml
+
+**Version bumps:**
+
+- variables.yaml: v2.1 → v2.2 (95 → 100)
+
+**Note for Code:** Staging file has two sections: `updates` (match by target ID, replace specified fields) and `new_entries` (append to entries list). All new variables follow the established schema (id, name, table, current_value, trend, insight, confidence, version_added, session_added, cross_refs, epistemic_tag).
+
+**Ambiguities:** None.
+
+#### 2026-03-28 — Chat — Integration Request (Housekeeping batch)
+
+**Session:** 27 (Day 28 — Housekeeping / final batch)
+**Summary:** Session entry update, file header updates, monitoring note addition. Closes out Session 27.
+
+**Database state at start:** 302 entities + variables batch pending. Per Code IC for Session 27 gaps batch + variables IR.
+
+---
+
+**Session entry update (data/sessions.yaml):**
+
+- Session 27 (number: 27): Replace `summary` and `modules_affected` fields to cover full session (observations + gaps + variables), not just observations batch. Updated text in staging file.
+- Header: version v2.7 → v2.8, source line updated.
+
+**File header updates:**
+
+- variables.yaml: version v2.1 → v2.2, date 2026-03-28, source line updated
+- gaps.yaml: version v3.2 → v3.3, date 2026-03-28, source line updated. Summary counts: P1 active 34 → 39 (5 new P1 + G14-10 elevated from P3), P3 1 → 0 (G14-10 reclassified)
+- observations.yaml: verify at v2.4 (should be from first batch integration)
+
+**Monitoring note (data/variables.yaml):**
+
+- Append new monitoring note to `monitoring_notes` list: Day 28 war status, key monitoring priorities (interceptor depletion, Mojtaba status, Zolghadr directives, DFC terms, cluster warhead effectiveness), pre-war negotiation variables moot.
+
+**Staging files:**
+
+- `staging/session_27/housekeeping_patch.yaml` — field-level updates across sessions.yaml, variables.yaml, gaps.yaml, observations.yaml
+
+**Note for Code:** This is a multi-file housekeeping patch. Each section in the staging file identifies the target file and the specific fields to update. The session entry update replaces fields on the existing Session 27 entry (number: 27), it does not add a new entry. Header updates are top-level version/date/source fields. The monitoring note appends to the existing monitoring_notes list in variables.yaml.
+
+**Ambiguities:** None. This closes Session 27 integration.
+
+<!-- END LOG -->
+
+#### 2026-03-28 — Code — Integration Complete
+
+**Session 27 Variables batch integrated.**
+
+**Variables** (100 total, was 95):
+
+- 12 updates: SV-01 (KILLED), TV-01 (MOOT), TV-02 (Day 28/92% decline),
+  TV-03 (possibly dead/incapacitated), TV-16 (yuan toll + DFC competing
+  architectures), TV-17 (POSTURE COLLAPSE/Zolghadr), TV-19 (NO EMERGENCE/
+  possible death), FV-29 (92%/eastern residual), FV-32 (two threads/pragmatist
+  eliminated), FV-33 (DNI testimony/possible death), FV-36 (yuan toll + DFC
+  facility), FV-38 (western destroyed/eastern residual).
+- 5 new: FV-39 (oil market fracture — $100 WTI vs $150 Brent), FV-40 (DFC
+  reinsurance facility), FV-41 (Diego Garcia IRBM capability), FV-42 (Chinese
+  personnel casualties), FV-43 (cluster warhead BMD suppression). Version
+  bumped to v2.2.
+
+**Validation:** 307 entries PASS; 18 briefs PASS.
+**Staging consumed:** `staging/session_27/variables_027_patch.yaml` deleted.
+
+**Ambiguities:** None per Chat IR.
+
+#### 2026-03-28 — Code — Integration Complete
+
+**Session 27 Housekeeping batch integrated. Session 27 fully closed.**
+
+**File header updates:**
+
+- variables.yaml: v2.1 → v2.2, date 2026-03-28, source updated. Monitoring
+  note appended (Day 28 war status, 5 key monitoring priorities, pre-war
+  negotiation variables moot).
+- sessions.yaml: v2.7 → v2.8. Session 27 summary replaced with full-session
+  coverage (observations + gaps + variables). modules_affected expanded to
+  include ITB-B, ITB-C, ITB-F, APP-V, APP-G, and all three data files.
+- gaps.yaml: source line updated. Summary counts corrected: priority_1_active
+  34 → 39 (5 new P1 + G14-10 elevated), priority_3_total 1 → 0.
+- observations.yaml: verified at v2.4 (correct from observations batch IC).
+
+**Validation:** 307 entries PASS; 18 briefs PASS.
+**Staging consumed:** `staging/session_27/housekeeping_patch.yaml` deleted;
+`staging/session_27/` directory removed. Staging directory fully empty.
+
+**Session 27 integration complete across all four batches:**
+1. Observations + module extensions (commit 1bbfa63)
+2. Gaps (commit 3ca9ae6)
+3. Variables (this commit)
+4. Housekeeping (this commit)
+
 <!-- END LOG -->

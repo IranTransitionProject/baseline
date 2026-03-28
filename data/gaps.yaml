@@ -1,10 +1,10 @@
 version: '3.3'
 date: '2026-03-28'
-source: v3.2 + Session 27 (Day 28 — gaps batch G27-01 to G27-05)
+source: "v3.2 + Session 27 (Day 28 — 5 new gaps G27-01 through G27-05, 3 status updates)"
 summary:
-  priority_1_active: 34
+  priority_1_active: 39
   priority_2_total: 32
-  priority_3_total: 1
+  priority_3_total: 0
   filled_total: 2
 entries:
 - id: gap-artesh-loyalty
