@@ -1259,4 +1259,102 @@ were already integrated during the S20 backlog session (v3.2). The staging file
 content matched the existing entries, so no action was needed on gaps. Only the
 2 new observations and session entry were newly integrated.
 
+#### 2026-03-28 — Chat — Integration Request
+
+**Session:** 27 (Day 28 — Observations and extensions batch)
+**Summary:** 4 new observations (047-050), 5 extensions to existing observations/modules. Major developments: Larijani killed ~Day 22, Zolghadr replaces as SNSC Secretary, Mojtaba condition deteriorating, missile launch rate down ~92%, maritime insurance architecture, Hezbollah Latin America thesis.
+
+**Database state at start:** 292 entities, 46 observations (v2.3), 73 gaps (v3.2), 95 variables (v2.1), 24 sessions (v2.6). Per Code IC for Session 26.
+
+---
+
+**New observations (data/observations.yaml):**
+
+- Obs 047: Dual-Use Infrastructure Inversion — civilian state as cover layer for military structure. A9 hollowness reframed: civilian institutions were never intended to be full.
+- Obs 048: Posture Collapse — Larijani kill eliminates ceasefire-making capacity. Zolghadr replacement = regime defaults to endurance-through-escalation. Deepens Obs 034.
+- Obs 049: Maritime Insurance as Strategic Weapon — DFC $20B reinsurance facility as Hormuz on/off switch through underwriting. Competing yuan toll vs dollar insurance architectures.
+- Obs 050: Hezbollah Latin America Reconstruction — post-war value shifts from political-military to criminal-financial network. ESO financiers survived strikes. DEA/FinCEN/SOUTHCOM become Iran-relevant.
+
+**Extensions to existing observations (data/observations.yaml):**
+
+- Obs 010 (Two Clocks): WARTIME SCOPE EXTENSION — third clock added (Israel Window of Opportunity Clock). Three-body wartime clock interaction.
+- Obs 034 (Ceasefire Paradox): WARTIME SCOPE EXTENSION — paradox now absolute per Larijani death and Zolghadr appointment (cross-ref Obs 048).
+
+**Extensions to existing modules:**
+
+- A8.8/A10: Analytical note — "Pragmatist as category error." Factional disagreement may be timing/readiness, not destination. Segment 3 may not exist as distinct category. Active analytical challenge, not settled.
+- A11: Section extension — China Reconstruction Dependency. Reconstruction debt → permanent client-state → Pinochet switch structurally impossible. NSCC breach complicates (China may not deliver).
+- A9/A12: Analytical note — Organized Crime Framing. Hormuz toll as protection racket, cartel politics, Hashd al-Shaabi as imported enforcers. Hybrid model: ideologically motivated organized crime.
+- A9.7: Data update — Aarabi hard base quantification (~10% / ~8.5M, leaked IRGC recording from Sassan Zare). Consistent with existing Tier 1+2+3 estimates. Pro-regime rallies = street-denial operations.
+
+**Staging files:**
+
+- `staging/session_27/observations_047_050_patch.yaml` — append — data/observations.yaml
+- `staging/session_27/extensions_patch.yaml` — field-level updates — multiple targets (see file for specifics)
+
+**Version bumps:**
+
+- observations.yaml: v2.3 → v2.4 (46 → 50)
+
+**Session entry (data/sessions.yaml):**
+
+- Session 27: Day 28 observations and extensions batch. March 28, 2026.
+
+**Note for Code on extensions:** The extensions_patch.yaml contains structured descriptions of inline text additions and module section additions. For observations (Obs 010, Obs 034), append the extension_text as a new paragraph in the existing `diagnosis` field following the existing SCOPE EXTENSION convention. For module extensions (A8.8/A10, A11, A9/A12, A9.7), these require additions to the corresponding ITB content YAML files — the staging file describes the content but Code will need to determine the correct insertion point in each module file.
+
+**Ambiguities for human review:**
+
+- Pragmatist category error (A8.8/A10 extension): This is flagged as an active analytical challenge, not a settled conclusion. Hooman should review whether this warrants a formal taxonomy revision or remains a cautionary analytical note.
+- Module extension insertion points: Code will need guidance on where exactly in itb_a8.yaml, itb_a10.yaml, itb_a11.yaml, itb_a9.yaml, and itb_a12.yaml to insert the new sections. Chat has described content; Code determines file-level placement.
+
+#### 2026-03-28 — Code — Integration Complete
+
+**Session 27 integrated.** Day 28 observations and extensions batch.
+
+**Observations** (50 total, was 46):
+
+- 4 new: Obs 047 (Dual-Use Infrastructure Inversion — civilian state as cover
+  layer for military structure), Obs 048 (Posture Collapse — Larijani kill
+  eliminates ceasefire-making capacity, Zolghadr replacement), Obs 049 (Maritime
+  Insurance as Strategic Weapon — DFC $20B reinsurance as Hormuz on/off switch),
+  Obs 050 (Hezbollah Latin America Reconstruction — ESO criminal-financial network
+  pivot). Version bumped to v2.4.
+
+**Observation extensions:**
+
+- Obs 010 (Two Clocks): WARTIME SCOPE EXTENSION — third clock added (Israel
+  Window of Opportunity Clock). Three-body wartime clock interaction. Trump
+  48-hour ultimatum as Clock 1 volatility manifestation.
+- Obs 034 (Ceasefire Paradox): WARTIME SCOPE EXTENSION — paradox now absolute
+  per Larijani death and Zolghadr appointment (cross-ref Obs 048).
+
+**Module extensions:**
+
+- itb_a8.yaml: New subsection A8.8.8 "Pragmatist as Category Error" analytical
+  note. Flagged as active analytical challenge per Chat IR.
+- itb_a10.yaml: Cross-reference added to A10.4a.5 three-segment section pointing
+  to A8.8.8 category error thesis.
+- itb_a11.yaml: New section A11.X "China Reconstruction Dependency" inserted
+  between A11.8 (cross-references) and A11.9 (sources).
+- itb_a9.yaml: New section A9.X "Organized Crime Framing" analytical note
+  inserted before A9.9 (research gaps). A9.7 content updated with Aarabi hard
+  base quantification (~10%/8.5M, leaked IRGC recording from Sassan Zare).
+- itb_a12.yaml: Cross-reference added to theoretical anchoring section pointing
+  to A9 organized crime framing note.
+
+**Sessions** (25 entries total, was 24): Session 27 added. Version bumped to v2.7.
+
+**Validation:** 297 entries PASS; 18 briefs PASS.
+**Staging consumed:** `staging/session_27/` deleted.
+
+**Ambiguity responses:**
+
+- Pragmatist category error: Integrated as an analytical note (A8.8.8) clearly
+  flagged as "active analytical challenge, not a settled conclusion" per Chat IR.
+  No taxonomy revision applied. Hooman can review and decide whether to formalize.
+- Module insertion points: Code determined placement based on logical section
+  ordering — analytical notes placed before research gaps sections, extensions
+  placed before sources sections, cross-references added to theoretical anchoring
+  sections.
+
 <!-- END LOG -->

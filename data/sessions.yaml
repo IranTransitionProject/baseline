@@ -1,6 +1,6 @@
-version: '2.6'
-date: '2026-03-15'
-source: v2.5 + Session 26 (Day 11 Leadership Landscape formalization)
+version: '2.7'
+date: '2026-03-28'
+source: v2.6 + Session 27 (Day 28 — observations and extensions batch)
 entries:
 - number: 1
   date: '2026-02-16'
@@ -266,3 +266,22 @@ entries:
   - ITB-A10
   - ITB-A12
   - APP-G
+- number: 27
+  date: '2026-03-28'
+  summary: >-
+    Day 28 observations and extensions batch. Four new observations: Obs 047
+    (Dual-Use Infrastructure Inversion — civilian state as cover layer), Obs 048
+    (Posture Collapse — Larijani kill eliminates ceasefire-making capacity), Obs 049
+    (Maritime Insurance as Strategic Weapon — underwriting control thesis), Obs 050
+    (Hezbollah Latin America Reconstruction — criminal-financial network pivot).
+    Wartime scope extensions to Obs 010 (Three Clocks → three-body wartime revision)
+    and Obs 034 (Ceasefire Paradox now absolute). Module extensions: A8.8/A10
+    (pragmatist-as-category-error analytical note), A11 (China reconstruction
+    dependency), A9/A12 (organized crime framing), A9.7 (Aarabi hard base
+    quantification ~10%/8.5M).
+  modules_affected:
+  - ITB-A8
+  - ITB-A9
+  - ITB-A10
+  - ITB-A11
+  - ITB-A12

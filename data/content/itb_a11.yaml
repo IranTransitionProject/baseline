@@ -316,6 +316,21 @@ sections:
     - **ISA Scenario 1:** Pinochet Pivot is a specific, deeper version of Scenario 1 -- requires scenario revision
 
     -----
+- id: _S27_A11_EXT
+  title: "A11.X China Reconstruction Dependency"
+  tags: ["SESSION-27", "EXTENSION"]
+  content: |
+    **SESSION 27 EXTENSION:** The Pinochet mechanism (A11) posits that sanctions relief funds repression rather than reform. Wartime destruction adds a new dimension: regime survival now requires Chinese reconstruction of the military-industrial base. This reconstruction creates permanent client-state dependency through debt, technology lock-in, and maintenance contracts.
+
+    The dependency chain: (1) regime survives war in diminished state, (2) Chinese firms rebuild military-industrial infrastructure (missile production, air defense, communications), (3) reconstruction debt creates structural leverage, (4) technology dependence creates permanent maintenance dependency, (5) China acquires veto over Iranian strategic autonomy.
+
+    This makes the Pinochet switch (A11's alignment-switch-for-survival scenario) structurally impossible: a Chinese client state cannot pivot to Western alignment because the dependency infrastructure is non-transferable. A9 hollowness at the state level: just as IRGC economic dependency binds individuals, Chinese reconstruction dependency would bind the state.
+
+    The NSCC Tianjin breach (revealing crude reverse-engineering of Western systems as AutoCAD copies) and sequential Chinese system failures across three theaters (Venezuela, Pakistan, Iran) complicate this thesis -- China may not be able to deliver reconstruction even if the political will exists. But regime desperation may override quality concerns: a bad Chinese missile is better than no missile.
+
+    [Inference -- Med for dependency mechanism; Speculation -- Low-Med for permanent client-state outcome, conditional on war duration and Chinese reconstruction capacity. Cross-refs: Obs 022 (China as active spoiler), B9 (Chinese pipeline), Obs 042 (Liaowang-1).]
+
+    -----
 - id: _L291
   title: A11.9 SOURCES
   subsections:

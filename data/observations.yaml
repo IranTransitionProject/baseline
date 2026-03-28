@@ -1,6 +1,6 @@
-version: '2.3'
-date: '2026-03-15'
-source: v2.2 + Session 26 (Day 11 Leadership Landscape formalization — Obs 045-046)
+version: '2.4'
+date: '2026-03-28'
+source: v2.3 + Session 27 (Day 28 — Obs 047-050, extensions to Obs 010/034)
 section_title: Analytic Annotations (The 'So-What' Log)
 entries:
 - id: 1
@@ -210,6 +210,28 @@ entries:
     gap a deliberately designed structural feature, not just a stress artifact. Araghchi's
     CBS appearance demonstrates the gap in real time — pragmatist diplomatic signaling
     that cannot bind decentralized IRGC field units.
+    WARTIME SCOPE EXTENSION (Session 27 — Day 28): The Two Clocks framework
+    requires wartime revision. With active military operations, a third clock
+    emerges: Israel's Window of Opportunity Clock. This clock ticks toward
+    nuclear escalation proportionally to US disengagement signals. Israel's
+    operational calculus: the longer the US remains engaged, the longer
+    Israel can pursue conventional degradation of Iranian military
+    infrastructure. The moment US political will wavers (Washington Patience
+    Clock expiring), Israel faces a use-it-or-lose-it decision on deeper
+    strikes including nuclear-adjacent targets (Fordow, Natanz enrichment
+    halls). The three wartime clocks: (1) Washington Patience Clock — now
+    measured in weeks of sustained military operations, not months of
+    diplomatic patience; (2) Regime Survival Clock — replacing the
+    Succession Clock, now governed by leadership elimination rate,
+    interceptor depletion, and command coherence degradation; (3) Israel
+    Window Clock — governed by US political commitment duration and
+    Iranian nuclear reconstitution timeline. The governing rule still
+    holds: the shortest clock wins. But the interaction is now three-body,
+    not two-body — and three-body problems are inherently less predictable.
+    The Trump 48-hour ultimatum on power plants (subsequently backed down
+    to 5-day postponement) is a visible manifestation of Clock 1 volatility.
+    Iran's denial of any negotiations is consistent with Obs 034 (no
+    ceasefire mechanism) and Obs 048 (posture collapse).
   strategic_implication: >-
     Deal assessment must include a temporal stress test: "If this deal is signed today, what is the probability it survives
     (a) the next Supreme Leader selection, (b) the next US political cycle, and (c) simultaneous eschatological sabotage and
@@ -937,6 +959,13 @@ entries:
     control the military; Iran's military cannot negotiate because its command structure is fragmenting; and even if all parties
     agreed, no mechanism exists to verify compliance across autonomous units. This is not a bargaining failure — it is a structural
     impossibility under current conditions. [Fact — Med-High for each chain; Inference — High for convergent paradox assessment]
+    WARTIME SCOPE EXTENSION (Session 27 — Day 28): Obs 048 confirms that
+    Obs 034's structural prediction has materialized in the most extreme
+    form: the only figure with ceasefire-making capacity (Larijani) has
+    been killed, and his replacement (Zolghadr) has neither the capability
+    nor the institutional profile to negotiate. The paradox is now absolute:
+    no mechanism exists on the Iranian side to accept, negotiate, or
+    implement a ceasefire even if both sides wanted one.
   strategic_implication: >-
     The ceasefire paradox means the war's duration is determined by military exhaustion (Iranian retaliation capacity reaches
     zero) or external forcing function (Chinese intervention, humanitarian catastrophe threshold), not by diplomacy. For planning:
@@ -1523,3 +1552,230 @@ entries:
     inversion (conditional on war duration and targeting success rate)
   version_added: v2.3
   session_added: 26
+- id: 47
+  title: "Dual-Use Infrastructure Inversion -- The Civilian State as Cover Layer"
+  diagnosis: >-
+    Virtually every major Iranian infrastructure project of the last quarter century
+    appears dual-purpose with military concealment as primary objective. The pattern
+    is not "civilian infrastructure with military add-ons" but "military infrastructure
+    with civilian cover." Civilian neglect maps precisely onto absence of military
+    justification: sectors with no concealment or hardening value (water treatment,
+    urban transit, hospital modernization, electrical grid resilience) received
+    systematic underinvestment, while sectors with dual-use potential (tunneling,
+    road networks to launch sites, underground fuel storage, communications
+    infrastructure) received disproportionate allocation. Flip figure and ground:
+    the parallel military-industrial structure is not the parasite on the civilian
+    state -- the civilian state is the cover layer for the military structure. This
+    reframes A9 hollowness: the "hollow" civilian institutions were never intended
+    to be full. They were always shells.
+  strategic_implication: >-
+    Reconstruction planning must assume that most "civilian" infrastructure has
+    military primary functions. Damage assessments framed as "civilian infrastructure
+    destruction" may systematically mischaracterize what was actually destroyed.
+    Humanitarian cost is real but the framing that strikes hit "civilian" targets
+    requires interrogation of what "civilian" meant in the Iranian construction
+    context. Post-war infrastructure audit is a prerequisite for honest reconstruction
+    planning -- and a prerequisite for understanding what the regime actually built
+    over 25 years.
+  itb_anchors:
+  - "A9 (parallel society as primary structure)"
+  - "C1 (economic allocation patterns)"
+  - "C2 (IRGC economic empire)"
+  - "E (territorial infrastructure)"
+  cross_refs:
+  - "Obs 001 (IRGC is the transition)"
+  - "Obs 029 (governance inversion)"
+  - "A9.7 (population disaggregation)"
+  leading_indicators:
+  - "Post-strike satellite imagery showing military equipment in ostensibly civilian facilities"
+  - "Reconstruction cost estimates diverging from pre-war civilian infrastructure valuations"
+  - "IRGC engineering corps involvement in ostensibly civilian construction projects"
+  - "Underground facility discoveries during damage assessment"
+  sources:
+  - "Structural inference from 25-year infrastructure investment pattern analysis"
+  - "Cross-reference of civilian neglect indicators (water, power, transit) with military construction timelines"
+  - "Wartime strike damage revealing dual-use facility configurations"
+  confidence: >-
+    Inference -- Med-High for pattern (infrastructure investment allocation data
+    is partially observable; civilian neglect metrics well-documented by Iranian
+    domestic sources and World Bank); Inference -- Med for intentionality claim
+    (alternative explanation of simple corruption/incompetence must be weighed,
+    but Module 2 Sophisticated Actor Default applies -- selective neglect across
+    domains is inconsistent with uniform incompetence)
+  version_added: v2.4
+  session_added: 27
+- id: 48
+  title: "Posture Collapse -- Larijani Kill Eliminates Ceasefire-Making Capacity"
+  diagnosis: >-
+    Ali Larijani killed in Israeli strike approximately Day 22, along with Basij
+    commander Gholamreza Soleimani. Larijani was simultaneously: (a) the de facto
+    operational authority running the SNSC, (b) the only figure with both the
+    sophistication and the institutional standing to manage dual-audience signaling
+    (domestic legitimacy + international interlocutor credibility), (c) the
+    pragmatist clock-runner buying time for ceasefire architecture, and (d) the
+    figure most plausibly capable of executing a negotiated off-ramp. His replacement
+    by Mohammad Bagher Zolghadr -- career IRGC hardliner, former IRGC deputy commander,
+    IRGC Joint Staff chief, founder of Ansar-e Hezbollah, Ahmadinejad-era deputy
+    interior minister -- represents not a succession but a regime posture collapse
+    from strategic ambiguity into unidirectional escalation. Zolghadr has no
+    ceasefire-making capability even if he wanted one: he lacks international
+    credibility, diplomatic network, and the dual-audience communication skills
+    Larijani possessed. This deepens Obs 034 (Ceasefire Paradox): the structural
+    absence of ceasefire mechanism is now compounded by the elimination of the only
+    person who might have improvised one. Combined with Mojtaba's deterioration
+    (DNI Gabbard testimony: "very seriously wounded," no Nowruz appearance, text-only
+    statements, opposition claims of ventilator/lung failure/coma, CIA and Mossad
+    unable to confirm location), the regime's constitutional chain has collapsed
+    into a military junta wearing civilian clothing: Pezeshkian (no power base),
+    Mohseni-Ejei (authority derived from possibly-dead successor), Arafi (ceremonial),
+    with effective authority consolidated in an IRGC hardliner at SNSC.
+  strategic_implication: >-
+    The war has no off-ramp on the Iranian side. There is no figure with both the
+    authority and the capability to negotiate a ceasefire. Zolghadr's appointment
+    signals that the regime has defaulted to endurance-through-escalation as its
+    only remaining strategy. External ceasefire proposals will have no credible
+    counterpart to accept them. This transforms the war's endgame calculus: it
+    ends through exhaustion, internal collapse, or external imposition -- not
+    negotiation.
+  itb_anchors:
+  - "A2.4 (succession dynamics)"
+  - "A1.1 (Bayt-e Rahbari)"
+  - "A9 (IRGC institutional capture)"
+  - "B07 (power map)"
+  cross_refs:
+  - "Obs 034 (Ceasefire Paradox -- deepened)"
+  - "Obs 046 (War Selects for Invisibility)"
+  - "Obs 043 (mosaic command)"
+  - "Obs 010 (wrong interlocutor -- now moot; there is no interlocutor)"
+  - "B08 (puppet problem -- puppet may be dead)"
+  leading_indicators:
+  - "Zolghadr public statements and operational directives"
+  - "Any backchannel attempts through non-Larijani figures (Araghchi, Zarif)"
+  - "Third-party ceasefire proposals and regime response patterns"
+  - "Mojtaba status confirmation or denial"
+  - "Assembly of Experts emergency session convocation (would signal succession crisis acknowledgment)"
+  sources:
+  - "Israeli strike reporting (~Day 22)"
+  - "DNI Gabbard congressional testimony on Mojtaba condition"
+  - "Zolghadr biographical record (IRGC career, Ansar-e Hezbollah founding, Ahmadinejad administration)"
+  - "Structural inference from Larijani's unique role combination"
+  confidence: >-
+    Fact for Larijani death and Zolghadr appointment (multiple independent reports);
+    Reported -- Med-High for Mojtaba condition (DNI testimony is authoritative but
+    intelligence community itself unable to confirm location); Inference -- High for
+    ceasefire capacity elimination (logically derived from Larijani's unique role
+    combination and Zolghadr's profile); Inference -- Med for "military junta"
+    characterization (structural analysis of remaining authority chain)
+  version_added: v2.4
+  session_added: 27
+- id: 49
+  title: "Maritime Insurance as Strategic Weapon -- The Underwriting Control Thesis"
+  diagnosis: >-
+    The US response to Iran's Hormuz yuan-denominated toll scheme ($2M per transit,
+    excluding US/Israeli vessels) was not naval but financial: a $20B DFC maritime
+    reinsurance facility with Chubb as lead underwriter, created after P&I clubs
+    pulled war risk coverage on March 5. This gives the US an on/off switch for
+    Hormuz through underwriting, not naval power. The architecture creates competing
+    control frameworks: Iran controls physical transit (toll), the US controls
+    financial viability of transit (insurance). No ship can sail without insurance;
+    no insurer will cover without the DFC backstop. The US can throttle Hormuz
+    throughput by adjusting reinsurance terms, coverage scope, or eligibility
+    criteria -- all administrative actions requiring no military deployment.
+    Possible deliberate US delay on reopening strait as leverage against Europe
+    (forcing energy policy alignment). The oil market fracture ($100 WTI vs $150
+    Brent in Asia, 3,200 ships trapped west of Hormuz) is partly a function of
+    this insurance architecture, not just physical blockade.
+  strategic_implication: >-
+    Insurance-based control may outlast the war. The DFC facility creates a
+    precedent and infrastructure for permanent US underwriting authority over
+    Hormuz transit -- a structural equivalent to SWIFT for maritime commerce.
+    Post-war, withdrawal of the facility becomes a leverage tool. The yuan-
+    denominated toll scheme, if it persists, creates a parallel Chinese financial
+    architecture for strait transit -- the maritime equivalent of dedollarization.
+    Watch for whether the toll/insurance competition becomes a permanent feature
+    of Hormuz governance rather than a wartime expedient.
+  itb_anchors:
+  - "C3.1 (shadow fleet / maritime)"
+  - "F1 (US position)"
+  - "B9 (Chinese pipeline)"
+  - "C1 (economic architecture)"
+  cross_refs:
+  - "Obs 022 (China as active spoiler)"
+  - "Obs 042 (Liaowang-1 deployment)"
+  - "A11 (Pinochet -- insurance as alignment enforcement tool)"
+  leading_indicators:
+  - "DFC reinsurance facility terms and eligibility criteria changes"
+  - "European response to delayed Hormuz reopening"
+  - "Yuan toll collection volume and participating vessel flags"
+  - "P&I club resumption timeline and conditions"
+  - "Oil price spread between WTI and Asian Brent (measures insurance architecture effect)"
+  sources:
+  - "DFC maritime reinsurance facility announcement"
+  - "P&I club war risk coverage withdrawal (March 5)"
+  - "Iran yuan-denominated toll scheme reporting"
+  - "Konrad hypothesis (analytical framework attribution)"
+  confidence: >-
+    Fact for DFC facility, P&I withdrawal, toll scheme, oil price fracture;
+    Inference -- Med-High for insurance-as-control-mechanism (logically derived
+    from structural dependencies -- no ship sails uninsured); Inference -- Med
+    for deliberate US delay thesis (plausible but not confirmed by policy
+    statements); Speculation -- Low for permanent post-war insurance architecture
+    (extrapolation from wartime precedent)
+  version_added: v2.4
+  session_added: 27
+- id: 50
+  title: "Hezbollah Latin America Reconstruction -- From Political Actor to Criminal-Financial Network"
+  diagnosis: >-
+    The regime accepted exposing Hezbollah's IRGC command structure (which Israeli
+    intelligence has systematically documented and targeted during the war) because
+    post-war Hezbollah's value shifts from Lebanese political-military actor to
+    criminal-financial network. Hezbollah's established drug trafficking, money
+    laundering, and sanctions evasion infrastructure across 12+ Latin American
+    countries (tri-border area of Argentina-Brazil-Paraguay, Venezuela, Colombia,
+    Mexico, and others) was built over decades by the ESO (External Security
+    Organization). ESO financiers survived Israeli strikes largely intact -- they
+    operate outside Lebanon and outside the military command chain that was
+    targeted. Post-war reconstruction of Hezbollah as a political-military force
+    in Lebanon may be secondary to its reconstruction as a global financial
+    network generating revenue streams for IRGC reconstruction. The Latin American
+    infrastructure provides: (a) sanctions evasion channels, (b) hard currency
+    generation through narcotics, (c) money laundering for reconstruction funds,
+    (d) a distributed network resilient to state-based targeting.
+  strategic_implication: >-
+    Counter-Hezbollah strategy focused on Lebanon misses the center of gravity.
+    Post-war Hezbollah's most strategically significant function may operate
+    entirely outside the Middle East. Latin American financial networks become
+    the IRGC's reconstruction funding pipeline. Counter-narcotics, financial
+    intelligence, and Latin American security cooperation become front-line
+    tools in Iran containment strategy -- a domain mismatch that current
+    institutional structures are not organized to address. DEA, FinCEN, and
+    SOUTHCOM become as relevant as CENTCOM to Iran policy.
+  itb_anchors:
+  - "F (international architecture)"
+  - "C2 (IRGC economic empire)"
+  - "B9 (Chinese pipeline -- parallel financial architecture)"
+  - "A9 (parallel society -- extraterritorial extension)"
+  cross_refs:
+  - "Obs 022 (China as active spoiler -- financial dimension)"
+  - "Obs 001 (IRGC is the transition -- extraterritorial dimension)"
+  - "Trap 1 (IRGC economic bootstrapping -- new revenue channel)"
+  leading_indicators:
+  - "ESO financier activity in Latin America post-war"
+  - "Changes in tri-border area financial flows"
+  - "DEA/FinCEN enforcement actions against Hezbollah-linked networks"
+  - "Venezuelan government facilitation of Hezbollah financial operations"
+  - "Cryptocurrency and hawala network pattern shifts"
+  sources:
+  - "Structural inference from documented Hezbollah Latin American network (DEA Project Cassandra reporting)"
+  - "ESO organizational structure analysis (surviving vs targeted personnel)"
+  - "Israeli targeting pattern analysis (military command vs financial networks)"
+  confidence: >-
+    Fact for Hezbollah Latin American network existence (DEA Project Cassandra,
+    multiple prosecutions); Reported -- Med for ESO financier survival (inferred
+    from targeting focus on military command chain in Lebanon, not financial
+    networks abroad); Inference -- Med for strategic pivot thesis (logically
+    derived from network survival + regime reconstruction needs, but regime
+    intent not directly observable); Speculation -- Low-Med for specific
+    reconstruction funding pipeline role (extrapolation from capability to intent)
+  version_added: v2.4
+  session_added: 27
