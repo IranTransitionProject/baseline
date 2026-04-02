@@ -1259,4 +1259,374 @@ were already integrated during the S20 backlog session (v3.2). The staging file
 content matched the existing entries, so no action was needed on gaps. Only the
 2 new observations and session entry were newly integrated.
 
+#### 2026-03-28 — Chat — Integration Request
+
+**Session:** 27 (Day 28 — Observations and extensions batch)
+**Summary:** 4 new observations (047-050), 5 extensions to existing observations/modules. Major developments: Larijani killed ~Day 22, Zolghadr replaces as SNSC Secretary, Mojtaba condition deteriorating, missile launch rate down ~92%, maritime insurance architecture, Hezbollah Latin America thesis.
+
+**Database state at start:** 292 entities, 46 observations (v2.3), 73 gaps (v3.2), 95 variables (v2.1), 24 sessions (v2.6). Per Code IC for Session 26.
+
+---
+
+**New observations (data/observations.yaml):**
+
+- Obs 047: Dual-Use Infrastructure Inversion — civilian state as cover layer for military structure. A9 hollowness reframed: civilian institutions were never intended to be full.
+- Obs 048: Posture Collapse — Larijani kill eliminates ceasefire-making capacity. Zolghadr replacement = regime defaults to endurance-through-escalation. Deepens Obs 034.
+- Obs 049: Maritime Insurance as Strategic Weapon — DFC $20B reinsurance facility as Hormuz on/off switch through underwriting. Competing yuan toll vs dollar insurance architectures.
+- Obs 050: Hezbollah Latin America Reconstruction — post-war value shifts from political-military to criminal-financial network. ESO financiers survived strikes. DEA/FinCEN/SOUTHCOM become Iran-relevant.
+
+**Extensions to existing observations (data/observations.yaml):**
+
+- Obs 010 (Two Clocks): WARTIME SCOPE EXTENSION — third clock added (Israel Window of Opportunity Clock). Three-body wartime clock interaction.
+- Obs 034 (Ceasefire Paradox): WARTIME SCOPE EXTENSION — paradox now absolute per Larijani death and Zolghadr appointment (cross-ref Obs 048).
+
+**Extensions to existing modules:**
+
+- A8.8/A10: Analytical note — "Pragmatist as category error." Factional disagreement may be timing/readiness, not destination. Segment 3 may not exist as distinct category. Active analytical challenge, not settled.
+- A11: Section extension — China Reconstruction Dependency. Reconstruction debt → permanent client-state → Pinochet switch structurally impossible. NSCC breach complicates (China may not deliver).
+- A9/A12: Analytical note — Organized Crime Framing. Hormuz toll as protection racket, cartel politics, Hashd al-Shaabi as imported enforcers. Hybrid model: ideologically motivated organized crime.
+- A9.7: Data update — Aarabi hard base quantification (~10% / ~8.5M, leaked IRGC recording from Sassan Zare). Consistent with existing Tier 1+2+3 estimates. Pro-regime rallies = street-denial operations.
+
+**Staging files:**
+
+- `staging/session_27/observations_047_050_patch.yaml` — append — data/observations.yaml
+- `staging/session_27/extensions_patch.yaml` — field-level updates — multiple targets (see file for specifics)
+
+**Version bumps:**
+
+- observations.yaml: v2.3 → v2.4 (46 → 50)
+
+**Session entry (data/sessions.yaml):**
+
+- Session 27: Day 28 observations and extensions batch. March 28, 2026.
+
+**Note for Code on extensions:** The extensions_patch.yaml contains structured descriptions of inline text additions and module section additions. For observations (Obs 010, Obs 034), append the extension_text as a new paragraph in the existing `diagnosis` field following the existing SCOPE EXTENSION convention. For module extensions (A8.8/A10, A11, A9/A12, A9.7), these require additions to the corresponding ITB content YAML files — the staging file describes the content but Code will need to determine the correct insertion point in each module file.
+
+**Ambiguities for human review:**
+
+- Pragmatist category error (A8.8/A10 extension): This is flagged as an active analytical challenge, not a settled conclusion. Hooman should review whether this warrants a formal taxonomy revision or remains a cautionary analytical note.
+- Module extension insertion points: Code will need guidance on where exactly in itb_a8.yaml, itb_a10.yaml, itb_a11.yaml, itb_a9.yaml, and itb_a12.yaml to insert the new sections. Chat has described content; Code determines file-level placement.
+
+#### 2026-03-28 — Code — Integration Complete
+
+**Session 27 integrated.** Day 28 observations and extensions batch.
+
+**Observations** (50 total, was 46):
+
+- 4 new: Obs 047 (Dual-Use Infrastructure Inversion — civilian state as cover
+  layer for military structure), Obs 048 (Posture Collapse — Larijani kill
+  eliminates ceasefire-making capacity, Zolghadr replacement), Obs 049 (Maritime
+  Insurance as Strategic Weapon — DFC $20B reinsurance as Hormuz on/off switch),
+  Obs 050 (Hezbollah Latin America Reconstruction — ESO criminal-financial network
+  pivot). Version bumped to v2.4.
+
+**Observation extensions:**
+
+- Obs 010 (Two Clocks): WARTIME SCOPE EXTENSION — third clock added (Israel
+  Window of Opportunity Clock). Three-body wartime clock interaction. Trump
+  48-hour ultimatum as Clock 1 volatility manifestation.
+- Obs 034 (Ceasefire Paradox): WARTIME SCOPE EXTENSION — paradox now absolute
+  per Larijani death and Zolghadr appointment (cross-ref Obs 048).
+
+**Module extensions:**
+
+- itb_a8.yaml: New subsection A8.8.8 "Pragmatist as Category Error" analytical
+  note. Flagged as active analytical challenge per Chat IR.
+- itb_a10.yaml: Cross-reference added to A10.4a.5 three-segment section pointing
+  to A8.8.8 category error thesis.
+- itb_a11.yaml: New section A11.X "China Reconstruction Dependency" inserted
+  between A11.8 (cross-references) and A11.9 (sources).
+- itb_a9.yaml: New section A9.X "Organized Crime Framing" analytical note
+  inserted before A9.9 (research gaps). A9.7 content updated with Aarabi hard
+  base quantification (~10%/8.5M, leaked IRGC recording from Sassan Zare).
+- itb_a12.yaml: Cross-reference added to theoretical anchoring section pointing
+  to A9 organized crime framing note.
+
+**Sessions** (25 entries total, was 24): Session 27 added. Version bumped to v2.7.
+
+**Validation:** 297 entries PASS; 18 briefs PASS.
+**Staging consumed:** `staging/session_27/` deleted.
+
+**Ambiguity responses:**
+
+- Pragmatist category error: Integrated as an analytical note (A8.8.8) clearly
+  flagged as "active analytical challenge, not a settled conclusion" per Chat IR.
+  No taxonomy revision applied. Hooman can review and decide whether to formalize.
+- Module insertion points: Code determined placement based on logical section
+  ordering — analytical notes placed before research gaps sections, extensions
+  placed before sources sections, cross-references added to theoretical anchoring
+  sections.
+
+#### 2026-03-28 — Chat — Integration Request (Gaps batch)
+
+**Session:** 27 (Day 28 — Gaps batch)
+**Summary:** 5 new gaps (G27-01 through G27-05), 3 status updates to existing gaps (G23-06, G23-05, G14-10).
+
+**Database state at start:** 297 entities, 73 gaps (v3.2). Per Code IC for Session 27 observations batch.
+
+---
+
+**New gaps (data/gaps.yaml):**
+
+- G27-01: Zolghadr operational intent and IRGC factional positioning [P1]. Career IRGC hardliner replacing Larijani at SNSC. Authority scope, relationship with Mirbagheri faction, operational priorities unknown.
+- G27-02: Interceptor depletion timeline [P1]. THAAD/Arrow/David's Sling stock assessment. The war's binding hidden clock. Governs Israel Window Clock.
+- G27-03: Diego Garcia IRBM vehicle identification [P1]. Khorramshahr-4 mod vs space-program-derived two-stage. ~4,000km range, Russia/China targeting intelligence.
+- G27-04: Hashd al-Shaabi deployment scale inside Iran [P1]. Imported proxy enforcement for internal suppression — unprecedented. Validates A9 hollowness, creates nationalist backlash variable.
+- G27-05: DFC maritime reinsurance facility architecture [P2]. $20B facility operational terms, post-war persistence, yuan toll interaction.
+
+**Status updates to existing gaps:**
+
+- G23-06: Description replaced — expanded from "capacity to govern" to "alive or dead." DNI Gabbard testimony, no Nowruz, opposition claims of coma. Status → ELEVATED. Priority unchanged (P1).
+- G23-05: Context appended — Mojtaba death/incapacitation transforms gap from succession-influencing to succession-determining. Status/priority unchanged (P1, OPEN).
+- G14-10: Wartime update appended — Larijani dead, Araghchi authorization chain broken. Priority elevated 3 → 1. Status → ELEVATED.
+
+**Staging files:**
+
+- `staging/session_27/gaps_027_patch.yaml` — append (new entries) + updates (existing entries) — data/gaps.yaml
+
+**Version bumps:**
+
+- gaps.yaml: v3.2 → v3.3 (73 → 78)
+
+**Note for Code:** The staging file has two sections: `new_entries` (append to entries list) and `updates` (modify existing entries by target ID). For G23-06 the entire description field is replaced. For G23-05 and G14-10, text is appended to existing descriptions. G14-10 also has priority and status changes.
+
+**Ambiguities:** None.
+
+<!-- END LOG -->
+
+#### 2026-03-28 — Code — Integration Complete
+
+**Session 27 Gaps batch integrated.**
+
+**Gaps** (78 total, was 73):
+
+- 5 new: G27-01 (Zolghadr intent/authority, P1), G27-02 (interceptor depletion
+  timeline — binding hidden clock, P1), G27-03 (Diego Garcia IRBM vehicle ID, P1),
+  G27-04 (Hashd al-Shaabi deployment inside Iran, P1), G27-05 (DFC reinsurance
+  architecture, P2). Version bumped to v3.3.
+
+**Status updates to existing gaps:**
+
+- G14-10: Description expanded with Day 28 WARTIME UPDATE (Larijani killed,
+  authorization chain broken, diplomatic channel functionally dead). Priority
+  elevated 3 → 1. Status → ELEVATED.
+- G23-05: Description appended with Day 28 context shift (gap transforms from
+  succession-influencing to succession-determining if Mojtaba dead/incapacitated).
+  Priority and status unchanged (P1, OPEN).
+- G23-06: Description fully replaced — expanded from "capacity to govern" to
+  "alive or dead." DNI Gabbard testimony, no Nowruz, opposition coma claims,
+  CIA/Mossad unable to confirm location. Status → ELEVATED. Priority unchanged (P1).
+
+**Validation:** 302 entries PASS; 18 briefs PASS.
+**Staging consumed:** `staging/session_27/gaps_027_patch.yaml` deleted; `staging/session_27/` directory removed.
+
+**Ambiguities:** None per Chat IR.
+
+#### 2026-03-28 — Chat — Integration Request (Variables batch)
+
+**Session:** 27 (Day 28 — Variables batch)
+**Summary:** 12 existing variable updates, 5 new variables (FV-39 through FV-43). Major Day 28 value updates across leadership, military, economic, and maritime dimensions.
+
+**Database state at start:** 302 entities, 95 variables (v2.1). Per Code IC for Session 27 gaps batch.
+
+---
+
+**Updated variables (data/variables.yaml) — 12 updates:**
+
+- SV-01: Supreme Leader → KILLED (Khamenei confirmed dead Feb 28)
+- TV-01: Nuclear deal → MOOT (active combat, no negotiations)
+- TV-02: Strikes → Day 28, ~92% launch rate decline
+- TV-03: Succession → Mojtaba selected but possibly dead/incapacitated
+- TV-16: Hormuz → Day 28, yuan toll, $100 vs $150 fracture, 3,200 ships
+- TV-17: Command coherence → POSTURE COLLAPSE, Larijani killed, Zolghadr replaces
+- TV-19: Mojtaba emergence → NO EMERGENCE, possible death
+- FV-29: Missile BATNA → ~92% decline, western infrastructure destroyed, eastern residual
+- FV-32: Narrative coherence → collapsed to two threads, pragmatist thread eliminated
+- FV-33: Mojtaba status → DNI "very seriously wounded," no Nowruz, possible death
+- FV-36: Hormuz modality → yuan toll + DFC reinsurance competing architectures
+- FV-38: Launcher inventory → western destroyed, eastern/southeastern residual
+
+**New variables (data/variables.yaml) — 5 new:**
+
+- FV-39: Oil market fracture — $100 WTI vs $150 Brent Asia, 3,200 ships trapped
+- FV-40: DFC maritime reinsurance facility — $20B, Chubb lead, potential permanent Hormuz governance
+- FV-41: Diego Garcia IRBM capability — two missiles Day 22, ~4,000km, both missed, vehicle type unknown
+- FV-42: Chinese personnel casualties — 3 CETC confirmed, DJI/bunker claims low confidence
+- FV-43: Cluster warhead BMD suppression — 20-24 submunitions/RV, interceptor depletion accelerant
+
+**Staging files:**
+
+- `staging/session_27/variables_027_patch.yaml` — updates (12 existing by ID) + append (5 new) — data/variables.yaml
+
+**Version bumps:**
+
+- variables.yaml: v2.1 → v2.2 (95 → 100)
+
+**Note for Code:** Staging file has two sections: `updates` (match by target ID, replace specified fields) and `new_entries` (append to entries list). All new variables follow the established schema (id, name, table, current_value, trend, insight, confidence, version_added, session_added, cross_refs, epistemic_tag).
+
+**Ambiguities:** None.
+
+#### 2026-03-28 — Chat — Integration Request (Housekeeping batch)
+
+**Session:** 27 (Day 28 — Housekeeping / final batch)
+**Summary:** Session entry update, file header updates, monitoring note addition. Closes out Session 27.
+
+**Database state at start:** 302 entities + variables batch pending. Per Code IC for Session 27 gaps batch + variables IR.
+
+---
+
+**Session entry update (data/sessions.yaml):**
+
+- Session 27 (number: 27): Replace `summary` and `modules_affected` fields to cover full session (observations + gaps + variables), not just observations batch. Updated text in staging file.
+- Header: version v2.7 → v2.8, source line updated.
+
+**File header updates:**
+
+- variables.yaml: version v2.1 → v2.2, date 2026-03-28, source line updated
+- gaps.yaml: version v3.2 → v3.3, date 2026-03-28, source line updated. Summary counts: P1 active 34 → 39 (5 new P1 + G14-10 elevated from P3), P3 1 → 0 (G14-10 reclassified)
+- observations.yaml: verify at v2.4 (should be from first batch integration)
+
+**Monitoring note (data/variables.yaml):**
+
+- Append new monitoring note to `monitoring_notes` list: Day 28 war status, key monitoring priorities (interceptor depletion, Mojtaba status, Zolghadr directives, DFC terms, cluster warhead effectiveness), pre-war negotiation variables moot.
+
+**Staging files:**
+
+- `staging/session_27/housekeeping_patch.yaml` — field-level updates across sessions.yaml, variables.yaml, gaps.yaml, observations.yaml
+
+**Note for Code:** This is a multi-file housekeeping patch. Each section in the staging file identifies the target file and the specific fields to update. The session entry update replaces fields on the existing Session 27 entry (number: 27), it does not add a new entry. Header updates are top-level version/date/source fields. The monitoring note appends to the existing monitoring_notes list in variables.yaml.
+
+**Ambiguities:** None. This closes Session 27 integration.
+
+<!-- END LOG -->
+
+#### 2026-03-28 — Code — Integration Complete
+
+**Session 27 Variables batch integrated.**
+
+**Variables** (100 total, was 95):
+
+- 12 updates: SV-01 (KILLED), TV-01 (MOOT), TV-02 (Day 28/92% decline),
+  TV-03 (possibly dead/incapacitated), TV-16 (yuan toll + DFC competing
+  architectures), TV-17 (POSTURE COLLAPSE/Zolghadr), TV-19 (NO EMERGENCE/
+  possible death), FV-29 (92%/eastern residual), FV-32 (two threads/pragmatist
+  eliminated), FV-33 (DNI testimony/possible death), FV-36 (yuan toll + DFC
+  facility), FV-38 (western destroyed/eastern residual).
+- 5 new: FV-39 (oil market fracture — $100 WTI vs $150 Brent), FV-40 (DFC
+  reinsurance facility), FV-41 (Diego Garcia IRBM capability), FV-42 (Chinese
+  personnel casualties), FV-43 (cluster warhead BMD suppression). Version
+  bumped to v2.2.
+
+**Validation:** 307 entries PASS; 18 briefs PASS.
+**Staging consumed:** `staging/session_27/variables_027_patch.yaml` deleted.
+
+**Ambiguities:** None per Chat IR.
+
+#### 2026-03-28 — Code — Integration Complete
+
+**Session 27 Housekeeping batch integrated. Session 27 fully closed.**
+
+**File header updates:**
+
+- variables.yaml: v2.1 → v2.2, date 2026-03-28, source updated. Monitoring
+  note appended (Day 28 war status, 5 key monitoring priorities, pre-war
+  negotiation variables moot).
+- sessions.yaml: v2.7 → v2.8. Session 27 summary replaced with full-session
+  coverage (observations + gaps + variables). modules_affected expanded to
+  include ITB-B, ITB-C, ITB-F, APP-V, APP-G, and all three data files.
+- gaps.yaml: source line updated. Summary counts corrected: priority_1_active
+  34 → 39 (5 new P1 + G14-10 elevated), priority_3_total 1 → 0.
+- observations.yaml: verified at v2.4 (correct from observations batch IC).
+
+**Validation:** 307 entries PASS; 18 briefs PASS.
+**Staging consumed:** `staging/session_27/housekeeping_patch.yaml` deleted;
+`staging/session_27/` directory removed. Staging directory fully empty.
+
+**Session 27 integration complete across all four batches:**
+1. Observations + module extensions (commit 1bbfa63)
+2. Gaps (commit 3ca9ae6)
+3. Variables (this commit)
+4. Housekeeping (this commit)
+
+### 2026-03-28 — Chat — Integration Request
+
+**Session:** 28
+**Summary:** Research sweep (Day 12-28 gap), trend reassessment, new observations, gap updates, variable updates. Multilingual primary-source verification of war developments.
+
+**New entities:**
+- Obs 051: Interceptor Depletion as Binding Clock — industrial capacity governs war endurance
+- Obs 052: Nuclear Targeting Bilateralization — Day 21 Natanz-Dimona exchange
+- Obs 053: Institutional Zombification — regime persists without governance capacity
+- Obs 054: Ground Force Coercive Positioning — Kharg Island and nuclear material seizure
+- G28-01: Houthi re-entry calculus and coordination (P1)
+- G28-02: PSAB targeting pattern — C2/ISR architecture targeting (P1)
+- G28-03: Pakistan-Saudi-Turkey-Egypt quadrilateral mechanism (P2)
+- G28-04: UAE civilian severance from Iran — scope and A9 implications (P2)
+- FV-44: Civilian casualty trajectory
+- FV-45: US ground force buildup and Kharg Island contingency
+- FV-46: CPAC domestic political fracture over war
+
+**Updated entities:**
+- G23-06: Mojtaba status → PARTIALLY FILLED (alive, incapacitated, janbaz)
+- G27-01: Zolghadr profile → PARTIALLY FILLED (full bio, operating silently)
+- G27-02: Interceptor depletion → PARTIALLY FILLED (quantified, elevated to Obs 051)
+- G27-03: Diego Garcia IRBM → context update (nuclear targeting context)
+- TV-03: Mojtaba status → ALIVE, INCAPACITATED, janbaz designation
+- TV-17: SNSC leadership → ZOLGHADR INSTALLED, operating silently
+- FV-29: Iranian missile launch rate → Day 28 update with Houthi entry
+- FV-38: Launch infrastructure shift → update with Dimona context
+- FV-40: DFC reinsurance → update with India crude waiver disruption
+- Obs 010 extension: Three Clocks → Four Clocks (Interceptor Clock)
+- Obs 034 extension: Ceasefire Paradox + Houthi entry + quad mechanism
+- Obs 048 extension: Posture Collapse + Zolghadr profile confirmation
+
+**Filled gaps:**
+- G23-06: PARTIALLY FILLED — Mojtaba alive, incapacitated, janbaz (remaining: medical specifics, location)
+- G27-01: PARTIALLY FILLED — Zolghadr full profile (remaining: current SNSC directives, negotiating mandate)
+- G27-02: PARTIALLY FILLED — Interceptor depletion quantified, elevated to Obs 051 (remaining: classified inventory levels)
+
+**New/updated briefs:**
+- None this batch. B16 v2.0 deferred to next session.
+
+**Staging files:**
+- staging/session_28/observations_028.yaml — full — target data/observations.yaml (append Obs 051-054)
+- staging/session_28/gaps_028_patch.yaml — patch — target data/gaps.yaml (update G23-06, G27-01, G27-02, G27-03; append G28-01 through G28-04)
+- staging/session_28/variables_028_patch.yaml — patch — target data/variables.yaml (update TV-03, TV-17, FV-29, FV-38, FV-40; append FV-44 through FV-46)
+- staging/session_28/obs_extensions_028.yaml — patch — target data/observations.yaml (field-level appends on Obs 010, 034, 048)
+
+**Version bumps:**
+- observations.yaml: v2.4 → v2.5
+- gaps.yaml: v3.3 → v3.4
+- variables.yaml: v2.2 → v2.3
+
+**Expected entity count after integration:** 307 + 4 obs + 4 gaps + 3 variables = 318
+
+**Note for Code:** The observations staging file contains four complete new entries (Obs 051-054) to append. The obs_extensions file contains field-level appends to existing entries (Obs 010, 034, 048) — these are diagnosis_append and cross_refs_append, meaning new text should be appended to existing diagnosis and cross_refs fields, not replace them. Gap and variable patches follow standard ID-based merge. Header version/date bumps on all three data files.
+
+**Ambiguities for human review:**
+- W2.5/W6 scenario designation: Phase 2 assessment identified "institutional zombification" as a condition not cleanly captured by existing W2-W5 scenarios. Owner decision needed on whether to create W6 (IRGC junta without constitutional cover) as a formal scenario or redefine existing W2/W3 boundaries.
+- Obs 010 title: Currently "Two Clocks" (extended to "Three Clocks" in S27). S28 adds "Four Clocks." The title is getting unwieldy. Consider renaming to "War Clocks" with version history in the diagnosis.
+
+### 2026-03-28 — Code — Integration Complete
+
+**Session:** 28
+**Integration summary:**
+
+- **Observations:** 4 new (Obs 051-054), 3 extensions (Obs 010/034/048) — 54 total
+- **Gaps:** 4 new (G28-01 through G28-04), 3 status updates (G23-06, G27-01, G27-02 → PARTIALLY_FILLED), 1 context update (G27-03) — 82 total
+- **Variables:** 3 new (FV-44 through FV-46), 5 updates (TV-03, TV-17, FV-29, FV-38, FV-40) — 103 total
+- **Sessions:** Session 28 added — 26 total
+- **Version bumps:** observations v2.5, gaps v3.4, variables v2.3, sessions v2.9
+
+**Validation:** 319 entries PASS; 18 briefs PASS.
+**Staging consumed:** `staging/session_28/` directory removed.
+
+**Fixes applied during integration:**
+- Gap status values normalized: staging used "PARTIALLY FILLED" (space), corrected to "PARTIALLY_FILLED" (underscore) per schema enum
+- FV-44 epistemic_tag: staging used "Reported" (not a valid enum value), corrected to "Fact" per schema
+
+**Ambiguities forwarded to owner (from Chat IR):**
+- W2.5/W6 scenario designation — institutional zombification not captured by W2-W5
+- Obs 010 title unwieldiness — "Two Clocks" → "Three Clocks" → "Four Clocks"; consider rename to "War Clocks"
+
 <!-- END LOG -->
