@@ -1,0 +1,63 @@
+name: Publish Briefs
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/briefs/**'
+      - 'templates/brief.md.j2'
+      - 'pipeline/build_briefs.py'
+      - 'pipeline/build_pdf.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout framework
+        uses: actions/checkout@v4
+
+      - name: Checkout website repo
+        uses: actions/checkout@v4
+        with:
+          repository: IranTransitionProject/IranTransitionProject.github.io
+          path: _website
+          token: ${{ secrets.WEBSITE_DEPLOY_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install weasyprint
+
+      - name: Build brief markdown files
+        run: python pipeline/build_briefs.py
+
+      - name: Build PDF bundle
+        run: python pipeline/build_pdf.py --tier briefs
+
+      - name: Copy outputs to website
+        run: |
+          mkdir -p _website/briefs/downloads
+          cp output/briefs/*.md _website/briefs/downloads/
+          cp releases/ITP-Briefs-*.pdf _website/briefs/downloads/ 2>/dev/null || true
+
+      - name: Commit and push to website
+        working-directory: _website
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add briefs/downloads/
+          if ! git diff --cached --quiet; then
+            git commit -m "Update briefs from framework $(git -C .. rev-parse --short HEAD)"
+            git push
+          else
+            echo "No brief changes to publish"
+          fi
