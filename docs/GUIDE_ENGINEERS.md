@@ -65,7 +65,7 @@ The instruction files are the most interesting part for reuse. They encode:
 ### Step 1: Fork and Strip
 
 ```bash
-git clone https://github.com/IranTransitionProject/framework.git my-project
+git clone https://github.com/IranTransitionProject/baseline.git my-project
 cd my-project
 rm -rf data/content/* data/briefs/*  # Remove Iran-specific content
 # Keep: schemas/, templates/, pipeline/, data/*.yaml (as structural templates)

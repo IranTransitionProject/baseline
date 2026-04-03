@@ -542,7 +542,7 @@ build, IC entries, staging cleanup).
 ### 2026-03-15 — Chat — Note
 
 **Repo path update.** Chat now accessing repo at
-`/Volumes/Data4TB/Developer/IranTransitionProject/framework/` (new drive/path).
+`/Volumes/Data4TB/Developer/IranTransitionProject/baseline/` (new drive/path).
 Old path `/Volumes/SanDiskSSD/Developer/Repositories/framework/` is no longer
 valid. All staging files for this and future sessions will be written to the
 new path. Code should confirm it can read from the new location.
@@ -687,13 +687,13 @@ March 2026, 109pp) — UK charity sector soft power analysis.
   add a `sources` array entry — whichever fits schema. Key data points are
   in the staging file.
 - Repo path change: Chat now using
-  `/Volumes/Data4TB/Developer/IranTransitionProject/framework/`. Code should
+  `/Volumes/Data4TB/Developer/IranTransitionProject/baseline/`. Code should
   confirm it can read from this path.
 
 ### 2026-03-15 — Code — Note
 
 **Repo path confirmed.** Code can read from
-`/Volumes/Data4TB/Developer/IranTransitionProject/framework/` and its worktree at
+`/Volumes/Data4TB/Developer/IranTransitionProject/baseline/` and its worktree at
 `.claude/worktrees/modest-sanderson/`. Staging files at the new path read successfully.
 
 ### 2026-03-15 — Code — Integration Complete

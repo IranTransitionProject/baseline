@@ -160,7 +160,7 @@ Framework output is published under CC BY-SA 4.0. You may cite, excerpt,
 and build on any finding with attribution. Suggested citation format:
 
 > Iran Transition Project, "[Module or Brief Title]," version [X.X],
-> [date], <https://github.com/IranTransitionProject/framework>
+> [date], <https://github.com/IranTransitionProject/baseline>
 
 When citing a specific claim, include its epistemic tag. This preserves
 the evidence-quality signal for your readers and distinguishes your use

@@ -22,9 +22,9 @@
 
 set -euo pipefail
 
-# ITP_ROOT must point to the project root containing framework/, loom/, baft/
+# ITP_ROOT must point to the project root containing baseline/, heddle/, baft/
 ITP_ROOT="${ITP_ROOT:-$(cd "$(dirname "$0")/.." && cd .. && pwd)}"
-REPO_ROOT="$ITP_ROOT/framework"
+REPO_ROOT="$ITP_ROOT/baseline"
 LOG_FILE="$REPO_ROOT/CLAUDE_SESSION_LOG.md"
 STATE_DIR="$REPO_ROOT/.claude"
 STATE_FILE="$STATE_DIR/watcher_state"

@@ -12,9 +12,9 @@
 
 set -euo pipefail
 
-# ITP_ROOT must point to the project root containing framework/, loom/, baft/
+# ITP_ROOT must point to the project root containing baseline/, heddle/, baft/
 ITP_ROOT="${ITP_ROOT:-$(cd "$(dirname "$0")/.." && cd .. && pwd)}"
-REPO_ROOT="$ITP_ROOT/framework"
+REPO_ROOT="$ITP_ROOT/baseline"
 PLIST_LABEL="org.irantransitionproject.session-watcher"
 PLIST_PATH="$HOME/Library/LaunchAgents/$PLIST_LABEL.plist"
 WATCH_SCRIPT="$REPO_ROOT/scripts/watch_session_log.sh"
