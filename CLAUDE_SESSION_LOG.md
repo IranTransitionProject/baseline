@@ -1629,4 +1629,72 @@ content matched the existing entries, so no action was needed on gaps. Only the
 - W2.5/W6 scenario designation — institutional zombification not captured by W2-W5
 - Obs 010 title unwieldiness — "Two Clocks" → "Three Clocks" → "Four Clocks"; consider rename to "War Clocks"
 
+### 2026-04-26 — Code — Note
+
+**Subject:** Telegram live-capture + MCP HTTP gateway wired into baft (LM Studio backend).
+
+**What landed in baft (`baft/src/baft/itp_telegram/`):**
+- 11 modules: `config`, `channel_profiles`, `llm_backend` (LM Studio shim for heddle's analyzer LLMBackend), `store`, `capture`, `mcp_server` (FastMCP), `service` (combined runner), `auth_bootstrap`, `pid_manager`, `resolve_ids`, `cli`
+- `pyproject.toml` heddle-ai extras now include `telegram` (pulls telethon 1.43.2)
+- `.gitignore` excludes `*.session` and `*.session-journal`
+- New CLI: `baft itp-telegram {auth, channels, resolve-ids, serve, status, stop, stats, search}`
+- `baft.cli.main` registers the subgroup lazily so the top-level `baft` CLI stays importable when telethon/fastmcp are absent
+
+**What landed in `~/.heddle/`:**
+- `.env` (mode 600): `TELEGRAM_API_ID=38835950`; `TELEGRAM_API_HASH` and `TELEGRAM_PHONE` left blank pending account unlock; `LM_STUDIO_URL`, `HEDDLE_LOCAL_BACKEND=lmstudio`, `HEDDLE_EMBEDDING_BACKEND=openai-compatible` set
+- `config.yaml` (mode 600): heddle pinned to LM Studio (`http://localhost:1234/v1`, model `qwen/qwen3.6-35b-a3b`, embedding `text-embedding-nomic-embed-text-v1.5`); RAG store at `~/.heddle/itp_rag.duckdb`
+- `~/.zshrc` appended with idempotent source block for `~/.heddle/.env`
+
+**Channel set:** 39 channels — union of (a) starter list from setup brief and (b) registry entries with `monitoring_priority` in {critical, high}, skipping `TBD_*`/unverified handles. Single source of truth remains `baft/pipeline/config/itp_telegram_channels.yaml` (the `itp_telegram` package loads it at runtime; no duplication). Faction → `ChannelBias` mapping documented in `channel_profiles._FACTION_TO_BIAS`.
+
+**Architecture deviations from setup brief:**
+- LM Studio (not Ollama) for both embeddings and the corroboration analyzer. Heddle's analyzer `LLMBackend` only knows `ollama:`/`anthropic:` prefixes; subclassed in `baft.itp_telegram.llm_backend.LMStudioLLMBackend` to talk OpenAI-compatible HTTP, with the `reasoning_content` rescue for thinking models.
+- MCP transport is **streamable HTTP** (FastMCP `transport="http"`, default mount `/mcp`), running standalone — not stdio subprocess of Claude Desktop. Combined with the live-capture daemon in one long-lived process per Hooman's "stand-alone with minimal CLI" requirement.
+- Standalone FastMCP server (not heddle's gateway YAML), per brief. Six tools: `search_posts`, `recent_posts`, `list_channels`, `stats`, `corroboration_check`, `capture_status`.
+
+**Smoke tests (offline, PASSED):** module imports, `baft itp-telegram --help`, channel-profile load (39 channels, ordered by trust), LM Studio embedding round-trip on Persian + English text (768-dim vectors), FastMCP in-process client (lists 6 tools; `stats`/`list_channels`/`capture_status`/`search_posts` return cleanly against an empty store).
+
+**Not testable in this session** (Telegram account locked out before credentials could be captured): the actual `auth` flow, live capture, and `resolve-ids`. The MCP server itself is fully usable against the empty DuckDB store immediately.
+
+**Outstanding for Hooman:**
+1. Recover Telegram account access; paste `api_hash` + phone number into `~/.heddle/.env` (still mode 600).
+2. `baft itp-telegram auth` — interactive Telethon phone/code/2FA flow.
+3. `baft itp-telegram resolve-ids` — writes numeric channel IDs to `~/.heddle/itp_channel_ids.json` (handles → IDs).
+4. `baft itp-telegram serve` to start capture + MCP. Foreground (Ctrl-C drains cleanly) or backgrounded under tmux/launchd at his discretion.
+5. Add to `~/Library/Application Support/Claude/claude_desktop_config.json` (existing `kapture` and `docling` entries untouched):
+   ```json
+   "itp-telegram": { "url": "http://127.0.0.1:8765/mcp" }
+   ```
+   Then quit + relaunch Claude Desktop.
+6. Registry verification queue still open: Mirbagheri personal channel, Larijani/SNSC channel, IRGC unit-level handles, OSINT aggregator handles, HRA/IHR/Hengaw handles, Shirazi/Hawza handles.
+
+**Out of scope (not done by design):**
+- Bulk Telegram Desktop JSON backfill for Apr 1–25 — Hooman has no exports.
+- launchd plist — Hooman wanted manual control.
+- Workshop UI integration.
+- Migration to heddle's gateway YAML config — standalone FastMCP chosen for simplicity.
+
+### 2026-04-29 — Code — Note
+
+**Subject:** Telegram MCP follow-up: end-to-end live with daemon + docs (continuation of 2026-04-26).
+
+**What landed since the prior entry:**
+
+- **CLI route-through-MCP fix.** `baft itp-telegram stats` and `search` now detect a running daemon via PID file and call its MCP HTTP endpoint with `fastmcp.Client`, falling back to direct DuckDB only when no daemon is up. DuckDB doesn't allow cross-process write+read sharing of one file, so the prior CLI errored with a lock conflict whenever the daemon was running.
+- **Bias enrichment fix.** Service now loads `~/.heddle/itp_channel_ids.json` (written by `resolve-ids`) at startup and merges resolved numeric channel_ids into both the in-memory ITP profiles AND `heddle.contrib.rag.ingestion.telegram_ingestor.DEFAULT_PROFILES`. The latter patch is what makes the analyzer's `_format_posts` resolve bias for our channels (otherwise everything reads as "unknown" in the LLM prompt).
+- **`corroboration_check` hardening.** Fixed `MuxEntry` construction (was missing required `mux_seq` and passing computed-field kwargs as if they were settable). Added entries cap (15 posts) before handing to LM Studio so the analyzer prompt fits in the typical 4096-token loaded context. Surfaced LM Studio HTTP 400 response bodies via new error logging in `LMStudioLLMBackend` — the prior code swallowed them.
+- **Analyzer model swap.** Default flipped from `qwen/qwen3.6-35b-a3b` (thinking model — burned all `max_tokens` on `reasoning_content` before producing JSON) to `google/gemma-4-26b-a4b` (non-thinking MoE, good Persian, fast).
+- **Smoke test passed.** `corroboration_check` against "ایرانی‌ها در برابر فشار غرب تسلیم نخواهند شد" returned 3 multi-channel matches (Fars+Tasnim x2, Tasnim+Saberin x1) with bilingual EN+FA claims and trust-weighted scores. 26.4s LLM latency, 30 posts pulled, 15 fed to analyzer.
+- **Daemon support added.** `baft itp-telegram daemon` subgroup with `start` (nohup-style detached via `subprocess.Popen(start_new_session=True)`), `install`/`uninstall`/`restart` (launchd), `status`, `log`. `baft/deploy/macos/install.sh` generates the launchd plist with `KeepAlive: SuccessfulExit=false` so `baft itp-telegram stop` actually stops the daemon. Service loads `~/.heddle/.env` via `python-dotenv` at CLI group entry so launchd-managed processes get env vars without a wrapper script.
+- **macOS TCC limitation discovered + handled.** `/Volumes/Data` is `Device Location: External` (PCI-Express SSD), and macOS Sequoia restricts launchd-spawned processes from reading external volumes without an explicit Full Disk Access grant. Probe confirmed: `ls /Volumes/Data` from a launchd-spawned `/bin/sh` returns "Operation not permitted." `daemon install` script now does a TCC pre-check (refuses cleanly with three actionable workarounds — use `daemon start` instead, grant FDA to the venv's actual python, or move the project to internal disk). Daemon currently runs via `daemon start` (PID detached to PPID 1, survives shell + Claude Desktop restarts).
+- **Claude Desktop config wired.** `~/Library/Application Support/Claude/claude_desktop_config.json` now lists `itp-telegram` alongside `kapture` and `docling` (URL-based MCP entry pointing at `http://127.0.0.1:8765/mcp/`).
+- **Documentation.** New `baft/docs/TELEGRAM_CAPTURE.md` covers architecture, prerequisites, first-time setup, daemon flow, MCP tools, troubleshooting, file map. README.md, baft/CLAUDE.md, and CLAUDE_DESKTOP_GUIDE.md updated with cross-links and structure entries.
+
+**Live state at log time:** daemon up 2h 30m+, 264 chunks / 215 unique posts / 11 unique channels in `~/.heddle/itp_rag.duckdb`. Capture has been steady through the night. Iran clock at log time: 11:12 IRST (peak morning posting window).
+
+**Outstanding for Hooman:**
+- Decide whether reboot survival matters enough to grant FDA to `/usr/local/python-3.12.13/bin/python3.12` and switch to `daemon install`. Currently `daemon start` requires manual restart after each reboot/logout (one command).
+- Update channel registry to fix the 5 drift-broken handles (`iraborsaw`, `masaf_raefipour`, `IranIntl_Fa`, `radiofarda_`, `VOAIran`).
+- Verify TBD handles in Cat 6/7/8 (HRA, IHR, Hengaw, Shirazi, Hawza, OSINT aggregators).
+
 <!-- END LOG -->
