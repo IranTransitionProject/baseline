@@ -1,6 +1,6 @@
 module_code: ITB-A11
-version: 1.2 (v1.1 + Copper mineral integration)
-date: '2026-02-20'
+version: 1.3 (v1.2 + Session 29 conditional validity annotation — Pinochet path foreclosed by architecture)
+date: '2026-05-16'
 source: "ITB_PROPOSED_SECTION_A11_V0_1.md (research session 2026-02-17) + A10_A11_INTERACTION_ANALYSIS_V0_2.md (session 2026-02-18)"
 dependencies:
 - ITB-A (regime structure)
@@ -12,6 +12,21 @@ referenced_by:
 title: THE ALIGNMENT SWITCH — PINOCHET MECHANISM ANALYSIS
 pillar: A
 sections:
+- id: _S29_A11_ANNOTATION
+  title: "A11 Module Annotation — Session 29 Conditional Validity Notice"
+  level: 2
+  tags: ["SESSION-29", "ANNOTATION", "OWNER-DECISION-PENDING", "OBS-056", "OBS-058"]
+  content: |
+    **ANNOTATION (Session 29 — 2026-05-16):** The A11 Pinochet model assumed a pragmatist faction with institutional reach sufficient to override maximalist factions and execute a controlled alignment switch. Subsequent analysis identifies two structural conditions that **foreclose** the Pinochet path in the current configuration:
+
+    1. **Mosaic-command authorization architecture** (Obs 056 — Reflexive Incapacitation): decision authority is distributed such that no pragmatist faction has the institutional reach to prevent scorched-earth execution at the moment of regime fall. There is no Speer figure; there is no single point of refusal.
+    2. **Operationalized نظام doctrine** (Obs 058 — Scorched Earth as Strategic Logic of Inheritance Denial): the IRGC strategic cadre has the doctrinal authorization (Khomeini's "hefz-e nezam" maximalist interpretation), demonstrated capacity (January 2026 massacre), and architectural design to execute infrastructure destruction in preference to viable successor governance.
+
+    The Pinochet path is therefore not "unlikely under current political conditions" but **foreclosed by architecture**. The A11 analytical work remains valuable as comparative reference (Pinochet, Suharto, Park, etc.) but should not be presented as a live transition scenario without explicit acknowledgment of these conditions.
+
+    **Owner decision pending (not a blocker for integration):** Full retraction with archive note ("A11 superseded by Obs 058; see B17") vs. A11.1 conditional revision. Recommendation: defer until B17 (Doctrine of Inheritance Denial) is published. B17 will be the canonical statement of the inheritance-denial doctrine; once in the project record, A11 status can be resolved cleanly.
+
+    *Cross-references: Obs 056 (Reflexive Incapacitation — execution-side foreclosure); Obs 058 (Operationalized نظام Doctrine — doctrinal foreclosure); B17 candidate brief (Doctrine of Inheritance Denial — resolution reference). [Session 29 — v2.6]*
 - id: _L15
   title: A11.0 WHY THIS SECTION EXISTS
   subsections:

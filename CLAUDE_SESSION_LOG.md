@@ -1697,4 +1697,183 @@ content matched the existing entries, so no action was needed on gaps. Only the
 - Update channel registry to fix the 5 drift-broken handles (`iraborsaw`, `masaf_raefipour`, `IranIntl_Fa`, `radiofarda_`, `VOAIran`).
 - Verify TBD handles in Cat 6/7/8 (HRA, IHR, Hengaw, Shirazi, Hawza, OSINT aggregators).
 
+### 2026-05-16 — Chat — Integration Request
+
+**Session:** 29
+**Summary:** S29 backlog integration — 5 new observations consolidating April + May analytical
+output, 2 gap fills, 1 new gap, 1 new trap, 3 observation extensions, 3 content-module patches.
+First push since Session 28 closed on Mar 28. Material is drawn from chat history (Apr 8, Apr 12,
+May 3, May 15) — no fabrication. The May 3 consolidated mapping (chat 6d7e78c0) is the canonical
+inventory; this IR executes the "First: integrate S29 backlog" step from that mapping.
+
+**New entities:**
+
+- Obs 055: Inverted Swarm — IRGC Ground Defense Structural Vulnerability from Mosaic Command
+  Architecture (companion to Obs 056, derived from Apr 8 Riboua chat analysis)
+- Obs 056: Reflexive Incapacitation — Mosaic Command Produces Outcomes the Same Doctrine Cannot
+  Reverse (Hormuz mine case from Apr 12 Pakistan-talks chat; full YAML drafted there)
+- Obs 057: Connectivity-Bound Conformity — Internet Pro as Fourth Binding Mechanism of the
+  Parallel Society (May 3 mapping; operationalizes ITB-H1.3 at population scale)
+- Obs 058: Operationalized نظام Doctrine — Scorched Earth as Strategic Logic of Inheritance Denial
+  (May 3 mapping; supersedes A11 Pinochet model under documented conditions)
+- Obs 059: Inversion Laundering — Paydari/MASAF Self-Sealing Legitimation Architecture (May 15
+  Rollins-piece follow-up; coinage from chat d6b0e27a)
+- G29-01: Persian Gulf Star Refinery (PGSR) operational architecture and targeting status (P1,
+  OPEN — new infrastructure node from May 15 Rollins piece)
+- Trap 15: Sophistication Disjunction — IRGC Strategic Cadre Underestimation as Structural Error
+  (May 3 mapping; per ITP-wide alignment with Module 2 Sophisticated Actor Default)
+
+**Updated entities:**
+
+- G23-05 (Mirbagheri/Paydari position): OPEN → PARTIALLY_FILLED with eschatological-accelerant
+  thesis. Evidence for Paydari support of Mojtaba (devoted pupil of Mesbah-Yazdi; "decisive and
+  unanimous" framing) now stronger than evidence for opposition.
+- G23-06 (Mojtaba capacity): additional fill from May 15 Rollins/WaPo finding. Mar 9 to mid-May =
+  2+ months without public appearance, ruling out tactical concealment. Severe injury (Rollins/
+  CIA-via-WaPo) is the leading interpretation. Status remains PARTIALLY_FILLED.
+- Obs 028 (Hormuz Sovereignty Doctrine — pipeline gambit): diagnosis_append for second instance —
+  Fars submarine-cable doctrinal thread (May 15). Same asymmetric-escalation pattern, new domain.
+- Obs 010 (War Clocks): diagnosis_append for Maritime Mine Clock as fifth clock companion derived
+  from Obs 056. Title-rename question (per S28 ambiguity) still pending owner decision.
+- Obs 034 (Ceasefire Paradox): diagnosis_append identifying two structural roots — Obs 056
+  (execution-side architectural binding) + Obs 059 (doctrinal-side legitimation binding).
+
+**Filled gaps:**
+
+- G23-05: PARTIALLY_FILLED — Paydari faction position on Mojtaba succession (eschatological
+  accelerant thesis as MOST DANGEROUS scenario). Remaining: explicit Paydari statements in
+  Persian-internal channels; whether Paydari views Mojtaba as patron / puppet / accelerant.
+- G23-06: PARTIALLY_FILLED (continued) — duration of absence rules out tactical concealment;
+  Rollins/WaPo "severely injured" framing leans (a) severe incapacitation. Remaining: medical
+  specifics, location, command-issuance mechanism.
+
+**New/updated briefs:**
+
+- None this batch. B16 v2.0 and B17 deferred to separate brief-writing sessions per May 3
+  sequencing recommendation: (1) S29 backlog → (2) Obs 055-059 integration → (3) A-series patches
+  → (4) variable creation → (5) B16 v2.0 + B17 in sequence → (6) Substack response.
+
+**Staging files:**
+
+- `staging/session_29/observations_029.yaml` — full (5 entries to append) — target
+  `data/observations.yaml` (append Obs 055-059)
+- `staging/session_29/gaps_029_patch.yaml` — patch (2 updates + 1 append) — target
+  `data/gaps.yaml` (update G23-05, G23-06; append G29-01)
+- `staging/session_29/traps_029_patch.yaml` — patch (1 append) — target `data/traps.yaml`
+  (append Trap 15)
+- `staging/session_29/obs_extensions_029.yaml` — patch (3 field-level appends) — target
+  `data/observations.yaml` (extend Obs 028, Obs 010, Obs 034)
+- `staging/session_29/content_patches_029.yaml` — content-module patches describing additions to
+  itb_a8.yaml (A8.8 fifth failure mode), itb_a10.yaml (Paydari/MASAF lineage), and itb_a11.yaml
+  (A11 conditional annotation; full retraction deferred). Per Session 27 precedent, exact
+  insertion points within each module's YAML structure are Code's call; this file describes the
+  content and the semantic insertion target.
+
+**Version bumps:**
+
+- observations.yaml: v2.5 → v2.6
+- gaps.yaml: v3.4 → v3.5
+- traps.yaml: v2.5 → v2.6
+- itb_a8.yaml, itb_a10.yaml, itb_a11.yaml: bump per per-module convention (Code's call)
+- sessions.yaml: add Session 29 entry; bump version per convention
+
+**Expected entity count after integration:** 319 + 5 obs + 1 gap + 1 trap = 326.
+
+**Notes for Code:**
+
+- `observations_029.yaml` is a list of 5 complete new entries to append (same pattern as
+  `observations_028.yaml` from prior session).
+- `gaps_029_patch.yaml` uses an explicit `updates:` / `appends:` structure — Code merges
+  `updates` by ID (preserving existing fields not specified in the patch), appends `appends` as
+  new entries. Status enum values use the underscore form (PARTIALLY_FILLED, not "PARTIALLY
+  FILLED") per S28 lesson.
+- `traps_029_patch.yaml` uses `appends:` structure. Trap 15 follows the standard trap schema
+  with `category: core_transition`.
+- `obs_extensions_029.yaml` uses `extensions:` structure with `field_appends:` keyed by field
+  name (`diagnosis_append`, `cross_refs_append`, `sources_append`). These are APPEND operations —
+  Code adds the text to the end of the existing field content, NOT replacing.
+- `content_patches_029.yaml` describes module-level content additions in human-readable YAML.
+  Per S27 precedent, the integrator determines the precise insertion point within each module's
+  existing structure. The patch file specifies the semantic insertion target.
+- The Rollins verification queue (V-R01-V-R19, P1/P2/P3 tiers, from May 15 chat d6b0e27a) was
+  flagged in memory as `staging/session_29/rollins_verification_queue.md`. That file is NOT in
+  this IR because the full queue text is in the May 15 chat and was not extractable here without
+  fabrication. Owner should drop the queue MD into the staging directory from chat outputs
+  before Code processes this batch, or flag explicitly that it's deferred.
+
+**Ambiguities for human review (owner decisions, not blockers for integration of the above):**
+
+1. **Trap 15 placement**: Should "Sophistication Disjunction" remain a Trap (current submission),
+   OR be elevated to a project-wide analytical principle alongside Velocity Gap, Wrong
+   Interlocutor, Ceasefire Paradox? Current submission is conservative; elevation is the stronger
+   move.
+2. **A11 retraction vs. revision**: Current patch applies conditional annotation only. Owner
+   decision pending: (a) full retraction with archive note, or (b) A11.1 conditional revision.
+   Recommendation: defer the choice until B17 is published; B17 becomes the canonical reference
+   that lets A11 be resolved cleanly.
+3. **Obs 010 title rename**: Carried over from S28 — "Two/Three/Four/Five Clocks" sequence is now
+   unwieldy. Candidate names: "War Clocks", "Binding Constraints Clock Stack", or similar.
+4. **Mahdist Window thesis**: Explicitly NOT integrated in this batch. Per Apr 12 chat, owner is
+   not ready to formalize. The thesis is referenced in cross_refs but not made a standalone
+   observation. Owner decision: standalone observation, A10 extension, or continue as research
+   thread?
+5. **Inversion Laundering single-source items**: Obs 059's "translator class" and "real chosen
+   insiders never say it as it is" formulations are flagged single-source (witness channel,
+   May 15). Independent diaspora-source corroboration would upgrade these from [Inference — Med]
+   to [Fact]. Flagged for targeted-outreach decision.
+6. **A9.7 Tier 3 reopening**: Obs 057 reopens the A9.7 carve-out — Tier 3 (3-7M patronage
+   periphery) is partly reversed under Internet Pro conditions. Whether to rewrite A9.7 fully or
+   add a wartime-extension annotation only. Likely a separate brief-writing session.
+7. **Hojjatiyeh→Mesbah-Yazdi→Mirbagheri lineage formalization scope**: Current patch is
+   relatively compact. Owner may want a longer, more rigorously-sourced treatment if the lineage
+   becomes a load-bearing finding in B17.
+
+**Deferred items NOT in this batch (per May 3 sequencing recommendation):**
+
+- B16 v2.0 reframe (separate brief-writing session — scaffolding exists, needs production)
+- B17 brief (Doctrine of Inheritance Denial — separate brief-writing session)
+- Pezeshkian-IRGC split variable (TV candidate — needs additional groundwork)
+- A9.7 full rewrite (Internet Pro implications — separate analytical session)
+- Substack response to Riboua/Pape (not framework — separate writing session)
+- Obs 057+ candidates from earlier chats not yet drafted: Public/Private Divergence (Zarif
+  op-ed vs. private message), Three-Cluster Legitimacy Fragmentation, Indigenous Marjaiya
+  Restoration Thesis, PMF Selfie Campaign as Domestic Deterrence Operation, Cultural Persistence
+  Architecture. These were flagged in May 3 mapping chat (161340d5) as still-pending candidates
+  that need analyst refinement before staging — not blocked, just not ready.
+
+**Integration goal**: Push the database forward to capture six weeks of accumulated analytical
+output before baft activation. The intent stated by owner is to clear the backlog this time —
+no more false starts. Integration of this batch unblocks the brief-writing track (B16 v2.0,
+B17) and the variable-creation track (Pezeshkian-IRGC split, others), which are the next stages
+of the May 3 sequencing plan.
+
+### 2026-05-16 — Code — Integration Complete
+
+**Session:** 29
+**Integration summary:**
+
+- **Observations:** 5 new (Obs 055-059), 3 extensions (Obs 010/028/034) — 59 total
+- **Gaps:** 1 new (G29-01 PGSR), 2 status updates (G23-05, G23-06 → PARTIALLY_FILLED) — 83 total
+- **Traps:** 1 new (Trap 15 Sophistication Disjunction) — 15 total
+- **Sessions:** Session 29 added — 27 total
+- **Content modules:** itb_a8 v1.1 (5th taqiyyah failure mode A8.8.9), itb_a10 v1.2 (Paydari/MASAF lineage A10.1.4), itb_a11 v1.3 (conditional validity annotation)
+- **Version bumps:** observations v2.6, gaps v3.5, traps v2.6, sessions v3.0
+
+**Validation:** 327 entries PASS; 18 briefs PASS.
+**Staging consumed:** `staging/session_29/` directory removed.
+
+**Fixes applied during integration:**
+- Two YAML syntax errors in observations_029.yaml: quoted strings at start of list items (`"313"...`) repaired with outer single-quote wrapping
+- Same pattern in gaps_029_patch.yaml: `"@a_logical_man"...` repaired
+- 7 cross_refs entries parsed as dicts (colon inside parentheses in cross-ref strings): reconstructed back to strings after yaml.safe_load/dump cycle
+
+**Ambiguities forwarded to owner (from Chat IR):**
+1. Trap 15 placement — Trap vs. project-wide analytical principle. Conservative (Trap) submission made.
+2. A11 retraction vs. revision — conditional annotation applied; decision deferred to B17 production.
+3. Obs 010 title rename — "War Clocks" / "Binding Constraints Clock Stack" / other. Carried from S28.
+4. Mahdist Window thesis — cross_refs only, not formalized. Owner decision pending.
+5. Inversion Laundering single-source items — "translator class" formulations flagged for corroboration.
+6. A9.7 Tier 3 reopening (Obs 057) — annotation only; full rewrite deferred.
+7. Hojjatiyeh lineage scope — compact treatment in A10.1.4; owner may want fuller B17 treatment.
+
 <!-- END LOG -->

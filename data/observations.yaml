@@ -1,6 +1,6 @@
-version: '2.5'
-date: '2026-03-28'
-source: v2.4 + Session 28 (Day 12-28 gap — Obs 051-054, extensions to Obs 010/034/048)
+version: '2.6'
+date: '2026-05-16'
+source: v2.5 + Session 29 (S29 backlog — Obs 055-059, extensions to Obs 010/028/034)
 section_title: Analytic Annotations (The 'So-What' Log)
 entries:
 - id: 1
@@ -172,46 +172,11 @@ entries:
   session_added: 5
 - id: 10
   title: The Two Clocks Problem -- The Deal's Temporal Vulnerability → Four Clocks (Interceptor Clock added Session 28)
-  diagnosis: 'The deal track operates under two independent clocks that interact destructively. The Succession Clock (months
-    to years) governs Khamenei''s decline and the eschatological faction''s institutional capture trajectory. The Washington
-    Patience Clock (weeks to months) governs the finite window for US-Iran diplomacy. The shorter clock wins. The velocity
-    gap: deal negotiations move faster than institutional capture, creating a window where a deal can be signed. But the deal''s
-    most vulnerable period is post-signing. The wrong interlocutor thesis: Washington is negotiating with Segment 3 (genuine
-    pragmatists, ~15-25% of institutional power) while deal survival depends on overcoming Segments 1+2 (~45-65% of institutional
-    power). The negotiating counterparts lack the institutional weight to deliver what they are promising. SCOPE EXTENSION
-    (Session 23 — Walney Undue Influence): The wrong interlocutor problem operates identically at the civil society layer,
-    not only at the diplomatic/negotiating table. The Walney report documents that UK government bodies (councils, police,
-    Charity Commission) engage with ICEL, IHRC, and related charities as legitimate community representatives, while the actual
-    authorization chain ran: Ministry of Intelligence → Ministry of Culture → SNSC → Supreme Leader''s office. The ICEL director
-    was described by former Iranian Deputy Minister of Culture (now at Iran International) as "the most senior Iranian regime
-    official" in the UK despite holding no diplomatic status. The Maryam Rajavi entry ban (UK bars opposition leader while
-    regime soft power network operates freely) is the starkest manifestation. Western institutional difficulty distinguishing
-    between Islam as religion and Islamism as political project amplifies the interlocutor problem across all civil society
-    contexts. Day 16 corroboration: IRGC mosaic command model (Obs 043) makes command-delivery gap a deliberately designed
-    structural feature, not just a stress artifact. Araghchi''s CBS appearance demonstrates the gap in real time — pragmatist
-    diplomatic signaling that cannot bind decentralized IRGC field units. WARTIME SCOPE EXTENSION (Session 27 — Day 28): The
-    Two Clocks framework requires wartime revision. With active military operations, a third clock emerges: Israel''s Window
-    of Opportunity Clock. This clock ticks toward nuclear escalation proportionally to US disengagement signals. Israel''s
-    operational calculus: the longer the US remains engaged, the longer Israel can pursue conventional degradation of Iranian
-    military infrastructure. The moment US political will wavers (Washington Patience Clock expiring), Israel faces a use-it-or-lose-it
-    decision on deeper strikes including nuclear-adjacent targets (Fordow, Natanz enrichment halls). The three wartime clocks:
-    (1) Washington Patience Clock — now measured in weeks of sustained military operations, not months of diplomatic patience;
-    (2) Regime Survival Clock — replacing the Succession Clock, now governed by leadership elimination rate, interceptor depletion,
-    and command coherence degradation; (3) Israel Window Clock — governed by US political commitment duration and Iranian
-    nuclear reconstitution timeline. The governing rule still holds: the shortest clock wins. But the interaction is now three-body,
-    not two-body — and three-body problems are inherently less predictable. The Trump 48-hour ultimatum on power plants (subsequently
-    backed down to 5-day postponement) is a visible manifestation of Clock 1 volatility. Iran''s denial of any negotiations
-    is consistent with Obs 034 (no ceasefire mechanism) and Obs 048 (posture collapse).
+  diagnosis: |-
+    The deal track operates under two independent clocks that interact destructively. The Succession Clock (months to years) governs Khamenei's decline and the eschatological faction's institutional capture trajectory. The Washington Patience Clock (weeks to months) governs the finite window for US-Iran diplomacy. The shorter clock wins. The velocity gap: deal negotiations move faster than institutional capture, creating a window where a deal can be signed. But the deal's most vulnerable period is post-signing. The wrong interlocutor thesis: Washington is negotiating with Segment 3 (genuine pragmatists, ~15-25% of institutional power) while deal survival depends on overcoming Segments 1+2 (~45-65% of institutional power). The negotiating counterparts lack the institutional weight to deliver what they are promising. SCOPE EXTENSION (Session 23 — Walney Undue Influence): The wrong interlocutor problem operates identically at the civil society layer, not only at the diplomatic/negotiating table. The Walney report documents that UK government bodies (councils, police, Charity Commission) engage with ICEL, IHRC, and related charities as legitimate community representatives, while the actual authorization chain ran: Ministry of Intelligence → Ministry of Culture → SNSC → Supreme Leader's office. The ICEL director was described by former Iranian Deputy Minister of Culture (now at Iran International) as "the most senior Iranian regime official" in the UK despite holding no diplomatic status. The Maryam Rajavi entry ban (UK bars opposition leader while regime soft power network operates freely) is the starkest manifestation. Western institutional difficulty distinguishing between Islam as religion and Islamism as political project amplifies the interlocutor problem across all civil society contexts. Day 16 corroboration: IRGC mosaic command model (Obs 043) makes command-delivery gap a deliberately designed structural feature, not just a stress artifact. Araghchi's CBS appearance demonstrates the gap in real time — pragmatist diplomatic signaling that cannot bind decentralized IRGC field units. WARTIME SCOPE EXTENSION (Session 27 — Day 28): The Two Clocks framework requires wartime revision. With active military operations, a third clock emerges: Israel's Window of Opportunity Clock. This clock ticks toward nuclear escalation proportionally to US disengagement signals. Israel's operational calculus: the longer the US remains engaged, the longer Israel can pursue conventional degradation of Iranian military infrastructure. The moment US political will wavers (Washington Patience Clock expiring), Israel faces a use-it-or-lose-it decision on deeper strikes including nuclear-adjacent targets (Fordow, Natanz enrichment halls). The three wartime clocks: (1) Washington Patience Clock — now measured in weeks of sustained military operations, not months of diplomatic patience; (2) Regime Survival Clock — replacing the Succession Clock, now governed by leadership elimination rate, interceptor depletion, and command coherence degradation; (3) Israel Window Clock — governed by US political commitment duration and Iranian nuclear reconstitution timeline. The governing rule still holds: the shortest clock wins. But the interaction is now three-body, not two-body — and three-body problems are inherently less predictable. The Trump 48-hour ultimatum on power plants (subsequently backed down to 5-day postponement) is a visible manifestation of Clock 1 volatility. Iran's denial of any negotiations is consistent with Obs 034 (no ceasefire mechanism) and Obs 048 (posture collapse).
+    Session 28 addition: The interceptor depletion data (Obs 051) establishes a fourth clock — the Interceptor/Industrial Clock — that may be the most binding of all. Unlike the other three clocks, which are political/strategic and therefore manipulable through decision-making, the Interceptor Clock is driven by physics and industrial production rates. THAAD production at 96/year cannot replace 198 fired in 16 days. Arrow-3 exhaustion is days away. Patriot production at 600/year cannot replace 943 fired in 4 days. Ramp-up plans (THAAD to 400/year, Patriot to 2,000/year) require 3-4 years. The Interceptor Clock therefore sets an outer boundary on all three other clocks: regardless of Washington's patience, regime survival trajectory, or Israel's offensive window, the defensive shield will degrade to non-functionality within weeks at current rates. This makes the Interceptor Clock the war's terminal constraint — the physical clock that forces political decisions before the others expire naturally.
 
-    Session 28 addition: The interceptor depletion data (Obs 051) establishes a fourth clock — the Interceptor/Industrial
-    Clock — that may be the most binding of all. Unlike the other three clocks, which are political/strategic and therefore
-    manipulable through decision-making, the Interceptor Clock is driven by physics and industrial production rates. THAAD
-    production at 96/year cannot replace 198 fired in 16 days. Arrow-3 exhaustion is days away. Patriot production at 600/year
-    cannot replace 943 fired in 4 days. Ramp-up plans (THAAD to 400/year, Patriot to 2,000/year) require 3-4 years. The Interceptor
-    Clock therefore sets an outer boundary on all three other clocks: regardless of Washington''s patience, regime survival
-    trajectory, or Israel''s offensive window, the defensive shield will degrade to non-functionality within weeks at current
-    rates. This makes the Interceptor Clock the war''s terminal constraint — the physical clock that forces political decisions
-    before the others expire naturally.'
+    SESSION 29 EXTENSION — Maritime Mine Clock as fifth clock companion: The Obs 056 finding (Reflexive Incapacitation) identifies that Iran cannot locate or remove all Hormuz mines it planted under mosaic-command-doctrine deployment. Mine-clearance timeline under permissive conditions is 8-14 weeks minimum; under contested or insurance-blocked conditions, materially longer. This is structurally similar to the Interceptor/Industrial Clock: a binding physical timeline that operates independent of political will. It must be tracked as a fifth Clock companion. Implication: any ceasefire-to-deal conversion has a hard floor of 8-14 weeks regardless of how fast political-track negotiations move. The cumulative effect of the Interceptor Clock (weeks not months) + Maritime Mine Clock (months) + Washington Patience Clock + Succession Clock + Israel Window Clock is that the war's terminal-constraint structure is now multi-layered. The most binding clock at any given moment is the variable; the existence of multiple binding clocks is the constant. Title may need rename from "War Clocks" (ambiguity flagged S28) to a stable form such as "Binding Constraints Clock Stack" or similar. Owner decision pending.
   strategic_implication: 'Deal assessment must include a temporal stress test: "If this deal is signed today, what is the
     probability it survives (a) the next Supreme Leader selection, (b) the next US political cycle, and (c) simultaneous eschatological
     sabotage and institutional friction?" If the answer to any is below 50%, the deal''s expected value for the population
@@ -232,6 +197,8 @@ entries:
   - Obs 043
   - Obs 051 (interceptor depletion as binding clock)
   - FV-43 (cluster warhead BMD suppression — accelerant)
+  - Obs 056 (Reflexive Incapacitation — source of Maritime Mine Clock)
+  - Obs 051 (Interceptor Depletion — Interceptor/Industrial Clock baseline)
   version_added: v1.1
   session_added: 9
 - id: 11
@@ -653,11 +620,10 @@ entries:
   session_added: 20
 - id: 28
   title: China's Position Shifts From Convergent Spoiler to Strategic Arbiter
-  diagnosis: 'Obs 022 identified China upgrading from passive to active equilibrium beneficiary. War accelerates further.
-    China is now the only major power with: (a) economic leverage over Iran (80%+ oil exports to China); (b) diplomatic relationships
-    with all parties; (c) strategic interest in reopening Hormuz (40% of Chinese oil imports transit the strait); (d) no military
-    involvement. Russia benefits from high oil prices and Western distraction but cannot broker peace. EU/E3 aligned with
-    US/Israel.'
+  diagnosis: |-
+    Obs 022 identified China upgrading from passive to active equilibrium beneficiary. War accelerates further. China is now the only major power with: (a) economic leverage over Iran (80%+ oil exports to China); (b) diplomatic relationships with all parties; (c) strategic interest in reopening Hormuz (40% of Chinese oil imports transit the strait); (d) no military involvement. Russia benefits from high oil prices and Western distraction but cannot broker peace. EU/E3 aligned with US/Israel.
+
+    SECOND INSTANCE (Session 29 — May 15 2026): Fars News (IRGC-affiliated regime primary source) published a doctrinal thread extending Hormuz sovereignty doctrine to submarine cable infrastructure. Key claims: 99%+ of international internet runs through submarine cables, ~$10T/day in financial transactions; a significant portion passes through the Strait of Hormuz "within a zone over which Iran can exercise sovereignty — a right that even transit passage does not extinguish." Proposed governance model: cable passage requires Iranian permission + fees; foreign companies operate under Iranian law; cable management/repair/ maintenance assigned exclusively to Iranian companies. Stated goal: Hormuz becomes "one of the levers of Iran's digital power" (یکی از اهرم‌های قدرت دیجیتال ایران). This pattern- matches the original pipeline-gambit framing (BTC / Nakhchivan): when conventional military position deteriorates, the regime expands the threat domain into infrastructure where global cost of disruption ≫ Iran's marginal cost. Pipelines were tier-1; submarine cables are the natural tier-2. Capability check: cable-cutting is not a bluff — SEA-ME-WE 5, FALCON, GBI and others transit the region; submarine cables are notoriously vulnerable; Iran has the sub-surface and naval assets; cables transit waters Iran asserts as sovereign. Factional reading: sovereignty-extension into novel domains is hardliner / IRGC / Paydari doctrine — this would not emerge from the Pezeshkian/Araghchi pragmatist track. The Fars publication (without parallel Tasnim or KHAMENEI.IR distribution observed yet) suggests faction-specific posturing pending broader uptake.
   strategic_implication: 'Chinese-brokered ceasefire or post-war framework would come with Chinese conditions: protection
     of Chinese economic interests, weakened Western influence in reconstruction, expanded Chinese military/intelligence presence.
     Hormuz closure creates urgency for China to act but also gives China maximum leverage.'
@@ -673,9 +639,15 @@ entries:
   - Whether Chinese-flagged vessels continue transiting Hormuz while others cannot
   cross_refs:
   - Obs 022
+  - Obs 049 (Maritime Insurance — financial-architecture parallel to Iran's digital-architecture claim)
+  - 'Obs 057 (Connectivity-Bound Conformity — companion: regime extends information-domain sovereignty inward)'
+  - Obs 059 (Inversion Laundering — sovereignty-extension framing as legitimation cover for asymmetric coercion)
   confidence: '[Inference -- Med-High for structural positioning; Speculation for Chinese intent]'
   version_added: v1.8
   session_added: 20
+  sources:
+  - Fars News submarine-cable doctrinal thread (May 2026) — IRGC-affiliated regime primary source per ITP source hierarchy
+  - May 15 chat (d6b0e27a) — translation and structural analysis
 - id: 29
   title: The Governance Inversion -- Basij Abandons Service Function and Weaponizes Humanitarian Infrastructure
   diagnosis: 'Primary source witness reports (5 witnesses, 3 locations, total blackout conditions) describe: (a) Basij evacuating
@@ -873,42 +845,15 @@ entries:
   session_added: 22
 - id: 34
   title: The Ceasefire Paradox — No Mechanism Exists to Stop a War Both Sides Claim They Do Not Want
-  diagnosis: 'Three independent evidence chains converge on a single structural finding: even if elements on both sides wanted
-    to halt hostilities, no mechanism currently exists to execute a ceasefire.
+  diagnosis: |-
+    Three independent evidence chains converge on a single structural finding: even if elements on both sides wanted to halt hostilities, no mechanism currently exists to execute a ceasefire.
+    Chain 1 — The diplomatic channel is dead. MOIS operatives reached CIA through a third country's intelligence service (NYT, March 4). But Trump publicly rejected contact ("Too Late!"), Araghchi publicly denied seeking a ceasefire, Tasnim called the backchannel report "psychological warfare," and Witkoff has had no contact with Araghchi since strikes began. Nearly a dozen countries have offered mediation; none have produced substantive exchange.
+    Chain 2 — The wrong interlocutor problem is now operational. The MOIS pragmatist channel that reached out cannot commit the IRGC to a ceasefire. Araghchi is transmitting the hardliner line, not negotiating (confirmed by his March 5 NBC statements). The MOIS backchannel bypassed him entirely, suggesting he is not even the primary conduit. Mojtaba's contested succession means no supreme leader can authorize a ceasefire with recognized legitimacy. Even if Larijani wanted to negotiate, his authority over autonomous IRGC units is unproven.
+    Chain 3 — Command fragmentation makes enforcement impossible. Even if a ceasefire were agreed at the top, IRGC units making autonomous firing decisions (Nakhchivan, Hormuz tanker strikes, Gulf state targeting) may not receive or obey a stop-fire order. Iran's Foreign Ministry itself admitted the military "lost control over several units operating according to old general instructions."
+    The paradox: the US will not negotiate because it is winning; Iran's pragmatists cannot negotiate because they do not control the military; Iran's military cannot negotiate because its command structure is fragmenting; and even if all parties agreed, no mechanism exists to verify compliance across autonomous units. This is not a bargaining failure — it is a structural impossibility under current conditions. [Fact — Med-High for each chain; Inference — High for convergent paradox assessment] WARTIME SCOPE EXTENSION (Session 27 — Day 28): Obs 048 confirms that Obs 034's structural prediction has materialized in the most extreme form: the only figure with ceasefire-making capacity (Larijani) has been killed, and his replacement (Zolghadr) has neither the capability nor the institutional profile to negotiate. The paradox is now absolute: no mechanism exists on the Iranian side to accept, negotiate, or implement a ceasefire even if both sides wanted one.
+    Session 28 addition: Houthi entry on Day 28 adds a new front that must be included in any ceasefire framework. Iran's five conditions for ceasefire include "comprehensive end to the war across all fronts, including against all resistance groups" — meaning any deal must now cover Yemen, Lebanon (Hezbollah re-engaged), Iraq (PMF), and Iran itself. The quad of Pakistan-Saudi-Turkey-Egypt meeting in Islamabad creates a potential mediation mechanism, but the multiplied front count makes comprehensive cessation even more structurally difficult. Each front has its own actors, motivations, and red lines. The paradox deepens: more fronts mean more parties needed for a deal, more veto points, and less probability of simultaneous agreement.
 
-    Chain 1 — The diplomatic channel is dead. MOIS operatives reached CIA through a third country''s intelligence service
-    (NYT, March 4). But Trump publicly rejected contact ("Too Late!"), Araghchi publicly denied seeking a ceasefire, Tasnim
-    called the backchannel report "psychological warfare," and Witkoff has had no contact with Araghchi since strikes began.
-    Nearly a dozen countries have offered mediation; none have produced substantive exchange.
-
-    Chain 2 — The wrong interlocutor problem is now operational. The MOIS pragmatist channel that reached out cannot commit
-    the IRGC to a ceasefire. Araghchi is transmitting the hardliner line, not negotiating (confirmed by his March 5 NBC statements).
-    The MOIS backchannel bypassed him entirely, suggesting he is not even the primary conduit. Mojtaba''s contested succession
-    means no supreme leader can authorize a ceasefire with recognized legitimacy. Even if Larijani wanted to negotiate, his
-    authority over autonomous IRGC units is unproven.
-
-    Chain 3 — Command fragmentation makes enforcement impossible. Even if a ceasefire were agreed at the top, IRGC units making
-    autonomous firing decisions (Nakhchivan, Hormuz tanker strikes, Gulf state targeting) may not receive or obey a stop-fire
-    order. Iran''s Foreign Ministry itself admitted the military "lost control over several units operating according to old
-    general instructions."
-
-    The paradox: the US will not negotiate because it is winning; Iran''s pragmatists cannot negotiate because they do not
-    control the military; Iran''s military cannot negotiate because its command structure is fragmenting; and even if all
-    parties agreed, no mechanism exists to verify compliance across autonomous units. This is not a bargaining failure — it
-    is a structural impossibility under current conditions. [Fact — Med-High for each chain; Inference — High for convergent
-    paradox assessment] WARTIME SCOPE EXTENSION (Session 27 — Day 28): Obs 048 confirms that Obs 034''s structural prediction
-    has materialized in the most extreme form: the only figure with ceasefire-making capacity (Larijani) has been killed,
-    and his replacement (Zolghadr) has neither the capability nor the institutional profile to negotiate. The paradox is now
-    absolute: no mechanism exists on the Iranian side to accept, negotiate, or implement a ceasefire even if both sides wanted
-    one.
-
-    Session 28 addition: Houthi entry on Day 28 adds a new front that must be included in any ceasefire framework. Iran''s
-    five conditions for ceasefire include "comprehensive end to the war across all fronts, including against all resistance
-    groups" — meaning any deal must now cover Yemen, Lebanon (Hezbollah re-engaged), Iraq (PMF), and Iran itself. The quad
-    of Pakistan-Saudi-Turkey-Egypt meeting in Islamabad creates a potential mediation mechanism, but the multiplied front
-    count makes comprehensive cessation even more structurally difficult. Each front has its own actors, motivations, and
-    red lines. The paradox deepens: more fronts mean more parties needed for a deal, more veto points, and less probability
-    of simultaneous agreement.'
+    SESSION 29 EXTENSION — Two structural roots now identified for the Ceasefire Paradox. ROOT 1: Reflexive Incapacitation (Obs 056) — even if all parties wanted ceasefire, Iran is structurally incapable of executing the coordination tasks any ceasefire requires (mine clearance is the proof-case; analogous limits apply to proxy stand-down, missile launch order revocation, and command-cohort recall). This is an architectural binding constraint independent of any party's political will. ROOT 2: Inversion Laundering (Obs 059) — Paydari/MASAF legitimation architecture cannot survive admission that the war was about regime interests rather than anti-imperial resistance. The doctrine-level binding constraint operates on the negotiation/acceptance side; the architecture-level binding constraint (Obs 056) operates on the execution side. Both are present simultaneously. Even a deal accepted under taqiyyah framing would fail at execution due to Obs 056, and a deal that required surface admission would not survive Paydari acceptance due to Obs 059. The Ceasefire Paradox is now multi-root.
   strategic_implication: 'The ceasefire paradox means the war''s duration is determined by military exhaustion (Iranian retaliation
     capacity reaches zero) or external forcing function (Chinese intervention, humanitarian catastrophe threshold), not by
     diplomacy. For planning: (1) Any ceasefire framework must address the enforcement problem — unit-level monitoring, not
@@ -953,6 +898,10 @@ entries:
   - G28-01 (Houthi re-entry calculus)
   - G28-03 (quadrilateral mechanism)
   - Obs 054 (ground force positioning)
+  - Obs 056 (Reflexive Incapacitation — execution-side structural root)
+  - Obs 059 (Inversion Laundering — doctrinal-side binding constraint)
+  - Obs 058 (Operationalized نظام Doctrine — scorched-earth threshold replaces taqiyyah phase, further sealing the paradox
+    at the threshold moment)
   confidence: '[Fact — Med-High for individual evidence chains (multiple independent sources); Inference — High for convergent
     paradox (three chains pointing to same structural conclusion); Uncertain for duration — military exhaustion timeline depends
     on Iranian reserve capacity which is unobservable under blackout]'
@@ -1439,28 +1388,9 @@ entries:
   session_added: 27
 - id: 48
   title: Posture Collapse -- Larijani Kill Eliminates Ceasefire-Making Capacity
-  diagnosis: 'Ali Larijani killed in Israeli strike approximately Day 22, along with Basij commander Gholamreza Soleimani.
-    Larijani was simultaneously: (a) the de facto operational authority running the SNSC, (b) the only figure with both the
-    sophistication and the institutional standing to manage dual-audience signaling (domestic legitimacy + international interlocutor
-    credibility), (c) the pragmatist clock-runner buying time for ceasefire architecture, and (d) the figure most plausibly
-    capable of executing a negotiated off-ramp. His replacement by Mohammad Bagher Zolghadr -- career IRGC hardliner, former
-    IRGC deputy commander, IRGC Joint Staff chief, founder of Ansar-e Hezbollah, Ahmadinejad-era deputy interior minister
-    -- represents not a succession but a regime posture collapse from strategic ambiguity into unidirectional escalation.
-    Zolghadr has no ceasefire-making capability even if he wanted one: he lacks international credibility, diplomatic network,
-    and the dual-audience communication skills Larijani possessed. This deepens Obs 034 (Ceasefire Paradox): the structural
-    absence of ceasefire mechanism is now compounded by the elimination of the only person who might have improvised one.
-    Combined with Mojtaba''s deterioration (DNI Gabbard testimony: "very seriously wounded," no Nowruz appearance, text-only
-    statements, opposition claims of ventilator/lung failure/coma, CIA and Mossad unable to confirm location), the regime''s
-    constitutional chain has collapsed into a military junta wearing civilian clothing: Pezeshkian (no power base), Mohseni-Ejei
-    (authority derived from possibly-dead successor), Arafi (ceremonial), with effective authority consolidated in an IRGC
-    hardliner at SNSC.
-
-    Session 28 addition: Zolghadr profile now fully documented. UNSC-sanctioned for nuclear proliferation. Founded Ramezan
-    Garrison (Quds Force precursor). Celebrated Oct 7. Canada- sanctioned for Woman Life Freedom crackdown suppression. Operating
-    silently with no public statements — pure warfighter posture. FDD assessment that regime has "deep bench" for wartime
-    replacement is correct for military positions but misleading for governance: the bench produces fighters, not negotiators.
-    Zolghadr''s profile confirms Obs 048 thesis — posture collapse from pragmatist clock-running to IRGC warfighting is now
-    irreversible with this appointment. No institutional path back to negotiation exists.'
+  diagnosis: |-
+    Ali Larijani killed in Israeli strike approximately Day 22, along with Basij commander Gholamreza Soleimani. Larijani was simultaneously: (a) the de facto operational authority running the SNSC, (b) the only figure with both the sophistication and the institutional standing to manage dual-audience signaling (domestic legitimacy + international interlocutor credibility), (c) the pragmatist clock-runner buying time for ceasefire architecture, and (d) the figure most plausibly capable of executing a negotiated off-ramp. His replacement by Mohammad Bagher Zolghadr -- career IRGC hardliner, former IRGC deputy commander, IRGC Joint Staff chief, founder of Ansar-e Hezbollah, Ahmadinejad-era deputy interior minister -- represents not a succession but a regime posture collapse from strategic ambiguity into unidirectional escalation. Zolghadr has no ceasefire-making capability even if he wanted one: he lacks international credibility, diplomatic network, and the dual-audience communication skills Larijani possessed. This deepens Obs 034 (Ceasefire Paradox): the structural absence of ceasefire mechanism is now compounded by the elimination of the only person who might have improvised one. Combined with Mojtaba's deterioration (DNI Gabbard testimony: "very seriously wounded," no Nowruz appearance, text-only statements, opposition claims of ventilator/lung failure/coma, CIA and Mossad unable to confirm location), the regime's constitutional chain has collapsed into a military junta wearing civilian clothing: Pezeshkian (no power base), Mohseni-Ejei (authority derived from possibly-dead successor), Arafi (ceremonial), with effective authority consolidated in an IRGC hardliner at SNSC.
+    Session 28 addition: Zolghadr profile now fully documented. UNSC-sanctioned for nuclear proliferation. Founded Ramezan Garrison (Quds Force precursor). Celebrated Oct 7. Canada- sanctioned for Woman Life Freedom crackdown suppression. Operating silently with no public statements — pure warfighter posture. FDD assessment that regime has "deep bench" for wartime replacement is correct for military positions but misleading for governance: the bench produces fighters, not negotiators. Zolghadr's profile confirms Obs 048 thesis — posture collapse from pragmatist clock-running to IRGC warfighting is now irreversible with this appointment. No institutional path back to negotiation exists.
   strategic_implication: 'The war has no off-ramp on the Iranian side. There is no figure with both the authority and the
     capability to negotiate a ceasefire. Zolghadr''s appointment signals that the regime has defaulted to endurance-through-escalation
     as its only remaining strategy. External ceasefire proposals will have no credible counterpart to accept them. This transforms
@@ -1769,3 +1699,301 @@ entries:
     intent (Trump's contradictory statements leave intent genuinely ambiguous)
   version_added: v2.5
   session_added: 28
+- id: 55
+  title: Inverted Swarm — IRGC Ground Defense Structural Vulnerability from Mosaic Command Architecture
+  diagnosis: 'The IRGC''s mosaic command architecture and distributed high-value site network, designed by Jafari to survive
+    decapitation and deter conventional invasion, creates a critical ground-defense vulnerability when confronted by a mobile
+    adversary capable of simultaneous dispersed operations. The IRGC must defend dozens of hardened sites (nuclear facilities,
+    missile depots, command nodes) spread across vast territory while simultaneously maintaining internal security forces
+    in urban centers to suppress civilian unrest. This force-dispersion problem has no solution within current IRGC doctrine:
+    concentrating forces to defend any single site exposes others; maintaining distributed defense leaves each site individually
+    vulnerable to a concentrated ground probe. Sites are hardened vertically (against air strikes) but not laterally (against
+    ground assault on entrances, ventilation, supply lines). The Apr 3-5 2026 F-15 crew recovery operation demonstrated US
+    special operations can insert, operate, and extract on Iranian soil with impunity. The doctrinal inversion is precise:
+    the IRGC designed itself to be the swarming, dispersed, hit-and-run force against a conventional occupier. Against a US
+    force that swarms, probes, and withdraws without holding territory, the IRGC becomes the lumbering conventional defender
+    it was never built to be. Every bridge and rail line cut is a mobility corridor closed for IRGC force repositioning; the
+    ceasefire does not undo that damage. The civilian-control burden is the multiplier (A9): every unit assigned to keep a
+    city quiet is a unit unavailable to defend a nuclear or missile site 50km away.'
+  strategic_implication: 'A ground campaign need not resemble occupation or even sustained ground presence to be decisive.
+    The Inverted Swarm finding identifies a structural vulnerability the IRGC cannot resolve within its existing doctrine
+    — only by abandoning either internal-security density (causing immediate regime instability) or distributed military architecture
+    (causing immediate conventional vulnerability). This is a no-win force allocation problem operating under wartime conditions.
+    It also reframes Brief #16''s vacuum thesis: the IRGC was always ground-vulnerable; the strikes and the F-15 recovery
+    merely demonstrated what the architecture always implied. The emperor has no perimeter. Implication for ceasefire dynamics:
+    even a pause does not allow the IRGC to remedy the ground vulnerability — it requires force reallocation against trained
+    doctrine, which the architecture is not designed to do under any timeline. The interceptor clock runs against Iran during
+    any pause because the ground vulnerability cannot be remediated in weeks while the energy leverage erodes in days.'
+  itb_anchors:
+  - A3 (IRGC structure)
+  - A9 (parallel society — internal security burden)
+  - B (security architecture)
+  - ITB-B5 (force allocation)
+  cross_refs:
+  - Obs 043 (mosaic command — designed feature; this is its operational corollary)
+  - Obs 053 (institutional zombification — defenses fight on autopilot with no remediation capacity)
+  - Obs 056 (reflexive incapacitation — companion finding on coordination failure)
+  - B16 v2.0 (causal inversion — supporting evidence)
+  - A12 (coercive-endurance — Phase 3 ground-defense limit)
+  - Jafari mosaic-command genealogy (formal treatment pending)
+  leading_indicators:
+  - Documented US SOF insertion/extraction operations on Iranian soil
+  - IRGC force redeployments (from urban-security to perimeter-defense or vice versa)
+  - Reported gaps in defended perimeter of named hardened sites
+  - Internal Basij thinning visible in protest-suppression failures
+  - Ground probes by allied or proxy forces (Kurdish, MEK-affiliated)
+  sources:
+  - F-15 crew recovery operation reporting (Apr 3-5 2026)
+  - Jafari mosaic command reform doctrine (open-source ITP analysis)
+  - RUSI / Small Wars Journal analyses of IRGC distributed architecture
+  - Apr 8 2026 Riboua IRGC commentary analysis (chat session 2542e603)
+  confidence: Fact for F-15 recovery (multi-source); Inference — Med-High for ground-defense structural vulnerability thesis
+    (derived from architecture + observable demonstration); Inference — Med for civilian-control multiplier (consistent with
+    A9 hollowness but exact ratios under wartime conditions cannot be verified)
+  version_added: v2.6
+  session_added: 29
+- id: 56
+  title: Reflexive Incapacitation — Mosaic Command Architecture Produces Outcomes the Same Doctrine Cannot Reverse
+  diagnosis: 'The IRGC''s mosaic command architecture produces a specific failure mode when applied to tasks that require
+    centralized coordination: the system acts effectively in the dispersion phase but cannot reverse, recall, or account for
+    its own distributed actions. The Strait of Hormuz mining operation (March 2026) is the definitive case. IRGC small boat
+    units mined the strait using decentralized autonomous operations — exactly as mosaic doctrine prescribes. Units used commercial
+    GPS devices, manual bearings, or no systematic position tracking. The result is a weapon system whose deploying entity
+    can neither locate nor remove all instances of. Araghchi''s "technical constraints" language to mediators is now confirmed
+    as literal, not diplomatic. Confirmed independently by: US officials'' statements, IRGC''s own navigational advisories,
+    multiple independent maritime safety bulletins, and three mutually incompatible IRGC-affiliated narratives about the April
+    11 US destroyer transit (within 24 hours: claim of permitted transit; claim of forced transit through unmined lane; claim
+    that Iran could prevent passage at will). Information-domain divergence is independent confirmation: if the IRGC could
+    coordinate its information operations, the coordination problem would be domain-specific. It is not. The architecture
+    works as designed; the design is incompatible with any task requiring centralized coordination. Coinage: "reflexive incapacitation"
+    — a condition where an actor''s own doctrine produces outcomes the same doctrine cannot reverse.'
+  strategic_implication: 'Reflexive incapacitation identifies the structural root of the Ceasefire Paradox (Obs 034). It is
+    not "no one wants to stop"; it is "no one can stop, even if they want to." Three policy- critical consequences: (1) Mine
+    clearance timeline (8-14 weeks minimum under permissive conditions, longer under contested conditions) creates a hard
+    floor on any ceasefire-to-deal conversion timeline — separate from political will, separate from interceptor depletion.
+    The Interceptor/Industrial Clock now has a Maritime Mine Clock companion. (2) Western policymakers must distinguish structural
+    incapacity from deliberate defiance — the regime cannot perform tasks it has no mechanism to perform, and treating this
+    as bad faith produces escalation decisions premised on a misread. (3) The architecture is optimized for one direction:
+    disperse, disrupt, deny. It has no reverse gear. Any deal that requires Iran to coordinate a withdrawal of dispersed military
+    activity (mine clearance, proxy stand-down, missile launch order revocation) cannot be reliably executed even if Tehran
+    signs in good faith. Verification regimes must assume a counterparty that is structurally incapable of demonstrating compliance,
+    not one that is refusing to.'
+  itb_anchors:
+  - A3 (IRGC structure)
+  - A12 (coercive-endurance — Phase 3 deal-execution limit)
+  - B (security — mine warfare doctrine)
+  - F (international — ceasefire mechanism design)
+  cross_refs:
+  - Obs 034 (ceasefire paradox — structural root now identified)
+  - 'Obs 043 (mosaic command — reframe: gap is FEATURE for dispersion, BUG for coordination)'
+  - 'Obs 047 (dual-use infrastructure — same pattern: institutional design creates problems it cannot solve)'
+  - Obs 048 (posture collapse — narrative divergence is timing disagreement extended to information domain)
+  - Obs 055 (inverted swarm — same architectural root, defensive corollary)
+  - Obs 010 (Four Clocks — Maritime Mine Clock as binding companion)
+  - A9 (hollowness — institutional capacity deficit demonstrated in operational military domain)
+  leading_indicators:
+  - International mine-clearance operations timeline and progress in Hormuz
+  - Continued IRGC narrative divergence on subsequent maritime incidents
+  - Iranian official statements distinguishing "won't" from "can't" (the linguistic tell)
+  - Whether any proxy or unit stand-down orders are demonstrably executed within stated timelines
+  - Insurance market reaction to mine-survey progress (DFC facility terms)
+  sources:
+  - April 11 2026 US destroyer transit + three incompatible IRGC narratives
+  - Araghchi statements on "technical constraints" of mine removal
+  - IRGC navigational advisories acknowledging un-mapped mine locations
+  - US official statements on mine field uncertainty
+  - Apr 12 Pakistan-talks chat (44d50cc0) — full draft and architectural analysis
+  confidence: 'Fact — High for mine incapacitation (multi-source: US officials, Iran FM implicit acknowledgment, IRGC''s own
+    advisories); Fact for narrative divergence (three documented IRGC accounts within 24 hours); Inference — Med-High for
+    architectural causation (consistent with all observed behavior and Jafari mosaic-command design); Inference — High for
+    ceasefire-execution implications (logically derived from documented incapacitation)'
+  version_added: v2.6
+  session_added: 29
+- id: 57
+  title: Connectivity-Bound Conformity — Internet Pro as Fourth Binding Mechanism of the Parallel Society
+  diagnosis: 'The regime''s "Internet Pro" tiered-access infrastructure (filtered baseline internet vs. uplifted internet
+    conditional on biometric vetting, Basij/IRGC affiliation, and behavioral conformity) operationalizes ITB-H1.3 (Barracks
+    Internet) at population scale. Where the original H1.3 framing assumed cantonment-style segregation of regime cadre, Internet
+    Pro instead constructs a full population sorting mechanism: connectivity itself becomes the binding agent. The verification
+    database — required for upgraded access, employment access (regime-connected enterprises), bank transaction limits above
+    baseline, and university admission — is the operational form of the January-2026 vetting infrastructure. This is a fourth
+    binding mechanism distinct from the three previously modeled in A9.7 (economic dependency, geographic isolation, manufactured
+    complicity): connectivity-bound conformity. Unlike the prior three, it operates on the Tier 3 patronage periphery as well
+    as Tiers 1-2 — meaning it converts what the framework had reclassified as a "welfare continuity challenge" back into an
+    active parallel-society binding population. The population this captures is in significant overlap with the broader civilian
+    population, not confined to the IRGC ecosystem. Generational cauterization effect: school-age and university-age cohorts
+    (Gen Z and below) experience the tier sort as the default state of connected life. Conformity to the verification regime
+    is not coerced once — it is rebuilt daily by every transaction, login, and platform interaction.'
+  strategic_implication: 'The IRGC has built — or is in late-stage construction of — a population-control architecture that
+    survives most transition scenarios because it is embedded in civilian infrastructure (ISP operators, payment processors,
+    mobile carriers, universities), not military institutions. De-Ba''athification-style dissolution of "the regime" does
+    not dissolve this layer; it migrates into whatever successor authority inherits the same telecommunications and finance
+    infrastructure. Three policy implications: (1) Any transition framework that does not include explicit dismantlement of
+    the verification database and tier-sort protocols leaves the binding architecture intact under successor authority. (2)
+    The H7 dilemma framing (regime can choose information control OR economic continuity, but not both) is resolved by Internet
+    Pro: regime gets both, for the vetted population. The dilemma framing must be rewritten. (3) The A9.7 population estimate
+    must be reopened. The Tier 3 carve-out (3-7M as "patronage periphery, not parallel society") is partly reversed under
+    Internet Pro conditions — connectivity vetting extends the binding mechanism into Tier 3. This is the operational confirmation
+    of the "Inheritance Denial" doctrine in the information domain: the regime is constructing population-control infrastructure
+    designed to survive the regime itself.'
+  itb_anchors:
+  - H1.3 (Barracks Internet — operationalized)
+  - H6 (Chinese surveillance infrastructure — compounding)
+  - H7 (regime dilemma — resolved, framing must be rewritten)
+  - A9.7 (population estimate — Tier 3 carve-out partly reversed)
+  - A8 (ideology — connectivity-conformity as theological compliance proxy)
+  cross_refs:
+  - Obs 030 (manufactured complicity — fourth binding mechanism complement)
+  - Obs 058 (operationalized نظام doctrine — same architecture, information-domain form)
+  - Obs 053 (institutional zombification — but population-control infrastructure persists)
+  - Trap 6 (parallel society identity crisis — extends to civilian population)
+  - Trap 15 candidate (Sophistication Disjunction)
+  - B17 candidate brief (Doctrine of Inheritance Denial)
+  leading_indicators:
+  - Verification-DB documented enrollment thresholds and exclusion criteria
+  - Public reporting on tier-sort connectivity differentials (regime-affiliated vs. general population)
+  - University admission processes that include connectivity verification
+  - Bank transaction thresholds tied to verification status
+  - Defections from technical staff implementing the verification system
+  - Witness-channel reports on actual disruption to teens/young adults
+  sources:
+  - May 3 chat (6d7e78c0) — Internet Pro infrastructure analysis and architectural mapping
+  - May 15 chat (d6b0e27a) — Generational cauterization framing
+  - IranWire and diaspora technical reporting on tiered access
+  - Sample Iranian regime statements on "self-sufficient national internet"
+  - ITB-H prior baseline (H1.3, H6, H7 modules)
+  confidence: 'Fact — Med-High for tiered access infrastructure (multi-source: diaspora technical reporting, IranWire, regime
+    statements); Inference — Med-High for fourth-binding-mechanism thesis (consistent with documented behavior + A9 framework
+    + Inheritance Denial doctrine); Inference — Med for generational cauterization claim (would upgrade with witness-channel
+    confirmation, flagged in May 3 chat as targeted-outreach opportunity)'
+  version_added: v2.6
+  session_added: 29
+- id: 58
+  title: Operationalized نظام Doctrine — Scorched Earth as Strategic Logic of Inheritance Denial
+  diagnosis: 'Western strategy has been built around a "swift collapse → manageable transition" theory. IRGC doctrine operates
+    from the inverse premise: physical destruction of Iran is preferable to viable secular successor governance, because inheritance
+    denial preserves ground for future نظام restoration. The doctrine is built on a coherent stack: (a) Khomeini''s foundational
+    ruling "hefz-e nezam owla-ye owlaviyat-hast" (preserving the system is the highest duty), interpreted in the maximalist
+    form authorized by Mesbah-Yazdi''s theological lineage; (b) public statements by 8+ named officials across multiple authority
+    levels (Pezeshkian, Ghalibaf, multiple IRGC commanders, Friday-prayer cadre, Paydari-aligned MPs) endorsing variants of
+    scorched-earth / martyrdom posture / mutual destruction in multilingual primary sources; (c) demonstrated operational
+    capacity — the January 2026 massacre established that the architecture can execute mass violence on civilian populations
+    on order; (d) mosaic command authorization architecture — distributed authorization means there is no Speer figure, no
+    single point of refusal. The component parts of this finding are all individually well-evidenced; what is new in Obs 058
+    is the integration: the IRGC strategic cadre has the doctrinal authorization, the demonstrated capacity, the architectural
+    design, and now the absence of countervailing institutional force (post-Larijani SNSC, post-Mojtaba incapacitation) needed
+    to execute scorched earth at the moment of regime fall. Coinage candidates: "Inheritance Denial Doctrine"; "Doctrine of
+    Catastrophic Succession Denial."'
+  strategic_implication: 'Three structural consequences for transition planning. (1) The Pinochet model (A11) is foreclosed
+    by architecture, not just political will. A11 assumed a pragmatist faction able to override maximalists; under mosaic-command
+    + scorched-earth doctrine, no pragmatist faction has the institutional reach to prevent execution. Recommend A11 retraction
+    or major revision (A11.1). (2) A12 (coercive-endurance cycle) exits the cycle entirely at the scorched-earth threshold.
+    Best candidate thresholds: (a) imminent regime collapse; (b) successor authority establishment becomes irreversible; (c)
+    leadership cadre faces personal-survival threshold. Framework must specify which threshold(s) trigger doctrine activation.
+    (3) A8.8 (taqiyyah) requires a phase split: taqiyyah operates during the negotiation phase. Once scorched-earth threshold
+    triggers, taqiyyah is replaced by martyrdom posture. Western analysts must distinguish which phase the regime is in; conflating
+    them produces strategic misreads at the worst moment. Highest-level finding: optimal transition path is negotiated stand-down
+    with conditional immunity, NOT military victory. Decisive victory may be the worst transition outcome under this doctrine
+    because it triggers the scorched-earth ceiling that negotiated paths preserve options to avoid.'
+  itb_anchors:
+  - A8 (ideology — نظام as transcendent goal)
+  - A8.8 (taqiyyah — phase split required)
+  - A10 (eschatological faction — under existential pressure, distinction collapses at operational level)
+  - A11 (Pinochet — recommend retraction or A11.1 revision)
+  - A12 (coercive-endurance — threshold-add specifying cycle exit point)
+  - B (security — scorched-earth as operational doctrine)
+  cross_refs:
+  - نظام core thesis (foundational ITP terminology gap finding) — Obs 058 is the operational confirmation
+  - 'Obs 010 (Wrong Interlocutor — worsened: not only do negotiators talk to wrong people, the right people cannot be negotiated
+    out of doctrine)'
+  - Obs 034 (Ceasefire Paradox — same architecture enables distributed scorched earth)
+  - 'Obs 030 (Manufactured Complicity — inverse: regime weaponizes population against successor)'
+  - 'Obs 043 (Command-Delivery Gap — reframe: gap is FEATURE for distributed scorched earth, not bug)'
+  - Obs 055 / 056 / 057 — same architectural root, multiple operational expressions
+  - B17 candidate brief (Doctrine of Inheritance Denial)
+  - Trap 15 candidate (Sophistication Disjunction)
+  leading_indicators:
+  - Pre-positioned demolition or sabotage materiel at oil/gas/nuclear/water infrastructure
+  - IRGC doctrinal statements explicitly authorizing infrastructure destruction at fall-threshold
+  - Personnel-level scorched-earth orders (kill lists, infrastructure targeting lists) leaking to opposition
+  - Friday-prayer escalation from defensive martyrdom rhetoric to active "burning bridge" language
+  - Behavioral leading indicators in the dispersed Basij population (Tier 2) at fall-threshold moments
+  sources:
+  - 8+ named-official public statements on scorched-earth posture (multilingual primary sources)
+  - IRGC strategic cadre educational/professional records (sophistication baseline)
+  - January 2026 massacre (demonstrated operational capacity)
+  - Larissa SNSC institutional displacement (post-Larijani)
+  - May 3 chat (6d7e78c0) — comprehensive doctrinal mapping
+  - April 29 Rubio "apocalyptic vision" framing as administration-level recognition
+  confidence: 'Fact — High for: existence of scorched-earth public statements (8+ named officials, multilingual sources),
+    IRGC strategic cadre credentials, demonstrated operational capacity (January massacre), doctrinal coherence around نظام
+    preservation. Inference — Med-High for ''actively prepared and rehearsed'' claim (cannot directly verify pre-positioned
+    material). All structural prerequisites confirmed; most parsimonious reading of available evidence. Inference — Med-High
+    for ''would execute at moment of fall'' (consistent with doctrine + statements + organizational interests + January precedent)'
+  version_added: v2.6
+  session_added: 29
+- id: 59
+  title: Inversion Laundering — Paydari/MASAF Self-Sealing Legitimation Architecture
+  diagnosis: 'The Paydari/MASAF political method operates a self-sealing legitimation architecture that converts internal
+    repression into resistance theater. The architecture is not merely propaganda framing — it is a structurally maintained
+    inversion of every founding axis of the original Hojjatiyeh tradition. Original Hojjatiyeh: anti-velayat-e-faqih quietist
+    (deferred political authority to the returning Mahdi). Current Paydari/MASAF: maximalist velayat-e-faqih executor operating
+    in the Mahdi''s anticipated mandate. Original: clear communicative ethic (open theological debate). Current: coded veiled
+    language maintained even among insiders, with dedicated "translator" intermediary class that decodes mobilization signals
+    embedded in innocent-looking public statements. Original: eschatological waiting role. Current: eschatological accelerationism.
+    The communicative architecture is the operational mechanism: plausible deniability is maintained even within the in-group.
+    When a trusted insider directly states the implied meaning of veiled language, the senior cadre denies it — even though
+    both parties know what was meant. This is a point of contention with more hardline and honest factions: the critique is
+    internal to the same theological community, which is the proof that the method is faction-specific (a specific political
+    instrumentalization of a millennium-old Persian indirection tradition), not religion-general. Functional consequence:
+    meaning is structurally unfixable. The same statement is simultaneously a public administrative declaration and a mobilization
+    signal, with the decoder layer enabling deniability of the second function indefinitely. Coinage: "Inversion Laundering"
+    — the architecture that converts repression into resistance theater by exploiting the indistinguishability between surface
+    and decoded meaning, self-sealing because every confrontation can be denied without breaking the surface narrative.'
+  strategic_implication: 'Three implications for analysis and policy. (1) A8.8 (taqiyyah) requires a fifth failure mode: internal
+    taqiyyah / layered hermeneutic mobilization. The existing four modes assume an outward-facing concealment doctrine. Internal
+    taqiyyah is structurally harder: even trusted- insider testimony of decoded meaning becomes an evidence tier with deniability
+    built in. (2) Negotiated outcomes face a verification problem the current verification literature does not address. Standard
+    arms-control verification regimes assume an actor that, once committed, has institutional reasons to demonstrate compliance.
+    Inversion Laundering operates on the opposite premise: compliance theater IS the architecture, and the regime''s interest
+    is in maintaining the dual-meaning structure during compliance demonstrations. (3) The architecture creates a structural
+    barrier to surrender. Surrender requires admitting that the war was about the regime''s interests, not anti-imperial resistance.
+    The Inversion Laundering architecture cannot survive that admission. The regime cannot accept terms that would require
+    it, even when accepting would serve every interest except the legitimating frame itself. This is one root of the Ceasefire
+    Paradox (Obs 034) that is not addressed by the structural-incapacity finding of Obs 056 — it is a separate, doctrinal-level
+    binding constraint operating on the negotiation side of the same architecture. Framing discipline: this is a SPECIFIC
+    FACTION''s political method, not a property of Shi''ism, Islam, or Iranian culture. The internal-critique data point (other
+    Shi''a, other hardliners criticizing the method) is the lynchpin keeping the framework''s analysis faction-specific rather
+    than essentialist.'
+  itb_anchors:
+  - A8.8 (taqiyyah — fifth failure mode required)
+  - A10 (eschatological — Paydari/MASAF inversion lineage)
+  - H (information environment — coded mobilization architecture)
+  - F (international — verification problem)
+  cross_refs:
+  - Obs 006 (Taqiyyah Analytical Trap — extended to internal-facing domain)
+  - Obs 010 (Wrong Interlocutor — Paydari verification problem)
+  - Obs 022 (mosaic command — different domain, same architectural logic)
+  - 'Obs 056 (Reflexive Incapacitation — companion: doctrinal binding on negotiation side)'
+  - Obs 058 (Operationalized نظام Doctrine — Inversion Laundering protects the doctrine from accountability)
+  - Hojjatiyeh → Mesbah-Yazdi → Mirbagheri lineage note (A10 patch this session)
+  leading_indicators:
+  - Named internal critics from honest-hardliner factions calling out the method publicly
+  - Defections from the "translator" intermediary class providing decoded-meaning testimony
+  - Comparative analysis of Persian-internal vs. foreign-audience Fars/Tasnim coverage of same doctrine
+  - '"313" and similar coded markers tracked across regime/sports/charity/IRGC unit naming contexts'
+  - Friday-prayer language drift toward unveiled-direct articulation under stress
+  sources:
+  - May 15 chat (d6b0e27a) — primary architectural mapping from personal witness account
+  - Hojjatiyeh historical record (anti-velayat-e-faqih quietist origins)
+  - Persian literary tradition of indirection-as-resistance (millennium-old, predates regime)
+  - Internal-hardliner critique tradition (specific named critics — gap to fill)
+  - '"313" Mahdist marker pattern documentation'
+  confidence: 'Inference — Med-High for architectural existence (consistent with multiple independent observations: Fars submarine-cable
+    thread direct articulation, IRIB child-marriage clip wholesome surface, decoded-meaning testimony from witness channel,
+    internal-critique tradition). Inference — Med for full structural mapping (Hojjatiyeh inversion claim requires additional
+    comparative analysis to formalize). Inference — Med for verification-problem implication (logically derived but no live
+    test case yet). Single-source flag on the specific ''translator class'' and ''real chosen insiders never say it as it
+    is'' formulations — witness channel, requires corroboration from independent diaspora sources before [Fact] upgrade'
+  version_added: v2.6
+  session_added: 29

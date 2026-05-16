@@ -1,6 +1,6 @@
 module_code: ITB-A8
-version: '1.0'
-date: '2026-02-18'
+version: 1.1 (v1.0 + Session 29 fifth taqiyyah failure mode — internal taqiyyah / layered hermeneutic mobilization)
+date: '2026-05-16'
 source: Extracted from ITB v1.2, lines 163-314
 dependencies:
 - ITB-A (constitutional context)
@@ -136,6 +136,7 @@ sections:
         | **Motivation mismodel** | Western analysts assume regime elites motivated by survival + wealth (standard dictator model). Taqiyyah authorizes appearing motivated by survival + wealth while pursuing theological objectives. | IRGC economic corruption is real but instrumentally tolerated -- it funds the theological project and makes the regime legible to Western analysts as "just another kleptocracy." | "Golden bridge" strategies fail because wealth is instrumental, not terminal. |
         | **Compliance overconfidence** | Compliance predictions assume rational-actor response to incentives. If deal-making is itself taqiyyah, compliance is conditional on continued pressure, not deal terms. | JCPOA: compliance was real while pressure existed; reconstitution began after pressure lifted. | Verification regimes must be designed for conditional, reversible compliance. Snap-back > front-loaded concessions. |
         | **Factional misread** | Western analysts identify "moderates" vs. "hardliners" and assume moderates genuinely want accommodation. Moderate presentation may itself be strategically constructed. | Rouhani, Zarif, Pezeshkian -- each presented as "the reformer the West can work with." Each operated within Supreme Leader's absolute authority. | Analytical framework cannot distinguish sincere from performed moderation -- which is exactly what taqiyyah produces. |
+        | **Internal taqiyyah / layered hermeneutic mobilization** | Plausible deniability maintained even within the in-group. "Translator" intermediary class decodes mobilization signals for foot soldiers; senior cadre denies explicit meaning even to trusted insiders. Meaning is structurally unfixable. | Same public statement read three ways: surface administrative content / translator-decoded mobilization signal / trusted-insider attestation of coded meaning. Each tier deniable from the others. [Obs 059 — see A8.8.9 for full treatment] | Compliance theater IS the architecture. Standard verification regimes assume the actor has institutional reasons to demonstrate compliance once committed; internal taqiyyah breaks this assumption. Verification must include a coded-meaning decoder tier or treat the actor as structurally unfalsifiable. |
     - id: _L119
       title: A8.8.4 What Taqiyyah Is NOT (Framing Discipline)
       level: 4
@@ -195,3 +196,20 @@ sections:
 
 
         *Module extracted from ITB v1.2. Cross-references: ITB-A (core architecture), ITB-A9 (parallel society — implements this ideology), ITB-A10 (eschatological faction — radicalizes this ideology), ISA-TRAPS (Traps 6-7 depend on this analysis).*
+    - id: _S29_A8_NOTE
+      title: "A8.8.9 Session 29 Addition: Internal Taqiyyah / Layered Hermeneutic Mobilization"
+      level: 4
+      tags: ["SESSION-29", "OBS-059"]
+      content: |
+        **SESSION 29 ADDITION** (May 16 2026) — Sourced from Obs 059 (Inversion Laundering) and May 15 witness account of Paydari/MASAF communicative practice. This is a fifth failure mode distinct from the four outward-facing modes in A8.8.3, because it operates inward: within the in-group, not toward external interlocutors.
+
+        **Mechanism:** Public statements carry encoded mobilization content that operates simultaneously as surface administrative declaration and mobilization signal. A class of intermediaries -- "translators" -- decodes the signal layer for foot soldiers. When a trusted insider directly confronts the senior cadre with the decoded meaning, the cadre denies it -- even though both parties know what was meant. The formulation from the primary witness account: "Real chosen insiders never say it as it is even when they are alone." The functional consequence is that meaning is *structurally unfixable*: each statement is simultaneously surface content and mobilization signal, and the decoder layer enables permanent deniability of the second function.
+
+        **Why this is analytically distinct from the four outward-facing failure modes:**
+        The four modes in A8.8.3 (negotiation misread, motivation mismodel, compliance overconfidence, factional misread) all concern regime-to-foreign deception. Internal taqiyyah is structurally harder: even trusted-insider testimony of decoded meaning becomes an evidence tier *with deniability built in*. The architecture self-seals at every confrontation.
+
+        **Verification implication:** Standard arms-control verification regimes assume an actor that, once committed, has institutional reasons to demonstrate compliance. Internal taqiyyah breaks this assumption: compliance theater IS the architecture, and the regime's interest is in maintaining the dual-meaning structure during compliance demonstrations. Verification must include a coded-meaning decoder tier or treat the actor as structurally unfalsifiable.
+
+        **Framing discipline (mandatory):** This is a SPECIFIC FACTION's method -- the Hojjatiyeh/MASAF/Paydari instrumentalization of the Persian indirection-as-resistance tradition (a millennium-old literary/political practice predating the Islamic Republic). It is NOT a property of Shi'ism, Islam, or Iranian culture. The keystone evidence is the internal-hardliner critique tradition: other Shi'a scholars and other hardliners criticize this method as illegitimate. A communicative practice that is contested within its own theological community cannot be attributed to the tradition as a whole.
+
+        **Cross-references:** Obs 059 (Inversion Laundering -- full formalized treatment); Obs 006 (Taqiyyah Analytical Trap -- outward-facing parent); A8.8.3 (table row added); ITB-A10 (Paydari/MASAF lineage -- see A10 Session 29 addition). [Session 29 -- v2.6]

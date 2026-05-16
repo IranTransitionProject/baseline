@@ -1,6 +1,6 @@
 module_code: ITB-A10
-version: 1.1 (v1.0 + A10/A11 interaction analysis integration)
-date: '2026-02-19'
+version: 1.2 (v1.1 + Session 29 Paydari/MASAF lineage formalization — A10.1.4)
+date: '2026-05-16'
 source: "ITB_PROPOSED_SECTION_A10_V0_2.md (gap-filling research session 2026-02-18) + A10_A11_INTERACTION_ANALYSIS_V0_2.md\
   \ (session 2026-02-18)"
 dependencies:
@@ -76,6 +76,33 @@ sections:
       [Fact/Inference composite — the genealogy is well-documented. The assessment that Mirbagheri has *intensified* the apocalyptic dimension beyond Mesbah-Yazdi is [Inference] supported by comparative analysis from Iranian journalists and political analysts.]
 
       -----
+  - id: _S29_A10_LINEAGE
+    title: "A10.1.4 Paydari/MASAF Lineage: Hojjatiyeh Inversion — Session 29 Addition"
+    level: 3
+    tags: ["SESSION-29", "OBS-058", "OBS-059", "G23-05"]
+    content: |
+      **SESSION 29 ADDITION** (May 16 2026) — formalizing the Hojjatiyeh→Mesbah-Yazdi→Mirbagheri lineage as a load-bearing analytical reference, now operationally significant for Obs 058 (Operationalized نظام Doctrine) and G23-05 (Paydari position on succession).
+
+      **LINEAGE AND INVERSION: Hojjatiyeh → Mesbah-Yazdi → Mirbagheri**
+
+      *Original Hojjatiyeh Society (pre-revolution):*
+      - **Founding orientation:** Anti-velayat-e-faqih *quietist*. The Hojjatiyeh explicitly rejected pre-Mahdi political authority claims — political governance was to be deferred until the returning Mahdi.
+      - **Eschatological role:** Waiting, preparation, *not* acceleration. The faction's mission was theological education and Mahdist readiness, not political mobilization.
+      - **Communicative ethic:** Open theological debate; direct articulation within the community.
+      - **Relationship to the state:** Formally dissolved by Khomeini in 1983 for competing with the velayat-e faqih framework. The dissolution was never total — networks persisted.
+
+      *Mesbah-Yazdi pivot (1980s–2010s):*
+      Mesbah-Yazdi inverted the founding axes while retaining institutional continuity with parts of the Hojjatiyeh tradition. His key intellectual shift: velayat-e faqih was reframed not as an overreach of pre-Mahdi authority but as a *required preparation* for the Mahdi's return. Political governance became the vehicle of eschatological readiness, not its negation. The communicative ethic shifted from open debate to layered hermeneutic mobilization (see A8.8.9). Institutional outputs: the Haqqani Seminary educational pipeline and the Paydari Party intellectual core.
+
+      *Mirbagheri present:*
+      - **Current role:** Provisional Council member + Assembly of Experts (succession candidate, dual-positioning per Session 19 analysis)
+      - **Relation to Mojtaba:** Mojtaba is documented as a Mesbah-Yazdi devoted pupil and Paydari patron (Iran International, Atlantic Council). Mirbagheri's March 8 framing of the succession decision ("decisive and unanimous opinion") is more consistent with managed endorsement than reservation.
+      - **MOST DANGEROUS SCENARIO (G23-05 fill):** Paydari support of Mojtaba as *eschatological accelerant* — a leader whose combination of grief (wife, child, mother killed), ideological extremism (Mesbah-Yazdi lineage), and institutional fragility (puppet problem) makes him the ideal vehicle for escalatory policies aligned with Mahdist theology. A grieving, cornered, theologically radicalized Supreme Leader with nominal authority but no independent enforcement capacity is the maximally dangerous configuration from a regional security perspective.
+      - **Intellectual bridge — Dugin:** The Mirbagheri-Dugin 2016 Qom meeting (see A10.1.3) establishes peer-reviewed "eschatological internationalism" linkage. This poisons the Russia-as-mediator scenario and gives the Paydari intellectual program external resonance independent of conventional regime diplomacy.
+
+      **Framing discipline:** This lineage is factional intellectual history, not an essentialist claim about Shia or Iranian thought. The original Hojjatiyeh tradition's *quietism* is itself evidence that the Mesbah-Yazdi pivot was contested within the tradition. The contemporary internal-hardliner critique of the Paydari communicative method (see A8.8.9) is the keystone keeping the analysis faction-specific.
+
+      **Cross-references:** Obs 058 (Operationalized نظام Doctrine — Paydari role specification); Obs 059 (Inversion Laundering — communicative method is the lineage inversion made operational); G23-05 (Mirbagheri position on succession — updated PARTIALLY_FILLED); A8.8.9 (internal taqiyyah — fifth failure mode derived from same lineage inversion). [Session 29 — v2.6]
 - id: _L72
   title: A10.2 THE ORGANIZATIONAL STRUCTURE (BOM Level 2)
   subsections:

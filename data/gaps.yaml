@@ -1,8 +1,8 @@
-version: '3.4'
-date: '2026-03-28'
-source: v3.3 + Session 28 (Day 12-28 gap — 4 new gaps G28-01 through G28-04, 3 status updates)
+version: '3.5'
+date: '2026-05-16'
+source: v3.4 + Session 29 (updates G23-05, G23-06; new gap G29-01)
 summary:
-  priority_1_active: 41
+  priority_1_active: 42
   priority_2_total: 37
   priority_3_total: 0
   filled_total: 2
@@ -866,65 +866,72 @@ entries:
   - ISC Iran inquiry 2025 (ICEL espionage risk assessment)
   - Charity Commission statements (Feb 2026) — 8 open cases confirmed
 - id: G23-05
-  description: 'Mirbagheri/Paydari faction definitive position on Mojtaba succession. Most critical analytical gap in the
-    leadership landscape. Three possible positions: (1) genuine support (Mojtaba as eschatological accelerant), (2) tactical
-    support (Mojtaba as controllable puppet), (3) opposition (dynastic succession violates original Hojjatiyeh anti-velayat-e-faqih
-    quietism). Evidence cuts both ways — Mojtaba is Mesbah-Yazdi devotee (suggests alignment) but dynastic succession is maximum
-    velayat-e-faqih overreach (suggests tension). Mirbagheri''s ''some obstacles'' language suggests reservations. Most dangerous
-    scenario is not opposition but support-as-accelerant: grieving, cornered, theologically radicalized Supreme Leader with
-    nominal authority but no enforcement capacity is maximally dangerous configuration. Day 28 context shift: If Mojtaba is
-    dead or permanently incapacitated (G23-06 ELEVATED), this gap transforms from "Mirbagheri position on Mojtaba succession"
-    to "Mirbagheri position on post-Mojtaba succession" — a fundamentally different question. With Mojtaba gone and Larijani
-    dead, the pragmatist counterweight is eliminated. Mirbagheri/Paydari may face an open field. The Hojjatiyeh theological
-    contradiction (original anti- velayat-e-faqih quietism vs current faction''s inversion) may resolve itself if the faction
-    can bypass dynastic succession entirely and pursue direct capture through the Assembly of Experts.'
-  priority: 1
-  status: OPEN
-  modules:
-  - ITB-A10
-  - ITB-B
-  why_critical: Determines whether Mojtaba succession is eschatological acceleration or factional puppet scenario. Directly
-    affects all W-scenario probability estimates.
-  session_identified: 23
-  cross_refs:
-  - Obs 034
-  - B07 v2.0
-  - B08
-  sources:
-  - ITP Leadership Landscape Deep Supplement (Day 11 session)
-- id: G23-06
-  description: 'Mojtaba Khamenei physical and psychological capacity to govern — possible death. Original gap (Session 23):
-    wound severity unknown, family losses (wife, child, mother killed Feb 28) create psychological variable. Day 28 update:
-    DNI Gabbard testified to Congress that Mojtaba is "very seriously wounded." No Nowruz appearance (March 20 — first time
-    a Khamenei family member has missed Nowruz). Text-only statements continue (no video, no audio since Feb 28). Opposition
-    sources claim ventilator dependency, lung failure, and possible coma. CIA and Mossad still unable to confirm location.
-    The gap has expanded from "capacity to govern" to "alive or dead." Regime will not acknowledge death during wartime for
-    theological and constitutional reasons — loss of the designated successor during active conflict would create a constitutional
-    crisis with no precedent and no mechanism for resolution. If Mojtaba is dead: (a) Zolghadr''s appointment may represent
-    IRGC factional capture of a succession process happening in real time, (b) Assembly of Experts emergency session becomes
-    constitutionally required but may be physically impossible to convene under wartime conditions, (c) G23-05 (Mirbagheri
-    position) transforms from succession-influencing to succession-determining.'
+  description: 'Mirbagheri/Paydari faction definitive position on Mojtaba succession and ongoing leadership of the regime.
+    Mirbagheri''s March 8 statement confirmed the Assembly reached a "decisive and unanimous opinion" with "some obstacles
+    regarding the process [still to be] resolved" — careful language that is neither enthusiastic endorsement nor opposition.
+    Core question: does the Hojjatiyeh/Paydari eschatological faction support or oppose Mojtaba''s dynastic succession?'
   priority: 1
   status: PARTIALLY_FILLED
   modules:
-  - ITB-A
-  - ITB-B
-  why_critical: If Mojtaba is physically or psychologically incapacitated, the succession becomes a puppet scenario regardless
-    of factional intent. All W1/W2 branching depends on this variable.
+  - ITB-A2.4
+  - ITB-A10
+  - ISA-CORE
+  why_critical: The Paydari faction is the structural veto holder per Obs 010 (Wrong Interlocutor). Their position on Mojtaba
+    determines whether the succession is a Paydari patron consolidation or a contested arrangement. Under Obs 058 (Operationalized
+    نظام Doctrine), this determines whether the scorched-earth threshold is also a Paydari-controlled trigger.
   session_identified: 23
   cross_refs:
-  - Obs 034
-  - B08
-  - FV-33
+  - Obs 010 (Wrong Interlocutor)
+  - Obs 058 (Operationalized نظام Doctrine — Paydari role specification)
+  - Obs 059 (Inversion Laundering — verification problem on Paydari statements)
+  - G23-06 (Mojtaba capacity — interlocking question)
   sources:
   - ITP Leadership Landscape Deep Supplement (Day 11 session)
-  fill_note: 'Session 28 research confirms alive, severely injured, functionally incapacitated. State TV uses janbaz (disabled
-    veteran) designation. No public appearance, no audio/video — only written statements read by TV presenters. Hegseth: "wounded
-    and likely disfigured." CIA/Mossad actively searching. $10M bounty posted. Leaked audio (Telegraph, Mar 12) claims narrow
-    survival by stepping into yard before strike. Diaspora claims of coma (unverifiable). Iran International reports clerical
-    criticism of inability to communicate with officials. Sole personnel action: Rezaei appointment as military adviser. Nowruz
-    message written only — named 1405 "resistance economy in shadow of national unity." Remaining gap: actual medical condition,
-    location, whether recovery possible. Confidence: Medium for incapacitation; Low for specific medical status.'
+  blocking_for:
+  - ISA-SCENARIOS succession analysis
+  - B17 (Doctrine of Inheritance Denial) — Paydari role specification
+  fill_note: 'Session 29 evidence accumulation (May 3 mapping; May 15 Rollins-piece follow-up): Evidence for Paydari SUPPORT
+    of Mojtaba is now stronger than evidence for opposition. (1) Mojtaba is documented as a "devoted pupil" of Mesbah-Yazdi
+    and patron of Paydari (Iran International, Atlantic Council). (2) Mirbagheri''s "decisive and unanimous opinion" framing
+    is more consistent with managed endorsement than with reservation. (3) The wartime "Front of Truth vs. Front of Falsehood"
+    narrative maps perfectly onto Paydari eschatological framing and is being deployed in regime media without observable
+    Paydari objection. The MOST DANGEROUS scenario is that Mirbagheri supports Mojtaba as an ESCHATOLOGICAL ACCELERANT — a
+    leader whose combination of grief (wife, child, mother killed), ideological extremism (Mesbah-Yazdi lineage), and institutional
+    fragility (puppet problem) makes him the ideal vehicle for escalatory policies that align with Mahdist theology. A grieving,
+    cornered, theologically radicalized Supreme Leader with nominal authority but no independent enforcement capacity is the
+    maximally dangerous configuration from a regional security perspective. Remaining gap: explicit Paydari statements (especially
+    in Persian-internal channels distinct from foreign-audience output) on the succession architecture; identifying whether
+    Paydari views Mojtaba as patron, puppet, or accelerant; Mirbagheri''s own succession ambitions (whether his Provisional
+    Council role is transitional or permanent). Cross-ref to Obs 059 (Inversion Laundering) — Paydari position statements
+    must be read through the layered hermeneutic framework, not surface.'
+- id: G23-06
+  description: Mojtaba Khamenei actual physical/cognitive capacity to govern. Wound severity unknown; psychological state
+    after family losses unknown; ability to issue authentic communications (audio/video) unknown. State TV uses "janbaz" designation;
+    US offered $10M bounty; CIA/Mossad actively searching.
+  priority: 1
+  status: PARTIALLY_FILLED
+  modules:
+  - ITB-A2.4
+  - ITB-A1.1
+  why_critical: Determines whether the puppet problem (B08) is the most extreme variant (puppet cannot exercise powers) or
+    merely conventional (puppet exercises powers under IRGC direction). Affects every succession-dependent analytical thread.
+  session_identified: 23
+  cross_refs:
+  - Obs 053 (institutional zombification)
+  - Obs 052 (was Nuclear Targeting Bilateralization — to reconcile in S30)
+  - B08 (puppet problem)
+  - G23-05 (Mirbagheri position — interlocking)
+  sources:
+  - ITP Leadership Landscape Deep Supplement (Day 11 session)
+  fill_note: 'Session 28 partial fill: confirmed alive, incapacitated, janbaz designation. Session 29 update (May 15 Rollins-piece
+    reporting): Rollins''s CIA-via-WaPo assessment (May 8) confirms Mojtaba "may be severely injured and has not appeared
+    in public or on video since his appointment on March 9." This is consistent with the prior partial-fill finding. The duration
+    of the absence (Mar 9 to mid-May = 2+ months without public appearance) is itself analytically significant: it rules out
+    tactical concealment (which would not require this duration) and is more consistent with either (a) severe incapacitation
+    that prevents authentic audio/video production, or (b) death not yet declared. The "deep injury" Rollins-cited framing
+    leans (a). Remaining gap: specific medical status, location, command-issuance mechanism (who actually signs orders attributed
+    to Mojtaba), and the operational implication for Obs 053 (institutional zombification) if (a) becomes irreversible or
+    (b) becomes confirmed.'
 - id: G25-01
   description: 'Kharg Island seizure probability assessment. The pre-assault strike pattern (runway, naval base, mine storage,
     air defense) plus 31st MEU deployment creates a plausible amphibious seizure scenario. Required: assessment of (a) Iranian
@@ -1100,19 +1107,9 @@ entries:
     exact current inventory levels (classified), actual production pipeline status, whether emergency transfers from NATO
     allies are being arranged. Elevated to Obs 051.'
 - id: G27-03
-  description: 'Diego Garcia IRBM vehicle identification. Day 22 strike: two missiles at ~4,000km range, both failed to hit.
-    Two candidate platforms: (a) modified Khorramshahr-4 with reduced payload to extend range (liquid-fueled MRBM stretched
-    to IRBM range — technically feasible but performance-degrading), (b) space-program-derived two-stage vehicle using Simorgh/Qased
-    first-stage technology (higher performance ceiling but untested in military application). Targeting intelligence likely
-    from Russia (satellite imagery) and China (BeiDou navigation). Iran denied responsibility. Key unknowns: (a) vehicle type
-    from debris/trajectory analysis, (b) whether this represents a previously undisclosed IRBM capability or a one-off adaptation,
-    (c) accuracy of targeting (misses may reflect guidance limitations or deliberate miss as signaling), (d) warhead configuration
-    (conventional HE or submunition).
-
-    No new technical data on vehicle type found in Session 28 sweep. However, the Natanz MOP strike (Day 21) and Iran''s Dimona
-    retaliation establish a nuclear-delivery-vehicle context that makes this gap more analytically urgent. If the Diego Garcia
-    vehicle was a modified space-program two-stage design, it implies longer-range capability than Khorramshahr-4, with implications
-    for nuclear delivery.'
+  description: |-
+    Diego Garcia IRBM vehicle identification. Day 22 strike: two missiles at ~4,000km range, both failed to hit. Two candidate platforms: (a) modified Khorramshahr-4 with reduced payload to extend range (liquid-fueled MRBM stretched to IRBM range — technically feasible but performance-degrading), (b) space-program-derived two-stage vehicle using Simorgh/Qased first-stage technology (higher performance ceiling but untested in military application). Targeting intelligence likely from Russia (satellite imagery) and China (BeiDou navigation). Iran denied responsibility. Key unknowns: (a) vehicle type from debris/trajectory analysis, (b) whether this represents a previously undisclosed IRBM capability or a one-off adaptation, (c) accuracy of targeting (misses may reflect guidance limitations or deliberate miss as signaling), (d) warhead configuration (conventional HE or submunition).
+    No new technical data on vehicle type found in Session 28 sweep. However, the Natanz MOP strike (Day 21) and Iran's Dimona retaliation establish a nuclear-delivery-vehicle context that makes this gap more analytically urgent. If the Diego Garcia vehicle was a modified space-program two-stage design, it implies longer-range capability than Khorramshahr-4, with implications for nuclear delivery.
   priority: 1
   status: OPEN
   modules:
@@ -1261,3 +1258,52 @@ entries:
   - A9 (hollowness — economic binding agent)
   - C (economy — sanctions evasion infrastructure)
   - Obs 001 (IRGC is the transition — economic dimension)
+- id: G29-01
+  description: 'Persian Gulf Star Refinery (PGSR), Bandar Abbas — operational architecture, IRGC operational control depth,
+    and wartime targeting status. PGSR is the world''s largest gas condensate refinery (360,000 bpd nameplate across 3 phases,
+    2017/2018/2019). Built by Khatam al-Anbiya Construction HQ (IRGC engineering arm). IRGC Brigadier General Ebadollah Abdollahi
+    publicly credited. Civilian ownership structure on paper (OGPIC 49%, Oil Industry Pension Fund 33.1%, NIORDC 17.9%); operating
+    entity Persian Gulf Star Oil Company on OFAC SDN list since July 6, 2022 (EO 13846). 3-4 mi from IRGC Naval HQ Bandar
+    Abbas; Fifth Naval Zone operates from same coastal stretch; refinery fuels IRGC ships directly. Produces naphtha that
+    is the laundering substrate for Iranian crude — ship-to-ship transfers off Malaysia/Indonesia blend Iranian crude with
+    PGSR naphtha and relabel as "Malaysian blend" reaching Shandong teapots. Possibly feeds missile propellant chain (ammonium
+    perchlorate precursor inputs). NOT struck across ~2,500 sorties of Operations Epic Fury + Roaring Lion despite IRGC naval
+    HQ itself being hit. Key unknowns: (a) actual operational control depth of IRGC (engineering arm + naval co-location +
+    naphtha laundering chain is documented; production-floor operational control is inferred); (b) ammonium perchlorate /
+    missile propellant feedstock connection (asserted by Rollins, needs primary-source verification); (c) reason for non-targeting
+    (Rollins assesses coalition politics — Saudi/UAE won''t tolerate strike on civilian fuel for 90M Iranians); (d) whether
+    PGSR moves onto target list if Beijing summit fails; (e) precise volume and trade-route map of PGSR-naphtha laundering
+    operation.'
+  priority: 1
+  status: OPEN
+  modules:
+  - ITB-A9
+  - ITB-C
+  - ITB-C2 (IRGC economic empire)
+  - ITB-B
+  why_critical: PGSR is the operational explanation for HOW the China-Iran oil trade survives the blockade and the PHYSICAL
+    infrastructure that makes the Inversion Laundering mechanism (Obs 059) work at scale — civilian-fuel narrative protecting
+    IRGC-naval-and-missile-feed reality. It is the structural exemplar of how the regime's "we are the oppressed providing
+    for the people" frame protects military infrastructure from accountability. Pending verification, PGSR is the single most
+    analytically significant new infrastructure node for the A9 and C modules. Its non-strike despite high coalition-strike
+    volume is a load-bearing data point for both the Rollins two-straits thesis and the Obs 058 inheritance-denial framework
+    (regime gets to preserve operational infrastructure under civilian cover).
+  blocking_for:
+  - A9 entity registry (PGSR as a named node)
+  - C module operational economic empire mapping
+  - B17 (Doctrine of Inheritance Denial) — operational case study
+  - V-R11 Rollins verification item (primary-source confirmation of all asserted facts)
+  session_identified: 29
+  cross_refs:
+  - Obs 058 (Operationalized نظام Doctrine — operational infrastructure preservation)
+  - Obs 059 (Inversion Laundering — physical exemplar of the architecture)
+  - Obs 049 (Maritime Insurance — financial-architecture parallel)
+  - C3.1 (shadow fleet — PGSR is the upstream node)
+  - Trap 15 candidate (Sophistication Disjunction)
+  - Rollins verification queue V-R11
+  sources:
+  - May 15 chat (d6b0e27a) — primary entry from Rollins "Two Straits" piece
+  - OFAC SDN list, July 6, 2022 (EO 13846)
+  - Khatam al-Anbiya construction record + Abdollahi public statements
+  - Persian Gulf Star Oil Company public filings (civilian-cover structure)
+  - '"@a_logical_man" May 7 panel discussion (cited by Rollins, requires identification)'

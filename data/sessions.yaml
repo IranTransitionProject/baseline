@@ -1,6 +1,6 @@
-version: '2.9'
-date: '2026-03-28'
-source: v2.8 + Session 28
+version: '3.0'
+date: '2026-05-16'
+source: v2.9 + Session 29
 entries:
 - number: 1
   date: '2026-02-16'
@@ -295,3 +295,19 @@ entries:
   - data/observations.yaml
   - data/gaps.yaml
   - data/variables.yaml
+- number: 29
+  date: '2026-05-16'
+  summary: 'Session 29: S29 backlog integration — 5 new observations (Obs 055-059: Inverted Swarm, Reflexive Incapacitation,
+    Connectivity-Bound Conformity, Operationalized نظام Doctrine, Inversion Laundering), 3 obs extensions (Obs 010/028/034),
+    2 gap updates (G23-05, G23-06), 1 new gap (G29-01 PGSR), 1 new trap (Trap 15 Sophistication Disjunction), content patches
+    to itb_a8/a10/a11.'
+  modules_affected:
+  - ITB-A8
+  - ITB-A10
+  - ITB-A11
+  - APP-V
+  - APP-G
+  - ISA-TRAPS
+  - data/observations.yaml
+  - data/gaps.yaml
+  - data/traps.yaml
