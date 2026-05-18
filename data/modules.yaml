@@ -39,8 +39,8 @@ entries:
   - ITB-A
 - code: ITB-A9
   file: ITB_A9_IRGC_PARALLEL.md
-  version: '1.0'
-  lines_approx: ~250
+  version: '1.1'
+  lines_approx: ~290
   description: 'IRGC parallel society: educational pipeline, gated compounds, economic patronage, Syria doctrine.'
   level: 1
   dependencies:

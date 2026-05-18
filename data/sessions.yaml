@@ -1,6 +1,6 @@
-version: '3.2'
+version: '3.3'
 date: '2026-05-17'
-source: v3.1 + Session 31 (ITB-T module integration, Obs 062 extension)
+source: v3.2 + Session 32 (A9.7 v1.1 wartime extension, Obs 057 extension)
 entries:
 - number: 1
   date: '2026-02-16'
@@ -330,4 +330,14 @@ entries:
   - ITB-T
   - data/modules.yaml
   - data/content/itb_t.yaml
+  - data/observations.yaml
+- number: 32
+  date: '2026-05-17'
+  summary: 'Session 32: Item 10 of May 16 inventory — A9.7 wartime extension integrating Obs 057 (Connectivity-Bound
+    Conformity) as v1.1 annotation. Fourth binding mechanism (connectivity-bound conformity) added to binding-mechanism
+    inventory. Tier 3 absorption claim qualified: verification-architecture dismantlement now required in addition to economic
+    integration. Obs 057 diagnosis extended with SESSION 32 UPDATE and new cross-ref. Pure extension; no new entities.'
+  modules_affected:
+  - ITB-A9
+  - data/content/itb_a9.yaml
   - data/observations.yaml

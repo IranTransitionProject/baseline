@@ -1,7 +1,8 @@
 module_code: ITB-A9
-version: '1.0'
-date: '2026-02-18'
-source: Extracted from ITB v1.2, lines 315-548
+version: '1.1'
+date: '2026-05-17'
+source: "Extracted from ITB v1.2, lines 315-548 + Session 32 (A9.7 wartime extension\
+  \ — Internet Pro fourth binding mechanism per Obs 057)"
 dependencies:
 - ITB-A (institutional context)
 - ITB-A8 (theological framework)
@@ -11,6 +12,10 @@ referenced_by:
 - ISA-TRAPS (Traps 6
 - 7)
 - ISA-SCENARIOS (Obs 007)
+- Obs 057 (Connectivity-Bound Conformity)
+- Obs 058 (Operationalized نظام Doctrine — Inheritance Denial)
+- Obs 062 (Three-Cluster Legitimacy Fragmentation)
+- ITB-T (Indigenous Marjaiya Restoration — T6.4 dependency)
 title: IRGC SOCIAL REPRODUCTION SYSTEM
 pillar: A
 sections:
@@ -255,6 +260,24 @@ sections:
       **Transition planning implication:** The ideologically irreducible core (Tier 1) is manageable. Tier 2 dispersed Basij are the critical swing population — under wartime conditions, the manufactured complicity mechanism (Obs 030) converts coerced Tier 2 members into non-defectable perpetrators, narrowing the available off-ramp window. Stripping benefits from Tier 3 without alternatives would create a dangerously hostile population — precisely the Iraq de-Ba'athification failure mode — but this is an economic policy problem, not a parallel society problem. [Inference – Med]
 
       **SESSION 27 DATA UPDATE — Aarabi Hard Base Quantification:** Kasra Aarabi quantification of regime hard base at approximately 10% of population (~8.5M), sourced to leaked IRGC recording from Sassan Zare. Corroborated independently by Covid vaccine proxy data (regime loyalist uptake patterns). This figure is consistent with A9.7 Tier 1 compound society estimate (800K-1.5M) plus Tier 2 dispersed Basij (1.5M-3M) plus Tier 3 patronage periphery (3M-7M) = 5.3M-11.5M total, centering near Aarabi's 8.5M. The Aarabi figure adds external validation from IRGC's own internal assessment — the regime itself estimates approximately this level of reliable support. Analytical implication: pro-regime rallies are street-denial operations (creating visual impression of majority support from a 10% base), not popular support indicators. Second implication: the 10% figure represents the maximum population the regime could mobilize for active defense — relevant to transition planning and post-war governance scenarios. [Reported — Med-High for the Aarabi figure (sourced to specific leaked recording with named IRGC source); Corroborated for consistency with ITP Tier estimates; Inference — Med for street-denial characterization.]
+
+      **SESSION 32 WARTIME EXTENSION — Internet Pro Reopens the Tier 3 Carve-Out:** The three-mechanism binding model (economic dependency, geographic isolation, manufactured complicity) underpinning the A9.7 tier framework in v1.0 has been extended by Obs 057 (Connectivity-Bound Conformity, Session 30). The regime's tiered-access internet infrastructure ("Internet Pro" — filtered baseline access vs. uplifted internet conditional on biometric vetting, Basij/IRGC affiliation, and behavioral conformity) operationalizes ITB-H1.3 (Barracks Internet) at population scale and constitutes a **fourth binding mechanism**: connectivity-bound conformity.
+
+      The structural implication for A9.7 is direct. Unlike the prior three binding mechanisms, connectivity-bound conformity operates **across the tier structure**, including on Tier 3 (the patronage periphery). The verification database — required for upgraded internet access, regime-affiliated employment, bank transaction limits above baseline, and university admission — is embedded in civilian infrastructure (ISP operators, payment processors, mobile carriers, universities) that Tier 3 populations interact with as part of ordinary economic life. Tier 3 was previously characterized as a patronage network responsive to economic incentives, not a parallel society sharing ideological commitment or social separation. Under Internet Pro conditions, the connectivity vetting extends a binding mechanism into Tier 3 that does not require ideological commitment but does require ongoing conformity to the verification regime. The conformity is not coerced once — it is rebuilt daily by every transaction, login, and platform interaction.
+
+      Three consequences for the v1.0 A9.7 transition-planning analysis:
+
+      1. **"Tier 3 can be absorbed through economic integration" — qualified.** The v1.0 transition-planning paragraph stated that Tier 3 absorption is an economic policy problem, not a parallel society problem. Under Internet Pro conditions, this remains correct on the economic axis but is incomplete on the connectivity axis. Tier 3 absorption now requires explicit dismantlement of the verification database and tier-sort protocols. Economic integration without verification-architecture dismantlement leaves the binding mechanism intact under successor authority, because the verification infrastructure migrates into whatever telecommunications and finance institutions inherit it.
+
+      2. **Generational cauterization effect.** School-age and university-age cohorts (Gen Z and below) experience the tier sort as the default state of connected life. Their conformity to the verification regime is not the conscious calculation of an adult Tier 3 economic dependent — it is the lived experience of how connected life works. This is the operational expression of the "Inheritance Denial" doctrine (Obs 058 cross-reference) in the information domain: the regime is constructing population-control infrastructure designed to survive the regime itself, with maximum bite on the generation that will be the working-age population during any post-transition reconstruction.
+
+      3. **The H7 dilemma framing must be rewritten.** A9.7 v1.0 implicitly carried the H7 framing that the regime faces a choice between information control and economic continuity. Internet Pro resolves this dilemma — the regime gets both, *for the vetted population*. The H7 framing in ITB-H requires a parallel update; flagged as a downstream content patch for a future session.
+
+      **Aarabi hard-base figure reconciliation under Internet Pro:** The Session 27 Aarabi quantification of regime hard base at ~10% (~8.5M) remains consistent with Tier 1 + Tier 2 estimates. Internet Pro does not change the hard base; it changes the binding mechanism for the larger Tier 3 population, which the Aarabi figure does not claim to include. The two findings are complementary, not in tension.
+
+      **Bounded scope of this extension.** This annotation does NOT rewrite A9.7's tier definitions or population estimates. The three-tier model from Session 20 stands; the Aarabi data point from Session 27 stands. What changes is the binding-mechanism inventory (from three to four) and the transition-planning implication paragraph (Tier 3 absorption now requires verification-architecture dismantlement in addition to economic integration). A full A9.7 rewrite was considered and deferred: the v1.0 analytical structure is sound; the new finding is additive, not displacive.
+
+      [Inference — Med-High for binding-mechanism extension (consistent with Obs 057 architectural analysis); Inference — Med for cluster-stratified pressure operationalization (logically derived from Obs 057 + Obs 062 cluster framework); Speculation — Med for specific verification-architecture-dismantlement mechanics (depends on transition conditions not yet observable). Cross-refs: Obs 057 (Connectivity-Bound Conformity — primary anchor), Obs 058 (Operationalized نظام Doctrine — Inheritance Denial in information domain), Obs 062 (Three-Cluster Legitimacy Fragmentation — connectivity vetting applies cluster-stratified pressure), ITB-H1.3 (Barracks Internet — operationalized), ITB-H7 (regime dilemma — framing requires update; flagged for future patch), ITB-T T6.4 (Cluster-specific operational implications — connectivity-conformity affects Cluster 1-2 muqallid-marja relationship infrastructure).]
   - id: _L217
     title: "A9.8 Cross-Interaction Analysis: A9 and Other Pillars"
     level: 3

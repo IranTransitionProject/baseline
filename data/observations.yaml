@@ -1,6 +1,6 @@
-version: '2.8'
+version: '2.9'
 date: '2026-05-17'
-source: 'v2.7 + Session 31 (Obs 062 extension: ITB-T cross-reference integration)'
+source: 'v2.8 + Session 32 (Obs 057 extension: A9.7 v1.1 wartime integration)'
 section_title: Analytic Annotations (The 'So-What' Log)
 entries:
 - id: 1
@@ -1811,7 +1811,8 @@ entries:
   session_added: 29
 - id: 57
   title: Connectivity-Bound Conformity — Internet Pro as Fourth Binding Mechanism of the Parallel Society
-  diagnosis: 'The regime''s "Internet Pro" tiered-access infrastructure (filtered baseline internet vs. uplifted internet
+  diagnosis: |-
+    The regime's "Internet Pro" tiered-access infrastructure (filtered baseline internet vs. uplifted internet
     conditional on biometric vetting, Basij/IRGC affiliation, and behavioral conformity) operationalizes ITB-H1.3 (Barracks
     Internet) at population scale. Where the original H1.3 framing assumed cantonment-style segregation of regime cadre, Internet
     Pro instead constructs a full population sorting mechanism: connectivity itself becomes the binding agent. The verification
@@ -1823,7 +1824,17 @@ entries:
     active parallel-society binding population. The population this captures is in significant overlap with the broader civilian
     population, not confined to the IRGC ecosystem. Generational cauterization effect: school-age and university-age cohorts
     (Gen Z and below) experience the tier sort as the default state of connected life. Conformity to the verification regime
-    is not coerced once — it is rebuilt daily by every transaction, login, and platform interaction.'
+    is not coerced once — it is rebuilt daily by every transaction, login, and platform interaction.
+
+    SESSION 32 UPDATE: The Tier 3 reopening implication previously flagged in this
+    observation's diagnosis is now integrated as a v1.1 wartime extension to ITB-A9.7.
+    The extension preserves the v1.0 three-tier model and Aarabi data point while
+    adding the fourth binding mechanism (connectivity-bound conformity) to the
+    binding-mechanism inventory and qualifying the Tier 3 absorption claim:
+    verification-architecture dismantlement is now required in addition to economic
+    integration for Tier 3 absorption under successor authority. A full A9.7 rewrite
+    was deferred per the original S29 IR recommendation; the v1.0 analytical structure
+    is sound and the new finding is additive, not displacive.
   strategic_implication: 'The IRGC has built — or is in late-stage construction of — a population-control architecture that
     survives most transition scenarios because it is embedded in civilian infrastructure (ISP operators, payment processors,
     mobile carriers, universities), not military institutions. De-Ba''athification-style dissolution of "the regime" does
@@ -1849,6 +1860,7 @@ entries:
   - Trap 6 (parallel society identity crisis — extends to civilian population)
   - Trap 15 candidate (Sophistication Disjunction)
   - B17 candidate brief (Doctrine of Inheritance Denial)
+  - ITB-A9.7 v1.1 (wartime extension — fourth binding mechanism integration)
   leading_indicators:
   - Verification-DB documented enrollment thresholds and exclusion criteria
   - Public reporting on tier-sort connectivity differentials (regime-affiliated vs. general population)
