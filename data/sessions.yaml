@@ -1,6 +1,6 @@
-version: '3.1'
+version: '3.2'
 date: '2026-05-17'
-source: v3.0 + Session 30
+source: v3.1 + Session 31 (ITB-T module integration, Obs 062 extension)
 entries:
 - number: 1
   date: '2026-02-16'
@@ -318,4 +318,16 @@ entries:
   modules_affected:
   - APP-V
   - APP-G
+  - data/observations.yaml
+- number: 31
+  date: '2026-05-17'
+  summary: 'Session 31: S31 backlog batch 2 — ITB-T v1.0 (Indigenous Marjaiya Restoration as Transition Template) integrated
+    as new module and content file. Obs 062 (Three-Cluster Legitimacy Fragmentation) extended with SESSION 31 UPDATE paragraph
+    and two new cross-refs to ITB-T and ITB-T T7.2. First positive-program module in the framework: documents what indigenous
+    resources could replace the velayat-e-faqih architecture. Module registration in modules.yaml, full content file
+    data/content/itb_t.yaml, observation extension in data/observations.yaml.'
+  modules_affected:
+  - ITB-T
+  - data/modules.yaml
+  - data/content/itb_t.yaml
   - data/observations.yaml

@@ -1,6 +1,6 @@
-version: '2.4'
-date: '2026-02-24'
-source: Migrated from 00_MASTER_INDEX.md v2.3 Module Registry
+version: '2.5'
+date: '2026-05-17'
+source: 'v2.4 + Session 31 (ITB-T: Indigenous Marjaiya Restoration as Transition Template)'
 entries:
 - code: INDEX
   file: 00_MASTER_INDEX.md
@@ -219,3 +219,23 @@ entries:
   lines_approx: ~600
   description: IPP/NUFDI Emergency Phase booklet structured reference. External document, not ITP-authored. 14 white papers covering first 180 days post-transition.
   level: 3
+- code: ITB-T
+  file: ITB_T_MARJAIYA_RESTORATION.md
+  version: '1.0'
+  lines_approx: ~340
+  description: >-
+    Indigenous Marjaiya Restoration as Transition Template. Distributed pre-1979 Shia
+    marjaiya as indigenous pluralist institution that predates and was destroyed by
+    velayat-e-faqih. Comparative federalism existence proofs (UAE, US, others) for
+    asymmetric autonomy under value pluralism. Restoration mechanics for post-transition
+    Cluster 1-2 governance. Scope: narrow (marjaiya only); structural extension hook
+    preserved for broader indigenous templates in future sessions.
+  level: 2
+  dependencies:
+  - ITB-A
+  - ITB-A8
+  - ITB-A10
+  - ITB-D
+  referenced_by:
+  - Obs 062 (Three-Cluster Legitimacy Fragmentation)
+  - ITB-F (comparative federalism cases)

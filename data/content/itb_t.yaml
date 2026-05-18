@@ -1,0 +1,568 @@
+module_code: ITB-T
+version: '1.0'
+date: '2026-05-17'
+source: "Session 31 — first integration of Indigenous Marjaiya Restoration Thesis from Mar 16 chat (137ac9d2). Foundational analytical object cross-referenced as forthcoming in Obs 062 (Three-Cluster Legitimacy Fragmentation, Session 30). Scope deliberately narrow: marjaiya only, with structural extension hook for broader indigenous templates in future sessions."
+dependencies:
+- ITB-A (regime constitutional architecture — what marjaiya restoration replaces)
+- ITB-A8 (theological machinery — velayat-e-faqih as destructive successor)
+- ITB-A10 (eschatological faction — Paydari/MASAF as opposing trajectory)
+- ITB-D (society — three-cluster legitimacy basis)
+referenced_by:
+- Obs 062 (Three-Cluster Legitimacy Fragmentation)
+- Obs 030 (Manufactured Complicity Trap — population cluster scoping)
+- Obs 057 (Connectivity-Bound Conformity — Internet Pro cluster pressure)
+title: INDIGENOUS MARJAIYA RESTORATION AS TRANSITION TEMPLATE
+pillar: T
+confidence: "Module-level: Inference — Med-High for historical structural claims (pre-1979 distributed marjaiya, velayat-e-faqih displacement mechanism); Inference — Med for restoration-as-template thesis (logically derived, no live test case); Speculation — Med for specific restoration mechanics (depends on transition conditions not yet observable)."
+preamble: |
+  This module presents indigenous Shia marjaiya — the traditional distributed jurisprudential
+  authority structure that predates the Islamic Republic — as a transition template for
+  post-velayat-e-faqih governance design. The framing is RESTORATION rather than DESIGN: the
+  institution exists in living memory, has documented institutional form, and was actively
+  destroyed by the current regime architecture. Post-transition governance design is therefore
+  not a problem of inventing institutions from external frameworks but of identifying which
+  indigenous resources survived the destruction and how they can be reactivated.
+
+  This is a major positive-program contribution to the framework. The bulk of ITP analytical
+  work documents *what the current regime is and how it fails*. ITB-T is among the first
+  modules to address *what could replace it from indigenous resources* without importing
+  external design templates.
+
+  Framing discipline (per project Invariant I-3): This module describes a SPECIFIC INDIGENOUS
+  institutional tradition. It is not a claim about Shi'ism as a whole, Islam as a system, or
+  Iranian culture as essentialist category. The marjaiya tradition is historical and
+  institutional, and the velayat-e-faqih displacement is itself contested within the same
+  theological community — the contest is the proof that the tradition is specific and not
+  reducible to "what Shi'a do."
+sections:
+- id: T1
+  title: "T1 Why This Module Exists"
+  level: 2
+  content: |
+    The ITP framework documents the regime architecture (A-series), security (B), economy
+    (C), society (D), territory (E), international relations (F-series), diaspora (G), and
+    information environment (H). It has historical case modules (ISA-CASES) covering external
+    transition precedents (Iraq, Libya, Syria, Pinochet's Chile, Indonesia, Turkey, Spain).
+
+    What it has not had, until ITB-T, is a module covering INDIGENOUS institutional resources
+    that could replace the velayat-e-faqih architecture from within Iran's own tradition. This
+    is an analytical gap because:
+
+    1. **Single-formula transition models fail (Obs 062).** The Iranian population fragments
+       into three clusters (theocratic traditionalists / Islamic reformists+quietists /
+       secular+anti-clerical trauma-rooted). Single uniform-policy transition frameworks are
+       structurally inadequate. Indigenous templates that fit one or more clusters are
+       analytically necessary.
+
+    2. **External-design templates carry legitimacy costs.** Imposing institutional frameworks
+       drawn primarily from Western political theory onto a post-transition Iran produces both
+       legitimacy deficits with Cluster 1 (theocratic traditionalists) and analytical errors
+       (treating Iranian institutional traditions as absent rather than displaced).
+
+    3. **The marjaiya tradition is documented, recent, and recoverable.** Unlike many cases
+       of indigenous institution loss (where the institution exists only in pre-modern
+       historical record), the distributed marjaiya was functioning in living memory. Qom
+       and Najaf hawza networks, marja taqlid relationships, and institutional funding
+       mechanisms (khums, sahm-e imam) existed in modern form into the late 1970s and persist
+       in attenuated form today (Sistani in Najaf, surviving quietist clerics).
+
+    4. **The destruction mechanism is identifiable.** Velayat-e-faqih did not arise as an
+       institutional vacuum; it actively displaced an existing structure. Documenting the
+       displacement mechanism makes restoration tractable (you know what was removed and how)
+       rather than archaeological (reconstructing institutions from fragments).
+
+    [Inference — Med-High for analytical-gap framing; Fact for institutional history of
+    distributed marjaiya; Inference — Med for "indigenous templates carry less legitimacy
+    cost" claim (logical but not empirically tested in transition context)]
+
+- id: T2
+  title: "T2 The Pre-1979 Distributed Marjaiya"
+  level: 2
+  content: |
+    Shia jurisprudential authority traditionally operates through a distributed network of
+    senior religious scholars (maraji al-taqlid, plural of marja al-taqlid). The institutional
+    features:
+  subsections:
+  - id: T2.1
+    title: "T2.1 Plurality of Authority"
+    level: 3
+    content: |
+      Multiple senior maraji exist simultaneously. Each individual Shia Muslim selects which
+      marja to follow (muqallid relationship) based on the marja's scholarly reputation,
+      jurisprudential approach, and personal trust. The selection is not bureaucratically
+      assigned. There is no single hierarchical chain of religious command equivalent to the
+      Catholic papacy. [Fact — High; documented in standard Shia jurisprudential literature]
+
+      Functional consequence: religious authority is structurally pluralist. No single marja
+      can speak for all Shia Muslims; no single marja's edict (fatwa) binds non-muqallid
+      Shia. Disagreement among maraji is normal and expected; muqallids may shift allegiance.
+  - id: T2.2
+    title: "T2.2 Geographic and Institutional Centers"
+    level: 3
+    content: |
+      The hawza (seminary) at Najaf, Iraq, and the hawza at Qom, Iran, were the primary
+      institutional centers. Mashhad (Iran), Karbala (Iraq), and smaller hawza in Lebanon,
+      Bahrain, Pakistan, and elsewhere formed the broader network. Each hawza maintained
+      independent governance, faculty, curriculum, and funding streams. [Fact — High]
+
+      The geographic distribution mattered structurally: Najaf was outside Iranian state
+      control (under Iraq), and Qom was inside but maintained substantial autonomy from
+      Tehran's central authority. This produced an institutional architecture where Iranian
+      Shia religious authority could not be captured by any single political power.
+  - id: T2.3
+    title: "T2.3 Funding and Material Base"
+    level: 3
+    content: |
+      Maraji were funded by religious taxes paid directly by muqallids — primarily khums (a
+      religious tithe distributable at the marja's discretion) and sahm-e imam (the imam's
+      share). The funding flow was direct from believer to chosen marja, bypassing both state
+      treasury and any intermediary religious bureaucracy. [Fact — High]
+
+      Structural consequence: maraji were materially independent of political power. A
+      marja who lost his muqallid base lost his income; a political authority could not
+      defund a marja by administrative action. This made the institution structurally
+      resistant to political capture.
+  - id: T2.4
+    title: "T2.4 Quietist Default and Political Restraint"
+    level: 3
+    content: |
+      The dominant pre-1979 jurisprudential consensus (with internal variation) held that
+      direct clerical political rule was inappropriate during the occultation of the Twelfth
+      Imam. Senior maraji were expected to provide guidance on matters of religious practice
+      and ethics, comment on political affairs as moral teachers, but not occupy executive
+      political office. This is the "quietist" tradition associated historically with the
+      Najaf hawza and figures like Ayatollahs Khoei, Sistani, and Hakim. [Fact — High]
+
+      Note this is the OPPOSITE of the original Hojjatiyeh quietism described in Obs 059
+      (Inversion Laundering). Hojjatiyeh quietism was specifically anti-velayat-e-faqih
+      because political authority was reserved for the returning Mahdi. Marjaiya quietism
+      is broader: not anti-political-engagement in general, but against direct clerical
+      executive rule during occultation. The two traditions overlap historically but are
+      not identical.
+
+- id: T3
+  title: "T3 Velayat-e-Faqih as Destructive Successor"
+  level: 2
+  content: |
+    Khomeini's velayat-e-faqih doctrine (developed in his 1970 lectures, institutionalized
+    after 1979) inverted every structural feature of the distributed marjaiya described above.
+    The inversion was systematic, not incidental: it produced an architecture incompatible
+    with the prior tradition at every layer.
+  subsections:
+  - id: T3.1
+    title: "T3.1 Pluralist → Unitary"
+    level: 3
+    content: |
+      Velayat-e-faqih centralizes religious-political authority in a single Supreme Leader
+      (the Vali-e Faqih). The plurality of maraji is preserved formally — other maraji still
+      exist — but their authority is subordinated to the Vali-e Faqih on all matters of
+      state and public policy. Disagreement is reframed as either error (correctable) or
+      sedition (punishable). [Fact — High; documented in Iranian constitutional text and
+      regime practice]
+  - id: T3.2
+    title: "T3.2 Distributed → Geographically Captured"
+    level: 3
+    content: |
+      The Qom hawza was systematically brought under regime control through faculty
+      appointments, funding pressure, and the elevation of regime-aligned clerics. Najaf,
+      outside Iran's territorial jurisdiction, remained partially independent — which is why
+      Najaf marjaiya (Sistani in particular) is the surviving counter-example. Iranian
+      regime efforts to capture Najaf influence have been documented but have not succeeded
+      in eliminating its independence. [Fact — Med-High]
+  - id: T3.3
+    title: "T3.3 Direct Believer-Marja Funding → State-Intermediated Bonyad Network"
+    level: 3
+    content: |
+      The khums/sahm-e imam direct-funding architecture was disrupted through (a) creation
+      of state-aligned religious foundations (bonyads) that intercepted religious tax flows,
+      (b) economic pressure on independent maraji's funding networks, and (c) channeling of
+      pious giving toward regime-controlled charitable institutions. The result is that
+      maraji aligned with the regime have material support; independent maraji do not.
+      [Fact — High; documented in standard analysis of Iranian religious economy]
+
+      Note this is directly relevant to Obs 030 (Manufactured Complicity): the same
+      bonyad infrastructure that captured religious funding also captures economic
+      participation, binding clerical livelihoods to regime survival.
+  - id: T3.4
+    title: "T3.4 Quietist Default → Maximalist Political Theology"
+    level: 3
+    content: |
+      Velayat-e-faqih is a maximalist political doctrine: it claims that during occultation,
+      the most qualified jurist (the Vali-e Faqih) has the SAME political authority as the
+      Prophet and the Imams would have. This is not the consensus pre-1979 position; it was
+      a minority view actively developed and promoted by Khomeini's circle and elevated to
+      constitutional status after the revolution. The Mesbah-Yazdi/Paydari tradition (Obs
+      059 lineage) further radicalized this into eschatological accelerationism. [Fact —
+      High for doctrinal content; Inference — High for minority-position claim at time of
+      adoption]
+  - id: T3.5
+    title: "T3.5 The Destruction Was Active, Not Accidental"
+    level: 3
+    content: |
+      Each feature listed above was the target of specific regime action. This is not a
+      story of an old institution withering naturally and being replaced by a new one. It
+      is the story of a specific political project (Khomeini's faction, then his
+      successors) systematically dismantling an existing institutional architecture and
+      replacing it with one that served their political control. The displacement was
+      intentional, sustained, and resisted by significant portions of the same theological
+      community at the time. [Fact — High; documented in standard accounts of Iranian
+      revolutionary period and post-revolutionary clerical politics]
+
+      This active-destruction framing is analytically important for restoration: the
+      institution was not lost to time but suppressed by power. Restoration is therefore
+      not archaeological reconstruction; it is removing the suppression and allowing the
+      surviving elements to reactivate.
+
+- id: T4
+  title: "T4 What Survived the Destruction"
+  level: 2
+  content: |
+    Restoration is tractable in proportion to what survived. The following elements of the
+    pre-1979 distributed marjaiya are documented as having survived the velayat-e-faqih
+    displacement in usable form:
+  subsections:
+  - id: T4.1
+    title: "T4.1 Najaf Marjaiya (Sistani)"
+    level: 3
+    content: |
+      Ayatollah Sistani in Najaf is the most prominent surviving senior marja operating in
+      the traditional quietist mode. His authority is institutionally independent of the
+      Iranian state, his network of muqallids is global (including many Iranian Shia), and
+      his jurisprudential positions explicitly preserve the pre-velayat-e-faqih doctrinal
+      tradition. He has issued politically consequential statements (Iraq 2003 governance,
+      various Iraqi political crises) without occupying executive political office —
+      demonstrating that the traditional model can operate effectively in a modern context.
+      [Fact — High; well documented]
+
+      Sistani is one institutional referent. His age (90+) means succession is a near-term
+      practical question. Whether the Najaf hawza succeeds him with an equivalent
+      independent quietist or transitions to a different posture is a live and consequential
+      research gap.
+  - id: T4.2
+    title: "T4.2 Surviving Independent Iranian Clerics"
+    level: 3
+    content: |
+      Inside Iran, despite sustained regime pressure, individual senior clerics have
+      maintained varying degrees of independence from the velayat-e-faqih architecture.
+      Some are jurisprudentially traditional (preserving pre-1979 positions on clerical
+      political role); some are explicitly reformist; some are quietly dissenting. They
+      are constrained, surveilled, and economically pressured, but they exist. Naming
+      specific living individuals here is deferred to OPSEC discipline (project Invariant
+      I-9); their existence as a class is well-documented in scholarly literature on
+      Iranian clerical politics. [Fact — High for class existence; OPSEC-deferred for
+      specific identifications]
+  - id: T4.3
+    title: "T4.3 Institutional Memory in Living Generation"
+    level: 3
+    content: |
+      The pre-1979 distributed marjaiya operated in living memory of substantial portions
+      of Iran's current clerical population. The institutional knowledge of how
+      believer-marja funding worked, how hawza governance operated, how multiple maraji
+      coexisted without bureaucratic resolution of disputes — this knowledge persists in
+      individuals who experienced the prior system and would be available to a transition
+      architecture. This window closes naturally over time as the relevant generation
+      passes. [Inference — Med-High; generational claim, demographically derivable]
+  - id: T4.4
+    title: "T4.4 Diaspora Hawza and Scholarly Networks"
+    level: 3
+    content: |
+      Iranian Shia diaspora has maintained scholarly networks, archives, jurisprudential
+      training programs, and institutional infrastructure outside Iranian state control.
+      The Qom diaspora in particular (clerics who left Iran due to political pressure or
+      persecution) preserves institutional knowledge and capacity that the domestic regime
+      has worked to eliminate. [Fact — Med; documented in diaspora institutional studies]
+      Cross-reference ITB-G (Diaspora) for organizational mapping.
+  - id: T4.5
+    title: "T4.5 Lay Tradition of Marja Selection"
+    level: 3
+    content: |
+      The cultural practice of muqallids selecting their own marja persists at the
+      population level, even where regime pressure constrains the selection set. Iranians
+      still distinguish between marja recommended by the regime and marja followed by
+      personal conviction; the cultural infrastructure for distributed religious authority
+      relationships did not disappear with the institutional infrastructure. [Inference —
+      Med-High; observable in survey work where possible, in diaspora practice
+      consistently]
+
+- id: T5
+  title: "T5 Comparative Federalism — Asymmetric Autonomy Existence Proofs"
+  level: 2
+  content: |
+    Obs 062 establishes that the three population clusters have structurally incompatible
+    requirements at a single uniform-policy level. The marjaiya restoration framework solves
+    the Cluster 1 (theocratic traditionalist) and partially the Cluster 2 (Islamic reformist
+    / quietist) requirements, but it does not solve the Cluster 3 (secular / anti-clerical /
+    trauma-rooted) requirement. Cluster 3 requires that political authority be insulated
+    from religious justification entirely.
+
+    Asymmetric federalism is the existence proof that this multi-cluster problem is
+    tractable. The framework cites these comparative cases not as templates to import but
+    as evidence that institutional arrangements capable of managing structurally divergent
+    legitimacy claims exist and are operable at scale.
+  subsections:
+  - id: T5.1
+    title: "T5.1 United Arab Emirates"
+    level: 3
+    content: |
+      The UAE federation comprises seven emirates with substantial constitutional asymmetry
+      in autonomy, resource control, and governance latitude. Federal authority exists; each
+      emirate retains significant sovereign prerogatives. This is not a model the framework
+      endorses on human-rights grounds, but the institutional architecture itself
+      demonstrates that constitutional asymmetry within a single state is operationally
+      stable in the Gulf region. [Fact — High for institutional structure; value-neutrality
+      explicitly preserved on UAE governance quality]
+  - id: T5.2
+    title: "T5.2 United States Federalism"
+    level: 3
+    content: |
+      US federal architecture allows substantial state-level variation in legal frameworks
+      (religious accommodation, marriage law, alcohol regulation historically, education
+      standards). The first-amendment establishment clause architecture demonstrates that
+      a single polity can maintain political-authority insulation from religious
+      justification at the federal level while permitting religiously-grounded community
+      organization at the local level. Relevant to Cluster 3's requirement for political
+      authority insulated from religious justification. [Fact — High]
+  - id: T5.3
+    title: "T5.3 Belgium and Switzerland"
+    level: 3
+    content: |
+      Belgium's linguistic-community federalism (Flemish, Walloon, German-speaking, Brussels)
+      and Switzerland's cantonal architecture demonstrate that structurally divergent
+      community legitimacy bases can coexist within a single federal state through
+      institutional asymmetry. [Fact — High]
+  - id: T5.4
+    title: "T5.4 The Principle, Not the Templates"
+    level: 3
+    content: |
+      The framework does not propose importing the UAE, US, Belgian, or Swiss models into
+      post-transition Iran. Each is shaped by its own history, demographics, and
+      institutional constraints. The PRINCIPLE these cases collectively prove is that
+      asymmetric institutional architecture handling divergent legitimacy claims is
+      operationally tractable — not theoretical, not aspirational, but documented in
+      operating polities. [Inference — High for principle-level claim; agnostic on specific
+      template choice]
+
+      Iran's post-transition architecture would need to be Iran-specific: drawing on
+      indigenous marjaiya restoration for Cluster 1-2 governance, on territorial autonomy
+      arrangements for Iran's ethnic minorities (cross-reference ITB-E), and on
+      religiously-neutral civil institutions for Cluster 3. The combination is structural
+      design work belonging to a transition itself, not to the framework's pre-transition
+      analytical role. [Per Invariant I-1, factional neutrality: framework maps the
+      institutional options; it does not advocate the specific blend]
+
+- id: T6
+  title: "T6 Restoration Mechanics — Initial Sketch"
+  level: 2
+  content: |
+    Translation from analytical template to operational design is properly the work of a
+    transition itself, not of pre-transition analysis. This section sketches the structural
+    questions that a marjaiya-restoration arm of post-transition governance would have to
+    address, not the answers. The questions are themselves part of the framework's
+    contribution because most current transition discussion does not pose them.
+  subsections:
+  - id: T6.1
+    title: "T6.1 Reactivation of Direct Believer-Marja Funding"
+    level: 3
+    content: |
+      The bonyad architecture that intercepted khums/sahm-e imam flows is institutionally
+      entangled with regime economic capture (cross-reference Obs 030, A9). Restoration of
+      direct funding flows requires either bonyad dissolution or carve-out, plus
+      reactivation of marja-level reception infrastructure (the muqallid-marja channels that
+      have atrophied under regime pressure). [Inference — Med; mechanism identifiable, exact
+      sequencing depends on transition conditions]
+
+      Open question: does restoration preserve some bonyad-equivalent for genuinely
+      charitable functions (orphan support, education endowments, healthcare) while
+      separating it from religious-tax administration? This is a structural design question
+      with no a-priori correct answer.
+  - id: T6.2
+    title: "T6.2 Hawza Independence Restoration"
+    level: 3
+    content: |
+      Qom and Mashhad hawza institutional governance requires de-coupling from regime
+      administrative oversight, faculty restoration (recovery of suppressed scholars,
+      reactivation of independent curricula), and re-establishment of independent funding
+      streams. Najaf provides a working model; the question is whether and how Iranian
+      hawza can be brought back to comparable institutional independence under transition
+      conditions. [Inference — Med]
+  - id: T6.3
+    title: "T6.3 Constitutional Status of Marja Pluralism"
+    level: 3
+    content: |
+      A post-transition constitutional architecture must decide how marjaiya plurality
+      relates to civil political authority. The pre-1979 model was implicit pluralism
+      within an Islamic monarchy; the relevant question post-monarchy and post-velayat is:
+      do maraji have constitutionally protected institutional space (free of state
+      interference) without claiming state authority? This is the structural inverse of
+      velayat-e-faqih: maraji as protected pluralist religious authorities rather than as
+      executive political rulers. [Inference — Med; open design question]
+  - id: T6.4
+    title: "T6.4 Cluster-Specific Operational Implications"
+    level: 3
+    content: |
+      For Cluster 1 (theocratic traditionalists, Obs 062): marjaiya restoration directly
+      addresses the legitimacy requirement that religious authority retain political-moral
+      role. Pre-1979 distributed marjaiya retained moral teaching, ethical guidance, and
+      community leadership without occupying executive office. This is the cluster's
+      requirement met.
+
+      For Cluster 2 (Islamic reformists / quietists): marjaiya restoration is compatible
+      with the cluster's requirement that religious identity coexist with non-clerical
+      political authority. The pre-1979 model is itself the reformist alternative the
+      cluster's intellectual tradition has been arguing for since the 1980s (Khatami-era
+      reform movement, Green Movement intellectual stream).
+
+      For Cluster 3 (secular / anti-clerical / trauma-rooted): marjaiya restoration does
+      NOT meet the cluster's requirement on its own. Cluster 3 requires political authority
+      insulated from religious justification. This is where the asymmetric federalism
+      framework (T5) provides the structural answer: civil-political institutions operate
+      in their own jurisdiction with their own legitimacy basis, while marjaiya institutions
+      operate in religious-community jurisdiction with theirs. The two coexist by
+      jurisdictional separation, not by reconciliation.
+
+      [Inference — Med-High for cluster fit; Inference — Med for jurisdictional separation
+      as resolution mechanism]
+
+- id: T7
+  title: "T7 Failure Modes and Disqualifying Conditions"
+  level: 2
+  content: |
+    Marjaiya restoration is not a guaranteed solution. The framework owes the reader honest
+    accounting of where the template can fail, what conditions disqualify it, and what
+    parallel destruction has occurred during the velayat-e-faqih period that may make
+    restoration harder than it would have been at an earlier transition moment.
+  subsections:
+  - id: T7.1
+    title: "T7.1 Faction Capture of Restored Marjaiya"
+    level: 3
+    content: |
+      The Paydari/MASAF faction has spent four decades building intellectual infrastructure
+      designed to capture senior clerical positions and theological discourse (Obs 059
+      Inversion Laundering; A10 eschatological-faction module). Restoration that simply
+      removes the velayat-e-faqih state-administrative apparatus without addressing
+      Paydari-aligned faction strength could produce a "restored" marjaiya rapidly
+      captured by the same intellectual lineage that operated the previous architecture.
+
+      This is a real risk. The framework's existing analysis of A10 and Obs 059 applies
+      directly: Paydari operational sophistication (Trap 15) means they do not need
+      velayat-e-faqih's administrative scaffolding to operate factionally within a
+      distributed marjaiya. [Inference — High; the risk is structurally identifiable]
+
+      Restoration design must include explicit safeguards against single-faction capture
+      of the supposedly pluralist architecture. This is a design problem, not a structural
+      impossibility, but it is non-trivial.
+  - id: T7.2
+    title: "T7.2 Cluster 3 Veto"
+    level: 3
+    content: |
+      If Cluster 3 (secular, anti-clerical, trauma-rooted) rejects ANY religiously-grounded
+      institutional architecture, including the pluralist marjaiya in its own jurisdiction,
+      the asymmetric federalism framework breaks. Cluster 3's trauma is real (Obs 062), and
+      a substantial fraction may not be willing to tolerate clerical institutions even with
+      explicit civil-political insulation. [Inference — Med-High; the risk is well-grounded]
+
+      Mitigation depends on how the transition handles accountability for past religious-
+      justified state violence. If transition includes clear acknowledgment of harm and
+      institutional responsibility, Cluster 3 may tolerate parallel marjaiya institutions
+      in a different jurisdiction. If transition handles accountability badly, Cluster 3
+      may reject the entire architecture.
+  - id: T7.3
+    title: "T7.3 Generational Window"
+    level: 3
+    content: |
+      Pre-1979 institutional memory is concentrated in a generation now in their 60s, 70s,
+      and 80s. Sistani is over 90. The window for "restoration" rather than "reconstruction
+      from records" is closing naturally. Each year of delayed transition makes the
+      restoration template harder, not easier. [Inference — Med-High; demographic claim]
+  - id: T7.4
+    title: "T7.4 Recovery Cost"
+    level: 3
+    content: |
+      The bonyad infrastructure intercepting religious funding is materially valuable; its
+      dissolution or carve-out has economic costs to the populations currently dependent
+      on it (cross-reference A9.7 Tier 3 patronage periphery). Restoration carries
+      transition costs that fall on the most economically vulnerable populations. This is
+      not a reason to avoid restoration; it is a reason to plan transition architecture
+      with explicit attention to who bears the cost. [Inference — Med]
+
+- id: T8
+  title: "T8 Cross-References"
+  level: 2
+  content: |
+    - **Obs 062 (Three-Cluster Legitimacy Fragmentation):** the foundational analytical object
+      ITB-T addresses. T6.4 maps marjaiya restoration explicitly to each cluster's structural
+      requirement.
+    - **Obs 030 (Manufactured Complicity Trap):** the bonyad infrastructure that intercepted
+      religious funding is the same architecture that creates manufactured complicity. T6.1
+      restoration mechanics intersect with Obs 030 transition implications.
+    - **Obs 057 (Connectivity-Bound Conformity):** Internet Pro creates cluster-stratified
+      pressure that can disrupt the Cluster 1-2 muqallid-marja relationships restoration
+      depends on. Restoration design must address connectivity infrastructure independently.
+    - **Obs 059 (Inversion Laundering):** Paydari faction architecture is the active
+      institutional threat to restored pluralist marjaiya. T7.1 elaborates.
+    - **A8 (Theological Machinery):** velayat-e-faqih doctrinal architecture is what ITB-T
+      identifies as the displacing successor. T3 elaborates.
+    - **A10 (Eschatological Faction):** Paydari/MASAF lineage and its institutional capture
+      strategy. T7.1 applies A10 findings to restoration risk.
+    - **D (Society):** three-cluster framework (Obs 062 is anchored here).
+    - **E (Territory):** ethnic-minority territorial autonomy arrangements that would
+      complement the cluster-based legitimacy architecture; out of scope for this module
+      but interconnected.
+    - **F (International):** comparative federalism cases (T5) draw on F-module material.
+    - **G (Diaspora):** diaspora hawza and scholarly networks (T4.4) intersect G content.
+    - **ISA-CASES:** historical transition cases the framework already documents are
+      external-template cases. ITB-T is the first major indigenous-template module — a
+      structural complement to ISA-CASES, not a replacement.
+
+- id: T9
+  title: "T9 Research Gaps"
+  level: 2
+  content: |
+    Documented as a starting catalog. Each warrants a separate research session or, where
+    appropriate, formal gap-registry entry in `data/gaps.yaml`.
+
+    | Gap | Priority | Rationale |
+    | :--- | :--- | :--- |
+    | Sistani succession trajectory and Najaf hawza post-Sistani | HIGH | Single most important external referent for restoration template; succession is near-term practical question |
+    | Comparative analysis of surviving independent Iranian clerics (institutional, not name-level) | HIGH | Cluster of individuals exists; institutional weight and concentration is unmapped |
+    | Bonyad dissolution/carve-out comparative cases | MEDIUM | Other countries' experience with parallel institutional reform |
+    | Cluster size numerical scoping (cross-ref Obs 062 ambiguity 1) | HIGH | Restoration design depends on relative cluster weights |
+    | Diaspora hawza institutional capacity and willingness | MEDIUM | T4.4 element; capacity assessment for transition role |
+    | Paydari capture-resistance design comparative cases | HIGH | T7.1 risk requires explicit design treatment |
+    | Cluster 3 trauma-informed tolerance thresholds for parallel marjaiya institutions | HIGH | T7.2 mitigation depends on this |
+    | Generational window quantification | MEDIUM | T7.3 demographic claim deserves systematic survey |
+
+- id: T10
+  title: "T10 Status and Forward Path"
+  level: 2
+  content: |
+    ITB-T v1.0 establishes the analytical object. It does not produce a transition design
+    document; that work belongs to a transition itself, not to pre-transition analysis. The
+    module's role is to put the indigenous-restoration template on the table as a serious
+    analytical option, document its institutional history, identify what survived
+    destruction, sketch restoration mechanics, and honestly catalog failure modes.
+
+    Future module versions will likely:
+    - Expand T2 with more institutional detail on pre-1979 governance
+    - Develop T6 restoration mechanics with comparative case study work
+    - Add detailed treatment of T7.1 capture-resistance design
+    - Potentially extend scope to include other indigenous templates (the "narrow" v1.0
+      scope decision preserved this hook): traditional bazaari networks, pre-revolutionary
+      parliamentary practice, regional autonomy traditions. Whether to extend scope or
+      create parallel ITB-T-adjacent modules is a future structural decision.
+
+    This module is a working draft per project Invariant I-10. It is the best-available
+    position on its subject, not a finished product.
+footer: |
+  Module ITB-T v1.0 — first integration of the Indigenous Marjaiya Restoration Thesis as
+  a transition template, drawn from Mar 16 chat (137ac9d2) analytical mapping. Cross-
+  referenced from Obs 062 (Three-Cluster Legitimacy Fragmentation, Session 30). Narrow
+  scope (marjaiya only) preserved per Session 31 owner decision; structural extension hook
+  for broader indigenous templates retained in T10.
+
+  Module-level epistemic posture: most claims are Inference at Med-High confidence,
+  grounded in documented institutional history and well-established theological-political
+  scholarship. The restoration-as-template thesis itself is Inference — Med (logically
+  derived from documented institutional features; no live transition test case). Specific
+  restoration mechanics (T6) are Speculation — Med, appropriate to their pre-transition
+  status.
