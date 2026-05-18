@@ -501,8 +501,11 @@ happens in **Claude Code** sessions. The two coordinate via `CLAUDE_SESSION_LOG.
    any ambiguities.
 2. **Code** reads the log, translates the request into YAML edits, validates, builds,
    and commits. Then appends an Integration Complete entry.
-3. **Code** prunes resolved request/confirmation pairs on subsequent sessions.
-   Git preserves full history.
+3. **Code** runs `python3 scripts/rotate_session_log.py CLAUDE_SESSION_LOG.md`
+   after every integration. The script runs two passes:
+   - **Pass 1** — drops adjacent Chat IR + Code IC pairs (resolved work).
+   - **Pass 2** — trims the oldest entries until at most 10 entries remain.
+   Git preserves full history; the live log stays compact.
 
 ### Rules
 
@@ -579,6 +582,14 @@ specified fields. Fields not listed are left unchanged.
    ```
 
 5. Append an Integration Complete entry to `CLAUDE_SESSION_LOG.md`
+
+6. Rotate the log (always run, even when no pairs were pruned):
+
+   ```bash
+   python3 scripts/rotate_session_log.py CLAUDE_SESSION_LOG.md
+   ```
+
+   The script commits and pushes on its own. Do not push separately.
 
 ### Rules
 
