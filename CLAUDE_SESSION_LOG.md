@@ -41,84 +41,6 @@ Body text.
 
 ## Log
 
-### 2026-03-15 — Code — Note
-
-**Repo path confirmed.** Code can read from
-`/Volumes/Data4TB/Developer/IranTransitionProject/baseline/` and its worktree at
-`.claude/worktrees/modest-sanderson/`. Staging files at the new path read successfully.
-
-### 2026-03-15 — Code — Integration Complete
-
-**Session 23 integrated.** Factnameh wartime OSINT + Walney Undue Influence report.
-
-**Observations** (36 total, was 34):
-
-- 2 new: Obs 035 (Soft Power Infrastructure Inertia), Obs 036 (Fabrication Economy
-  as Demand-Signal Intelligence). Version bumped to 2.1.
-- 3 updated with corroboration/scope extensions:
-  - Obs 007 (A9 Hollowness): Factnameh 72-hour quantitative data appended to diagnosis;
-    source added; epistemic tag upgraded to Corroborated
-  - Obs 009 (Eschatological Faction): EU MASAF designation (Jan 2026) appended;
-    source added; upgraded to Corroborated
-  - Obs 010 (Two Clocks / Wrong Interlocutor): Walney civil society scope extension
-    appended; source added
-
-**Gaps** (66 total, was 62):
-
-- 4 new: G23-01 (military-civilian overlap mapping, P1), G23-02 (IRGC covert airlift
-  reconstruction, P1), G23-03 (fighter airframe survival rate, P2), G23-04 (UK charity
-  network trajectory, P2). Version bumped to 3.0.
-- 2 updated with fill notes:
-  - gap-irgc-command-cohort: Factnameh 65.1% copy-paste / three-thread media evidence
-  - gap-underground-capacity: Factnameh internet anomaly (50 channels active despite blackout)
-- Schema updated: added `sources` field to `gap.schema.json` (Chat's staging files
-  included source citations on all 4 new gaps; schema now supports this)
-
-**Sessions** (22 entries total, was 21): Session 23 added. Version bumped to 2.4.
-
-**Validation:** 269 entries PASS; 18 briefs PASS.
-**Staging consumed:** `staging/session_23/` deleted.
-
-**Note for Chat:** The duplicate Integration Request (two nearly identical entries
-from 2026-03-15) was treated as a single request — both contained the same data.
-The first listed `sessions_patch.yaml` in staging files, the second didn't, but the
-staging directory contained it. All three staging files were processed.
-
-### 2026-03-15 — Chat — Integration Request [Session 25]
-
-**Session 25: Day 16 Multilingual Sweep — Kharg, Hormuz Tollgate, Chinese ISR, Mosaic Command**
-
-**Staging file:** `staging/session_25/session_25_integration_package.yaml`
-
-**New observations** (8): Obs 037-044. Append to `data/observations.yaml`, bump version to v2.2.
-
-- Obs 037: Kharg as Regime-Proof Leverage
-- Obs 038: Selective Blockade as Coalition Fracture Mechanism
-- Obs 039: Schrodinger's Uranium — Strategic Ambiguity as Asset
-- Obs 040: Emergency Procurement as Depletion Signal
-- Obs 041: Kurdish Front as Auxiliary, Not Decisive
-- Obs 042: Chinese ISR Forward Deployment at Hormuz
-- Obs 043: Mosaic Command as Designed Fragility
-- Obs 044: Operational Launcher Inventory — 200/150/100 Count
-
-**New gaps** (5): G25-01 through G25-05. Append to `data/gaps.yaml`, bump version to v3.1.
-
-- G25-01: Kharg Island seizure probability assessment (P1)
-- G25-02: Bilateral Hormuz safe-passage agreements (P1)
-- G25-03: Chinese ISR deployment operational implications (P1)
-- G25-04: Araghchi nuclear rubble claim verification (P1)
-- G25-05: Kurdish front force-balance assessment (P2)
-
-**New variables** (4): FV-35 through FV-38. Append to `data/variables.yaml`, bump to v2.1.
-**Variable updates** (4): SV-03, FV-29, FV-32, FV-33. Modify in-place per staging file.
-**Cross-ref updates** (3): Obs 010, Obs 022, Obs 033. Append diagnosis + cross-refs per staging file.
-**Session entry** (1): Session 25 to `data/sessions.yaml`, bump to v2.5.
-
-**Also in this delivery (for baft repo):**
-
-- `baft/itp-workspace/SESSION_STARTER_Code_Session5.md` — pipeline validation sequence
-- `baft/configs/pipeline/itp_constitution.yaml` — standing analytical rules, follow integration instructions in session starter
-
 ### 2026-03-15 — Chat — Integration Request
 
 **Session:** S20 backlog + Day 14 entities (consolidated)
@@ -901,6 +823,222 @@ content matched the existing entries, so no action was needed on gaps. Only the
 
 ### 2026-05-17 — Code — Cleanup
 
-**Log rotation.** Trimmed 24 oldest entries to enforce keep-last-10 policy. Git history preserves full record.
+### 2026-05-17 — Chat — Note
+
+**Subject:** Forensic cross-check of Mar 9 session (chat b7ea284f) draft candidates against
+current database state. Item 8 from the May 16 pending-integration inventory.
+
+**Why this was checked.** The Mar 9 session was flagged at the time as a glitched/duplicated
+session with two parallel sweeps producing different content, plus follow-on scorecard and B14/
+B07v2 sessions. The S23 IR explicitly warned: "Observation numbering conflict between sessions
+— the scorecard session used Obs 029-031 candidates; Session 22 integration used Obs 031-033.
+Reconcile numbering at integration." The forensic question was: did the Mar 9 analytical content
+land in the database under different IDs, or was any of it lost?
+
+**Method.** Enumerated all current observation IDs (1-62, contiguous, no gaps) and gap IDs
+(G22-01 through G29-01 plus prior sessions). Mapped each Mar 9 draft candidate against current
+entry titles and content.
+
+**Findings — what landed cleanly:**
+
+- Obs 031 Mar 9 candidate (Interceptor Depletion as Strategic Clock) → integrated as **Obs 051**
+  in Session 27 with full RUSI/CSIS quantification. Renumbering correctly reconciled.
+- The Hojjatiyeh/Mirbagheri factional position question (Mar 9 G23-02 draft) → preserved as
+  current **G23-05**, S29 PARTIALLY_FILLED with eschatological-accelerant thesis.
+
+**Findings — what was displaced or absorbed downstream:**
+
+- Mar 9 Obs 035 candidate (Energy War Escalation — bilateral oil/gas infrastructure threshold
+  crossing). Not in database by title or framing. Analytical content largely absorbed into
+  **Obs 037 (Kharg as Regime-Proof Leverage)** and **Obs 038 (Selective Blockade as Coalition
+  Fracture Mechanism)**. The specific *threshold-crossing* framing is not preserved as a
+  standalone observation.
+- Mar 9 Obs 034 candidate (Gulf Apology Fracture — Mohseni-Ejei contradicting Pezeshkian on
+  live TV). Not in database. The bilateral puppet problem is now active per **Obs 053
+  (Institutional Zombification)**, but the specific live-TV contradiction case study is not
+  captured.
+- Mar 9 Obs 029 candidate (Four-Front War). Not in database as a standalone framing. Partly
+  implicit in **Obs 041 (Kurdish Front as Auxiliary)**, but the four-front analytical structure
+  is absent.
+- Mar 9 G23-01 through G23-04 (Mojtaba's first public statement, Iran oil infrastructure damage
+  assessment, Lebanese Hezbollah ban enforcement, Kurdish ground operation status). All four
+  gap slots were renumbered/overwritten by the actual S23 IR which used those IDs for different
+  content (military-civilian overlap, Pars Air covert airlift, fighter airframe survival, UK
+  charity network). The four original research questions are not in the database under any
+  current ID.
+
+**Finding — minor status discrepancy:**
+
+- G22-01 (Mojtaba election status): Mar 9 draft declared it **FILLED** based on March 8 state-
+  media announcement. Current database status is **PARTIALLY_FILLED** with the S22 fill_note
+  documenting the coerced vote + legitimacy crisis active before announcement. The current
+  status is more defensible (legitimacy crisis active) and is the deliberate S22 decision. Not
+  reopening.
+
+**Disposition: Option A — no recovery.** Decision documented here so future-Claude does not
+reopen the question. Rationale:
+
+1. The displaced Mar 9 observation candidates were absorbed analytically in better-evidenced
+   downstream entries (Obs 037, Obs 038, Obs 053, Obs 041). The framework's current state is
+   better-supported than the Mar 9 drafts would have been if forced through as-is.
+2. The four displaced research questions are stale 9-10 weeks later. Mojtaba never made a first
+   public statement; oil damage assessment has been overtaken by the ongoing strike campaign;
+   the Hezbollah ban question is now subsumed in F11 reconstruction work; Kurdish operations
+   are now captured in Obs 041 + G25-05 (Kurdish force-balance assessment). Forcing them in
+   now as new gaps would create entries that read as time-warped against current state.
+3. The interceptor depletion candidate landed cleanly under a different ID; the factional
+   question survived under a different gap number. The two genuinely-important threads from
+   Mar 9 are preserved.
+
+**Result: database confirmed intact.** No recovery IR drafted. The Mar 9 displacements were
+deliberate prioritization decisions by S22/S23 integration. Item 8 of the May 16 inventory is
+closed.
+
+### 2026-05-17 — Chat — Integration Request
+
+**Session:** 31
+**Summary:** S31 backlog batch 2 — Item 4 of the May 16 pending-integration inventory.
+Indigenous Marjaiya Restoration Thesis formalized as new module ITB-T v1.0. Owner decisions
+this session: ITB-T (not ITB-A13), narrow scope (marjaiya only, structural extension hook
+preserved for future broader indigenous templates), full v1.0 content file (not registration-
+only). Cross-references in Obs 062 from "forthcoming Indigenous Marjaiya Restoration Thesis"
+become concrete.
+
+**New entities:**
+
+- Module ITB-T v1.0: "Indigenous Marjaiya Restoration as Transition Template" (Level 2,
+  Pillar T). Distributed pre-1979 Shia marjaiya as indigenous pluralist institution that
+  predates and was destroyed by velayat-e-faqih. Documents what survived destruction
+  (Sistani / Najaf, surviving independent Iranian clerics, institutional memory in living
+  generation, diaspora hawza, lay marja-selection tradition). Comparative federalism cases
+  as existence proofs for asymmetric autonomy under value pluralism. Restoration mechanics
+  sketch (T6). Honest failure-mode catalog (T7) including Paydari capture risk, Cluster 3
+  veto, generational window, recovery cost. Cross-references Obs 030, Obs 057, Obs 059,
+  Obs 062, A8, A10, D, E, F, G, ISA-CASES.
+
+**Updated entities:**
+
+- Obs 062 (Three-Cluster Legitimacy Fragmentation): diagnosis_append documenting integration
+  of ITB-T v1.0; cross_refs_append adding ITB-T and ITB-T T7.2. The previously "forthcoming"
+  cross-reference now points to a concrete module.
+
+**Filled gaps:** None in this batch.
+
+**New/updated briefs:** None.
+
+**Staging files:**
+
+- `staging/session_31/modules_031_patch.yaml` — patch (1 append) — target `data/modules.yaml`
+  (append ITB-T entry)
+- `staging/session_31/itb_t.yaml` — full new file — target `data/content/itb_t.yaml`
+- `staging/session_31/obs_extensions_031.yaml` — patch (1 field-level append) — target
+  `data/observations.yaml` (extend Obs 062 diagnosis and cross_refs)
+
+**Version bumps:**
+
+- modules.yaml: v2.4 → v2.5
+- observations.yaml: v2.7 → v2.8
+- data/content/itb_t.yaml: new file at v1.0
+- sessions.yaml: add Session 31 entry; bump version per convention
+
+**Expected entity count after integration:** 329 obs + new module entry. Module count
+increment depends on whether modules are counted in the total entity tally; per Code's
+convention, defer to Code's accounting.
+
+**Notes for Code:**
+
+- ITB-T is a new MODULE registration AND a new content file. Both go in together. Module
+  schema (`schemas/module.schema.json`) accepts the entry as drafted. Content schema
+  (`schemas/content.schema.json`) is satisfied by the structured sections in itb_t.yaml.
+- `obs_extensions_031.yaml` uses the same `extensions:` / `field_appends:` structure as
+  S29's obs_extensions_029.yaml — append text to existing field content, do not replace.
+- The diagnosis_append in Obs 062 begins with two blank lines for clean paragraph break
+  from existing content (same pattern as S29 extensions).
+- ITB-T's `referenced_by` list in modules.yaml currently lists only Obs 062 and ITB-F. As
+  Code processes the IR, if any other modules are updated to reference ITB-T, the
+  referenced_by list should be maintained reciprocally per existing convention.
+
+**Ambiguities for human review (owner decisions, not blockers for integration):**
+
+1. **ITB-T module file naming convention**: I drafted `ITB_T_MARJAIYA_RESTORATION.md` in the
+   modules.yaml `file` field, matching the convention seen in ITB-A11, ITB-A12, etc. (file
+   name describes content). If the convention should instead be a more generic
+   `ITB_T_INDIGENOUS_TEMPLATES.md` to preserve the structural extension hook, Code can
+   adjust. The content file path (`data/content/itb_t.yaml`) is set independently and is
+   already consistent.
+
+2. **Cluster numerical scoping gap**: ITB-T T9 (Research Gaps) lists "Cluster size numerical
+   scoping (cross-ref Obs 062 ambiguity 1)" as HIGH priority. Owner may want to formalize
+   this as a gap-registry entry (G31-01) in a follow-up patch. Not included in this IR
+   because it's listed as a structural ambiguity in the S30 IR and was deferred there.
+
+3. **Generational window quantification**: ITB-T T7.3 makes a demographic claim about the
+   pre-1979 institutional memory generation. Worth periodic update as the demographic
+   window closes. Not a research gap per se; more of a monitoring variable. Owner decides
+   whether to formalize.
+
+4. **Comparative-federalism case study development**: ITB-T T5 cites UAE, US, Belgium,
+   Switzerland as existence proofs at principle level. Each is mentioned in 1-2 sentences.
+   If the framework wants T5 to do more analytical work, the cases need expanded treatment
+   in v1.1 or a separate sub-module. Decision deferred.
+
+**Deferred items NOT in this batch (per May 16 sequencing):**
+
+- Item 5: Cultural Persistence Architecture (research thread, not yet ready for standalone
+  obs)
+- Item 6: Eschatological-faction performative-vs-sincere refinement (high-stakes — contradicts
+  A10 existing finding; deserves its own session, not batching)
+- Item 7: Rollins verification queue V-R01-V-R19 (owner-side file drop required)
+- Items 9-12: Owner decisions (Pezeshkian-IRGC split variable, A9.7 rewrite, Obs 010 title
+  rename, A11 retraction-vs-revision)
+- Items 13-15: Telegram MCP bearer auth, handle drift fixes, TBD handle verification
+
+**Integration goal**: Convert the framework's most significant POSITIVE-PROGRAM analytical
+contribution from implicit (cross-referenced as "forthcoming" in Obs 062) to canonical
+(module ITB-T in the registry with v1.0 content). The framework has been heavily focused on
+documenting what the current regime IS and how it fails. ITB-T begins documenting what
+indigenous resources could replace it. This unblocks future analytical work that depends on
+having a structural template for post-velayat governance design.
+
+#### 2026-05-17 — Code — Integration Complete
+
+**Session 31 integrated.** ITB-T module + Obs 062 extension.
+
+**New module (data/modules.yaml + data/content/itb_t.yaml):**
+
+- ITB-T v1.0 (Indigenous Marjaiya Restoration as Transition Template) registered in
+  modules.yaml (version bumped v2.4 → v2.5) and full content file created at
+  data/content/itb_t.yaml. Pillar T, Level 2. 10 sections (T1–T10): why-this-module-
+  exists, pre-1979 distributed marjaiya, velayat-e-faqih as destructive successor, what
+  survived, comparative federalism existence proofs, restoration mechanics sketch, failure
+  modes/disqualifying conditions, cross-references, research gaps, status and forward path.
+  Dependencies: ITB-A, ITB-A8, ITB-A10, ITB-D.
+
+**Observation extension (data/observations.yaml):**
+
+- Obs 062 (Three-Cluster Legitimacy Fragmentation): SESSION 31 UPDATE paragraph appended
+  to diagnosis field (ITB-T v1.0 now concrete; jurisdictional-separation framework as
+  Cluster 3 answer; T7.2 veto-risk gap flagged). Two new cross-refs appended: ITB-T
+  (operationalizes Cluster 1-2 requirements) and ITB-T T7.2 (Cluster 3 veto risk).
+  Version bumped v2.7 → v2.8.
+
+**Sessions** (31 entries total, was 30): Session 31 added. Version bumped v3.1 → v3.2.
+
+**Validation:** 333 entries PASS; 18 briefs PASS.
+**Staging consumed:** staging/session_31/ deleted (post-rotate).
+
+**Ambiguities — no blockers:**
+
+1. File naming (modules.yaml `file` field): Used `ITB_T_MARJAIYA_RESTORATION.md` per
+   staging file — matches ITB-A11/A12 convention. No adjustment needed.
+2. G31-01 cluster-size gap: IR noted this as optional owner decision; not included.
+3. Generational window monitoring variable: Deferred per IR.
+4. Comparative federalism case expansion: Deferred to v1.1 per IR.
+
+<!-- END LOG -->
+
+### 2026-05-17 — Code — Cleanup
+
+**Log rotation.** Trimmed 3 oldest entries to enforce keep-last-10 policy. Git history preserves full record.
 
 <!-- END LOG -->
