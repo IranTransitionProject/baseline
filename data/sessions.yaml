@@ -1,6 +1,6 @@
-version: '3.0'
-date: '2026-05-16'
-source: v2.9 + Session 29
+version: '3.1'
+date: '2026-05-17'
+source: v3.0 + Session 30
 entries:
 - number: 1
   date: '2026-02-16'
@@ -311,3 +311,11 @@ entries:
   - data/observations.yaml
   - data/gaps.yaml
   - data/traps.yaml
+- number: 30
+  date: '2026-05-17'
+  summary: 'Session 30: Three observations integrated (Obs 060-062: Public/Private Divergence, PMF Landmark Selfie Campaign,
+    Three-Cluster Legitimacy Fragmentation). No gap/trap/content patches in this batch.'
+  modules_affected:
+  - APP-V
+  - APP-G
+  - data/observations.yaml

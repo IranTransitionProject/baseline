@@ -1,6 +1,6 @@
-version: '2.6'
-date: '2026-05-16'
-source: v2.5 + Session 29 (S29 backlog — Obs 055-059, extensions to Obs 010/028/034)
+version: '2.7'
+date: '2026-05-17'
+source: 'v2.6 + Session 30 (Obs 060-062: Public/Private Divergence, PMF Selfie Campaign, Three-Cluster Legitimacy)'
 section_title: Analytic Annotations (The 'So-What' Log)
 entries:
 - id: 1
@@ -1997,3 +1997,240 @@ entries:
     is'' formulations — witness channel, requires corroboration from independent diaspora sources before [Fact] upgrade'
   version_added: v2.6
   session_added: 29
+
+- id: 60
+  title: "Public/Private Divergence — Live A8.8 Validation from Zarif Foreign Affairs Op-Ed Versus Same-Day Leaked Private Message"
+  diagnosis: >-
+    Mohammad Javad Zarif's April 6 2026 Foreign Affairs op-ed presents the canonical pragmatist
+    posture: Iran's "most effective component of successful defense has been its resilient people,"
+    a call for measured diplomacy, an articulation of regime interests in language calibrated for
+    Western policy audiences. The SAME DAY, journalist Parpanchi (Iranian diaspora) published a
+    leaked private message from Zarif to insider contacts. The private message contains: (1)
+    explicit call to strike US naval vessels; (2) targeting guidance — "the UAE means Israel" —
+    identifying selective regional escalation targets; (3) mystical/eschatological framing —
+    "quantum effects of divine help," repeated recitation of the call to prayer, citation of a
+    Chinese prognosticator; (4) acknowledgment that "my [pre-war diplomatic] proposal was not even
+    reviewed" and that he has received no calls from Foreign Ministry colleagues since the war
+    began; (5) point 9: "avoid actions that anger any segment of the people" — Zarif understands
+    the regime's population threat, while the regime imports PMF fighters to terrorize that same
+    population (see Obs 061). Hardliner arrest calls against Zarif emerged within hours of the
+    Foreign Affairs publication, confirming Brief #9 Prediction 4 (spoiler activation at Phase 3→4
+    transition). The structural finding: this is A8.8 taqiyyah operating at the individual level
+    by the most prominent "pragmatist" in the system, demonstrated through documented practice
+    rather than analytical inference. Read the Foreign Affairs piece alone and Zarif is a
+    reasonable Western negotiating partner. Read both texts together and Zarif is operating
+    inside the same A12 coercive-endurance logic the framework documents — escalate to create
+    conditions for negotiation — while the public-facing text conceals the escalation half. The
+    coexistence of points 1 ("strike American naval vessels") and 4 ("provide Trump an honorable
+    exit") in the private message is not incoherent — it is A12 expressed by an insider in
+    insider register.
+  strategic_implication: >-
+    Four implications. (1) A8.8 (taqiyyah) is upgraded from analytical inference to documented
+    individual-level practice with same-day, same-author, divergent-audience textual evidence.
+    This is the strongest single corroboration the framework has accumulated. Future negotiating
+    counterparts must assume the private and public postures of even the most "pragmatist"
+    interlocutors diverge — the divergence is not exceptional, it is structural. (2) Obs 010
+    (Wrong Interlocutor) is reinforced and clarified: even the right interlocutor (factionally
+    sophisticated, institutionally adjacent, theologically literate) operates inside a public/
+    private divergence that the public-facing channel cannot resolve. The wrong-interlocutor
+    problem is not only "the person you're talking to does not hold the veto" — it is also "the
+    person you're talking to operates a divergence architecture you cannot inspect." (3) Brief
+    #9 Prediction 4 (hardliner spoiler activation at Phase 3→4 transition) is confirmed within
+    hours. This is a hard test passed; the prediction's mechanism is now documented in the wild.
+    (4) Same-day counter-leak is itself a data point: someone in the insider circle leaked the
+    private message deliberately to undercut Zarif's public positioning. Either a spoiler
+    operation (Paydari faction undermining a pragmatist who got too close to a deal narrative)
+    or a rival pragmatist faction exposing him. Either way, the timing is not accidental and
+    confirms factional contestation at the very moment of public-track diplomacy.
+  itb_anchors:
+  - A8.8 (taqiyyah — individual-level operational confirmation)
+  - A6 (political institutions — institutional isolation of pragmatist track)
+  - F (international — negotiation verification problem)
+  cross_refs:
+  - Obs 006 (Taqiyyah Analytical Trap — upgraded with documented individual case)
+  - Obs 010 (Wrong Interlocutor — clarified)
+  - Obs 049 (no interlocutor — institutional isolation confirmed; Zarif acknowledges "proposal not reviewed")
+  - Obs 059 (Inversion Laundering — adjacent architecture; this is the outward-facing companion)
+  - Brief #9 Prediction 4 (spoiler activation — confirmed within hours)
+  leading_indicators:
+  - Future cases of same-actor public/private text divergence with same-day documentation
+  - Hardliner arrest calls or media campaigns against pragmatist-track figures at Phase transition moments
+  - Evidence of organized counter-leak operations timed to public-track diplomacy
+  - Persian-internal (vs. foreign-audience) coverage of Zarif's standing post-leak
+  sources:
+  - Foreign Affairs op-ed by M.J. Zarif, April 6 2026
+  - Parpanchi leaked private message, published April 6 2026 (same day)
+  - Hardliner arrest calls within hours (Persian-language regime/Paydari channels)
+  - Chat session 03ce4fae (Apr 6 2026) — full analytical extraction
+  confidence: "Fact — High for textual existence and same-day publication of both pieces (verifiable
+    primary sources); Fact — High for hardliner arrest calls within hours (multi-source); Inference
+    — High for A8.8 individual-level operational confirmation (strongest available evidence type:
+    same author, same day, divergent audiences, divergent posture); Inference — Med-High for
+    deliberate counter-leak interpretation (alternatives — incidental leak, unauthorized
+    disclosure — possible but timing makes them less parsimonious)"
+  version_added: v2.7
+  session_added: 30
+
+- id: 61
+  title: "PMF Landmark Selfie Campaign as Domestic Deterrence Operation — Regime Revealed Preference on Population Threat Model"
+  diagnosis: >-
+    From January 2026 onward, Iraqi PMF (Hashd al-Shaabi) fighters — eyewitness-reported as
+    "spoke Arabic and took selfies with the bodies" in Karaj in January, CNN-confirmed at ~5,000
+    crossing into Iran by mid-January, with documented deployment in Khuzestan by early April —
+    have conducted a deliberate social media selfie campaign from recognizable civilian landmarks
+    across Iranian cities. The framework reads this not as sloppy OPSEC and not as conventional
+    military deployment signaling but as a domestic deterrence operation: the broadcasting is the
+    product. The selfies are not from military installations, border positions, or contested
+    perimeter; they are from civilian landmarks in cities where protests erupted in January. The
+    message is not "we are defending Iran." The message is "we are watching you." This identifies
+    the regime's revealed-preference threat model: the IRANIAN POPULATION is a greater existential
+    threat to the regime than American bombers or Israeli strikes. The regime is willing to import
+    foreign Arabic-speaking paramilitaries — at the cost of legitimacy with its own population
+    and at the cost of contradicting its own publicly stated "resilient people" frame — to deter
+    domestic uprising. This is A12 (coercive-endurance) turned inward: the same "absorb your
+    strikes and hit back harder" escalation-as-communication logic the regime uses externally is
+    now deployed against its own population, with foreign personnel as the demonstrative instrument
+    precisely because their foreignness makes the deterrence threat unambiguous (Iranian conscripts
+    might hesitate; Arabic-speaking PMF will not). The campaign also poisons the parallel
+    pragmatist narrative (Obs 060): Zarif's April 6 Foreign Affairs piece called the population
+    Iran's "most effective component of successful defense" — the regime's simultaneous PMF import
+    and selfie campaign make both claims structurally incompatible. The selfie campaign is the
+    regime's revealed preference.
+  strategic_implication: >-
+    Four implications. (1) The framework's A9 hollowness thesis is now extended into a corollary:
+    not only is the parallel society demographically narrower than the regime's rhetoric admits
+    (Obs 030), the regime itself revealed-prefers foreign paramilitaries over its own population
+    in the most stressed moment. The regime does not trust its own people at all; this is now
+    documented behavioral evidence, not analytical inference. (2) The Three-Cluster Legitimacy
+    Fragmentation finding (Obs 062) is corroborated: the regime would not need to import foreign
+    deterrence personnel if Cluster 1 (theocratic traditionalists, the regime's actual base) were
+    sufficient to control Clusters 2 and 3. The fact that import was deemed necessary is itself
+    evidence that the regime models its own base as insufficient. (3) Any post-war architecture
+    that leaves the PMF/Fatemiyoun/Zeinabiyoun deployment infrastructure intact preserves the
+    regime's domestic deterrence capacity even under nominal transition conditions. De-Ba'athification
+    -style frameworks that address state institutions but leave foreign-paramilitary deployment
+    chains intact will fail the actual security problem. (4) The PMF selfie pattern is a leading
+    indicator of regime confidence in its own coercive capacity vis-à-vis the population: when
+    selfie volume increases, regime confidence is decreasing. Track the inverse correlation as
+    operational signal.
+  itb_anchors:
+  - A9 (parallel society — hollowness corollary)
+  - A12 (coercive-endurance — inward expression)
+  - B (security architecture — foreign-paramilitary deployment chain)
+  - D (society — population threat to regime)
+  cross_refs:
+  - Obs 030 (Manufactured Complicity — population narrower than regime rhetoric)
+  - Obs 060 (Public/Private Divergence — Zarif "resilient people" framing contradicted by regime action)
+  - Obs 062 (Three-Cluster Legitimacy Fragmentation — corroboration)
+  - A9.7 (parallel society population estimates — wartime extension)
+  - F11 (Hezbollah/PMF/proxy network — operational repurposing inside Iran)
+  leading_indicators:
+  - Frequency and geographic distribution of PMF/Fatemiyoun/Zeinabiyoun selfie content from civilian landmarks
+  - Cross-correlation between selfie posting volume and protest emergence in the same cities
+  - Regime-internal communications surfacing the population-threat assessment explicitly
+  - Defections from PMF deployment chain providing first-hand testimony of deterrence-mission framing
+  - Whether the campaign continues, intensifies, or ceases under different war-phase conditions
+  sources:
+  - January 2026 Karaj eyewitness reports ("Arabic-speaking forces, selfies with bodies")
+  - CNN mid-January 2026 reporting on ~5,000 Iraqi militia fighters crossing into Iran
+  - April 2026 Khuzestan deployment documentation
+  - Apr 6 chat (03ce4fae) — Ahvaz street confrontation footage (Grok-attested, mainstream-unconfirmed at the time)
+  - Tehran ground-truth report (Farsi, translated in chat 03ce4fae) — residents describing "savage hashd"
+  confidence: "Fact — High for PMF presence inside Iran (multiple independent sources including CNN,
+    eyewitness accounts, Tehran ground-truth report); Fact — Med-High for selfie campaign existence
+    (multiple instances documented, geographically distributed); Inference — Med-High for
+    'domestic deterrence operation' characterization (most parsimonious reading given target
+    selection: civilian landmarks, not military positions); Inference — Med-High for 'regime
+    revealed-prefers foreign paramilitaries over own population' (logically derived from the
+    deployment + selfie-target pattern); Inference — Med for the precise A12-inward mechanism
+    (consistent with framework architecture but a step removed from direct evidence)"
+  version_added: v2.7
+  session_added: 30
+
+- id: 62
+  title: "Three-Cluster Legitimacy Fragmentation — Iranian Population Analytical Model for Post-Transition Governance Design"
+  diagnosis: >-
+    The Iranian population cannot be modeled as a single demographic for legitimacy or governance
+    purposes. The framework identifies three structurally distinct clusters, each with different
+    relationships to religious authority, the regime, and the question of any post-transition
+    political settlement. CLUSTER 1 — THEOCRATIC TRADITIONALISTS: population whose political
+    legitimacy is grounded in religious authority of the velayat-e-faqih variety or in adjacent
+    traditional Shia jurisprudential frameworks that accept clerical political role. This is the
+    regime's actual base. Numerically smaller than the regime's rhetoric admits (corroborated by
+    Obs 030, A9.7, and the revealed-preference behavior in Obs 061). CLUSTER 2 — ISLAMIC
+    REFORMISTS AND QUIETISTS: population that holds Islamic religious identity but rejects either
+    the political role of clerics (quietist tradition; original Hojjatiyeh predates the regime
+    here, see Obs 059 lineage) or rejects the maximalist velayat-e-faqih in favor of reformist
+    Islamic governance models. This cluster's relationship to the regime is conditional, contested,
+    and historically the source of internal reformist movements (Khatami era, Green Movement,
+    pre-war pragmatist track). CLUSTER 3 — SECULAR AND ANTI-CLERICAL: population whose rejection
+    of regime legitimacy is not merely political but is trauma-rooted in 45 years of religiously
+    justified state violence. This cluster's hostility to political religion is not generic
+    secularism imported from elsewhere; it is a specific reactive formation against the lived
+    experience of the Islamic Republic. Any post-transition governance framework that does not
+    distinguish among these three clusters will fail because their requirements are structurally
+    incompatible at a single uniform level: Cluster 1 requires religious authority retain
+    political role; Cluster 2 requires that religious identity coexist with non-clerical political
+    authority; Cluster 3 requires that political authority be insulated from religious justification
+    entirely. Asymmetric federalism (UAE federation, US federalism, comparable cases) is the
+    existence proof that asymmetric autonomy can manage value pluralism among populations with
+    structurally different demands — not as a perfect solution but as an existence proof that the
+    problem is tractable. The traditional distributed Shia marjaiya system (pre-velayat-e-faqih)
+    provides an indigenous pluralist template that predates and was destroyed by the current
+    regime architecture — relevant for Cluster 1-2 questions specifically (see ITB-T candidate /
+    Indigenous Marjaiya Restoration Thesis, separate forthcoming).
+  strategic_implication: >-
+    Five implications for transition planning and analysis. (1) Single-formula transition models
+    (Pinochet-style alignment switch, generic democratization templates, "remove the regime and
+    elections will follow") are structurally inadequate; they treat Iran as a single demographic
+    with a single legitimacy problem when in fact the legitimacy problem has three different
+    structures simultaneously. (2) Numerical estimates of cluster sizes are decision-relevant but
+    currently a research gap — the framework should not commit to numbers without grounded
+    survey/polling data; what the framework CAN commit to is the structural distinction. (3)
+    Cluster 3 cannot be modeled as ideologically secular in the Western sense; its hostility is
+    trauma-rooted and operates with a different epistemology than political-philosophy secularism.
+    Treating Cluster 3 as "Iranian liberals" reproduces an analytical error parallel to treating
+    Paydari as "religious traditionalists" — accurate at surface, structurally misleading. (4)
+    The PMF/Fatemiyoun import (Obs 061) is the regime's revealed-preference admission that
+    Cluster 1 cannot deter Clusters 2 and 3 without imported coercion — direct corroboration of
+    the cluster model. (5) Post-transition governance design as a RESTORATION problem (indigenous
+    marjaiya template, asymmetric-federal precedent) rather than a DESIGN problem (external
+    framework imposition) is a major positive-program contribution. Cluster 1 grievances cannot
+    be dismissed; Cluster 3 grievances cannot be subordinated to Cluster 1 sensibilities;
+    Cluster 2 is the institutional bridge between them. This finding is the foundational analytical
+    object for the Indigenous Marjaiya Restoration thesis (forthcoming, possibly ITB-T module
+    candidate).
+  itb_anchors:
+  - A6 (political institutions — three-cluster legitimacy basis)
+  - A9.7 (parallel society population estimates — cluster-stratified rework needed)
+  - A10 (eschatological — Cluster 1 internal stratification)
+  - D (society — primary anchor module)
+  - F (international — comparative federalism reference cases)
+  cross_refs:
+  - Obs 030 (Manufactured Complicity — population narrower than regime rhetoric, cluster 1 numerical scoping)
+  - Obs 061 (PMF Selfie Campaign — regime revealed-preference corroboration of cluster distinction)
+  - Obs 057 (Connectivity-Bound Conformity — Internet Pro applies cluster-stratified pressure)
+  - Indigenous Marjaiya Restoration Thesis (forthcoming — Cluster 1-2 governance template)
+  - Brief #5 / Brief #14 (theory of victory — single-formula models inadequate per this finding)
+  leading_indicators:
+  - Survey/polling data permitting numerical cluster scoping (research gap)
+  - Comparative-federalism case studies' relevance to Iranian-specific cluster structure
+  - Cluster 2 institutional development (reformist clerical voices, post-war marjaiya activity)
+  - Cluster 3 internal differentiation (diaspora-led vs. domestic; trauma-rooted vs. ideological)
+  - Whether post-war political space allows cluster-distinct expression or collapses into binary regime/anti-regime framing
+  sources:
+  - Mar 16 chat (137ac9d2) — primary analytical mapping of three-cluster model
+  - Khomeini-era and post-1979 religious-secular conflict history
+  - Khatami / Green Movement / reformist track institutional history
+  - Comparative federalism cases (UAE, US, Belgium, Switzerland) as existence proofs for asymmetric autonomy
+  - Traditional Shia marjaiya pre-1979 institutional record
+  confidence: "Inference — High for the structural three-cluster distinction (consistent with 45+
+    years of Iranian political history, internal-reformist movements, post-1979 secular emergence,
+    trauma-rooted character of Cluster 3 hostility); Inference — Med-High for the structural
+    incompatibility of cluster requirements at uniform-policy level (logical derivation from
+    cluster definitions); Speculation — Med for cluster numerical sizes (research gap, no
+    survey/polling baseline available); Inference — Med-High for the strategic implications
+    around transition design adequacy (logically derived but requires comparative-federalism
+    case study work to operationalize)"
+  version_added: v2.7
+  session_added: 30

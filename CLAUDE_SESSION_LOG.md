@@ -1493,4 +1493,110 @@ content matched the existing entries, so no action was needed on gaps. Only the
 
 **Log rotation.** Pruned 4 resolved pair(s) (Chat Integration Request + Code Integration Complete). Git history preserves full record.
 
+### 2026-05-17 — Chat — Integration Request
+
+**Session:** 30
+**Summary:** S30 backlog batch 1 — 3 new observations from the May 16 pending-integration inventory.
+Lowest-controversy candidates with substantial drafting already present in source chat sessions.
+None requires new analytical content; all three are formalization of work the framework has been
+operating with implicitly. Items 1-3 of the inventory; items 4-15 deferred to subsequent batches
+per their separate-session profiles (item 6 A10 finding revision is high-stakes; item 7 Rollins
+verification queue requires owner-side file drop from May 10 chat output).
+
+**New entities:**
+
+- Obs 060: Public/Private Divergence — Live A8.8 Validation from Zarif Foreign Affairs Op-Ed
+  Versus Same-Day Leaked Private Message (Apr 6 chat 03ce4fae)
+- Obs 061: PMF Landmark Selfie Campaign as Domestic Deterrence Operation — Regime Revealed
+  Preference on Population Threat Model (Apr 6 chat 03ce4fae)
+- Obs 062: Three-Cluster Legitimacy Fragmentation — Iranian Population Analytical Model for
+  Post-Transition Governance Design (Mar 16 chat 137ac9d2)
+
+**Updated entities:** None in this batch.
+
+**Filled gaps:** None in this batch.
+
+**New/updated briefs:** None. Publication track paused per owner direction (rethink pending);
+B16 v2.0 and B17 remain deferred.
+
+**Staging files:**
+
+- `staging/session_30/observations_030.yaml` — full (3 entries to append) — target
+  `data/observations.yaml` (append Obs 060-062)
+
+**Version bumps:**
+
+- observations.yaml: v2.6 → v2.7
+- sessions.yaml: add Session 30 entry; bump version per convention
+
+**Expected entity count after integration:** 326 + 3 obs = 329.
+
+**Notes for Code:**
+
+- `observations_030.yaml` is a list of 3 complete new entries to append (same pattern as
+  S29 `observations_029.yaml`).
+- All three observations cross-reference each other (060 ↔ 061 via Zarif "resilient people"
+  contradiction; 061 ↔ 062 via revealed-preference corroboration of cluster model; 060 ↔ 059
+  as adjacent outward-facing companion to Inversion Laundering). The internal cross-reference
+  ring is intentional — these three findings sit together architecturally even though they came
+  from separate source sessions.
+
+**Ambiguities for human review (owner decisions, not blockers for integration):**
+
+1. **Obs 062 cluster numerical scoping**: deliberately not committed in the YAML. The structural
+   distinction is robust; numerical estimates would require survey/polling data that does not
+   exist in defensible form. Owner may want to record a placeholder gap for cluster-size
+   measurement as a future research target.
+2. **Obs 062 and Indigenous Marjaiya Restoration**: this batch defers the Marjaiya Restoration
+   Thesis (item 4 in the May 16 inventory) to a separate batch because the framework needs to
+   decide whether it lands as (a) an observation, (b) a new ITB module (ITB-T candidate),
+   or (c) a B-series brief. Obs 062 cross-references it as forthcoming but does not foreclose
+   the disposition choice.
+3. **Obs 061 leading-indicator inverse correlation**: the framework hypothesis is that PMF
+   selfie volume INCREASES as regime confidence DECREASES. This is a testable empirical claim
+   that would benefit from systematic tracking once baft Telegram capture is fully operational.
+   Worth a watch-item entry once the infrastructure is ready (item 13-15 in the May 16
+   inventory).
+
+**Deferred items NOT in this batch (per May 16 sequencing):**
+
+- Item 4: Indigenous Marjaiya Restoration Thesis (disposition decision required first)
+- Item 5: Cultural Persistence Architecture (research thread, not yet ready for standalone obs)
+- Item 6: Eschatological-faction performative-vs-sincere refinement (high-stakes — contradicts
+  A10 existing finding; deserves its own session, not batching)
+- Item 7: Rollins verification queue V-R01-V-R19 (owner-side file drop required)
+- Item 8: Mojtaba/Mirbagheri Day 8-9 forensic check against current YAML state
+- Items 9-12: Owner decisions (Pezeshkian-IRGC split variable, A9.7 rewrite, Obs 010 title
+  rename, A11 retraction-vs-revision)
+- Items 13-15: Telegram MCP bearer auth, handle drift fixes, TBD handle verification
+  (infrastructure-side, not data-side)
+
+**Integration goal**: Convert three substantial analytical findings sitting in source chats into
+canonical framework entities. Obs 060 in particular is the framework's strongest single A8.8
+corroboration to date and warrants the canonical YAML treatment so that future analytical work
+can reference it as a documented case rather than re-narrating the Apr 6 chat each time. Obs
+061 establishes the PMF-selfie pattern as a structural finding worth tracking systematically.
+Obs 062 establishes the three-cluster model that Obs 030, A9.7, and the forthcoming Marjaiya
+Restoration work all rely on implicitly — moving it from implicit to explicit reduces the load
+on downstream observations.
+
+### 2026-05-17 — Code — Integration Complete
+
+**Session:** 30
+**Integration summary:**
+
+- **Observations:** 3 new (Obs 060-062) — 62 total
+- **Sessions:** Session 30 added — 28 total
+- **Version bumps:** observations v2.7, sessions v3.1
+
+**Validation:** 331 entries PASS; 18 briefs PASS.
+**Staging consumed:** `staging/session_30/` directory removed.
+
+**Fix applied:** `source:` header value in observations.yaml contained an unquoted colon inside a parenthetical (`Obs 060-062: ...`) — wrapped in single quotes.
+
+**Ambiguities forwarded to owner (from Chat IR):**
+1. Obs 062 cluster numerical scoping — deliberate gap; owner may want a placeholder research-gap entry.
+2. Indigenous Marjaiya Restoration disposition — observation vs. ITB-T module vs. B-series brief.
+3. Obs 061 PMF selfie volume inverse correlation — testable empirical hypothesis; watch-item once baft Telegram capture operational.
+
 <!-- END LOG -->
